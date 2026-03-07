@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "Docs/Link Todos los archivos.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -211,11 +211,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "85545539ecfad1a5",
+  "active": "5acc4edec9bf4280",
   "lastOpenFiles": [
     "Docs/Todos los archivos.md",
-    "Archivos/INFORME DE INVESTIGACION_N8N.pdf",
     "Docs/Link Todos los archivos.md",
+    "Archivos/INFORME DE INVESTIGACION_N8N.pdf",
     "Docs.md",
     "Docs",
     "Bienvenidos a IA-DataFlow Hub.md",
