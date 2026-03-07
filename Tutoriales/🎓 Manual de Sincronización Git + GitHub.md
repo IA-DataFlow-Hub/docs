@@ -82,6 +82,3 @@ Si dos personas editan la misma línea, Git se detendrá. No entres en pánico, 
 ---
 > [!check] **¿Necesitas ayuda?**
 > Si algo falla, contacta a **Juan Diego Mejía Maestre** o **Sebastián Bautista Martínez** en el canal de soporte técnico.
-
-> [!important] **Antes de empezar**
-> Asegúrate de haber completado primero el [[Manual_Git_Hub|Manual de Instalación de Git y SSH]]. Si no tienes Git configurado en tu PC, este tutorial no funcionará.
