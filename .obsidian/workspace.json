@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Investigaciones/Investigaciones.md",
+                "file": "Tutoriales/💎 Guía Maestra de Estilo en Obsidian.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Investigaciones"
+              "title": "💎 Guía Maestra de Estilo en Obsidian"
             }
           }
         ]
@@ -164,6 +164,16 @@
               "icon": "lucide-list",
               "title": "Outline of Bienvenidos a IA-DataFlow Hub"
             }
+          },
+          {
+            "id": "e380a381610af381",
+            "type": "leaf",
+            "state": {
+              "type": "arenasys-ai-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Chat"
+            }
           }
         ]
       }
@@ -186,14 +196,14 @@
   },
   "active": "4644011aa8937bf8",
   "lastOpenFiles": [
-    "Docs/Todos los archivos.md",
+    "Investigaciones/Investigaciones.md",
     "Docs/Link Todos los archivos.md",
+    "Docs/Todos los archivos.md",
     "Bienvenidos a IA-DataFlow Hub.md",
     "Link Todos los archivos][Documentación.md",
     "Tutoriales/🎓 Manual de Sincronización Git + GitHub.md",
     "Tutoriales/💎 Guía de Instalación Obsidian + Sincronización Git.md",
     "Archivos/INFORME DE INVESTIGACION_N8N.pdf",
-    "Investigaciones/Investigaciones.md",
     "Tablero de Avances.md",
     "Docs.md",
     "Docs",
