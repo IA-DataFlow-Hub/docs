@@ -76,6 +76,6 @@ Este ecosistema integra herramientas de vanguardia para simplificar el ciclo de 
 
 - 📑 **[[Investigaciones]]**: Resúmenes de n8n, Power Platform, OpenRefine y TOON.
 - 🤝 **[[Actas de Reunión]]**: Registro de acuerdos y seguimiento semanal.
-- 🏗️ **[[Documentación Técnica]]**: Diagramas UML, RF/RNF y arquitectura de software.
+- 🏗️ **[[Documentación Técnic[[]]a]]**: Diagramas UML, RF/RNF y arquitectura de software.
 - 📈 **[[Tablero de Avances]]**: Monitorización de tareas por integrante.
 
