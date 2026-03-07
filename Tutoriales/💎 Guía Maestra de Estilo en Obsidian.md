@@ -103,11 +103,10 @@ Markdown
 Markdown
 
 ```
-Revisar el perfil de [[Sebastián Bautista Martínez]].
+Revisar el perfil de [[pruebas]].
 Ver el [Prototipo Web](https://ia-dataflow.codigolimpio.com.co/).
 ```
 
-**Cómo se ve:** Revisar el perfil de [[Sebastián Bautista Martínez]]. Ver el [Prototipo Web](https://ia-dataflow.codigolimpio.com.co/).
 
 - **Enlace interno:** `[[Nombre de la nota]]` (Conecta con otra nota del equipo).
 - **Alias de enlace:** `[[Nota|Texto que se verá]]` (Muestra un nombre distinto al de la nota).
