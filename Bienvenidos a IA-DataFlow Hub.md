@@ -31,6 +31,11 @@ Este ecosistema integra herramientas de vanguardia para simplificar el ciclo de 
 >> - **Foco:** Arquitectura Full Stack (.NET, Laravel).
 >> - **Expertiz:** Optimización SEO y Metodologías Ágiles (Scrum).
 >>
+>> **[[David Ospina]]**
+>> *Tecnólogo en Desarrollo de Software*
+>> - **Foco:** Desarrollo Full Stack (.NET / Angular).
+>> - **Expertiz:** Arquitectura en C# e integración de APIs (Postman).
+>>
 >> **[[Andres Felipe Andrade]]**
 >> *Analista de TI y Desarrollador*
 >> - **Foco:** Lógica de Backend (PHP) y Redes LAN.
@@ -63,11 +68,10 @@ Este ecosistema integra herramientas de vanguardia para simplificar el ciclo de 
 >> *Analista de Tecnologías de la Información*
 >> - **Foco:** Gestión de Puntos Finales (BMC Client Mgmt).
 >> - **Expertiz:** Soporte Técnico Nivel II y Scripting en PowerShell.
->> 
-
 ---
 
 ## 📂 Navegación del Vault
+
 > [!tip] Utiliza `Ctrl + Clic` en los enlaces para crear las notas automáticamente.
 
 - 📑 **[[Investigaciones]]**: Resúmenes de n8n, Power Platform, OpenRefine y TOON.
