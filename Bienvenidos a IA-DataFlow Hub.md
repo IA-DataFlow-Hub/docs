@@ -27,22 +27,22 @@ Este ecosistema integra herramientas de vanguardia para simplificar el ciclo de 
 > [!multi-column]
 >
 >> ### 💻 Ingeniería y Desarrollo
->> **[[Juan Diego Mejía Maestre]]**
+>> **Juan Diego Mejía Maestre**
 >> *Analista y Desarrollador de Software*
 >> - **Foco:** Arquitectura Full Stack (.NET, Laravel).
 >> - **Expertiz:** Optimización SEO y Metodologías Ágiles (Scrum).
 >>
->> **[[David Ospina]]**
+>> **David Ospina**
 >> *Tecnólogo en Desarrollo de Software*
 >> - **Foco:** Desarrollo Full Stack (.NET / Angular).
 >> - **Expertiz:** Arquitectura en C# e integración de APIs (Postman).
 >>
->> **[[Andres Felipe Andrade]]**
+>> **Andres Felipe Andrade**
 >> *Analista de TI y Desarrollador*
 >> - **Foco:** Lógica de Backend (PHP) y Redes LAN.
 >> - **Expertiz:** Administración de Servidores Windows/Linux.
 >>
->> **[[Oscar Antury Avila]]**
+>> **[[Oscar Antury Avila**
 >> *Tecnólogo en Multimedia*
 >> - **Foco:** Desarrollo con React y Python.
 >> - **Expertiz:** Seguridad Informática y Contenedores (Docker).

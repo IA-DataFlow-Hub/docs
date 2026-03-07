@@ -1,4 +1,7 @@
-
+> [!button]
+> ### 1️⃣ [[💎 Guía de Instalación Obsidian + Sincronización Git|💎 Guía de Instalación Obsidian + Sincronización Git]]
+> **Estado:** Obligatorio 🔴
+> **Qué aprenderás:** Descargar la App, conectar tu cuenta de GitHub mediante SSH y activar la sincronización automática.
 ## 1. Títulos (Jerarquía)
 
 Para que Obsidian entienda que es un título, debe haber un espacio después del `#`.
