@@ -27,12 +27,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Archivos/Todos los archivos.md",
+                "file": "Docs/Link Todos los archivos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Todos los archivos"
+              "title": "Link Todos los archivos"
+            }
+          },
+          {
+            "id": "71a8df4ad591e236",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Archivos/INFORME DE INVESTIGACION_N8N.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "INFORME DE INVESTIGACION_N8N"
             }
           }
         ],
@@ -199,10 +211,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5acc4edec9bf4280",
+  "active": "85545539ecfad1a5",
   "lastOpenFiles": [
+    "Docs/Todos los archivos.md",
+    "Archivos/INFORME DE INVESTIGACION_N8N.pdf",
+    "Docs/Link Todos los archivos.md",
+    "Docs.md",
+    "Docs",
     "Bienvenidos a IA-DataFlow Hub.md",
-    "Archivos/Todos los archivos.md",
     "Investigaciones/Investigaciones.md",
     "Manual_Git_Hub.md",
     "Readme.md",
@@ -218,8 +234,6 @@
     "Archivos/Investigación Google Colab y TOON en procesos ETL con IA.pdf",
     "Archivos/RF y RNF DIAGRAMAS UML - ETL - IA.docx",
     "Archivos/invetigacion openrefine.docx",
-    "Archivos/Investigación Google Colab y TOON en procesos ETL con IA.docx",
-    "Archivos/Investigacion de la IA.pdf",
     "Juan Diego Mejía Maestre.md",
     "Actas/Actas de Reunión.md",
     "2026-03-07.md",
