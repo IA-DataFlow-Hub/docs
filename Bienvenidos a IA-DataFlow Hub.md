@@ -42,12 +42,12 @@ Este ecosistema integra herramientas de vanguardia para simplificar el ciclo de 
 >> - **Foco:** Lógica de Backend (PHP) y Redes LAN.
 >> - **Expertiz:** Administración de Servidores Windows/Linux.
 >>
->> **[[Oscar Antury Avila**
+>> **Oscar Antury Avila**
 >> *Tecnólogo en Multimedia*
 >> - **Foco:** Desarrollo con React y Python.
 >> - **Expertiz:** Seguridad Informática y Contenedores (Docker).
 >>
->> **[[Brayan Monterrosa Castillo]]**
+>> **Brayan Monterrosa Castillo**
 >> *Desarrollador Front-end*
 >> - **Foco:** Interfaces de Usuario e Interacción.
 >> - **Expertiz:** Ecosistema JavaScript, Node.js y Python.
@@ -55,17 +55,17 @@ Este ecosistema integra herramientas de vanguardia para simplificar el ciclo de 
 > [!multi-column]
 >
 >> ### 🛡️ Infraestructura y Especialistas
->> **[[Sebastián Bautista Martínez]]**
+>> **Sebastián Bautista Martínez**
 >> *Consultor de Infraestructura y DBA*
 >> - **Foco:** Bases de Datos Críticas (Oracle, SQL Server).
 >> - **Expertiz:** Nube (AWS/Azure) y Alta Disponibilidad.
 >>
->> **[[Pohlman Cuartas]]**
+>> **Pohlman Cuartas**
 >> *Ing. de Soporte en Canales Electrónicos*
 >> - **Foco:** Sistemas ATM (NCR/Hyosung) y C++.
 >> - **Expertiz:** Estándares XFS y Automatización APTRA/Kalignite.
 >>
->> **[[María Virginia Labarca]]**
+>> **María Virginia Labarca**
 >> *Analista de Tecnologías de la Información*
 >> - **Foco:** Gestión de Puntos Finales (BMC Client Mgmt).
 >> - **Expertiz:** Soporte Técnico Nivel II y Scripting en PowerShell.
