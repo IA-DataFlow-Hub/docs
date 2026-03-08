@@ -75,7 +75,7 @@ Este ecosistema integra herramientas de vanguardia para simplificar el ciclo de 
 
 > [!tip] Utiliza `Ctrl + Clic` en los enlaces para crear las notas automáticamente.
 
-- 📑 **[[🔍 Investigaciones]]**: Resúmenes de n8n, Power Platform, OpenRefine y TOON.
+- 📑 **[[🔍 Repositorio de Investigaciones]]**: Resúmenes de n8n, Power Platform, OpenRefine y TOON.
 - 🤝 **[[Actas de Reunión]]**: Registro de acuerdos y seguimiento semanal.
 - 🏗️ **[[Link Todos los archivos|Documentación Técnica]]**: Diagramas UML, RF/RNF y arquitectura de software.
 - 📈 **[[Tablero de Avances]]**: Monitorización de tareas por integrante.
