@@ -81,7 +81,7 @@
         
     - [ ] Realizar auditoría del prototipo actual identificando "puntos de dolor".
         
-- **👥 Equipo**: **David Ospina** y **María Virginia Labarca**.
+- **👥 Equipo**: Oscar Antury Avila y **María Virginia Labarca**.
     
 - **💡 Nota de elección**: David aporta su visión técnica en Angular para mejorar el Front, y María utiliza su experiencia en soporte nivel II para priorizar la facilidad de uso para el cliente.
     
