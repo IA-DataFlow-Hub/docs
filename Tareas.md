@@ -129,6 +129,104 @@
         
     - [ ] Crear diagrama de secuencia del flujo de limpieza de datos.
         
-- **👥 Equipo**: **Juan Diego Mejía** y **Andrés Felipe Andrade**.
+- **👥 Equipo:** **Juan Diego Mejía** y **David Ospina**.
     
-- **💡 Nota de elección**: Juan Diego asegura que el modelado responda al negocio, y Andrés aporta su foco en lógica de backend para que el modelo sea ejecutable en servidores reales.
+- **💡 Justificación:** * **David Ospina:** Se integra aquí por su perfil de **Tecnólogo en Desarrollo** con foco en **Arquitectura C#** e integración de APIs. 
+    
+    - **Juan Diego:** Aportas la visión de **Arquitectura Full Stack (.NET/Laravel)** y metodologías ágiles para asegurar que los diagramas sean la guía perfecta para el resto del equipo.
+
+## **💻 Ingeniería y Desarrollo**
+
+**Juan Diego Mejía Maestre**
+
+- **Rol:** Analista y Desarrollador Full Stack.
+    
+- **Disponibilidad:** **Media** (Líder técnico).
+    
+- **Foco:** Arquitectura (.NET, Laravel) y Scrum.
+    
+- **HUs:** 02, 03, 06.
+    
+
+**David Ospina**
+
+- **Rol:** Tecnólogo en Desarrollo de Software.
+    
+- **Disponibilidad:** **Alta** (Libre después de las 6:00 PM y FDS).
+    
+- **Foco:** Full Stack (.NET / Angular) y C#.
+    
+- **HUs:** 05, 06.
+    
+
+**Andres Felipe Andrade**
+
+- **Rol:** Analista de TI y Desarrollador.
+    
+- **Disponibilidad:** **Media** (Trabaja hasta las 3:45 PM y Sábados).
+    
+- **Foco:** Backend (PHP) y Servidores (Win/Linux).
+    
+- **HU:** 01.
+    
+
+**Oscar Antury Avila**
+
+- **Rol:** Tecnólogo en Multimedia.
+    
+- **Disponibilidad:** **Alta** (Independiente / Autónomo).
+    
+- **Foco:** React, Python y Docker.
+    
+- **HUs:** 03, 04.
+    
+
+**Brayan Monterrosa Castillo**
+
+- **Rol:** Desarrollador Front-end.
+    
+- **Disponibilidad:** **Alta** (Flexibilidad total / Estudiante).
+    
+- **Foco:** JavaScript, Node.js y Python.
+    
+- **HU:** 02.
+    
+
+---
+
+## **🛡️ Infraestructura y Especialistas**
+
+**Sebastián Bautista Martínez**
+
+- **Rol:** Consultor de Infraestructura y DBA.
+    
+- **Disponibilidad:** **Baja** (Horarios rotativos 24/7).
+    
+- **Foco:** Nube (AWS/Azure) y Bases de Datos Críticas.
+    
+- **HU:** 01.
+    
+
+**Pohlman Cuartas**
+
+- **Rol:** Ing. de Soporte Canales Electrónicos.
+    
+- **Disponibilidad:** **Media/Baja** (8 AM - 6 PM / 2 FDS libres al mes).
+    
+- **Foco:** Sistemas ATM, C++ y Estándares XFS.
+    
+- **HU:** 05.
+    
+
+**María Virginia Labarca**
+
+- **Rol:** Analista de TI (Soporte Nivel II).
+    
+- **Disponibilidad:** **Alta** (Libre después de las 5:00 PM).
+    
+- **Foco:** Gestión de Endpoints y Scripting PowerShell.
+    
+- **HU:** 04.
+    
+
+-
