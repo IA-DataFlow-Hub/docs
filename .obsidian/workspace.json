@@ -4,27 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "419ccba03e52a908",
+        "id": "af2f06c7f84d4fa1",
         "type": "tabs",
         "children": [
           {
-            "id": "3265ca04c263aeae",
+            "id": "0a81598398c04c6b",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Sin título.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Sin título"
+              "type": "card-board-view",
+              "state": {},
+              "icon": "card-board",
+              "title": "CardBoard"
+            }
+          },
+          {
+            "id": "ae1f06bd1ba97339",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -68,16 +72,6 @@
             }
           },
           {
-            "id": "fb64920ab6366351",
-            "type": "leaf",
-            "state": {
-              "type": "card-board-view",
-              "state": {},
-              "icon": "card-board",
-              "title": "CardBoard"
-            }
-          },
-          {
             "id": "43875c9f68c28518",
             "type": "leaf",
             "state": {
@@ -87,8 +81,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -219,23 +212,25 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "3265ca04c263aeae",
+  "active": "5acc4edec9bf4280",
   "lastOpenFiles": [
-    "2026-03-07.md",
-    "Sin título.canvas",
-    "Archivos/INFORME DE INVESTIGACION_N8N.pdf",
-    "Sin título.base",
+    "Tableros.base",
+    "Tablero de Avances.canvas",
+    "Sin título.md",
+    "Investigaciones/🚀 Informe Google Colab y TOON en Procesos ETL con IA.md",
     "Tablero de Avances.md",
+    "Sin título 1.canvas",
+    "2026-03-07.md",
+    "🎊 Bienvenidos a IA-DataFlow Hub.md",
+    "Readme.md",
+    "Archivos/INFORME DE INVESTIGACION_N8N.pdf",
     "Tutoriales/💎 Guía de Instalación Obsidian + Sincronización Git.md",
     "Investigaciones/🤖Informe de Investigación Automatización con n8n.md",
     "Investigaciones/🤖 Informe IA Agentes y Power BI para Datos No Estructurados.md",
     "Actas/Actas de Reunión.md",
     "Actas/07 de febrero de 2026 - Proyecto IA-DataFlow.md",
-    "🎊 Bienvenidos a IA-DataFlow Hub.md",
     "Actas/28 de febrero de 2026 - Inicio de Semillero IA-DataFlow.md",
-    "Investigaciones/🚀 Informe Google Colab y TOON en Procesos ETL con IA.md",
     "Tutoriales/🛖 Tutoriales.md",
-    "Readme.md",
     "Manual_Sincronización_Git_GitHub.md",
     "Tutoriales/🎓 Manual de Sincronización Git + GitHub.md",
     "Investigaciones/📂 Repositorio de Investigaciones.md",
@@ -251,7 +246,6 @@
     "Link Todos los archivos][Documentación.md",
     "Docs.md",
     "Docs",
-    "Manual_Git_Hub.md",
     "Archivos/~$ y RNF DIAGRAMAS UML - ETL - IA.docx",
     "Archivos/RF y RNF DIAGRAMAS UML - ETL - IA.pdf",
     "Archivos/~$vetigacion openrefine.docx",
