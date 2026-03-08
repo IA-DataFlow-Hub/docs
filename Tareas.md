@@ -69,7 +69,7 @@
 
 **Como** equipo de producto, **quiero** analizar el prototipo actual e investigar tendencias colaborativas, **para** proponer mejoras que optimicen la experiencia del usuario y la efectividad de los 4 tableros.
 
-- **Criterios de Aceptación**: Informe de auditoría del prototipo actual (https://www.google.com/search?q=ia-dataflow.codigolimpio.com.co) y definición de KPIs para los 4 tableros.
+- **Criterios de Aceptación**: Informe de auditoría del prototipo actual (https://ia-dataflow.codigolimpio.com.co/) y definición de KPIs para los 4 tableros.
     
 - **Tareas**:
     
