@@ -1,5 +1,4 @@
 
-# 📂 Repositorio de Investigaciones: FUUA Team
 
 > [!info] **Propósito del Repositorio** Este espacio centraliza el conocimiento recolectado y generado por el equipo. Está diseñado para que cualquier integrante pueda consultar la base teórica o los avances técnicos del proyecto en segundos.
 
@@ -13,13 +12,12 @@ _Documentación técnica y académica de referencia de otras fuentes._
 
 - **Integración de Chatbots e IA:** Investigación sobre cómo los agentes inteligentes recolectan y limpian datos no estructurados para Power BI.
     
-    - **Resumen:** [[Resumen_Investigacion_IA_Agentes|📄 Ver Puntos Clave]]
-        
+    - **Resumen:*[[🤖 Informe IA Agentes y Power BI para Datos No Estructurados]]*         
     - **Documento:** [[Investigacion de la IA.pdf|📥 Abrir PDF]]
         
 - **Estándar TOON y Google Colab:** Optimización de procesos ETL mediante serialización eficiente de datos para reducir costos de tokens.
     
-    - **Resumen:** [[Resumen_Investigacion_ETL_TOON|📄 Ver Puntos Clave]]
+    - **Resumen:** [[🚀 Informe Google Colab y TOON en Procesos ETL con IA]]
         
     - **Documento:** [[Investigación Google Colab y TOON en procesos ETL con IA.pdf|📥 Abrir PDF]]
         
@@ -28,14 +26,13 @@ _Documentación técnica y académica de referencia de otras fuentes._
 
 - **Orquestación con n8n:** Guía sobre la arquitectura basada en nodos para conectar APIs y automatizar flujos de trabajo.
     
-    - **Resumen:** [[Resumen_Investigacion_n8n|📄 Ver Puntos Clave]]
+    - **Resumen:** [[🤖Informe de Investigación Automatización con n8n]]
         
     - **Documento:** [[INFORME DE INVESTIGACION_N8N.pdf|📥 Abrir PDF]]
         
 - **Curación de Datos con OpenRefine:** Metodologías para la limpieza masiva de datos y el uso del lenguaje GREL.
     
-    - **Resumen:** [[Resumen_Investigacion_OpenRefine|📄 Ver Puntos Clave]]
-        
+    - **Resumen:**   [[🧹Informe de Investigación Limpieza y Transformación con OpenRefine]]
     - **Documento:** [[invetigacion openrefine.pdf|📥 Abrir PDF]]
         
 
@@ -43,13 +40,13 @@ _Documentación técnica y académica de referencia de otras fuentes._
 
 - **Documentación Técnica Maestra:** Definición de requerimientos funcionales y diagramas UML para la estructura del software.
     
-    - **Resumen:** [[Resumen_Investigacion_UML|📄 Ver Puntos Clave]]
+    - **Resumen:** [[🏗️ Requerimientos y Diseño de Arquitectura (UML)]]
         
     - **Documento:** [[RF y RNF DIAGRAMAS UML - ETL - IA.pdf|📥 Abrir PDF]]
         
 - **Ecosistema Power Platform:** Análisis de Power BI, Apps y Automate para la optimización empresarial.
     
-    - **Resumen:** [[Resumen_Investigacion_PowerPlatform|📄 Ver Puntos Clave]]
+    - **Resumen:** [[🤖 Informe IA Agentes y Power BI para Datos No Estructurados]]
         
     - **Documento:** [[INFORME MICROSOFT POWER PLATFORM.pdf|📥 Abrir PDF]]
         
