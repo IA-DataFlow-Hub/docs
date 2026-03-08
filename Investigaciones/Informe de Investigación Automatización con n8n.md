@@ -56,9 +56,9 @@ n8n opera bajo una lógica de **nodos**:
 
 - **Devs & Full Stack:** Pueden usar n8n para conectar el backend en **.NET** con servicios externos rápidamente.
     
-- **Infra & DBA]]:** n8n puede automatizar backups de bases de datos y monitorear la salud de los servidores en AWS/Azure.
+- **Infra & DBA:** n8n puede automatizar backups de bases de datos y monitorear la salud de los servidores en AWS/Azure.
     
-- **[[Pohlman Cuartas|Soporte ATM]]:** Posibilidad de automatizar alertas de canales electrónicos y reportes técnicos.
+- **Soporte ATM** Posibilidad de automatizar alertas de canales electrónicos y reportes técnicos.
     
 
 ---
