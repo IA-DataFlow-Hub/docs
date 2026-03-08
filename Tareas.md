@@ -39,7 +39,7 @@
         
 - **👥 Equipo**: **Juan Diego Mejía** y **Brayan Monterrosa**.
     
-- **💡 Nota de elección**: Juan Diego lidera la visión de metodologías ágiles y arquitectura, y Brayan evalúa técnicamente las librerías de IA gracias a su foco en Python y JavaScript.
+- **💡 Nota de elección**: Juan Diego lidera la visión de metodologías ágiles y arquitectura, y Brayan Monterrosa evalúa técnicamente las librerías de IA gracias a su foco en Python y JavaScript.
     
 
 ---

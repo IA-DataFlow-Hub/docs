@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tareas.md",
+                "file": "🎊 Bienvenidos a IA-DataFlow Hub.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tareas"
+              "title": "🎊 Bienvenidos a IA-DataFlow Hub"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -210,12 +209,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9a4131695eab734d",
+  "active": "ae1f06bd1ba97339",
   "lastOpenFiles": [
     "🎊 Bienvenidos a IA-DataFlow Hub.md",
+    "Tablero de Avances.md",
     "Tareas.md",
     "Readme.md",
-    "Tablero de Avances.md",
     "Actas/07 de Marzo de 2026 - Proyecto IA-DataFlow.md",
     "Actas/28 de febrero de 2026 - Inicio de Semillero IA-DataFlow.md",
     "Sin título.canvas",
