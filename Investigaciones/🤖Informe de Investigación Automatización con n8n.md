@@ -1,4 +1,3 @@
-# 🤖 Informe de Investigación: Automatización con n8n
 
 > [!abstract] **Resumen Ejecutivo**
 > 
