@@ -1,6 +1,6 @@
 # 📝 Acta de Reunión: Proyecto IA-DataFlow
 
-**Fecha:** 07 de febrero de 2026
+**Fecha:** 07 de marzo de 2026
 
 **Participantes:** Profesor Raúl Bareño, Ing. Juan Diego (Grupo 1), Ing. David (Grupo 2), María, Sebastián, Óscar, Brian y Pohlman.
 
