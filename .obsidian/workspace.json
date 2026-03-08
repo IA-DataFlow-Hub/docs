@@ -4,167 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "5975308798a3153d",
+        "id": "419ccba03e52a908",
         "type": "tabs",
         "children": [
           {
-            "id": "fc2e648abd7388db",
+            "id": "3265ca04c263aeae",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "canvas",
               "state": {
-                "file": "Archivos/INFORME DE INVESTIGACION_N8N.pdf"
+                "file": "Sin título.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "INFORME DE INVESTIGACION_N8N"
-            }
-          },
-          {
-            "id": "dedd328d95900f37",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Archivos/INFORME DE INVESTIGACION_N8N.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "INFORME DE INVESTIGACION_N8N"
-            }
-          },
-          {
-            "id": "abd3239b9059c667",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Investigaciones/🤖Informe de Investigación Automatización con n8n.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "🤖Informe de Investigación Automatización con n8n"
-            }
-          },
-          {
-            "id": "9934a822ea532b31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Investigaciones/🤖 Informe IA Agentes y Power BI para Datos No Estructurados.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "🤖 Informe IA Agentes y Power BI para Datos No Estructurados"
-            }
-          },
-          {
-            "id": "fae1a687b5db61c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Investigaciones/📂 Repositorio de Investigaciones.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "📂 Repositorio de Investigaciones"
-            }
-          },
-          {
-            "id": "1460d2aaf6431d2a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Investigaciones/🚀 Informe Google Colab y TOON en Procesos ETL con IA.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "🚀 Informe Google Colab y TOON en Procesos ETL con IA"
-            }
-          },
-          {
-            "id": "02122c644f0b486d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Investigaciones/🤖Informe de Investigación Automatización con n8n.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "🤖Informe de Investigación Automatización con n8n"
-            }
-          },
-          {
-            "id": "e61a25d82d15e61c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Investigaciones/📂 Repositorio de Investigaciones.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "📂 Repositorio de Investigaciones"
-            }
-          },
-          {
-            "id": "e8a232d18f043ff1",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
-            }
-          },
-          {
-            "id": "3e9cceb9a939dd33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Actas/Actas de Reunión.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Actas de Reunión"
-            }
-          },
-          {
-            "id": "f2a0a65f70db5e86",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
-            }
-          },
-          {
-            "id": "20dc14cefe7e0fba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tutoriales/💎 Guía de Instalación Obsidian + Sincronización Git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "💎 Guía de Instalación Obsidian + Sincronización Git"
+              "icon": "lucide-layout-dashboard",
+              "title": "Sin título"
             }
           }
-        ],
-        "currentTab": 11
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,6 +68,16 @@
             }
           },
           {
+            "id": "fb64920ab6366351",
+            "type": "leaf",
+            "state": {
+              "type": "card-board-view",
+              "state": {},
+              "icon": "card-board",
+              "title": "CardBoard"
+            }
+          },
+          {
             "id": "43875c9f68c28518",
             "type": "leaf",
             "state": {
@@ -217,7 +87,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -317,13 +188,23 @@
               "icon": "message-square",
               "title": "Chat"
             }
+          },
+          {
+            "id": "aad8df08861cf204",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -334,11 +215,18 @@
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Crear nueva base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "card-board:CardBoard": false
     }
   },
-  "active": "20dc14cefe7e0fba",
+  "active": "3265ca04c263aeae",
   "lastOpenFiles": [
+    "2026-03-07.md",
+    "Sin título.canvas",
+    "Archivos/INFORME DE INVESTIGACION_N8N.pdf",
+    "Sin título.base",
+    "Tablero de Avances.md",
+    "Tutoriales/💎 Guía de Instalación Obsidian + Sincronización Git.md",
     "Investigaciones/🤖Informe de Investigación Automatización con n8n.md",
     "Investigaciones/🤖 Informe IA Agentes y Power BI para Datos No Estructurados.md",
     "Actas/Actas de Reunión.md",
@@ -358,23 +246,17 @@
     "Investigaciones/🧹Informe de Investigación Limpieza y Transformación con OpenRefine.md",
     "Archivos/Investigación Google Colab y TOON en procesos ETL con IA.pdf",
     "Archivos/Investigacion de la IA.pdf",
-    "Archivos/INFORME DE INVESTIGACION_N8N.pdf",
     "Manual_Estilo_Obsidian.md",
     "Tutoriales/💎 Guía Maestra de Estilo en Obsidian.md",
-    "Tutoriales/💎 Guía de Instalación Obsidian + Sincronización Git.md",
     "Link Todos los archivos][Documentación.md",
-    "Tablero de Avances.md",
     "Docs.md",
     "Docs",
     "Manual_Git_Hub.md",
-    "Sebastián Bautista Martínez.md",
     "Archivos/~$ y RNF DIAGRAMAS UML - ETL - IA.docx",
     "Archivos/RF y RNF DIAGRAMAS UML - ETL - IA.pdf",
     "Archivos/~$vetigacion openrefine.docx",
     "Archivos/invetigacion openrefine.pdf",
     "Archivos/~$vestigación Google Colab y TOON en procesos ETL con IA.docx",
-    "Archivos/RF y RNF DIAGRAMAS UML - ETL - IA.docx",
-    "Juan Diego Mejía Maestre.md",
     "Untitled.canvas"
   ]
 }

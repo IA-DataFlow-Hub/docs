@@ -48,17 +48,17 @@ Este es un `comando de git`.
 Markdown
 
 ```
-- [ ] Tarea por hacer
-- [x] Tarea terminada
+<del>- [ ] Tarea por hacer</del>
+<del>- [x] Tarea terminada</del>
 - Punto normal
 	- Subpunto (usando la tecla Tab)
 ```
 
 **Cómo se ve:**
 
-- [ ] Tarea por hacer
+<del>- [ ] Tarea por hacer</del>
     
-- [x] Tarea terminada
+<del>- [x] Tarea terminada</del>
     
 - Punto normal
     
