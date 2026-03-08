@@ -9,7 +9,7 @@
 
 > [!info] **Prototipo en Vivo**
 > 🌐 [ia-dataflow.codigolimpio.com.co](https://ia-dataflow.codigolimpio.com.co/)
->  🤖 [[Link Todos los archivos]]
+>  🤖 [[📚 Biblioteca de Investigación]]
 
 ---
 ## 🚀 Sobre el Proyecto
@@ -77,6 +77,13 @@ Este ecosistema integra herramientas de vanguardia para simplificar el ciclo de 
 
 - 📑 **[[📂 Repositorio de Investigaciones]]**: Resúmenes de n8n, Power Platform, OpenRefine y TOON.
 - 🤝 **[[Actas de Reunión]]**: Registro de acuerdos y seguimiento semanal.
-- 🏗️ **[[Link Todos los archivos|Documentación Técnica]]**: Diagramas UML, RF/RNF y arquitectura de software.
+- 🏗️ **[[📚 Biblioteca de Investigación|Documentación Técnica]]**: Diagramas UML, RF/RNF y arquitectura de software.
 - 📈 **[[Tablero de Avances]]**: Monitorización de tareas por integrante.
+## 📂 Recursos Adicionales
+
+- [[🎓 Manual de Sincronización Git + GitHub]]
+- [[Readme|Instrucciones basicas]]
+- [[🎊 Bienvenidos a IA-DataFlow Hub]]
+- [[Todos los archivos]]
+- [[📚 Biblioteca de Investigación]]
 

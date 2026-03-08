@@ -25,11 +25,5 @@ Una vez que tu Obsidian esté conectado al repositorio del equipo, aprende a esc
 
 ---
 
-## 📂 Paso 3: Recursos Adicionales
 
-- [[🎓 Manual de Sincronización Git + GitHub]]
-- [[Readme|Instrucciones basicas]]
-- [[Bienvenidos a IA-DataFlow Hub]]
-- [[Todos los archivos]]
-- [[Link Todos los archivos]]
 

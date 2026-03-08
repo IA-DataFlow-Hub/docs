@@ -46,7 +46,7 @@ _Documentación técnica y académica de referencia de otras fuentes._
         
 - **Ecosistema Power Platform:** Análisis de Power BI, Apps y Automate para la optimización empresarial.
     
-    - **Resumen:** [[🤖 Informe IA Agentes y Power BI para Datos No Estructurados]]
+    - **Resumen:** [[📊 Informe de Investigación Microsoft Power Platform]]
         
     - **Documento:** [[INFORME MICROSOFT POWER PLATFORM.pdf|📥 Abrir PDF]]
         
