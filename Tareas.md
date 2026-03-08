@@ -16,7 +16,7 @@
         
 - **👥 Equipo**: **Sebastián Bautista Martínez** y **Andres Felipe Andrade**.
     
-- **💡 Nota de elección**: Sebastián aporta su experiencia en Nube (AWS/Azure) y alta disponibilidad, mientras que Andres garantiza la solidez en la administración de servidores Windows/Linux.
+- **💡 Nota de elección**: Sebastián aporta su experiencia en Nube (AWS/Azure) y alta disponibilidad, mientras que Andrés Felipe garantiza la solidez en la administración de servidores Windows/Linux.
     
 
 ---
