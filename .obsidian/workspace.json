@@ -11,10 +11,14 @@
             "id": "ae1f06bd1ba97339",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "Investigaciones/📂 Repositorio de Investigaciones.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "📂 Repositorio de Investigaciones"
             }
           },
           {
