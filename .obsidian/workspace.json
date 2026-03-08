@@ -51,16 +51,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Investigaciones/Investigaciones.md",
+                "file": "Investigaciones/🤖 Informe IA Agentes y Power BI para Datos No Estructurados.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Investigaciones"
+              "title": "🤖 Informe IA Agentes y Power BI para Datos No Estructurados"
+            }
+          },
+          {
+            "id": "fae1a687b5db61c0",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Archivos/Investigacion de la IA.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Investigacion de la IA"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -233,15 +245,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9934a822ea532b31",
+  "active": "fae1a687b5db61c0",
   "lastOpenFiles": [
-    "Investigaciones/📊 Informe de Investigación Microsoft Power Platform.md",
+    "Investigaciones/🤖 Informe IA Agentes y Power BI para Datos No Estructurados.md",
     "Investigaciones/Informe de Investigación Automatización con n8n.md",
+    "Investigaciones/📊 Informe de Investigación Microsoft Power Platform.md",
+    "Archivos/Investigacion de la IA.pdf",
     "Investigaciones/Investigaciones.md",
     "Archivos/INFORME DE INVESTIGACION_N8N.pdf",
     "Tutoriales/Inicio.md",
     "Manual_Estilo_Obsidian.md",
-    "Archivos/Investigacion de la IA.pdf",
     "Bienvenidos a IA-DataFlow Hub.md",
     "Tutoriales/🎓 Manual de Sincronización Git + GitHub.md",
     "Tutoriales/💎 Guía Maestra de Estilo en Obsidian.md",

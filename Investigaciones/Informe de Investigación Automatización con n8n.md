@@ -63,10 +63,10 @@ n8n opera bajo una lógica de **nodos**:
 
 ---
 
-## 🔗 Referencia del Documento
-
+## 📂 Referencia del Documento
 - **Archivo Original:** [[INFORME DE INVESTIGACION_N8N.pdf]]
-    
-- **Categoría:** 🎓 Academia / 🛠️ Herramientas de Automatización
-    
+- **Investigador:** Juan David Mangones Balmacea
+- **Docente a Cargo:** Raúl Bareño Gutiérrez
+- **Categoría:** 🎓 Academia / 🛠️ Automatización
+- **Fecha del Informe:** 24 de enero de 2026
 - **Fecha de Análisis:** 2026-03-07

@@ -78,7 +78,8 @@ La plataforma se basa en la integración de cuatro herramientas clave que trabaj
 ## 📂 Referencia del Documento
 
 - **Archivo Original:** [[INFORME MICROSOFT POWER PLATFORM.pdf]]
-    
+- **Investigadora:** Luz Dary Parra Bernal
+- **Docente a Cargo:** Raúl Bareño Gutiérrez
 - **Categoría:** 🎓 Academia / 📊 Inteligencia de Negocios
-    
+- **Fecha del Informe:** 24 de enero de 2026
 - **Fecha de Análisis:** 2026-03-07
