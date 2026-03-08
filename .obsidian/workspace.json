@@ -11,21 +11,14 @@
             "id": "ae1f06bd1ba97339",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Tablero de Avances.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "🎊 Bienvenidos a IA-DataFlow Hub.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "Tablero de Avances"
+              "icon": "lucide-file",
+              "title": "🎊 Bienvenidos a IA-DataFlow Hub"
             }
           }
         ]
@@ -204,9 +197,9 @@
   },
   "active": "ae1f06bd1ba97339",
   "lastOpenFiles": [
+    "Tablero de Avances.md",
     "Actas/07 de Marzo de 2026 - Proyecto IA-DataFlow.md",
     "Actas/28 de febrero de 2026 - Inicio de Semillero IA-DataFlow.md",
-    "Tablero de Avances.md",
     "🎊 Bienvenidos a IA-DataFlow Hub.md",
     "Sin título.canvas",
     "2026-03-07.md",
