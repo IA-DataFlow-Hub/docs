@@ -8,27 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0a81598398c04c6b",
-            "type": "leaf",
-            "state": {
-              "type": "card-board-view",
-              "state": {},
-              "icon": "card-board",
-              "title": "CardBoard"
-            }
-          },
-          {
             "id": "ae1f06bd1ba97339",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "kanban",
+              "state": {
+                "file": "Tablero de Avances.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Tablero de Avances"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -173,16 +173,6 @@
             }
           },
           {
-            "id": "e380a381610af381",
-            "type": "leaf",
-            "state": {
-              "type": "arenasys-ai-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Chat"
-            }
-          },
-          {
             "id": "aad8df08861cf204",
             "type": "leaf",
             "state": {
@@ -193,14 +183,15 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-kanban:Create new board": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
@@ -208,20 +199,21 @@
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Crear nueva base": false,
-      "obsidian-git:Open Git source control": false,
-      "card-board:CardBoard": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5acc4edec9bf4280",
+  "active": "ae1f06bd1ba97339",
   "lastOpenFiles": [
+    "🎊 Bienvenidos a IA-DataFlow Hub.md",
+    "Tablero de Avances.md",
+    "Sin título.canvas",
+    "2026-03-07.md",
     "Tableros.base",
     "Tablero de Avances.canvas",
     "Sin título.md",
     "Investigaciones/🚀 Informe Google Colab y TOON en Procesos ETL con IA.md",
     "Tablero de Avances.md",
     "Sin título 1.canvas",
-    "2026-03-07.md",
-    "🎊 Bienvenidos a IA-DataFlow Hub.md",
     "Readme.md",
     "Archivos/INFORME DE INVESTIGACION_N8N.pdf",
     "Tutoriales/💎 Guía de Instalación Obsidian + Sincronización Git.md",
@@ -244,7 +236,6 @@
     "Manual_Estilo_Obsidian.md",
     "Tutoriales/💎 Guía Maestra de Estilo en Obsidian.md",
     "Link Todos los archivos][Documentación.md",
-    "Docs.md",
     "Docs",
     "Archivos/~$ y RNF DIAGRAMAS UML - ETL - IA.docx",
     "Archivos/RF y RNF DIAGRAMAS UML - ETL - IA.pdf",
