@@ -81,9 +81,7 @@ Este ecosistema integra herramientas de vanguardia para simplificar el ciclo de 
 - 📈 **[[Tablero de Avances]]**: Monitorización de tareas por integrante.
 ## 📂 Recursos Adicionales
 
-- [[🎓 Manual de Sincronización Git + GitHub]]
+- [[🛖 Tutoriales]]
 - [[Readme|Instrucciones basicas]]
-- [[🎊 Bienvenidos a IA-DataFlow Hub]]
-- [[Todos los archivos]]
 - [[📚 Biblioteca de Investigación]]
 

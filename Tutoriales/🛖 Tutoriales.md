@@ -4,6 +4,16 @@
 > Para mantener nuestro "Segundo Cerebro" sincronizado y profesional, debes completar estos manuales en el orden indicado.
 
 ---
+## 🔒 Paso 0: Prerrequisito Técnico
+
+Antes de tocar Obsidian, es indispensable entender cómo funciona el flujo de trabajo en la nube para evitar conflictos de archivos.
+
+> [!danger] **Prerrequisito Obligatorio**
+> 
+> ## 0️⃣ [[🎓 Manual de Sincronización Git + GitHub]]
+> 
+> **Estado:** Crítico 🛑 **Qué aprenderás:** Conceptos de Repositorio, Commits, Push/Pull y la importancia de Git en el trabajo colaborativo del **FUUA Team**.
+
 
 ## 🚩 Paso 1: Configuración Crítica
 Antes de escribir cualquier nota, debes tener tu entorno de trabajo listo. Sin esto, no podrás ver los cambios de tus compañeros ni subir los tuyos.

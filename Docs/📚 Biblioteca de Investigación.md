@@ -1,4 +1,3 @@
-# 📚 Biblioteca de Investigación: FUUA Team
 
 > [!info] **Instrucciones** Haz clic en los enlaces para abrir los documentos originales. Estos archivos contienen la base teórica de nuestro proyecto **IA-DataFlow Hub**.
 
