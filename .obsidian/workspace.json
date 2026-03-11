@@ -55,26 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 02 - IA, ETL y Economía de Tokens.md",
+                "file": "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 04 - UX y Evolución de Dashboards.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "📄 Resumen Ejecutivo HU 02 - IA, ETL y Economía de Tokens"
-            }
-          },
-          {
-            "id": "9a4131695eab734d",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "title": "📄 Resumen Ejecutivo HU 04 - UX y Evolución de Dashboards"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -248,14 +238,17 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "9a4131695eab734d",
+  "active": "628b4b366e1b3f53",
   "lastOpenFiles": [
+    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 02 - IA, ETL y Economía de Tokens.md",
+    "Sin título.canvas",
+    "Sin título 1.canvas",
+    "Sin título.md",
+    "Sin nombre",
+    "🎊 Bienvenidos a IA-DataFlow Hub.md",
     "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 03 - Stack Tecnológico y Procesos.md",
     "Investigaciones/📂 Repositorio de Investigaciones.md",
-    "Sin título.md",
     "Investigaciones/Internal/HU",
-    "Sin nombre",
-    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 02 - IA, ETL y Economía de Tokens.md",
     "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 05 - Seguridad y Cumplimiento Legal.md",
     "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 01 - Infraestructura.md",
     "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML.md",
@@ -266,16 +259,13 @@
     "Investigaciones/Internal",
     "Investigaciones/Externas",
     "Readme.md",
-    "🎊 Bienvenidos a IA-DataFlow Hub.md",
     "Tablero de Avances.md",
     "Actas/07 de Marzo de 2026 - Proyecto IA-DataFlow.md",
     "Actas/28 de febrero de 2026 - Inicio de Semillero IA-DataFlow.md",
-    "Sin título.canvas",
     "2026-03-07.md",
     "Tableros.base",
     "Tablero de Avances.canvas",
     "Investigaciones/Externas/🚀 Informe Google Colab y TOON en Procesos ETL con IA.md",
-    "Sin título 1.canvas",
     "Archivos/INFORME DE INVESTIGACION_N8N.pdf",
     "Tutoriales/💎 Guía de Instalación Obsidian + Sincronización Git.md",
     "Investigaciones/Externas/🤖Informe de Investigación Automatización con n8n.md",
