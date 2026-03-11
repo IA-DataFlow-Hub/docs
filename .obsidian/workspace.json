@@ -11,12 +11,14 @@
             "id": "1018fcd471fc18b9",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Archivos/RF y RNF DIAGRAMAS UML - ETL - IA.pdf"
+                "file": "🎊 Bienvenidos a IA-DataFlow Hub.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "RF y RNF DIAGRAMAS UML - ETL - IA"
+              "icon": "lucide-file",
+              "title": "🎊 Bienvenidos a IA-DataFlow Hub"
             }
           }
         ]
@@ -195,15 +197,16 @@
   },
   "active": "1018fcd471fc18b9",
   "lastOpenFiles": [
+    "Archivos/Investigación Google Colab y TOON en procesos ETL con IA.pdf",
+    "Archivos/INFORME MICROSOFT POWER PLATFORM.pdf",
+    "Archivos/INFORME DE INVESTIGACION_N8N.pdf",
+    "Archivos/RF y RNF DIAGRAMAS UML - ETL - IA.pdf",
     "Investigaciones/Externas/🏗️ Requerimientos y Diseño de Arquitectura (UML).md",
     "🎊 Bienvenidos a IA-DataFlow Hub.md",
     "Investigaciones/📂 Repositorio de Investigaciones.md",
     "Investigaciones/Externas/📊 Informe de Investigación Microsoft Power Platform.md",
     "Docs/📚 Biblioteca de Investigación.md",
-    "Archivos/INFORME DE INVESTIGACION_N8N.pdf",
-    "Archivos/INFORME MICROSOFT POWER PLATFORM.pdf",
     "Archivos/Investigacion de la IA.pdf",
-    "Archivos/Investigación Google Colab y TOON en procesos ETL con IA.pdf",
     "Archivos/invetigacion openrefine.pdf",
     "Actas/07 de Marzo de 2026 - Proyecto IA-DataFlow.md",
     "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 04 - UX y Evolución de Dashboards.md",
@@ -233,7 +236,6 @@
     "Actas/Actas de Reunión.md",
     "Tutoriales/🛖 Tutoriales.md",
     "Manual_Sincronización_Git_GitHub.md",
-    "Tutoriales/🎓 Manual de Sincronización Git + GitHub.md",
     "Untitled.canvas"
   ]
 }
