@@ -8,23 +8,44 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "Investigacion ",
+      "query": "path:Investigaciones/Externas  ",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:Investigaciones/Internal  ",
+      "color": {
+        "a": 1,
+        "rgb": 2970081
+      }
+    },
+    {
+      "query": "path:Tutoriales  ",
+      "color": {
+        "a": 1,
+        "rgb": 9312686
+      }
+    },
+    {
+      "query": "path:Actas  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
       }
     }
   ],
   "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": -3,
-  "nodeSizeMultiplier": 0.559375,
-  "lineSizeMultiplier": 2.06510416666667,
+  "textFadeMultiplier": -2.5,
+  "nodeSizeMultiplier": 2.90729166666667,
+  "lineSizeMultiplier": 4.1578125,
   "collapse-forces": false,
-  "centerStrength": 0.229166666666667,
-  "repelStrength": 9.0625,
-  "linkStrength": 0.244791666666667,
-  "linkDistance": 250,
-  "scale": 0.7132754626224391,
+  "centerStrength": 0.322916666666667,
+  "repelStrength": 12.3958333333333,
+  "linkStrength": 0,
+  "linkDistance": 59,
+  "scale": 0.508761885579253,
   "close": false
 }
