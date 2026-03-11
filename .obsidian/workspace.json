@@ -11,10 +11,12 @@
             "id": "1018fcd471fc18b9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "type": "pdf",
+              "state": {
+                "file": "Archivos/RF y RNF DIAGRAMAS UML - ETL - IA.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "RF y RNF DIAGRAMAS UML - ETL - IA"
             }
           }
         ]
