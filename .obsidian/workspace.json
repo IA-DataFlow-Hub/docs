@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Investigaciones/📂 Repositorio de Investigaciones.md",
+                "file": "Readme.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "📂 Repositorio de Investigaciones"
+              "title": "Readme"
             }
           }
         ]
@@ -197,6 +197,7 @@
   },
   "active": "1018fcd471fc18b9",
   "lastOpenFiles": [
+    "Investigaciones/📂 Repositorio de Investigaciones.md",
     "Actas/07 de Marzo de 2026 - Proyecto IA-DataFlow.md",
     "Actas/Actas de Reunión.md",
     "Archivos/Investigacion de la IA.pdf",
@@ -213,7 +214,6 @@
     "Archivos/INFORME DE INVESTIGACION_N8N.pdf",
     "Archivos/RF y RNF DIAGRAMAS UML - ETL - IA.pdf",
     "Investigaciones/Externas/🏗️ Requerimientos y Diseño de Arquitectura (UML).md",
-    "Investigaciones/📂 Repositorio de Investigaciones.md",
     "Investigaciones/Externas/📊 Informe de Investigación Microsoft Power Platform.md",
     "Docs/📚 Biblioteca de Investigación.md",
     "Archivos/invetigacion openrefine.pdf",
