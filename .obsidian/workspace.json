@@ -241,7 +241,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-kanban:Create new board": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
