@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Readme.md",
+                "file": "Actas/Actas de Reunión.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Readme"
+              "title": "Actas de Reunión"
             }
           }
         ]
@@ -197,9 +197,10 @@
   },
   "active": "1018fcd471fc18b9",
   "lastOpenFiles": [
-    "Investigaciones/📂 Repositorio de Investigaciones.md",
     "Actas/07 de Marzo de 2026 - Proyecto IA-DataFlow.md",
     "Actas/Actas de Reunión.md",
+    "Readme.md",
+    "Investigaciones/📂 Repositorio de Investigaciones.md",
     "Archivos/Investigacion de la IA.pdf",
     "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 02 - IA, ETL y Economía de Tokens.md",
     "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 03 - Stack Tecnológico y Procesos.md",
@@ -207,7 +208,6 @@
     "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 05 - Seguridad y Cumplimiento Legal.md",
     "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML.md",
     "Tutoriales/🛖 Tutoriales.md",
-    "Readme.md",
     "🎊 Bienvenidos a IA-DataFlow Hub.md",
     "Archivos/Investigación Google Colab y TOON en procesos ETL con IA.pdf",
     "Archivos/INFORME MICROSOFT POWER PLATFORM.pdf",
