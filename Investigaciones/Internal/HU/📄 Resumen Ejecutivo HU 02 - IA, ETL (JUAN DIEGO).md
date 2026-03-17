@@ -132,3 +132,4 @@ Para orquestar este flujo, se utilizan herramientas que eliminan costos por ejec
 - [Documentación Batch API (50% desc.)](https://ai.google.dev/gemini-api/docs/batch-api)
     
 - [Precios OpenAI](https://openai.com/api/pricing)
+- **Anthropic Pricing:** [anthropic.com/pricing](https://www.anthropic.com/pricing)
