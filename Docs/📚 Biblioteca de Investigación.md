@@ -1,4 +1,13 @@
 
+
+> [!info] **Propósito del Repositorio** Este espacio centraliza el conocimiento recolectado y generado por el equipo. Está diseñado para que cualquier integrante pueda consultar la base teórica o los avances técnicos del proyecto en segundos.
+
+---
+
+## [[🌎 Investigaciones Externas]]
+
+## [[🏠 Investigaciones Internas]]
+
 > [!info] **Instrucciones** Haz clic en los enlaces para abrir los documentos originales. Estos archivos contienen la base teórica de nuestro proyecto **IA-DataFlow Hub**.
 
 ## 🛠️ Automatización y Flujos
@@ -21,7 +30,6 @@
     
 - [[RF y RNF DIAGRAMAS UML - ETL - IA.docx|📄 Requerimientos y Diseño de Arquitectura (UML)]]
 
-## [[📂 Repositorio de Investigaciones]]
 
 ---
 
