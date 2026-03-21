@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d059e5c346e5d6e5",
+        "id": "7751e333db4db970",
         "type": "tabs",
         "children": [
           {
-            "id": "10c7765bd13e9375",
+            "id": "97de1ac32ab99dc2",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -70,7 +70,8 @@
               "title": "Explorador de archivos"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -173,10 +174,12 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false
+      "bases:Crear nueva base": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "62c443d14e05302f",
+  "active": "d901c5c738bad70f",
   "lastOpenFiles": [
     "🎊 Bienvenidos a IA-DataFlow Hub.md",
     "Tutoriales/🛖 Tutoriales.md",
