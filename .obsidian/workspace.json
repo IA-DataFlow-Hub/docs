@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Investigaciones/Internal/HU/📄 HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres).md",
+                "file": "Investigaciones/🌎 Investigaciones Externas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "📄 HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres)"
+              "title": "🌎 Investigaciones Externas"
             }
           }
         ]
@@ -195,12 +195,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "99df7925bf7ccc1c",
+  "active": "5acc4edec9bf4280",
   "lastOpenFiles": [
-    "Investigaciones/Internal/HU/📄 HU 03 Stack Tecnológico y Manejo de Procesos (JUAN DIEGO).md",
-    "Investigaciones/Internal/HU/📄 HU 02 - IA, ETL (JUAN DIEGO).md",
-    "Investigaciones/Internal/HU/📄 HU 06 - Arquitectura y Modelado UML (JUAN DIEGO).md",
-    "Investigaciones/Internal/HU/📄 HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres).md",
+    "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres).md",
+    "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo",
+    "Investigaciones/Internal/HU - Investigacion",
+    "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 03 Stack Tecnológico y Manejo de Procesos (JUAN DIEGO).md",
+    "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 02 - IA, ETL (JUAN DIEGO).md",
+    "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 06 - Arquitectura y Modelado UML (JUAN DIEGO).md",
     "Tareas.md",
     "Archivos/interno/Semillero - HU 01 Infraestructura y Viabilidad de Servidores.pdf",
     "Archivos/interno/~$millero - HU 01 Infraestructura y Viabilidad de Servidores.docx",
@@ -216,16 +218,14 @@
     "Actas/Actas de Reunión.md",
     "Readme.md",
     "CV-LAC/CVLAC David Ospina.pdf",
-    "CV-LAC/CVLAC Pohlman Cuartas.pdf",
     "Sin título.md",
-    "Actas/Excel/~$ACTAS SEMILLERO PROYECTO IA - DATAFLOW.xlsx",
     "Investigaciones/🏠 Investigaciones Internas.md",
-    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML.md",
-    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 01 - Infraestructura.md",
-    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 02 - IA, ETL y Economía de Tokens.md",
-    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 03 - Stack Tecnológico y Procesos.md",
-    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 04 - UX y Evolución de Dashboards.md",
-    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 05 - Seguridad y Cumplimiento Legal.md",
+    "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML.md",
+    "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 01 - Infraestructura.md",
+    "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 02 - IA, ETL y Economía de Tokens.md",
+    "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 03 - Stack Tecnológico y Procesos.md",
+    "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 04 - UX y Evolución de Dashboards.md",
+    "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 05 - Seguridad y Cumplimiento Legal.md",
     "Investigaciones/Externas/🏗️ Requerimientos y Diseño de Arquitectura (UML).md",
     "Actas/28 de febrero de 2026 - Inicio de Semillero IA-DataFlow.md",
     "Actas/07 de Marzo de 2026 - Proyecto IA-DataFlow.md",
