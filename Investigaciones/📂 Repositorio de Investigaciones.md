@@ -4,12 +4,9 @@
 
 ---
 
-## 🌎 Investigaciones Externas
+## [[🌎 Investigaciones Externas]]
 
-[[🌎 Investigaciones Externas]]
-## 🏠 Investigaciones Internas
-
-[[🏠 Investigaciones Internas]]
+## [[🏠 Investigaciones Internas]]
 
 ---
 
