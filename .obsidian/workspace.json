@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Actas/Actas de Reunión.md",
+                "file": "Investigaciones/📂 Repositorio de Investigaciones.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Actas de Reunión"
+              "title": "📂 Repositorio de Investigaciones"
             }
           }
         ]
@@ -197,6 +197,7 @@
   },
   "active": "2f75745b0177f404",
   "lastOpenFiles": [
+    "Actas/Actas de Reunión.md",
     "Readme.md",
     "CV-LAC/CVLAC David Ospina.pdf",
     "CV-LAC/CVLAC Pohlman Cuartas.pdf",
