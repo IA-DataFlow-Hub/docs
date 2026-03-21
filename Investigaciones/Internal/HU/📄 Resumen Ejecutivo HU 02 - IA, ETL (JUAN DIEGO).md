@@ -133,3 +133,71 @@ Para orquestar este flujo, se utilizan herramientas que eliminan costos por ejec
     
 - [Precios OpenAI](https://openai.com/api/pricing)
 - **Anthropic Pricing:** [anthropic.com/pricing](https://www.anthropic.com/pricing)
+
+
+## 🛠️ Desglose Técnico: Personalización de la IA
+
+Para transformar un modelo de lenguaje genérico en un **Obrero Especializado de Datos**, aplicamos los siguientes niveles de configuración:
+
+## 1. El Prompt (La Orden Inmediata)
+
+Es la instrucción específica que se envía en cada petición (request).
+
+- **En IA Dataflow:** Se usa para pasar los datos crudos y decirle a la IA exactamente qué hacer con ese lote de registros.
+    
+- **Utilidad:** Permite cambiar la tarea sobre la marcha (ej. "Traduce estos 100 nombres" vs "Limpia estos 100 nombres"). Es la capa más volátil y flexible.
+    
+
+## 2. Instrucciones de Sistema (System Instructions / Persona)
+
+Es el "ADN" del modelo. Se definen antes de que el modelo reciba los datos y no cambian durante la sesión.
+
+- **En IA Dataflow:** Aquí configuramos que la IA actúe como un **"Ingeniero de Datos Senior"**.
+    
+- **Instrucción Clave:** _"Eres un experto en limpieza de datos. Tu salida debe ser estrictamente JSON. No pidas disculpas, no des explicaciones, solo entrega el código corregido."_
+    
+- **Utilidad:** Reduce las "alucinaciones" y asegura que la IA no intente conversar con el sistema, lo cual rompería el flujo de n8n.
+    
+
+## 3. Skills (Habilidades / Tool Use)
+
+Son capacidades externas que la IA puede invocar cuando su conocimiento base no es suficiente.
+
+- **En IA Dataflow:** Si la IA detecta una fecha en formato extraño (ej. "El jueves pasado"), puede llamar a una **Skill de Python** para convertirla a formato ISO `YYYY-MM-DD`.
+    
+- **Utilidad:** Permite que la IA realice cálculos matemáticos exactos o validaciones de reglas de negocio que los modelos de lenguaje suelen fallar por naturaleza probabilística.
+    
+
+## 4. Agentes (Autonomía y Toma de Decisiones)
+
+Un agente es una IA que tiene un objetivo, no solo una tarea. Puede razonar: _"Si el dato está incompleto, voy a buscar en la base de datos de referencia antes de marcarlo como error"_.
+
+- **En IA Dataflow:** Implementamos un **Agente de Calidad (QA Agent)** que revisa el trabajo de Gemini. Si Gemini comete un error de formato, el Agente detecta el error y le pide a Gemini que lo corrija antes de enviarlo a PostgreSQL.
+    
+- **Utilidad:** Crea un sistema de "auto-corrección" que permite procesar 100,000 registros sin supervisión humana constante.
+    
+
+---
+
+## 📊 Cuadro de Utilidad en el Flujo ETL
+
+|**Componente**|**¿Cuándo se aplica?**|**Impacto en el Proyecto**|
+|---|---|---|
+|**Prompt**|En cada lote de registros.|Precisión en la ejecución inmediata.|
+|**Instrucciones**|Al inicio del flujo n8n.|Consistencia del formato (JSON) y tono profesional.|
+|**Skills**|Cuando hay datos complejos.|Veracidad técnica (Cálculos, fechas, IDs).|
+|**Agentes**|En el cierre de cada ciclo.|Autonomía total; reduce el error humano al 0%.|
+
+---
+
+## 💡 Ejemplo de Configuración para tu Proyecto
+
+Si estuviéramos configurando el nodo de **Gemini 2.5 Flash-Lite** en n8n, el esquema sería:
+
+- **Instrucción de Sistema:** "Eres el motor de limpieza de IA Dataflow. Ignora etiquetas HTML, corrige mayúsculas y entrega JSON puro."
+    
+- **Prompt:** "Procesa estos 50 registros de la columna 'Dirección': [Datos...]"
+    
+- **Skill:** Acceso a la API de Google Maps para validar si las direcciones existen.
+    
+- **Agente:** Un loop en n8n que verifica si el JSON es válido; si no, re-intenta el proceso.
