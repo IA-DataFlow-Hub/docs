@@ -135,69 +135,69 @@ Para orquestar este flujo, se utilizan herramientas que eliminan costos por ejec
 - **Anthropic Pricing:** [anthropic.com/pricing](https://www.anthropic.com/pricing)
 
 
-## 🛠️ Desglose Técnico: Personalización de la IA
+## 🏗️ Jerarquía de Control en IA Dataflow
 
-Para transformar un modelo de lenguaje genérico en un **Obrero Especializado de Datos**, aplicamos los siguientes niveles de configuración:
+Para que el procesamiento de 100k registros sea exitoso, cada nivel debe cumplir una función específica:
 
-## 1. El Prompt (La Orden Inmediata)
+## 1. El Prompt (La Orden Operativa)
 
-Es la instrucción específica que se envía en cada petición (request).
+Es la unidad mínima de acción. Es el "qué" debe hacer la IA en este preciso segundo con un dato específico.
 
-- **En IA Dataflow:** Se usa para pasar los datos crudos y decirle a la IA exactamente qué hacer con ese lote de registros.
+- **Ejemplo en tu proyecto:** "Toma esta lista de 100 filas y elimina los registros donde el correo electrónico sea idéntico. Devuelve solo los registros únicos en formato JSON".
     
-- **Utilidad:** Permite cambiar la tarea sobre la marcha (ej. "Traduce estos 100 nombres" vs "Limpia estos 100 nombres"). Es la capa más volátil y flexible.
-    
-
-## 2. Instrucciones de Sistema (System Instructions / Persona)
-
-Es el "ADN" del modelo. Se definen antes de que el modelo reciba los datos y no cambian durante la sesión.
-
-- **En IA Dataflow:** Aquí configuramos que la IA actúe como un **"Ingeniero de Datos Senior"**.
-    
-- **Instrucción Clave:** _"Eres un experto en limpieza de datos. Tu salida debe ser estrictamente JSON. No pidas disculpas, no des explicaciones, solo entrega el código corregido."_
-    
-- **Utilidad:** Reduce las "alucinaciones" y asegura que la IA no intente conversar con el sistema, lo cual rompería el flujo de n8n.
+- **Utilidad:** Es ejecución pura. Se usa en el nodo de Gemini o Llama 4 dentro de n8n para procesar el lote actual.
     
 
-## 3. Skills (Habilidades / Tool Use)
+## 2. Instrucciones (El Manual de Procedimiento)
 
-Son capacidades externas que la IA puede invocar cuando su conocimiento base no es suficiente.
+Es el "cómo" debe trabajar la IA siempre, independientemente del dato que reciba. Define las reglas de negocio y el comportamiento.
 
-- **En IA Dataflow:** Si la IA detecta una fecha en formato extraño (ej. "El jueves pasado"), puede llamar a una **Skill de Python** para convertirla a formato ISO `YYYY-MM-DD`.
+- **Ejemplo en tu proyecto:** "Para eliminar duplicados, prioriza siempre el registro que tenga la fecha de actualización más reciente. Si dos registros tienen el mismo ID pero distinto teléfono, marca ambos para revisión humana".
     
-- **Utilidad:** Permite que la IA realice cálculos matemáticos exactos o validaciones de reglas de negocio que los modelos de lenguaje suelen fallar por naturaleza probabilística.
+- **Utilidad:** Garantiza que la IA no tome decisiones arbitrarias y mantenga la integridad de tu base de datos PostgreSQL.
     
 
-## 4. Agentes (Autonomía y Toma de Decisiones)
+## 3. Skills / Habilidades (La Caja de Herramientas)
 
-Un agente es una IA que tiene un objetivo, no solo una tarea. Puede razonar: _"Si el dato está incompleto, voy a buscar en la base de datos de referencia antes de marcarlo como error"_.
+Es un entrenamiento o capacidad técnica específica que se le otorga a la IA para que pueda interactuar con el mundo exterior o realizar tareas técnicas.
 
-- **En IA Dataflow:** Implementamos un **Agente de Calidad (QA Agent)** que revisa el trabajo de Gemini. Si Gemini comete un error de formato, el Agente detecta el error y le pide a Gemini que lo corrija antes de enviarlo a PostgreSQL.
+- **Ejemplo en tu proyecto:** Una skill de **"Normalización de Direcciones"**. El agente sabe usar la API de Google Maps para convertir "Av. Siempre Viva 123" en una coordenada geográfica real.
     
-- **Utilidad:** Crea un sistema de "auto-corrección" que permite procesar 100,000 registros sin supervisión humana constante.
+- **Utilidad:** Permite que la IA haga cosas que un modelo de lenguaje por sí solo hace mal (como cálculos matemáticos exactos o validaciones de sintaxis de código).
+    
+
+## 4. Agentes (El Especialista)
+
+Es la entidad superior. Un Agente es un rol que agrupa múltiples habilidades y sigue instrucciones complejas para cumplir un objetivo de alto nivel.
+
+- **Ejemplo en tu proyecto:** **"Agente de Calidad de Datos (Data QA)"**.
+    
+    - **Instrucción:** Asegurar que los datos que llegan a Power BI sean perfectos.
+        
+    - **Skills:** SQL (para consultar la DB), Validación de JSON, Detección de anomalías.
+        
+- **Utilidad:** Los agentes pueden trabajar en cadena. Un agente limpia, otro anonimiza y un tercero audita.
     
 
 ---
 
-## 📊 Cuadro de Utilidad en el Flujo ETL
+## 📊 Comparativa de Roles en tu Arquitectura
 
-|**Componente**|**¿Cuándo se aplica?**|**Impacto en el Proyecto**|
+|**Concepto**|**Representación**|**Aplicación en IA Dataflow**|
 |---|---|---|
-|**Prompt**|En cada lote de registros.|Precisión en la ejecución inmediata.|
-|**Instrucciones**|Al inicio del flujo n8n.|Consistencia del formato (JSON) y tono profesional.|
-|**Skills**|Cuando hay datos complejos.|Veracidad técnica (Cálculos, fechas, IDs).|
-|**Agentes**|En el cierre de cada ciclo.|Autonomía total; reduce el error humano al 0%.|
+|**Prompt**|El Martillo|"Golpea este clavo (registro) ahora".|
+|**Instrucción**|El Plano|"Los clavos deben ir cada 10cm y siempre rectos".|
+|**Skill**|El Conocimiento|Saber usar un martillo neumático o una sierra láser.|
+|**Agente**|El Carpintero|El profesional que sabe construir el mueble completo usando todo lo anterior.|
 
 ---
 
-## 💡 Ejemplo de Configuración para tu Proyecto
+## 💡 ¿Cómo se ve esto en la práctica?
 
-Si estuviéramos configurando el nodo de **Gemini 2.5 Flash-Lite** en n8n, el esquema sería:
+Si quieres organizar tus tablas de forma eficiente, podrías configurar un **Agente de Estructuración**:
 
-- **Instrucción de Sistema:** "Eres el motor de limpieza de IA Dataflow. Ignora etiquetas HTML, corrige mayúsculas y entrega JSON puro."
+1. **Instrucción:** "Eres un DBA (Administrador de Base de Datos). Tu objetivo es organizar tablas bajo la 3ra forma normal".
     
-- **Prompt:** "Procesa estos 50 registros de la columna 'Dirección': [Datos...]"
+2. **Skill:** Capacidad de generar y ejecutar sentencias SQL en tu PostgreSQL.
     
-- **Skill:** Acceso a la API de Google Maps para validar si las direcciones existen.
-    
-- **Agente:** Un loop en n8n que verifica si el JSON es válido; si no, re-intenta el proceso.
+3. **Prompt:** "Analiza estos datos de ventas y crea la tabla de 'Clientes' y la de 'Pedidos' vinculadas por un ID único".
