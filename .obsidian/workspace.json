@@ -11,10 +11,14 @@
             "id": "99df7925bf7ccc1c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "Investigaciones/Internal/HU/📄 HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "📄 HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres)"
             }
           }
         ]
@@ -191,10 +195,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5acc4edec9bf4280",
+  "active": "99df7925bf7ccc1c",
   "lastOpenFiles": [
-    "Archivos/interno/~$millero - HU 01 Infraestructura y Viabilidad de Servidores.docx",
+    "Investigaciones/Internal/HU/📄 HU 03 Stack Tecnológico y Manejo de Procesos (JUAN DIEGO).md",
+    "Investigaciones/Internal/HU/📄 HU 02 - IA, ETL (JUAN DIEGO).md",
+    "Investigaciones/Internal/HU/📄 HU 06 - Arquitectura y Modelado UML (JUAN DIEGO).md",
+    "Investigaciones/Internal/HU/📄 HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres).md",
+    "Tareas.md",
     "Archivos/interno/Semillero - HU 01 Infraestructura y Viabilidad de Servidores.pdf",
+    "Archivos/interno/~$millero - HU 01 Infraestructura y Viabilidad de Servidores.docx",
     "Archivos/interno/Semillero - HU 01 Infraestructura y Viabilidad de Servidores (1).docx",
     "Archivos/interno/Semillero - HU 01 Infraestructura y Viabilidad de Servidores.docx",
     "Archivos/interno",
@@ -210,25 +219,19 @@
     "CV-LAC/CVLAC Pohlman Cuartas.pdf",
     "Sin título.md",
     "Actas/Excel/~$ACTAS SEMILLERO PROYECTO IA - DATAFLOW.xlsx",
-    "CV-LAC/Sin confirmar 123567.crdownload",
     "Investigaciones/🏠 Investigaciones Internas.md",
     "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML.md",
-    "Investigaciones/Internal/HU/📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML (JUAN DIEGO).md",
     "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 01 - Infraestructura.md",
     "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 02 - IA, ETL y Economía de Tokens.md",
     "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 03 - Stack Tecnológico y Procesos.md",
     "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 04 - UX y Evolución de Dashboards.md",
     "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 05 - Seguridad y Cumplimiento Legal.md",
-    "Investigaciones/Internal/HU/📄 Resumen Ejecutivo HU 02 - IA, ETL (JUAN DIEGO).md",
-    "Investigaciones/Internal/HU/📄 Resumen Ejecutivo HU 03 Stack Tecnológico y Manejo de Procesos (JUAN DIEGO).md",
     "Investigaciones/Externas/🏗️ Requerimientos y Diseño de Arquitectura (UML).md",
     "Actas/28 de febrero de 2026 - Inicio de Semillero IA-DataFlow.md",
     "Actas/07 de Marzo de 2026 - Proyecto IA-DataFlow.md",
-    "Tareas.md",
     "Tutoriales/🛖 Tutoriales.md",
     "Tutoriales/💎 Guía de Instalación Obsidian + Sincronización Git.md",
     "Tutoriales/🎓 Manual de Sincronización Git + GitHub.md",
-    "conflict-files-obsidian-git.md",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Tablero de Avances.canvas",

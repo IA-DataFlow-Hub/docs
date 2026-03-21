@@ -17,14 +17,14 @@ Hechas por la IA
 - **Proyecto:** Investigaciones IA-DataFlow Hub    
     - **Responsable:** JUAN DIEGO MEJIA MAESTRE        
     - **Estado:** ✅ Finalizado        
-    - **Enlace:** [[📄 Resumen Ejecutivo HU 02 - IA, ETL (JUAN DIEGO)]]
+    - **Enlace:** [[📄 HU 02 - IA, ETL (JUAN DIEGO)]]
     
 - **Proyecto:** Investigaciones IA-DataFlow Hub    
     - **Responsable:** JUAN DIEGO MEJIA MAESTRE        
     - **Estado:** ✅ Finalizado        
-    - **Enlace:** [[📄 Resumen Ejecutivo HU 03 Stack Tecnológico y Manejo de Procesos (JUAN DIEGO)]]
+    - **Enlace:** [[📄 HU 03 Stack Tecnológico y Manejo de Procesos (JUAN DIEGO)]]
     
 - -**Proyecto:** Investigaciones IA-DataFlow Hub    
     - **Responsable:** JUAN DIEGO MEJIA MAESTRE        
     - **Estado:** ✅ Finalizado        
-    - **Enlace:** [[📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML (JUAN DIEGO)]]
+    - **Enlace:** [[📄 HU 06 - Arquitectura y Modelado UML (JUAN DIEGO)]]
