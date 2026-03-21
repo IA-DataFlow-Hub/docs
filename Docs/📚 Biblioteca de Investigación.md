@@ -20,7 +20,8 @@
 - [[invetigacion openrefine.docx|📄 Limpieza Avanzada de Datos con OpenRefine + IA]]
     
 - [[RF y RNF DIAGRAMAS UML - ETL - IA.docx|📄 Requerimientos y Diseño de Arquitectura (UML)]]
-    
+
+## [[📂 Repositorio de Investigaciones]]
 
 ---
 
@@ -29,3 +30,4 @@
 1. **Vista Previa:** Si quieres ver el documento sin salir de la nota, mantén presionada la tecla `Ctrl` y pasa el ratón sobre el enlace.
     
 2. **Sincronización:** Al subir estos archivos a GitHub, todos los integrantes del **FUUA Team** podrán abrirlos desde sus propias computadoras.
+

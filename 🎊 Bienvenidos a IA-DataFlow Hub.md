@@ -75,7 +75,7 @@ Este ecosistema integra herramientas de vanguardia para simplificar el ciclo de 
 
 > [!tip] Utiliza `Ctrl + Clic` en los enlaces para crear las notas automáticamente.
 
-- 📑 **[[📂 Repositorio de Investigaciones]]**: Resúmenes de n8n, Power Platform, OpenRefine y TOON.
+-  [📚 Biblioteca de Investigación](app://obsidian.md/%F0%9F%93%9A%20Biblioteca%20de%20Investigaci%C3%B3n): Resúmenes de n8n, Power Platform, OpenRefine y TOON.
 - 🤝 **[[Actas de Reunión]]**: Registro de acuerdos y seguimiento semanal.
 - 🏗️ **[[📚 Biblioteca de Investigación|Documentación Técnica]]**: Diagramas UML, RF/RNF y arquitectura de software.
 - 📈 **[[Tareas]]**: Monitorización de tareas por integrante.
