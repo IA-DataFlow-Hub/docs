@@ -37,7 +37,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de archivos"
@@ -193,6 +193,7 @@
   },
   "active": "5acc4edec9bf4280",
   "lastOpenFiles": [
+    "Sin título.md",
     "Actas/Excel/~$ACTAS SEMILLERO PROYECTO IA - DATAFLOW.xlsx",
     "🎊 Bienvenidos a IA-DataFlow Hub.md",
     "CV-LAC/CVLAC Pohlman Cuartas.pdf",
@@ -229,7 +230,6 @@
     "Investigaciones/Internal/HU",
     "Investigaciones/Externas/📊 Informe de Investigación Microsoft Power Platform.md",
     "Investigaciones/Internal/HU - IA",
-    "Investigaciones/Internal",
     "Tablero de Avances.md",
     "Tablero de Avances.canvas",
     "Untitled.canvas"
