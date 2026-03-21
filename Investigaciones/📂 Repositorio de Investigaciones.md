@@ -66,7 +66,7 @@ Hechas por la IA
 [[📄 Resumen Ejecutivo HU 03 - Stack Tecnológico y Procesos]]
 [[📄 Resumen Ejecutivo HU 04 - UX y Evolución de Dashboards]]
 [[📄 Resumen Ejecutivo HU 05 - Seguridad y Cumplimiento Legal]]
-[[📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML]]
+[[Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML]]
 
 - **Proyecto:** (Nombre del avance)
     
