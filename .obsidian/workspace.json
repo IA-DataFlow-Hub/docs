@@ -290,8 +290,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b653951173a2426e",
+  "active": "5acc4edec9bf4280",
   "lastOpenFiles": [
+    "Actas/Excel/ACTAS SEMILLERO PROYECTO IA - DATAFLOW.xlsx",
+    "Actas/Excel",
     "Investigaciones/Internal/HU/cvlac Pohlman Cuartas.pdf",
     "Investigaciones/Internal/HU/Hu 05.docx",
     "Investigaciones/📂 Repositorio de Investigaciones.md",
@@ -320,7 +322,6 @@
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Investigaciones/Internal/HU",
-    "Sin nombre",
     "Investigaciones/Externas/📊 Informe de Investigación Microsoft Power Platform.md",
     "Investigaciones/Internal/HU - IA",
     "Investigaciones/Internal",
@@ -330,7 +331,6 @@
     "Tablero de Avances.canvas",
     "Archivos/INFORME DE INVESTIGACION_N8N.pdf",
     "Archivos/Investigación Google Colab y TOON en procesos ETL con IA.pdf",
-    "Archivos/Investigacion de la IA.pdf",
     "Untitled.canvas"
   ]
 }
