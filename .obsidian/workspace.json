@@ -11,12 +11,14 @@
             "id": "2f75745b0177f404",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "CV-LAC/CVLAC David Ospina.pdf"
+                "file": "Actas/Actas de Reunión.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "CVLAC David Ospina"
+              "icon": "lucide-file",
+              "title": "Actas de Reunión"
             }
           }
         ]
@@ -195,9 +197,9 @@
   },
   "active": "2f75745b0177f404",
   "lastOpenFiles": [
-    "CV-LAC/CVLAC Pohlman Cuartas.pdf",
-    "CV-LAC/CVLAC David Ospina.pdf",
     "Readme.md",
+    "CV-LAC/CVLAC David Ospina.pdf",
+    "CV-LAC/CVLAC Pohlman Cuartas.pdf",
     "Sin título.md",
     "Actas/Excel/~$ACTAS SEMILLERO PROYECTO IA - DATAFLOW.xlsx",
     "🎊 Bienvenidos a IA-DataFlow Hub.md",
