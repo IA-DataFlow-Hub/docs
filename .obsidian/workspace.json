@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "ef47669cdb58cd09",
+    "id": "b166b345944ee591",
     "type": "split",
     "children": [
       {
-        "id": "fe9ab13f184cfcad",
+        "id": "0068ed94bde9b807",
         "type": "tabs",
         "children": [
           {
-            "id": "e3dd3825bed284be",
+            "id": "2f75745b0177f404",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -25,15 +25,28 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a9ebaaade4cb292e",
+    "id": "e7f7370a77e52a65",
     "type": "split",
     "children": [
       {
-        "id": "f2194f1899eb4c35",
+        "id": "519a6095a7da8e61",
         "type": "tabs",
         "children": [
           {
-            "id": "62c443d14e05302f",
+            "id": "5acc4edec9bf4280",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "0ee8731a34febfd7",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -50,7 +63,7 @@
             }
           },
           {
-            "id": "2774ed0c1aa85840",
+            "id": "43875c9f68c28518",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -58,41 +71,28 @@
               "icon": "lucide-bookmark",
               "title": "Marcadores"
             }
-          },
-          {
-            "id": "d901c5c738bad70f",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 625.5
   },
   "right": {
-    "id": "2daa72a0765e1673",
+    "id": "dc99987b28e84d42",
     "type": "split",
     "children": [
       {
-        "id": "fff42e81fef0c05d",
+        "id": "deca8cc49018607c",
         "type": "tabs",
         "children": [
           {
-            "id": "b7dd69cea37d80d9",
+            "id": "021db1060885acc4",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Bienvenidos a IA-DataFlow Hub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,24 +102,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes"
+              "title": "Backlinks for Bienvenidos a IA-DataFlow Hub"
             }
           },
           {
-            "id": "9e12dffd0069c48e",
+            "id": "956f5f7bdafb42bb",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Bienvenidos a IA-DataFlow Hub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes"
+              "title": "Outgoing links from Bienvenidos a IA-DataFlow Hub"
             }
           },
           {
-            "id": "46093e970fbb2030",
+            "id": "874fa732d324216a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -130,11 +131,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Etiquetas"
+              "title": "Tags"
             }
           },
           {
-            "id": "f145275379844da6",
+            "id": "01e58b594d3bf80f",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -144,25 +145,26 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "Todas las propiedades"
+              "title": "All properties"
             }
           },
           {
-            "id": "eb8d8aa63a01748a",
+            "id": "e63c12ae5911c129",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "Bienvenidos a IA-DataFlow Hub.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema"
+              "title": "Outline of Bienvenidos a IA-DataFlow Hub"
             }
           },
           {
-            "id": "415e38775fba04d3",
+            "id": "aad8df08861cf204",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -176,10 +178,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 666.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-kanban:Create new board": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
@@ -187,47 +190,49 @@
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Crear nueva base": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e3dd3825bed284be",
+  "active": "2f75745b0177f404",
   "lastOpenFiles": [
     "CV-LAC/CVLAC Pohlman Cuartas.pdf",
     "CV-LAC/CVLAC David Ospina.pdf",
-    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 05 - Seguridad y Cumplimiento Legal.md",
-    "Archivos/INFORME MICROSOFT POWER PLATFORM.pdf",
-    "Investigaciones/Internal/HU/📄 Resumen Ejecutivo HU 02 - IA, ETL (JUAN DIEGO).md",
-    "Docs/📚 Biblioteca de Investigación.md",
-    "Investigaciones/🌎 Investigaciones Externas.md",
-    "Investigaciones/🏠 Investigaciones Internas.md",
-    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 01 - Infraestructura.md",
+    "Readme.md",
+    "Sin título.md",
+    "Actas/Excel/~$ACTAS SEMILLERO PROYECTO IA - DATAFLOW.xlsx",
     "🎊 Bienvenidos a IA-DataFlow Hub.md",
+    "CV-LAC/Sin confirmar 123567.crdownload",
+    "CV-LAC",
+    "Investigaciones/Internal/HU/cvlac Pohlman Cuartas.pdf",
+    "Actas/Excel/ACTAS SEMILLERO PROYECTO IA - DATAFLOW.xlsx",
+    "Actas/Excel",
+    "Investigaciones/Internal/HU/Hu 05.docx",
+    "Investigaciones/📂 Repositorio de Investigaciones.md",
+    "Investigaciones/🏠 Investigaciones Internas.md",
+    "Investigaciones/🌎 Investigaciones Externas.md",
+    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML.md",
+    "Investigaciones/Internal/HU/📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML (JUAN DIEGO).md",
+    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 01 - Infraestructura.md",
+    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 02 - IA, ETL y Economía de Tokens.md",
+    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 03 - Stack Tecnológico y Procesos.md",
+    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 04 - UX y Evolución de Dashboards.md",
+    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 05 - Seguridad y Cumplimiento Legal.md",
+    "Investigaciones/Internal/HU/📄 Resumen Ejecutivo HU 02 - IA, ETL (JUAN DIEGO).md",
+    "Investigaciones/Internal/HU/📄 Resumen Ejecutivo HU 03 Stack Tecnológico y Manejo de Procesos (JUAN DIEGO).md",
+    "Investigaciones/Externas/🏗️ Requerimientos y Diseño de Arquitectura (UML).md",
+    "Docs/📚 Biblioteca de Investigación.md",
+    "Actas/28 de febrero de 2026 - Inicio de Semillero IA-DataFlow.md",
+    "Actas/07 de Marzo de 2026 - Proyecto IA-DataFlow.md",
+    "Tareas.md",
     "Tutoriales/🛖 Tutoriales.md",
-    "Tutoriales/💎 Guía Maestra de Estilo en Obsidian.md",
     "Tutoriales/💎 Guía de Instalación Obsidian + Sincronización Git.md",
     "Tutoriales/🎓 Manual de Sincronización Git + GitHub.md",
-    "Tutoriales",
-    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML.md",
-    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 04 - UX y Evolución de Dashboards.md",
-    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 03 - Stack Tecnológico y Procesos.md",
-    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 02 - IA, ETL y Economía de Tokens.md",
-    "Investigaciones/Internal/HU/📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML (JUAN DIEGO).md",
-    "Investigaciones/Internal/HU/📄 Resumen Ejecutivo HU 03 Stack Tecnológico y Manejo de Procesos (JUAN DIEGO).md",
-    "Investigaciones/Internal/HU/Hu 05.docx",
-    "Investigaciones/Internal/HU - IA",
+    "conflict-files-obsidian-git.md",
+    "Sin título.canvas",
+    "Sin título 1.canvas",
     "Investigaciones/Internal/HU",
-    "Investigaciones/Externas/🧹Informe de Investigación Limpieza y Transformación con OpenRefine.md",
-    "Investigaciones/Externas/🤖 Informe IA Agentes y Power BI para Datos No Estructurados.md",
-    "Investigaciones/Externas/🤖Informe de Investigación Automatización con n8n.md",
-    "Investigaciones/Externas/🚀 Informe Google Colab y TOON en Procesos ETL con IA.md",
-    "Investigaciones/Externas/🏗️ Requerimientos y Diseño de Arquitectura (UML).md",
     "Investigaciones/Externas/📊 Informe de Investigación Microsoft Power Platform.md",
-    "Investigaciones/📂 Repositorio de Investigaciones.md",
-    "Investigaciones/Internal",
-    "Investigaciones/Externas",
-    "Investigaciones",
-    "Docs",
-    "Actas/Actas de Reunión.md"
+    "Tablero de Avances.canvas",
+    "Untitled.canvas"
   ]
 }
