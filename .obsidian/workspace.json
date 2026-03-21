@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "09034a24156f8284",
+        "id": "fe9ab13f184cfcad",
         "type": "tabs",
         "children": [
           {
-            "id": "a7c6817f5c1099ff",
+            "id": "e3dd3825bed284be",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "pdf",
+              "state": {
+                "file": "CV-LAC/CVLAC David Ospina.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "CVLAC David Ospina"
             }
           }
         ]
@@ -158,13 +160,23 @@
               "icon": "lucide-list",
               "title": "Esquema"
             }
+          },
+          {
+            "id": "415e38775fba04d3",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,8 +191,13 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "a7c6817f5c1099ff",
+  "active": "e3dd3825bed284be",
   "lastOpenFiles": [
+    "CV-LAC/CVLAC Pohlman Cuartas.pdf",
+    "CV-LAC/CVLAC David Ospina.pdf",
+    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 05 - Seguridad y Cumplimiento Legal.md",
+    "Archivos/INFORME MICROSOFT POWER PLATFORM.pdf",
+    "Investigaciones/Internal/HU/📄 Resumen Ejecutivo HU 02 - IA, ETL (JUAN DIEGO).md",
     "Docs/📚 Biblioteca de Investigación.md",
     "Investigaciones/🌎 Investigaciones Externas.md",
     "Investigaciones/🏠 Investigaciones Internas.md",
@@ -192,13 +209,11 @@
     "Tutoriales/🎓 Manual de Sincronización Git + GitHub.md",
     "Tutoriales",
     "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML.md",
-    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 05 - Seguridad y Cumplimiento Legal.md",
     "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 04 - UX y Evolución de Dashboards.md",
     "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 03 - Stack Tecnológico y Procesos.md",
     "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 02 - IA, ETL y Economía de Tokens.md",
     "Investigaciones/Internal/HU/📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML (JUAN DIEGO).md",
     "Investigaciones/Internal/HU/📄 Resumen Ejecutivo HU 03 Stack Tecnológico y Manejo de Procesos (JUAN DIEGO).md",
-    "Investigaciones/Internal/HU/📄 Resumen Ejecutivo HU 02 - IA, ETL (JUAN DIEGO).md",
     "Investigaciones/Internal/HU/Hu 05.docx",
     "Investigaciones/Internal/HU - IA",
     "Investigaciones/Internal/HU",
@@ -213,9 +228,6 @@
     "Investigaciones/Externas",
     "Investigaciones",
     "Docs",
-    "CV-LAC/CVLAC Pohlman Cuartas.pdf",
-    "CV-LAC",
-    "Actas/Actas de Reunión.md",
-    "Actas/28 de febrero de 2026 - Inicio de Semillero IA-DataFlow.md"
+    "Actas/Actas de Reunión.md"
   ]
 }
