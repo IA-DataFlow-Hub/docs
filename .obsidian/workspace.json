@@ -4,39 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "57efb76c110c8c14",
+        "id": "af2f06c7f84d4fa1",
         "type": "tabs",
         "children": [
           {
-            "id": "1018fcd471fc18b9",
+            "id": "ae1f06bd1ba97339",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Actas/Actas de Reunión.md",
+                "file": "Investigaciones/Externas/📊 Informe de Investigación Microsoft Power Platform.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Actas de Reunión"
+              "title": "📊 Informe de Investigación Microsoft Power Platform"
             }
           },
           {
-            "id": "a2a4c4e9532ab659",
+            "id": "0f93b856e8a32cd1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🎊 Bienvenidos a IA-DataFlow Hub.md",
+                "file": "Tareas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🎊 Bienvenidos a IA-DataFlow Hub"
+              "title": "Tareas"
             }
           },
           {
-            "id": "53c60cc0b8a4eb64",
+            "id": "62dbc7b69a00bfaa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tareas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tareas"
+            }
+          },
+          {
+            "id": "628b4b366e1b3f53",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,9 +62,23 @@
               "icon": "lucide-file",
               "title": "📄 Resumen Ejecutivo HU 02 - IA, ETL y Economía de Tokens"
             }
+          },
+          {
+            "id": "9a4131695eab734d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🎊 Bienvenidos a IA-DataFlow Hub.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "🎊 Bienvenidos a IA-DataFlow Hub"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -107,7 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 625.5
+    "width": 393.5
   },
   "right": {
     "id": "dc99987b28e84d42",
@@ -224,47 +252,47 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "53c60cc0b8a4eb64",
+  "active": "9a4131695eab734d",
   "lastOpenFiles": [
-    "🎊 Bienvenidos a IA-DataFlow Hub.md",
-    "Actas/Actas de Reunión.md",
-    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 02 - IA, ETL y Economía de Tokens.md",
     "Investigaciones/Internal/HU/📄 Resumen Ejecutivo HU 02 - IA, ETL (JUAN DIEGO).md",
-    "Actas/07 de Marzo de 2026 - Proyecto IA-DataFlow.md",
-    "Tareas.md",
-    "conflict-files-obsidian-git.md",
-    "Investigaciones/📂 Repositorio de Investigaciones.md",
     "Investigaciones/Internal/HU",
-    "Readme.md",
-    "Archivos/Investigacion de la IA.pdf",
-    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 03 - Stack Tecnológico y Procesos.md",
-    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 04 - UX y Evolución de Dashboards.md",
+    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 02 - IA, ETL y Economía de Tokens.md",
     "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 05 - Seguridad y Cumplimiento Legal.md",
-    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML.md",
-    "Tutoriales/🛖 Tutoriales.md",
-    "Archivos/Investigación Google Colab y TOON en procesos ETL con IA.pdf",
-    "Archivos/INFORME MICROSOFT POWER PLATFORM.pdf",
-    "Archivos/INFORME DE INVESTIGACION_N8N.pdf",
-    "Archivos/RF y RNF DIAGRAMAS UML - ETL - IA.pdf",
-    "Investigaciones/Externas/🏗️ Requerimientos y Diseño de Arquitectura (UML).md",
-    "Investigaciones/Externas/📊 Informe de Investigación Microsoft Power Platform.md",
-    "Docs/📚 Biblioteca de Investigación.md",
-    "Archivos/invetigacion openrefine.pdf",
-    "Sin título.canvas",
-    "Sin título 1.canvas",
-    "Sin título.md",
-    "Sin nombre",
+    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 03 - Stack Tecnológico y Procesos.md",
     "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 01 - Infraestructura.md",
+    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML.md",
+    "Tareas.md",
+    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 04 - UX y Evolución de Dashboards.md",
+    "Investigaciones/Externas/📊 Informe de Investigación Microsoft Power Platform.md",
     "Investigaciones/Internal/HU - IA",
     "Investigaciones/Internal",
+    "Investigaciones/Externas",
+    "Readme.md",
+    "Investigaciones/📂 Repositorio de Investigaciones.md",
+    "🎊 Bienvenidos a IA-DataFlow Hub.md",
     "Tablero de Avances.md",
+    "Actas/07 de Marzo de 2026 - Proyecto IA-DataFlow.md",
     "Actas/28 de febrero de 2026 - Inicio de Semillero IA-DataFlow.md",
+    "Sin título.canvas",
     "2026-03-07.md",
+    "Tableros.base",
     "Tablero de Avances.canvas",
     "Investigaciones/Externas/🚀 Informe Google Colab y TOON en Procesos ETL con IA.md",
+    "Sin título 1.canvas",
+    "Archivos/INFORME DE INVESTIGACION_N8N.pdf",
     "Tutoriales/💎 Guía de Instalación Obsidian + Sincronización Git.md",
     "Investigaciones/Externas/🤖Informe de Investigación Automatización con n8n.md",
     "Investigaciones/Externas/🤖 Informe IA Agentes y Power BI para Datos No Estructurados.md",
+    "Actas/Actas de Reunión.md",
+    "Tutoriales/🛖 Tutoriales.md",
+    "Manual_Sincronización_Git_GitHub.md",
+    "Tutoriales/🎓 Manual de Sincronización Git + GitHub.md",
+    "Docs/📚 Biblioteca de Investigación.md",
+    "Docs/Todos los archivos.md",
+    "Archivos/Investigación Google Colab y TOON en procesos ETL con IA.pdf",
+    "Archivos/Investigacion de la IA.pdf",
+    "Docs",
+    "Archivos/~$ y RNF DIAGRAMAS UML - ETL - IA.docx",
     "Untitled.canvas"
   ]
 }
