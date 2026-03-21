@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0068ed94bde9b807",
+        "id": "70277757539a0ed0",
         "type": "tabs",
         "children": [
           {
-            "id": "2f75745b0177f404",
+            "id": "99df7925bf7ccc1c",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -191,11 +191,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2f75745b0177f404",
+  "active": "99df7925bf7ccc1c",
   "lastOpenFiles": [
+    "Docs/📚 Biblioteca de Investigación.md",
     "🎊 Bienvenidos a IA-DataFlow Hub.md",
     "Investigaciones/🌎 Investigaciones Externas.md",
-    "Docs/📚 Biblioteca de Investigación.md",
     "Investigaciones/📂 Repositorio de Investigaciones.md",
     "Actas/Actas de Reunión.md",
     "Readme.md",
