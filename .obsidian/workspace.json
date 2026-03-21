@@ -290,8 +290,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aad8df08861cf204",
+  "active": "5acc4edec9bf4280",
   "lastOpenFiles": [
+    "CV-LAC",
     "Investigaciones/Internal/HU/cvlac Pohlman Cuartas.pdf",
     "Actas/Excel/ACTAS SEMILLERO PROYECTO IA - DATAFLOW.xlsx",
     "Actas/Excel",
@@ -330,7 +331,6 @@
     "Tableros.base",
     "Tablero de Avances.canvas",
     "Archivos/INFORME DE INVESTIGACION_N8N.pdf",
-    "Archivos/Investigación Google Colab y TOON en procesos ETL con IA.pdf",
     "Untitled.canvas"
   ]
 }
