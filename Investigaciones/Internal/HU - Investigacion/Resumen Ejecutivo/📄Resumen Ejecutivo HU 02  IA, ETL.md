@@ -1,7 +1,5 @@
 ## 🚀 Resumen Ejecutivo: Proyecto IA Dataflow
 
-**Responsable:** Juan Diego Mejía | **Fecha:** 10 de marzo de 2026
-
 **Objetivo:** Procesar **100,000 registros** mediante una arquitectura híbrida (Nube + Local) que garantiza soberanía de datos y eficiencia económica extrema.
 
 ## 🧠 El "Cerebro" Tecnológico
