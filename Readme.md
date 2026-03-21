@@ -51,3 +51,4 @@ Configura el plugin de la siguiente manera para que la sincronización sea invis
 Si la automatización falla, usa la paleta de comandos (`Ctrl + P`):
 - `Obsidian Git: Pull` → Para traer cambios nuevos.
 - `Obsidian Git: Commit and push all changes` → Para subir tu trabajo manualmente.
+[[actas]]
