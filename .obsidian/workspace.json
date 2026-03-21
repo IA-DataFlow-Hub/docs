@@ -31,19 +31,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4edbce7da1f85dc9",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
-            }
-          },
-          {
             "id": "62c443d14e05302f",
             "type": "leaf",
             "state": {
@@ -68,6 +55,19 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Marcadores"
+            }
+          },
+          {
+            "id": "d901c5c738bad70f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
             }
           }
         ]
@@ -167,8 +167,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
-      "obsidian-kanban:Create new board": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
@@ -178,7 +176,7 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "4edbce7da1f85dc9",
+  "active": "62c443d14e05302f",
   "lastOpenFiles": [
     "🎊 Bienvenidos a IA-DataFlow Hub.md",
     "Tutoriales/🛖 Tutoriales.md",
