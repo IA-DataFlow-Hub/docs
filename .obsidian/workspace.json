@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tareas.md",
+                "file": "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 05 - Seguridad y Cumplimiento Legal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tareas"
+              "title": "📄 Resumen Ejecutivo HU 05 - Seguridad y Cumplimiento Legal"
             }
           },
           {
@@ -69,16 +69,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🎊 Bienvenidos a IA-DataFlow Hub.md",
+                "file": "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🎊 Bienvenidos a IA-DataFlow Hub"
+              "title": "📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -252,16 +252,17 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "9a4131695eab734d",
+  "active": "0f93b856e8a32cd1",
   "lastOpenFiles": [
-    "Investigaciones/Internal/HU/📄 Resumen Ejecutivo HU 02 - IA, ETL (JUAN DIEGO).md",
-    "Investigaciones/Internal/HU",
     "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 02 - IA, ETL y Economía de Tokens.md",
-    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 05 - Seguridad y Cumplimiento Legal.md",
-    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 03 - Stack Tecnológico y Procesos.md",
     "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 01 - Infraestructura.md",
-    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML.md",
+    "Investigaciones/Internal/HU/📄 Resumen Ejecutivo HU 02 - IA, ETL (JUAN DIEGO).md",
     "Tareas.md",
+    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML.md",
+    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 05 - Seguridad y Cumplimiento Legal.md",
+    "🎊 Bienvenidos a IA-DataFlow Hub.md",
+    "Investigaciones/Internal/HU",
+    "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 03 - Stack Tecnológico y Procesos.md",
     "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 04 - UX y Evolución de Dashboards.md",
     "Investigaciones/Externas/📊 Informe de Investigación Microsoft Power Platform.md",
     "Investigaciones/Internal/HU - IA",
@@ -269,7 +270,6 @@
     "Investigaciones/Externas",
     "Readme.md",
     "Investigaciones/📂 Repositorio de Investigaciones.md",
-    "🎊 Bienvenidos a IA-DataFlow Hub.md",
     "Tablero de Avances.md",
     "Actas/07 de Marzo de 2026 - Proyecto IA-DataFlow.md",
     "Actas/28 de febrero de 2026 - Inicio de Semillero IA-DataFlow.md",
