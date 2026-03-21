@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🎊 Bienvenidos a IA-DataFlow Hub.md",
+                "file": "Tareas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🎊 Bienvenidos a IA-DataFlow Hub"
+              "title": "Tareas"
             }
           }
         ],
@@ -296,12 +296,15 @@
   },
   "active": "b653951173a2426e",
   "lastOpenFiles": [
+    "Readme.md",
+    "Tutoriales/🛖 Tutoriales.md",
+    "Tutoriales/💎 Guía de Instalación Obsidian + Sincronización Git.md",
+    "Tutoriales/🎓 Manual de Sincronización Git + GitHub.md",
+    "🎊 Bienvenidos a IA-DataFlow Hub.md",
     "Tareas.md",
     "Investigaciones/📂 Repositorio de Investigaciones.md",
     "Investigaciones/Internal/HU/📄 Resumen Ejecutivo HU 02 - IA, ETL (JUAN DIEGO).md",
     "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 02 - IA, ETL y Economía de Tokens.md",
-    "🎊 Bienvenidos a IA-DataFlow Hub.md",
-    "Readme.md",
     "Actas/28 de febrero de 2026 - Inicio de Semillero IA-DataFlow.md",
     "Actas/07 de Marzo de 2026 - Proyecto IA-DataFlow.md",
     "conflict-files-obsidian-git.md",
@@ -324,13 +327,10 @@
     "Tablero de Avances.canvas",
     "Investigaciones/Externas/🚀 Informe Google Colab y TOON en Procesos ETL con IA.md",
     "Archivos/INFORME DE INVESTIGACION_N8N.pdf",
-    "Tutoriales/💎 Guía de Instalación Obsidian + Sincronización Git.md",
     "Investigaciones/Externas/🤖Informe de Investigación Automatización con n8n.md",
     "Investigaciones/Externas/🤖 Informe IA Agentes y Power BI para Datos No Estructurados.md",
     "Actas/Actas de Reunión.md",
-    "Tutoriales/🛖 Tutoriales.md",
     "Manual_Sincronización_Git_GitHub.md",
-    "Tutoriales/🎓 Manual de Sincronización Git + GitHub.md",
     "Archivos/Investigación Google Colab y TOON en procesos ETL con IA.pdf",
     "Archivos/Investigacion de la IA.pdf",
     "Docs",
