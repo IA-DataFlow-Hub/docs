@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "fe9ab13f184cfcad",
+        "id": "87a35867de9b66b2",
         "type": "tabs",
         "children": [
           {
-            "id": "e3dd3825bed284be",
+            "id": "feaf648b1f8a76d5",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "CV-LAC/CVLAC David Ospina.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "CVLAC David Ospina"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
             }
           }
         ]
@@ -191,10 +189,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "e3dd3825bed284be",
+  "active": "feaf648b1f8a76d5",
   "lastOpenFiles": [
-    "CV-LAC/CVLAC Pohlman Cuartas.pdf",
+    "Tareas.md",
     "CV-LAC/CVLAC David Ospina.pdf",
+    "CV-LAC/CVLAC Pohlman Cuartas.pdf",
     "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 05 - Seguridad y Cumplimiento Legal.md",
     "Archivos/INFORME MICROSOFT POWER PLATFORM.pdf",
     "Investigaciones/Internal/HU/📄 Resumen Ejecutivo HU 02 - IA, ETL (JUAN DIEGO).md",
@@ -227,7 +226,6 @@
     "Investigaciones/Internal",
     "Investigaciones/Externas",
     "Investigaciones",
-    "Docs",
     "Actas/Actas de Reunión.md"
   ]
 }
