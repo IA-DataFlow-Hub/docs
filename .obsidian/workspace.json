@@ -48,9 +48,97 @@
               "icon": "lucide-file",
               "title": "🎊 Bienvenidos a IA-DataFlow Hub"
             }
+          },
+          {
+            "id": "ea653cb1f84e9d51",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".gitignore",
+                "bFile": ".gitignore",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: .gitignore  (Index)"
+            }
+          },
+          {
+            "id": "569fa63a609070bc",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".gitignore",
+                "bFile": ".gitignore",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: .gitignore  (Index)"
+            }
+          },
+          {
+            "id": "cfbec36e5f1963c2",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".gitignore",
+                "bFile": ".gitignore",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: .gitignore  (Index)"
+            }
+          },
+          {
+            "id": "4b9b279765d92313",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
+            }
+          },
+          {
+            "id": "a4c3b5f5295d0aed",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".gitignore",
+                "bFile": ".gitignore",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: .gitignore  (Index)"
+            }
+          },
+          {
+            "id": "1d347510942ac239",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -224,8 +312,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d6914dbfe39e47ed",
+  "active": "1d347510942ac239",
   "lastOpenFiles": [
+    "Investigaciones/Internal/HU - Investigacion/HU/Hu 05.docx",
+    "conflict-files-obsidian-git.md",
+    "🎊 Bienvenidos a IA-DataFlow Hub.md",
+    "CV-LAC/Registro CvLAC - Sebastian Bautista Martinez.pdf",
+    "CV-LAC/CvLAC - RG - Andres Andrade.pdf",
     "Readme.md",
     "Tareas.md",
     "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 06 Arquitectura Lógica y Diseño de Datos.md",
@@ -250,17 +343,13 @@
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 03 Stack Tecnológico y Manejo de Procesos ( Oscar Antury Avila).md",
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres).md",
     "Archivos/interno/HU 03 y HU 04.pdf",
-    "Archivos/interno/~$Hu 05.docx",
-    "Archivos/interno/Hu 05.pdf",
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 02 - IA, ETL (JUAN DIEGO).md",
     "Investigaciones/🌎 Investigaciones Externas.md",
     "Docs/📚 Biblioteca de Investigación.md",
-    "🎊 Bienvenidos a IA-DataFlow Hub.md",
     "Investigaciones/📂 Repositorio de Investigaciones.md",
     "Actas/Actas de Reunión.md",
     "Investigaciones/🏠 Investigaciones Internas.md",
     "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML.md",
-    "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 01 - Infraestructura.md",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Tablero de Avances.canvas",
