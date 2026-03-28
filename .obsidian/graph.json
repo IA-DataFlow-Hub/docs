@@ -1,5 +1,5 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": false,
@@ -11,7 +11,7 @@
       "query": "path:Investigaciones/Externas  ",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 8673768
       }
     },
     {
@@ -34,18 +34,34 @@
         "a": 1,
         "rgb": 5431378
       }
+    },
+    {
+      "query": "file:🎊 Bienvenidos a IA-DataFlow Hub",
+      "color": {
+        "a": 1,
+        "rgb": 16715535
+      }
     }
   ],
   "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": -1.4,
-  "nodeSizeMultiplier": 2.06510416666667,
-  "lineSizeMultiplier": 4.1578125,
+  "textFadeMultiplier": -2.6,
+  "nodeSizeMultiplier": 3.37942708333333,
+  "lineSizeMultiplier": 2.43515625,
   "collapse-forces": false,
+<<<<<<< HEAD
   "centerStrength": 0.244791666666667,
   "repelStrength": 14.2708333333333,
   "linkStrength": 0.442708333333333,
   "linkDistance": 59,
   "scale": 0.2588386562181569,
   "close": true
+=======
+  "centerStrength": 0.1640625,
+  "repelStrength": 17.5520833333333,
+  "linkStrength": 1,
+  "linkDistance": 500,
+  "scale": 0.18462326225857498,
+  "close": false
+>>>>>>> origin/main
 }
