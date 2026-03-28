@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "29c539b822f8e348",
+        "id": "30b306a4f539325a",
         "type": "tabs",
         "children": [
           {
-            "id": "c049221abe26d49e",
+            "id": "c172e819d4588399",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -193,12 +189,16 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "415e38775fba04d3",
+  "active": "c172e819d4588399",
   "lastOpenFiles": [
-    "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 06 Arquitectura Lógica y Diseño de Datos.md",
-    "conflict-files-obsidian-git.md",
+    "CV-LAC/CVLAC David Ospina.pdf",
+    "CV-LAC/CvLAC - JUAN DIEGO MEJIA MAESTRE.pdf",
+    "CV-LAC/CvLAC - Oscar Antury.pdf",
     "CV-LAC/Registro CvLAC - Sebastian Bautista Martinez.pdf",
+    "CV-LAC/CVLAC Pohlman Cuartas.pdf",
     "CV-LAC/CvLAC - RG - Andres Andrade.pdf",
+    "conflict-files-obsidian-git.md",
+    "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 06 Arquitectura Lógica y Diseño de Datos.md",
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 02 - IA, ETL (JUAN DIEGO).md",
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres).md",
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 06 - Arquitectura y Modelado UML (JUAN DIEGO).md",
@@ -224,9 +224,6 @@
     "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo",
     "Investigaciones/Internal/HU - Investigacion/HU",
     "Investigaciones/Internal/HU - Investigacion",
-    "CV-LAC/CvLAC - Oscar Antury.pdf",
-    "CV-LAC/CvLAC - JUAN DIEGO MEJIA MAESTRE.pdf",
-    "Archivos/interno/Semillero - HU 01 Infraestructura y Viabilidad de Servidores.pdf",
     "Tareas.md",
     "Investigaciones/Internal/HU - IA/📄 Resumen Ejecutivo HU 05 - Seguridad y Cumplimiento Legal.md",
     "Investigaciones/Internal/HU/📄 Resumen Ejecutivo HU 02 - IA, ETL (JUAN DIEGO).md"
