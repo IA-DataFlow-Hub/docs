@@ -71,6 +71,11 @@ Este ecosistema integra herramientas de vanguardia para simplificar el ciclo de 
 >> - **Expertiz:** Soporte Técnico Nivel II y Scripting en PowerShell.
 ---
 
+> [!multi-column] 
+>
+>> ### 🛡️Profesor
+>Raul Bareño Gutierrez
+---
 ## 📂 Navegación del Vault
 
 > [!tip] Utiliza `Ctrl + Clic` en los enlaces para crear las notas automáticamente.

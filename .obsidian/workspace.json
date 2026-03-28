@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tareas.md",
-                "mode": "source",
+                "file": "🎊 Bienvenidos a IA-DataFlow Hub.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tareas"
+              "title": "🎊 Bienvenidos a IA-DataFlow Hub"
             }
           }
         ],
@@ -226,6 +226,8 @@
   },
   "active": "d6914dbfe39e47ed",
   "lastOpenFiles": [
+    "Readme.md",
+    "Tareas.md",
     "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 06 Arquitectura Lógica y Diseño de Datos.md",
     "CV-LAC/CvLAC - Oscar Antury.pdf",
     "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 05 Seguridad, Privacidad y Cumplimiento.md",
@@ -233,7 +235,6 @@
     "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 04 Optimización de UX y Dashboards.md",
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 06 - Arquitectura y Modelado UML (JUAN DIEGO).md",
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 06 - Arquitectura y Modelado UML (DAVID).md",
-    "Tareas.md",
     "Archivos/interno/~$ 06 David.docx",
     "Archivos/interno/Hu 06 David.pdf",
     "Archivos/interno/Hu 06 David (1).docx",
@@ -257,7 +258,6 @@
     "🎊 Bienvenidos a IA-DataFlow Hub.md",
     "Investigaciones/📂 Repositorio de Investigaciones.md",
     "Actas/Actas de Reunión.md",
-    "Readme.md",
     "Investigaciones/🏠 Investigaciones Internas.md",
     "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML.md",
     "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 01 - Infraestructura.md",
