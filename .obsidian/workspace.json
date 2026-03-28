@@ -127,10 +127,12 @@
             "id": "1d347510942ac239",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "type": "pdf",
+              "state": {
+                "file": "CV-LAC/Registro CvLAC - Sebastian Bautista Martinez.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Registro CvLAC - Sebastian Bautista Martinez"
             }
           }
         ],
@@ -308,19 +310,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5acc4edec9bf4280",
+  "active": "1d347510942ac239",
   "lastOpenFiles": [
+    "CV-LAC/CvLAC - Oscar Antury.pdf",
+    "CV-LAC/CvLAC - RG - Andres Andrade.pdf",
+    "CV-LAC/CVLAC Pohlman Cuartas.pdf",
+    "CV-LAC/Registro CvLAC - Sebastian Bautista Martinez.pdf",
     "CV-LAC/CvLAC - Maria Virginia Labarca.pdf",
     "CV-LAC/CvLAC - Maria Virginia Labarca",
     "Investigaciones/Internal/HU - Investigacion/HU/Hu 05.docx",
     "conflict-files-obsidian-git.md",
     "🎊 Bienvenidos a IA-DataFlow Hub.md",
-    "CV-LAC/Registro CvLAC - Sebastian Bautista Martinez.pdf",
-    "CV-LAC/CvLAC - RG - Andres Andrade.pdf",
     "Readme.md",
     "Tareas.md",
     "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 06 Arquitectura Lógica y Diseño de Datos.md",
-    "CV-LAC/CvLAC - Oscar Antury.pdf",
     "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 05 Seguridad, Privacidad y Cumplimiento.md",
     "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres).md",
     "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 04 Optimización de UX y Dashboards.md",
@@ -335,7 +338,6 @@
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 05 Seguridad, Privacidad y Cumplimiento (Ley 1581 - Pohlman y David Steven ).md",
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 04 Optimización de UX y Evolución de Dashboards (María Virginia Labarca).md",
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 04 Optimización de UX y Evolución de Dashboards ( Oscar Antury Avila).md",
-    "Archivos/interno/HU 04 Maria.pdf",
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 03 Stack Tecnológico y Manejo de Procesos (JUAN DIEGO).md",
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 03 Stack Tecnológico y Manejo de Procesos ( Oscar Antury Avila).md",
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres).md",
