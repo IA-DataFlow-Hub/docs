@@ -127,12 +127,14 @@
             "id": "1d347510942ac239",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "CV-LAC/Registro CvLAC - Sebastian Bautista Martinez.pdf"
+                "file": "Investigaciones/Videos de Propuesta.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Registro CvLAC - Sebastian Bautista Martinez"
+              "icon": "lucide-file",
+              "title": "Videos de Propuesta"
             }
           }
         ],
@@ -312,10 +314,12 @@
   },
   "active": "1d347510942ac239",
   "lastOpenFiles": [
+    "Investigaciones/🏠 Investigaciones Internas.md",
+    "Investigaciones/Videos de Propuesta.md",
+    "CV-LAC/Registro CvLAC - Sebastian Bautista Martinez.pdf",
     "CV-LAC/CvLAC - Oscar Antury.pdf",
     "CV-LAC/CvLAC - RG - Andres Andrade.pdf",
     "CV-LAC/CVLAC Pohlman Cuartas.pdf",
-    "CV-LAC/Registro CvLAC - Sebastian Bautista Martinez.pdf",
     "CV-LAC/CvLAC - Maria Virginia Labarca.pdf",
     "CV-LAC/CvLAC - Maria Virginia Labarca",
     "Investigaciones/Internal/HU - Investigacion/HU/Hu 05.docx",
@@ -332,7 +336,6 @@
     "Archivos/interno/~$ 06 David.docx",
     "Archivos/interno/Hu 06 David.pdf",
     "Archivos/interno/Hu 06 David (1).docx",
-    "Archivos/interno/Hu 06 David.docx",
     "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 03 Stack Tecnológico y Manejo de Procesos.md",
     "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 02  IA, ETL.md",
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 05 Seguridad, Privacidad y Cumplimiento (Ley 1581 - Pohlman y David Steven ).md",
@@ -346,7 +349,6 @@
     "Docs/📚 Biblioteca de Investigación.md",
     "Investigaciones/📂 Repositorio de Investigaciones.md",
     "Actas/Actas de Reunión.md",
-    "Investigaciones/🏠 Investigaciones Internas.md",
     "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML.md",
     "Sin título.canvas",
     "Sin título 1.canvas",
