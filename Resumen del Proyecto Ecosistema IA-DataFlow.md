@@ -45,3 +45,24 @@ Para lograr esto, el **FUUA Team** se divide en tres frentes críticos:
 ### 🚀 El Valor Diferencial
 
 A diferencia de un ETL tradicional, **IA-DataFlow** no solo mueve datos, sino que los **entiende**. Gracias a la inyección de "reglas de negocio" en los prompts de la IA, el sistema puede detectar anomalías que un software convencional ignoraría, actuando como un consultor de datos automático.
+
+
+```
+Modelo: llama3.1:8b-int4 → ~6 GB RAM
+RAG embeddings: nomic-embed-text → ~1 GB RAM
+Vector DB (Chroma): → ~2 GB RAM
+Sistema + overhead: → ~5 GB RAM
+Total usado: ~14 GB ✅
+```
+
+## 📊 Escenarios Concurrentes (Llama 3.1 8B int4):
+
+|Usuarios|Modelo Base|KV Cache por Usuario|VRAM/RAM Total Estimada|Resultado|
+|---|---|---|---|---|
+|**1-5**|6 GB|~0.2 GB c/u|7-8 GB|✅ Fluido|
+|**10**|6 GB|~0.4 GB c/u|10 GB|✅ Lento|
+|**30**|6 GB|~1 GB c/u|16 GB|⚠️ Límite, caídas|
+|**50**|6 GB|~2 GB c/u|20+ GB|❌ OOM (Out of Memory)|
+|**100**|6 GB|~4 GB c/u|30+ GB|❌ Falla total|
+|**500-1000**|-|-|150-500 GB|❌ Imposible en tu servidor|
+
