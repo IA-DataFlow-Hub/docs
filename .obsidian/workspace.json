@@ -4,127 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "70277757539a0ed0",
+        "id": "e9fb6a7d86f2ae9e",
         "type": "tabs",
         "children": [
           {
-            "id": "99df7925bf7ccc1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 03 Stack Tecnológico y Manejo de Procesos (JUAN DIEGO).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "📄 HU 03 Stack Tecnológico y Manejo de Procesos (JUAN DIEGO)"
-            }
-          },
-          {
-            "id": "5233ca9e2a160f0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tareas.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tareas"
-            }
-          },
-          {
-            "id": "d6914dbfe39e47ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🎊 Bienvenidos a IA-DataFlow Hub.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "🎊 Bienvenidos a IA-DataFlow Hub"
-            }
-          },
-          {
-            "id": "ea653cb1f84e9d51",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".gitignore",
-                "bFile": ".gitignore",
-                "aRef": "HEAD",
-                "bRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: .gitignore  (Index)"
-            }
-          },
-          {
-            "id": "569fa63a609070bc",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".gitignore",
-                "bFile": ".gitignore",
-                "aRef": "HEAD",
-                "bRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: .gitignore  (Index)"
-            }
-          },
-          {
-            "id": "cfbec36e5f1963c2",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".gitignore",
-                "bFile": ".gitignore",
-                "aRef": "HEAD",
-                "bRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: .gitignore  (Index)"
-            }
-          },
-          {
-            "id": "4b9b279765d92313",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
-            }
-          },
-          {
-            "id": "a4c3b5f5295d0aed",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".gitignore",
-                "bFile": ".gitignore",
-                "aRef": "HEAD",
-                "bRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: .gitignore  (Index)"
-            }
-          },
-          {
-            "id": "1d347510942ac239",
+            "id": "d75463b248a57c84",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -135,52 +19,9 @@
               },
               "icon": "lucide-file",
               "title": "🎊 Bienvenidos a IA-DataFlow Hub"
-            }
-          },
-          {
-            "id": "d12740a0ead1e108",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🎊 Bienvenidos a IA-DataFlow Hub.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "🎊 Bienvenidos a IA-DataFlow Hub"
-            }
-          },
-          {
-            "id": "d111b035619efa7c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Integrantes/Equipo 1/Juan Diego Mejía Maestre/📑 Perfil Profesional - [Nombre del Integrante].md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "📑 Perfil Profesional - [Nombre del Integrante]"
-            }
-          },
-          {
-            "id": "a49be38a3e4e7765",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sin título.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sin título"
             }
           }
-        ],
-        "currentTab": 11
+        ]
       }
     ],
     "direction": "vertical"
@@ -354,44 +195,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5acc4edec9bf4280",
+  "active": "d75463b248a57c84",
   "lastOpenFiles": [
-    "Integrantes/Equipo 1/Juan Diego Mejía Maestre 1/📑 Perfil Profesional - [Nombre del Integrante].md",
-    "Integrantes/Equipo 1/Juan Diego Mejía Maestre 1",
-    "📑 Perfil Profesional - [Nombre del Integrante].md",
+    "Docs/Resumen del Proyecto Ecosistema IA-DataFlow.md",
+    "Docs/📚 Biblioteca de Investigación.md",
+    "🎊 Bienvenidos a IA-DataFlow Hub.md",
+    "Tareas.md",
+    "Readme.md",
+    "Tutoriales/🎓 Manual de Sincronización Git + GitHub.md",
+    "Tutoriales/💎 Guía de Instalación Obsidian + Sincronización Git.md",
+    "Tutoriales/💎 Guía Maestra de Estilo en Obsidian.md",
+    "Tutoriales/🛖 Tutoriales.md",
+    "Investigaciones/🏠 Investigaciones Internas.md",
     "Sin título.md",
+    "Investigaciones/Inscripción de Estudiantes Semilleros.md",
+    "Investigaciones/Externas/🏗️ Requerimientos y Diseño de Arquitectura (UML).md",
+    "Integrantes/Equipo 2",
+    "Integrantes/Equipo 2/Andres Felipe Andrade/📑 Perfil Profesional - [Nombre del Integrante].md",
+    "Integrantes/Equipo 2/Andres Felipe Andrade",
+    "Integrantes/Equipo 2/Pohlman Cuartas/📑 Perfil Profesional - [Nombre del Integrante].md",
+    "Integrantes/Equipo 2/Pohlman Cuartas",
+    "Integrantes/Equipo 1/María Virginia Labarca/📑 Perfil Profesional - [Nombre del Integrante].md",
+    "Integrantes/Equipo 1/María Virginia Labarca",
+    "📑 Perfil Profesional - [Nombre del Integrante].md",
+    "Integrantes/Equipo 1/Sebastián Bautista Martínez/📑 Perfil Profesional - [Nombre del Integrante].md",
+    "Integrantes/Equipo 1/Sebastián Bautista Martínez",
     "📑 Perfil Profesional - [Nombre del Integrante] 1.md",
     "Integrantes/Equipo 1",
     "Integrantes/Equipo 1/Juan Diego Mejía Maestre/📑 Perfil Profesional - [Nombre del Integrante].md",
     "Integrantes/Juan Diego Mejía Maestre/📄 Perfil Profesional.md",
-    "Integrantes/David Ospina/📑 Perfil Profesional - [Nombre del Integrante].md",
-    "🎊 Bienvenidos a IA-DataFlow Hub.md",
+    "Integrantes/Equipo 2/David Ospina/📑 Perfil Profesional - [Nombre del Integrante].md",
     "Integrantes/Equipo 1/Juan Diego Mejía Maestre",
-    "Integrantes/David Ospina",
-    "Docs/Resumen del Proyecto Ecosistema IA-DataFlow.md",
+    "Integrantes/Equipo 2/David Ospina",
     "Integrantes",
     "Sin título.base",
-    "Docs/📚 Biblioteca de Investigación.md",
-    "Investigaciones/Inscripción de Estudiantes Semilleros.md",
-    "Investigaciones/🏠 Investigaciones Internas.md",
-    "CV-LAC/Registro CvLAC - Sebastian Bautista Martinez.pdf",
-    "CV-LAC/CvLAC - Oscar Antury.pdf",
-    "CV-LAC/CvLAC - RG - Andres Andrade.pdf",
-    "CV-LAC/CVLAC Pohlman Cuartas.pdf",
     "conflict-files-obsidian-git.md",
-    "Readme.md",
-    "Tareas.md",
     "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 06 Arquitectura Lógica y Diseño de Datos.md",
     "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 05 Seguridad, Privacidad y Cumplimiento.md",
     "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres).md",
-    "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 04 Optimización de UX y Dashboards.md",
-    "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 06 - Arquitectura y Modelado UML (JUAN DIEGO).md",
-    "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 06 - Arquitectura y Modelado UML (DAVID).md",
-    "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 03 Stack Tecnológico y Manejo de Procesos.md",
-    "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 02  IA, ETL.md",
-    "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 05 Seguridad, Privacidad y Cumplimiento (Ley 1581 - Pohlman y David Steven ).md",
-    "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 04 Optimización de UX y Evolución de Dashboards (María Virginia Labarca).md",
-    "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 04 Optimización de UX y Evolución de Dashboards ( Oscar Antury Avila).md",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Tablero de Avances.canvas",
