@@ -143,7 +143,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resumen del Proyecto Ecosistema IA-DataFlow.md",
+                "file": "Docs/Resumen del Proyecto Ecosistema IA-DataFlow.md",
                 "mode": "source",
                 "source": false
               },
@@ -326,10 +326,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d12740a0ead1e108",
+  "active": "5acc4edec9bf4280",
   "lastOpenFiles": [
     "🎊 Bienvenidos a IA-DataFlow Hub.md",
-    "Resumen del Proyecto Ecosistema IA-DataFlow.md",
+    "Docs/Resumen del Proyecto Ecosistema IA-DataFlow.md",
     "Sin título.base",
     "Docs/📚 Biblioteca de Investigación.md",
     "Investigaciones/Inscripción de Estudiantes Semilleros.md",

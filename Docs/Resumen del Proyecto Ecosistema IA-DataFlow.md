@@ -83,3 +83,27 @@ Total usado: ~14 GB ✅
 	              │  Redis   │◀───────────│ Queue     │◀────────────│ Power BI  │
 	              │ (Cola)   │            │ System    │             │ (Dash)    │
 	              └──────────┘            └───────────┘             └───────────┘
+
+
+## 🛠️ Roles de n8n en tu Pipeline:
+
+|Componente|Rol|Ejemplo de Workflow|
+|---|---|---|
+|**Trigger**|Recibe datos de NestJS|`HTTP Request` webhook|
+|**IA Agent**|Llama 3.1 para análisis|`Ollama Node` → analiza datos|
+|**Limpieza**|OpenRefine rules|`Execute Function` → GREL scripts|
+|**Cola**|Envia a Redis queue|`Redis Set List` con prioridad|
+|**Carga**|Guarda en MySQL|`MySQL Execute Query` INSERT|
+
+## ⚙️ Configuración Recomendada:
+
+|Componente|Configuración|RAM|
+|---|---|---|
+|**n8n**|Docker container|~500 MB|
+|**Redis Queue**|Max clients=100|~200 MB|
+|**Llama 3.1 8B**|int4 quantized|~6 GB|
+|**OpenRefine**|Standalone server|~1-2 GB|
+|**MySQL**|Innodb buffer pool|~2 GB|
+|**NestJS Backend**|Production mode|~500 MB|
+|**TOTAL**|-|**~11-12 GB** ✅|
+
