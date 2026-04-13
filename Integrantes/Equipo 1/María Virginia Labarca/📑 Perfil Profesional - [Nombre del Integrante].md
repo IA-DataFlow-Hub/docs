@@ -1,44 +1,46 @@
 ### 👤 Datos Generales
 
-- **Profesión:** [Ejemplo: Ingeniero de Sistemas]
+- **Profesión:** [Estudiante en Ingenieria de Sistemas]
     
-- **Enfoque Actual:** [Ejemplo: Desarrollo Full Stack y Arquitectura]
+- **Enfoque Actual:** [Automatización de procesos con BMC Client Management, administración de activos TI]
     
-- **Nivel de Experiencia:** [Ejemplo: Estudiante de 8vo semestre / Senior / Junior]
+- **Nivel de Experiencia:** [Junior (con experiencia práctica en entornos empresariales)]
     
 
 ### 🚀 Mis "Superpoderes" (Habilidades Técnicas)
 
 - **Lenguajes que domino:**
     
-    - [Ejemplo: C# para el backend]
+    - [PowerShell (automatización de tareas y despliegues)]
         
-    - [Ejemplo: JavaScript y TypeScript para el frontend]
-        
-    - [Ejemplo: SQL para bases de datos]
+    - [Conocimientos básicos de scripting]
         
 - **Herramientas y Frameworks:**
     
-    - [Ejemplo: NestJS, React, .NET 9]
+    - [BMC Client Management (despliegue de software, parches, automatización)]
         
-    - [Ejemplo: Docker para contenedores]
-        
+    - [Active Directory (gestión de usuarios y equipos)]
+
+    - [Microsoft Excel (análisis y visualización de datos)]
+
 - **¿En qué puedo aportar más al equipo?**
     
-    - [Ejemplo: Puedo encargarme de crear las APIs y conectar n8n con la base de datos MySQL.]
+    - [Manejo de información y apoyo en pruebas y validación de soluciones, con el objetivo de mejorar la eficiencia operativa y reducir tareas manuales.]
         
 
 ### 💻 Especificaciones de mi Estación de Trabajo
 
-- **Procesador:** [Ejemplo: Intel Core i7 12va Gen]
+- **Procesador:** [11th Gen Intel(R) Core(TM) i3-1115G4 @ 3.00GHz (3.00 GHz)]
     
-- **Memoria RAM:** [Ejemplo: 32 GB]
+- **Memoria RAM:** [8 GB ]
     
-- **Tarjeta de Video (GPU):** [Ejemplo: NVIDIA RTX 3050 - Importante para IA local]
+- **Tarjeta de Video (GPU):** [Intel(R) UHD GRAPHICS]
     
-- **Almacenamiento:** [Ejemplo: 1TB SSD]
+- **Almacenamiento:** [250 SSD]
     
 
 ### 🎯 Expectativa en el Proyecto
 
-- [Ejemplo: Quiero aprender a optimizar prompts con el estándar TOON y asegurar que todo cumpla con la Ley 1581.]
+- [Fortalecer mis conocimientos en el uso de inteligencia artificial aplicada a procesos empresariales]
+- [Entender cómo integrar la gestión de datos con herramientas de automatización y analítica]
+- [Adquirir experiencia en la implementación de soluciones que mejoren la eficiencia operativa en entornos reales]
