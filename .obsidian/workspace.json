@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "b166b345944ee591",
+    "id": "ef47669cdb58cd09",
     "type": "split",
     "children": [
       {
-        "id": "e9fb6a7d86f2ae9e",
+        "id": "b98d538984973c8a",
         "type": "tabs",
         "children": [
           {
-            "id": "d75463b248a57c84",
+            "id": "7a1a2ee787cd1755",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Integrantes/Equipo 1/Juan Diego Mejía Maestre/📑 Perfil Profesional - Juan Diego Mejia Maestre.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "📑 Perfil Profesional - Juan Diego Mejia Maestre"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -27,28 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e7f7370a77e52a65",
+    "id": "a9ebaaade4cb292e",
     "type": "split",
     "children": [
       {
-        "id": "519a6095a7da8e61",
+        "id": "f2194f1899eb4c35",
         "type": "tabs",
         "children": [
           {
-            "id": "5acc4edec9bf4280",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
-            }
-          },
-          {
-            "id": "0ee8731a34febfd7",
+            "id": "62c443d14e05302f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +48,7 @@
             }
           },
           {
-            "id": "43875c9f68c28518",
+            "id": "2774ed0c1aa85840",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -73,28 +56,41 @@
               "icon": "lucide-bookmark",
               "title": "Marcadores"
             }
+          },
+          {
+            "id": "d901c5c738bad70f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 625.5
+    "width": 300
   },
   "right": {
-    "id": "dc99987b28e84d42",
+    "id": "2daa72a0765e1673",
     "type": "split",
     "children": [
       {
-        "id": "deca8cc49018607c",
+        "id": "fff42e81fef0c05d",
         "type": "tabs",
         "children": [
           {
-            "id": "021db1060885acc4",
+            "id": "b7dd69cea37d80d9",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bienvenidos a IA-DataFlow Hub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +100,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Bienvenidos a IA-DataFlow Hub"
+              "title": "Enlaces entrantes"
             }
           },
           {
-            "id": "956f5f7bdafb42bb",
+            "id": "9e12dffd0069c48e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bienvenidos a IA-DataFlow Hub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Bienvenidos a IA-DataFlow Hub"
+              "title": "Enlaces salientes"
             }
           },
           {
-            "id": "874fa732d324216a",
+            "id": "46093e970fbb2030",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,11 +128,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Etiquetas"
             }
           },
           {
-            "id": "01e58b594d3bf80f",
+            "id": "f145275379844da6",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -147,26 +142,25 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "Todas las propiedades"
             }
           },
           {
-            "id": "e63c12ae5911c129",
+            "id": "eb8d8aa63a01748a",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bienvenidos a IA-DataFlow Hub.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Bienvenidos a IA-DataFlow Hub"
+              "title": "Esquema"
             }
           },
           {
-            "id": "aad8df08861cf204",
+            "id": "415e38775fba04d3",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -180,11 +174,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 666.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-kanban:Create new board": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
@@ -192,50 +185,47 @@
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Crear nueva base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "d75463b248a57c84",
+  "active": "7a1a2ee787cd1755",
   "lastOpenFiles": [
-    "🎊 Bienvenidos a IA-DataFlow Hub.md",
-    "Integrantes/Equipo 1/Juan Diego Mejía Maestre/📑 Perfil Profesional - Juan Diego Mejia Maestre.md",
-    "Integrantes/Equipo 1/Sebastián Bautista Martínez/📑 Perfil Profesional - [Nombre del Integrante].md",
-    "Docs/Resumen del Proyecto Ecosistema IA-DataFlow.md",
-    "Tutoriales/🎓 Manual de Sincronización Git + GitHub.md",
-    "Docs/📚 Biblioteca de Investigación.md",
-    "Tareas.md",
-    "Readme.md",
-    "Tutoriales/💎 Guía de Instalación Obsidian + Sincronización Git.md",
-    "Tutoriales/💎 Guía Maestra de Estilo en Obsidian.md",
-    "Tutoriales/🛖 Tutoriales.md",
-    "Investigaciones/🏠 Investigaciones Internas.md",
-    "Sin título.md",
+    "Actas/07 de Marzo de 2026 - Proyecto IA-DataFlow.md",
+    "Actas/Actas de Reunión.md",
+    "Actas/28 de febrero de 2026 - Inicio de Semillero IA-DataFlow.md",
+    "Investigaciones/Internal/HU - Investigacion/HU/Hu 05.docx",
     "Investigaciones/Inscripción de Estudiantes Semilleros.md",
-    "Investigaciones/Externas/🏗️ Requerimientos y Diseño de Arquitectura (UML).md",
-    "Integrantes/Equipo 2",
-    "Integrantes/Equipo 2/Andres Felipe Andrade/📑 Perfil Profesional - [Nombre del Integrante].md",
-    "Integrantes/Equipo 2/Andres Felipe Andrade",
     "Integrantes/Equipo 2/Pohlman Cuartas/📑 Perfil Profesional - [Nombre del Integrante].md",
-    "Integrantes/Equipo 2/Pohlman Cuartas",
-    "Integrantes/Equipo 1/María Virginia Labarca/📑 Perfil Profesional - [Nombre del Integrante].md",
-    "Integrantes/Equipo 1/María Virginia Labarca",
-    "📑 Perfil Profesional - [Nombre del Integrante].md",
-    "Integrantes/Equipo 1/Sebastián Bautista Martínez",
-    "📑 Perfil Profesional - [Nombre del Integrante] 1.md",
-    "Integrantes/Equipo 1",
-    "Integrantes/Juan Diego Mejía Maestre/📄 Perfil Profesional.md",
     "Integrantes/Equipo 2/David Ospina/📑 Perfil Profesional - [Nombre del Integrante].md",
-    "Integrantes/Equipo 1/Juan Diego Mejía Maestre",
+    "Integrantes/Equipo 2/Andres Felipe Andrade/📑 Perfil Profesional - [Nombre del Integrante].md",
+    "Integrantes/Equipo 1/Sebastián Bautista Martínez/📑 Perfil Profesional - [Nombre del Integrante].md",
+    "Integrantes/Equipo 1/María Virginia Labarca/📑 Perfil Profesional - [Nombre del Integrante].md",
+    "Integrantes/Equipo 1/Juan Diego Mejía Maestre/📑 Perfil Profesional - Juan Diego Mejia Maestre.md",
+    "Integrantes/Equipo 2/Pohlman Cuartas",
     "Integrantes/Equipo 2/David Ospina",
+    "Integrantes/Equipo 2/Andres Felipe Andrade",
+    "Integrantes/Equipo 1/Sebastián Bautista Martínez",
+    "Integrantes/Equipo 1/María Virginia Labarca",
+    "Integrantes/Equipo 1/Juan Diego Mejía Maestre",
+    "Integrantes/Equipo 2",
+    "Integrantes/Equipo 1",
     "Integrantes",
-    "Sin título.base",
+    "Docs/Resumen del Proyecto Ecosistema IA-DataFlow.md",
     "conflict-files-obsidian-git.md",
     "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 06 Arquitectura Lógica y Diseño de Datos.md",
+    "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 02 - IA, ETL (JUAN DIEGO).md",
+    "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres).md",
+    "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 06 - Arquitectura y Modelado UML (JUAN DIEGO).md",
+    "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 06 - Arquitectura y Modelado UML (DAVID).md",
+    "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML.md",
+    "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 05 - Seguridad y Cumplimiento Legal.md",
+    "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 04 - UX y Evolución de Dashboards.md",
+    "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 03 - Stack Tecnológico y Procesos.md",
+    "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 02 - IA, ETL y Economía de Tokens.md",
+    "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 01 - Infraestructura.md",
     "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 05 Seguridad, Privacidad y Cumplimiento.md",
-    "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres).md",
-    "Sin título.canvas",
-    "Sin título 1.canvas",
-    "Tablero de Avances.canvas",
-    "Untitled.canvas"
+    "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 04 Optimización de UX y Dashboards.md",
+    "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 02  IA, ETL.md"
   ]
 }
