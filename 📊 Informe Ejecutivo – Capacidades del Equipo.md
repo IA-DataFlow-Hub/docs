@@ -1,241 +1,212 @@
-# 📊 Informe Ejecutivo – Capacidades del Equipo
+# 🤖 Evaluación IA (Infraestructura real)
+
+### 📦 Requisito mínimo del sistema
+
+- Consumo: **~11–12 GB RAM**
+- Recomendado real: **16 GB+ (estable) / 32 GB (ideal)**
 
 ---
 
-## 🧠 Resumen General
+## 🟢 Aptos para correr IA local (Llama + stack completo)
 
-El equipo está compuesto por **7 integrantes** con un perfil predominantemente técnico orientado a:
+### 🧠 Juan Diego Mejía
 
-- 🧩 Backend y APIs  
-- 🗄️ Bases de datos  
-- 🔐 Seguridad y cumplimiento legal  
-- ⚙️ Infraestructura  
+- 💾 32 GB RAM
+- 🎮 RTX 5060 Ti 16GB
+- 🤖 IA: Avanzado
 
-📌 **Realidad:**  
-- 1 perfil **avanzado (líder técnico)**  
-- 6 perfiles **básico–junior**  
-
-👉 Esto implica **dependencia alta del líder técnico**.
+✅ **Puede correr TODO el stack sin problema**  
+👉 Backend + IA + arquitectura + optimización
 
 ---
 
-## 🧩 Distribución de Fortalezas
+### 🧠 Sebastián Bautista
 
-### 🔧 Backend / APIs
-- 👥 4 integrantes
-- 🧰 Stack:
-  - C# (.NET)
-  - PHP / Laravel
-  - Node.js (NestJS)
+- 💾 32 GB RAM
+- 🎮 RTX 4050
+- 🤖 IA: Básico
 
-📌 **Conclusión:**  
-Base sólida, pero requiere dirección clara.
+✅ **Puede correr el sistema completo**  
+⚠️ Necesita guía en IA
 
----
-
-### 🗄️ Bases de Datos
-- 👥 5 integrantes
-- 🧰 Tecnologías:
-  - MySQL (principal)
-  - SQL Server
-  - PostgreSQL
-  - MongoDB (1)
-
-📌 **Conclusión:**  
-Buen nivel en modelado (DER).
+👉 Ideal: Infraestructura + DB + soporte IA
 
 ---
 
-### 🔐 Seguridad y Legal
-- 👥 4 integrantes
-- 🧰 Enfoque:
-  - Ley 1581
-  - HTTPS / SSL / SSH
+## 🟡 Parcial (pueden trabajar IA pero limitado)
 
-📌 **Conclusión:**  
-Fuerte en teoría, falta práctica.
+### 🧠 Andrés Andrade
 
----
+- 💾 24 GB RAM
+- 🎮 GTX 1650 (limitada)
+- 🤖 IA: Básico
 
-### ⚙️ Infraestructura
-- 👥 3 integrantes
-- 🧰 Tecnologías:
-  - Docker (solo 1 fuerte)
-  - Windows Server / Linux
+⚠️ Puede correr:
 
-📌 **Conclusión:**  
-Área crítica dependiente de 1 persona.
+- Llama pero con limitaciones
+- Sin carga pesada simultánea
+
+👉 Ideal: QA + pruebas IA + validación outputs
 
 ---
 
-### 🎨 Frontend
-- 👥 3 integrantes
-- 🧰 Tecnologías:
-  - React
-  - Angular
-  - Tailwind
+## 🔴 No aptos para IA local (solo consumo API o tareas ligeras)
 
-📌 **Conclusión:**  
-Cobertura básica, sin especialista UX/UI.
+### 🧠 Oscar Antury
 
----
+- 💾 16 GB RAM
+- ❌ Sin GPU
 
-### 🤖 IA / LLMs
-- 🟢 1 avanzado  
-- 🟡 5 básicos  
-- 🔴 1 nulo  
+⚠️ Muy justo para 12GB stack  
+👉 Solo:
 
-📌 **Conclusión:**  
-Alto potencial, pero centralizado.
+- Validación
+- Diseño
+- Seguridad
 
 ---
 
-### 🔄 Automatización / ETL
-- 📉 Nivel bajo
-- 🧰 Herramientas:
-  - Power Automate
-  - Jupyter
+### 🧠 David Ospina
 
-⚠️ **Riesgo:**  
-No hay pipeline de datos definido.
+- 💾 8 GB RAM
+- ❌ Sin GPU
+
+❌ No viable IA local
 
 ---
 
-## 🧑‍💻 Nivel Técnico Global
+### 🧠 María
 
-| Nivel      | Cantidad |
-|-----------|--------|
-| 🟢 Avanzado | 1 |
-| 🟡 Intermedio | 0 |
-| 🔴 Básico | 6 |
+- 💾 8 GB RAM
+- ❌ Sin GPU
 
-📌 **Conclusión:**  
-Equipo junior → necesita guía constante.
+❌ No viable IA
 
 ---
 
-## 🖥️ Capacidad Técnica (Hardware)
+### 🧠 Pohlman
 
-### 💾 RAM
-- 32 GB → 2 personas  
-- 24 GB → 1 persona  
-- ≤16 GB → 4 personas  
+- 💾 8 GB RAM
+- ❌ Sin GPU
 
-### 🎮 GPU
-- 🟢 RTX 5060 Ti  
-- 🟡 RTX 4050  
-- 🔴 GTX 1650  
-
-📌 **Conclusión:**  
-Suficiente para desarrollo, limitado para IA distribuida.
+❌ No viable IA
 
 ---
 
-## 🏗️ Roles Identificados
+# 🧩 Conclusión IA (cruda)
 
-### 🧠 Liderazgo Técnico
-- 👤 Juan Diego → Backend + Arquitectura + IA
-
----
-
-### 🧩 Líderes de Módulo
-- 👥 4 personas
-
----
-
-### 🧪 QA / Testing
-- 👥 3 personas
-
----
-
-### 📋 Gestión
-- 👤 1 Scrum Master  
-- 👥 2 soporte administrativo  
-
-📌 **Conclusión:**  
-Roles definidos, ejecución débil.
-
----
-
-## ⚠️ Riesgos Identificados
-
-1. 🔥 **Bus factor = 1**
-2. 📉 Bajo nivel en:
-   - Git avanzado  
-   - CI/CD  
-   - Arquitectura  
-3. 🚫 Falta de:
-   - Automatización  
-   - Estándares de código  
-4. ⚙️ Infraestructura débil  
-5. 🤖 IA centralizada  
-
----
-
-## 🚀 Recomendaciones
-
-### 🏗️ Arquitectura
-- Implementar:
-  - Clean Architecture  
-  - Hexagonal  
-
-- Documentar:
-  - Swagger  
-  - UML  
-
----
-
-### 🔀 Control de Código
-```bash
-git flow + PR obligatorios + code review
-### 🔀 Control de Código
-```
-
-
-### ⚙️ DevOps Básico
-
-- Docker obligatorio
-- GitHub Actions (CI/CD)
-
----
-
-### 🧩 Distribución Inteligente
-
-|Área|Responsable|
+|Nivel|Personas|
 |---|---|
-|🔧 Backend Core|Juan Diego|
-|🗄️ DB|Sebastián|
-|🔐 Seguridad|Oscar / Pohlman|
-|🧪 QA|Andrés|
+|🟢 Full IA|Juan Diego, Sebastián|
+|🟡 Parcial|Andrés|
+|🔴 No IA|4 personas|
+
+👉 **IA real = 2 personas (crítico)**
+
+---
+
+# 🚀 ¿Quién puede desarrollar IA-DataFlow?
+
+## 🧠 Núcleo duro (los que SÍ construyen el sistema)
+
+### 🔥 Core Team
+
+#### 1. Juan Diego
+
+👉 Arquitecto + Backend + IA + TOON
+
+- Diseña TODO el sistema
+- Define estándares
+- Implementa agentes
+
+---
+
+#### 2. Sebastián
+
+👉 Infraestructura + DB
+
+- Docker
+- MySQL
+- pipelines
+- soporte despliegue
+
+---
+
+#### 3. Andrés
+
+👉 QA + Testing IA
+
+- valida outputs
+- pruebas con datasets
+- edge cases
+
+---
+
+## 🧩 Soporte técnico (no core IA)
+
+### 🔐 Oscar
+
+- Seguridad (Ley 1581)
+- Modelado
+- Documentación
+
+---
+
+### 🔐 Pohlman
+
+- Seguridad técnica puntual
+- QA apoyo
+
+---
+
+### 📋 María
+
+- Scrum
+- organización
+
+---
+
+### 📊 David
+
+- Power BI
+- reporting final
+
+---
+
+# 🧠 Mapeo directo al sistema IA-DataFlow
+
+|Componente|Responsable|
+|---|---|
+|🤖 Agentes IA|Juan Diego|
+|🧠 TOON|Juan Diego|
+|🗄️ Base de datos|Sebastián|
+|⚙️ Infraestructura (Docker)|Sebastián|
+|🧪 Validación IA|Andrés|
+|🔐 Anonimización / Legal|Oscar|
+|📊 Output (Power BI)|David|
 |📋 Gestión|María|
 
 ---
 
-### 🤖 IA
+# ⚠️ Riesgo REAL del proyecto
 
-- Centralizar al inicio
-- Luego:
-    - Capacitar equipo
-    - Estandarizar prompts
+👉 Sin Juan Diego → el proyecto **no existe**  
+👉 Sin Sebastián → no hay despliegue real
 
 ---
 
-## 📌 Conclusión Final
+# 🚀 Recomendación directa (sin rodeos)
 
-El equipo tiene:
+1. **Centraliza IA en 2 personas**
+2. No intentes que todos hagan IA
+3. Divide así:
 
-✅ Buena base técnica  
-⚠️ Nivel junior  
-🚀 Alto potencial
-
-👉 Clave del éxito:
-
-- 🧠 Arquitectura sólida
-- 🎯 Liderazgo técnico
-- 📏 Disciplina en procesos
+- Core técnico (3 personas)
+- Soporte (4 personas)
 
 ---
 
-> 💡 **Regla de oro:**  
-> Sin arquitectura → el proyecto muere.  
-> Sin procesos → el equipo se rompe.
+# 📌 Conclusión
+
+👉 Este proyecto **NO es para 7 desarrolladores**  
+👉 Es para **2–3 técnicos fuertes + soporte**
