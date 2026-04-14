@@ -57,14 +57,14 @@ Total usado: ~14 GB ✅
 
 ## 📊 Escenarios Concurrentes (Llama 3.1 8B int4):
 
-|Usuarios|Modelo Base|KV Cache por Usuario|VRAM/RAM Total Estimada|Resultado|
-|---|---|---|---|---|
-|**1-5**|6 GB|~0.2 GB c/u|7-8 GB|✅ Fluido|
-|**10**|6 GB|~0.4 GB c/u|10 GB|✅ Lento|
-|**30**|6 GB|~1 GB c/u|16 GB|⚠️ Límite, caídas|
-|**50**|6 GB|~2 GB c/u|20+ GB|❌ OOM (Out of Memory)|
-|**100**|6 GB|~4 GB c/u|30+ GB|❌ Falla total|
-|**500-1000**|-|-|150-500 GB|❌ Imposible en tu servidor|
+| Usuarios     | Modelo Base | KV Cache por Usuario | VRAM/RAM Total Estimada | Resultado                  |
+| ------------ | ----------- | -------------------- | ----------------------- | -------------------------- |
+| **1-5**      | 6 GB        | ~0.2 GB c/u          | 7-8 GB                  | ✅ Fluido                   |
+| **10**       | 6 GB        | ~0.4 GB c/u          | 10 GB                   | ✅ Lento                    |
+| **30**       | 6 GB        | ~1 GB c/u            | 16 GB                   | ⚠️ Límite, caídas          |
+| **50**       | 6 GB        | ~2 GB c/u            | 20+ GB                  | ❌ OOM (Out of Memory)      |
+| **100**      | 6 GB        | ~4 GB c/u            | 30+ GB                  | ❌ Falla total              |
+| **500-1000** | -           | -                    | 150-500 GB              | ❌ Imposible en tu servidor |
 
 	┌─────────────┐     ┌──────────┐     ┌─────────────┐
 	│   React UI  │────▶│ NestJS   │────▶│    n8n      │
