@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "📑 Perfil Profesional - [Nombre del Integrante]"
             }
+          },
+          {
+            "id": "fe37a318e9acd70b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📊 Informe Ejecutivo – Capacidades del Equipo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "📊 Informe Ejecutivo – Capacidades del Equipo"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,10 +210,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d75463b248a57c84",
+  "active": "fe37a318e9acd70b",
   "lastOpenFiles": [
-    "Integrantes/Equipo 1/Juan Diego Mejía Maestre/📑 Perfil Profesional - Juan Diego Mejia Maestre.md",
     "Integrantes/Equipo 1/María Virginia Labarca/📑 Perfil Profesional - [Nombre del Integrante].md",
+    "📊 Informe Ejecutivo – Capacidades del Equipo.md",
+    "Integrantes/Equipo 1/Juan Diego Mejía Maestre/📑 Perfil Profesional - Juan Diego Mejia Maestre.md",
     "Docs/Resumen del Proyecto Ecosistema IA-DataFlow.md",
     "Docs/📚 Biblioteca de Investigación.md",
     "Investigaciones/🌎 Investigaciones Externas.md",
@@ -212,7 +228,6 @@
     "Tareas.md",
     "Readme.md",
     "Tutoriales/💎 Guía de Instalación Obsidian + Sincronización Git.md",
-    "Sin título.md",
     "Investigaciones/Externas/🏗️ Requerimientos y Diseño de Arquitectura (UML).md",
     "Integrantes/Equipo 2",
     "Integrantes/Equipo 2/Andres Felipe Andrade/📑 Perfil Profesional - [Nombre del Integrante].md",
