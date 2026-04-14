@@ -1,44 +1,41 @@
 ### 👤 Datos Generales
 
-- **Profesión:** [Ejemplo: Ingeniero de Sistemas]
+- **Profesión:** Analista TI - Desarrollador Full Stack
     
-- **Enfoque Actual:** [Ejemplo: Desarrollo Full Stack y Arquitectura]
+- **Enfoque Actual:** Desarrollo Full Stack, Administrador de Servidores, Analisis de redes
     
-- **Nivel de Experiencia:** [Ejemplo: Estudiante de 8vo semestre / Senior / Junior]
+- **Nivel de Experiencia:** En desarrollo Full Stack estoy en lo basico. Administrador de servidores Alto en Windows Server y medio en linux. Anlisis de redes Alto
     
 
 ### 🚀 Mis "Superpoderes" (Habilidades Técnicas)
 
 - **Lenguajes que domino:**
     
-    - [Ejemplo: C# para el backend]
+    - C++
         
-    - [Ejemplo: JavaScript y TypeScript para el frontend]
-        
-    - [Ejemplo: SQL para bases de datos]
+    - SQL
         
 - **Herramientas y Frameworks:**
     
-    - [Ejemplo: NestJS, React, .NET 9]
-        
-    - [Ejemplo: Docker para contenedores]
+- phpMyAdmin
+  
         
 - **¿En qué puedo aportar más al equipo?**
     
-    - [Ejemplo: Puedo encargarme de crear las APIs y conectar n8n con la base de datos MySQL.]
+    - Soy bueno probando programas y encontrando fallos que pueden perjudicar la aplicacion.  Puedo aportar ideas de funcionamiento pensando en el consumidor final y en lo que espera el usuario al usar el programa. 
         
 
 ### 💻 Especificaciones de mi Estación de Trabajo
 
-- **Procesador:** [Ejemplo: Intel Core i7 12va Gen]
+- **Procesador:** AMD Ryzen 5 5600H
     
-- **Memoria RAM:** [Ejemplo: 32 GB]
+- **Memoria RAM:** 24GB DDR4 3200MTs
     
-- **Tarjeta de Video (GPU):** [Ejemplo: NVIDIA RTX 3050 - Importante para IA local]
+- **Tarjeta de Video (GPU):** NVIDIA GEFORCE GTX 1650 4GBVRAM
     
-- **Almacenamiento:** [Ejemplo: 1TB SSD]
+- **Almacenamiento:** 500GB SSD M.2 + 1TB HDD
     
 
 ### 🎯 Expectativa en el Proyecto
 
-- [Ejemplo: Quiero aprender a optimizar prompts con el estándar TOON y asegurar que todo cumpla con la Ley 1581.]
+- Quiero aprender el manejo e implementación de IAs en un entorno laboral, ademas de aumentar mi conocimiento en desarollo.
