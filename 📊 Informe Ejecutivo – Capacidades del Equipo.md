@@ -187,12 +187,6 @@
 |📋 Gestión|María|
 
 ---
-
-# ⚠️ Riesgo REAL del proyecto
-
-👉 Sin Juan Diego → el proyecto **no existe**  
-👉 Sin Sebastián → no hay despliegue real
-
 ---
 
 # 🚀 Recomendación directa (sin rodeos)
@@ -203,10 +197,3 @@
 
 - Core técnico (3 personas)
 - Soporte (4 personas)
-
----
-
-# 📌 Conclusión
-
-👉 Este proyecto **NO es para 7 desarrolladores**  
-👉 Es para **2–3 técnicos fuertes + soporte**
