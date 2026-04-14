@@ -97,13 +97,13 @@ Total usado: ~14 GB ✅
 
 ## ⚙️ Configuración Recomendada:
 
-|Componente|Configuración|RAM|
-|---|---|---|
-|**n8n**|Docker container|~500 MB|
-|**Redis Queue**|Max clients=100|~200 MB|
-|**Llama 3.1 8B**|int4 quantized|~6 GB|
-|**OpenRefine**|Standalone server|~1-2 GB|
-|**MySQL**|Innodb buffer pool|~2 GB|
-|**NestJS Backend**|Production mode|~500 MB|
-|**TOTAL**|-|**~11-12 GB** ✅|
+| Componente         | Configuración      | RAM             |
+| ------------------ | ------------------ | --------------- |
+| **n8n**            | Docker container   | ~500 MB         |
+| **Redis Queue**    | Max clients=100    | ~200 MB         |
+| **Llama 3.1 8B**   | int4 quantized     | ~6 GB           |
+| **OpenRefine**     | Standalone server  | ~1-2 GB         |
+| **MySQL**          | Innodb buffer pool | ~2 GB           |
+| **NestJS Backend** | Production mode    | ~500 MB         |
+| **TOTAL**          | -                  | **~11-12 GB** ✅ |
 
