@@ -1,0 +1,163 @@
+Delivered-To: jmejia580@estudiantes.areandina.edu.co
+Received: by 2002:a2e:b10a:0:b0:386:de32:4ff1 with SMTP id p10csp2060025ljl;
+        Sun, 22 Feb 2026 14:10:34 -0800 (PST)
+X-Forwarded-Encrypted: i=3; AJvYcCWZOaGK/JFAUuvUAtNW7omic4S+VfBPaEOGRUyZouY/VqRrUB9SXtg6+FMhpTk7bQqUfMSD26tVB1U=@estudiantes.areandina.edu.co
+X-Received: by 2002:a05:690c:101:b0:796:6da9:bfb9 with SMTP id 00721157ae682-79828cf3d83mr59141527b3.11.1771798233976;
+        Sun, 22 Feb 2026 14:10:33 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1771798233; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=KoT2K4jkRkcSvgBoeUo42KSR6tRLpDVpaXyzJZM79bJbeerPuQqBkVs/SoEHTDkJ2S
+         IJlbTuMAWNTbj94osdPHbgaYSxmuuC9b1l+rM4aCbVbwCN52DYfW7JSHqxHcqP5GNzo4
+         47I+ABoaMQ+JvDAxYOjdbnVGdiaKIx8Sows4YUyQB3tAkoqhQZ6PjvqYm+VyuUBl8v7B
+         DYwfev/YuZ6A31tuAS3dx45njIzK5MXn3VbGvXajJmk54A6IirNy2dF2Llco9qp81+gp
+         h5d1BRMQWbSqw/rvysK8ZPeIqy4pzq/AW4d6ftbJeYCK4BOjDWvKACuS9JX38+V/vtLY
+         qjEA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=WltUoi3LtAKmm3g3rNJWGS+HmkEVA93gsjBw4cUwzEM=;
+        fh=rT+X7nybq8LHCHaGgaJ+KutwFl/KOtBFiIhYQz0qaZ8=;
+        b=E9j8kfpb5IPg6/2j9BLrTgpaBO8LXLzRg3F9xkF5xdsNMY40o8o4YZqSq1RXM3ooXl
+         kCPVg9CpdgYukyPqh+9lvVZxqa7KL4FioSKSmO8mE3551V1U8Dn6HlVVu0mQvGfsqEBP
+         btMweLCl8PjWu7nOnO4FhgEEEvJoquMpqdFl+c65tKgIpIuLW08O0seHcXi6MC6HN3hn
+         wDwuie7+RxrrGkfnyjge94AuIbrW5n9CjeVh8fGZ8p4Binqqty2j949jPfLexrfX/jrM
+         +Z0y006LcD8kxWKw3PmaQLvvq47ig02bnIsSJueHbdjz+S7CXW3D00e9lRweDkHpAntd
+         9ftA==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@areandina.edu.co header.s=ar3andin1ilumm2022 header.b=RWmKx3mo;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of rbareno@areandina.edu.co designates 209.85.220.65 as permitted sender) smtp.mailfrom=rbareno@areandina.edu.co;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=areandina.edu.co;
+       dara=neutral header.i=@estudiantes.areandina.edu.co
+Return-Path: <rbareno@areandina.edu.co>
+Received: from mail-sor-f65.google.com (mail-sor-f65.google.com. [209.85.220.65])
+        by mx.google.com with SMTPS id 00721157ae682-7982dc703f0sor24632947b3.4.2026.02.22.14.10.33
+        for <jmejia580@estudiantes.areandina.edu.co>
+        (Google Transport Security);
+        Sun, 22 Feb 2026 14:10:33 -0800 (PST)
+Received-SPF: pass (google.com: domain of rbareno@areandina.edu.co designates 209.85.220.65 as permitted sender) client-ip=209.85.220.65;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@areandina.edu.co header.s=ar3andin1ilumm2022 header.b=RWmKx3mo;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of rbareno@areandina.edu.co designates 209.85.220.65 as permitted sender) smtp.mailfrom=rbareno@areandina.edu.co;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=areandina.edu.co;
+       dara=neutral header.i=@estudiantes.areandina.edu.co
+ARC-Seal: i=1; a=rsa-sha256; t=1771798233; cv=none;
+        d=google.com; s=arc-20240605;
+        b=j5vrQNIiINwpMPjdvI0df9+y8FLFGSR116Flam4UaRV86FzxeqdQhoHpGpLhwO4L29
+         +XJ4LJnz46nBGdKjJFI4pz14giMJK2RykaB6sWGHhAslYX6T5Wwf9BPRIJ7Al+rWCeV0
+         TgyNI9cneVTh4bJNq+xhYUuHAe8TjLWf8wovs23hyDYsC/cN+Mq1x8mG6OEawGw50MgT
+         azlx8XdONKmjJ81u+vbxF9c7At8kJvYvueu4Nnu0iZfufwbGyvSwXOKgtudTBbjwom1K
+         PA5+mao68oUbO0MdBJ2DZQXP4OY5uDVmwq6f9DxyLD946UTY3/9cFRO5lfgTWTRB8iFy
+         o0Mg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=WltUoi3LtAKmm3g3rNJWGS+HmkEVA93gsjBw4cUwzEM=;
+        fh=rT+X7nybq8LHCHaGgaJ+KutwFl/KOtBFiIhYQz0qaZ8=;
+        b=Os35kcvd4MdYSHliaajrm2/M+aYToCs2Gy+lGJl276QD7xdkCo9Q/iAWLgGMQUP2bK
+         OZugu9IaeEOoRAfuFFiJVSWtTn6lv1aUpsdf+bzOArSf/p621SrJNwsoS7JxOi6kobI4
+         PgSNL0ZsZ62ApH3hYprGEym9emtoQN1iy8BFPND4Bd3+jKUweiilzMaAyWvHDOAeNsfT
+         e/GHxqHUDK4xaJklbXA1Je3X+LIUqD9EaEv8AKoMbWg88kbCEUffc6q9nSgCGExqQrFf
+         eULRasLEduwiEfFaPxfmULX+NEaPqwlxoTVt5LydLJlICvHh0iVizVKL0/4RHNQUnBTe
+         UqNw==;
+        darn=estudiantes.areandina.edu.co
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=areandina.edu.co; s=ar3andin1ilumm2022; t=1771798233; x=1772403033; darn=estudiantes.areandina.edu.co;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=WltUoi3LtAKmm3g3rNJWGS+HmkEVA93gsjBw4cUwzEM=;
+        b=RWmKx3moY33IolKdbTNccQQ6QDHsgIKqIXdPFSBdkMPQuJRf75wZZdzxIdk4D/2Ql6
+         bRmXEyjFzkO3a8IyG4PjsqU7ecCDghmca2KpSlWw10tJE552TSq3csYh4DK6JHzLQi12
+         osxZpX1RiO/e+yU0/qTXPX05o4EnNihm7i1EWFWxUxI74jr5FfxoBLW6cS2dDtMqi4Tr
+         0F/LGto7EUGGci83dwUBoPBgdPTmBHT0seza6tOyYpvPvLlLmLk2/thyrwHlgMD1vSIa
+         nk4xRDGXALFFiA+hTJPTHU4CT0jKET6VrhbmdzpxDbfI5KC0odsqxhKq1YrBMUDJs0tR
+         STBQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1771798233; x=1772403033;
+        h=to:subject:message-id:date:from:mime-version:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=WltUoi3LtAKmm3g3rNJWGS+HmkEVA93gsjBw4cUwzEM=;
+        b=JUuLT164Igltcnu1EbRzK+K1lePDlrb3N1w635u1RrHXFjvGXR1NjMGfXBMVpLhgM4
+         StfsSPDZa02lBrpZThF/iHhkVA3GNUcP6nVWaciTjeuyy1g1DYA2/DUjUGh8/AT4iOsZ
+         /ELP9eIU8FXgEPl4YU87XobN0XHomvDKJQ6yw2QDCvri9uwrNrgFhv8um6CxVKpEcRUk
+         xYF0YiMT4lAfMoBoEdc8U84klE9Fs4G7o60yvxiv7FdgqBKz/B+ABkE7cIONIJbbaV1M
+         oLXIjypDL3pEUPqEcL/qvXuyK8IPC8sjt3M539+0WAZoSUwyZcDtMKhWOy4oeTcxdtl9
+         vHaA==
+X-Forwarded-Encrypted: i=1; AJvYcCXb4cCSfFHMR/RqnHOz2SDSUIAsPXu6lFXN4wdmGxZoO6XjPY2oxjiuXcROjJQvd66nZ4/M3Zjo1ow=@estudiantes.areandina.edu.co
+X-Gm-Message-State: AOJu0Yws2stSb9QIIDWCYFx8qi/6cMubcvDSrl6ZvxIe6e8jlhgNEnwz
+	eQi80xf2GFpstpiD++46bE4p2cGP258rNdbD4sULRmM0XtjI7322pVV3//EgGsNwVTHUH94Neb7
+	PqRGnusZDL338bG9HGL4To9mHUudx5lA1UQXHi2KEH7Q=
+X-Gm-Gg: ATEYQzxA3wqzwcltIheduhyz0HR/za3ZjdZOcX+hPTOm43HrwGuksI9/hzTkkvgEcfR
+	CkgLSknAfKvyiMcLM2PxroI5PyyKUT3hHCevZW6lHBRRTjKEhedeF/Rv4QKngjYDhNqUgT9doUW
+	VITTmd6jUnRSXOgWEhE9/UeyVyUS1OFCfYWAxjs+Ifo2AJm+hKblmnzM3xMjRsqyqt6r3ReEDmY
+	AfM/jEWfC6t/bECjZACk0pHT9yoI1g2tOGyfi//bzMojdka5uyfHnlp3zqEap0jdiAguRwY7HwY
+	Y1dx9euE1MoGx8F070TNPey9qK8MV75u+tH4bnCM
+X-Received: by 2002:a05:690e:1519:b0:64a:d7be:6953 with SMTP id
+ 956f58d0204a3-64c78adaaaemr6211695d50.32.1771798233464; Sun, 22 Feb 2026
+ 14:10:33 -0800 (PST)
+MIME-Version: 1.0
+From: =?UTF-8?Q?Raul_Bare=C3=B1o_Gutierrez?= <rbareno@areandina.edu.co>
+Date: Sun, 22 Feb 2026 17:10:22 -0500
+X-Gm-Features: AaiRm52agkOp2mZtp-7GcAhtZQLy7kQGkIofZmMSypM86gfPBbNXsUzNFuDkohk
+Message-ID: <CAPLFvoXT8Lb71=DCNcJV-GPi179ismNFG2PmS9zwtQA9dXE8Ng@mail.gmail.com>
+Subject: =?UTF-8?Q?asignaci=C3=B3n_y_aprobaci=C3=B3n_semilleristas_2026?=
+To: Maria Labarca Briceno <mlabarca@estudiantes.areandina.edu.co>, 
+	Juan Diego Mejia Maestre <jmejia580@estudiantes.areandina.edu.co>, 
+	Sebastian Bautista Martinez <sbautista15@estudiantes.areandina.edu.co>, 
+	Pohlman Cuartas Rodriguez <pcuartas2@estudiantes.areandina.edu.co>, 
+	dospina56@estudiantes.areandina.edu.co, 
+	Oscar Antury Avila <oantury@estudiantes.areandina.edu.co>
+Content-Type: multipart/alternative; boundary="00000000000051cfcd064b70ec5a"
+
+--00000000000051cfcd064b70ec5a
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Cordial saludo ingenieros a todos.
+
+Les informo que han sido seleccionados en calidad de semilleristas para el
+proyecto de investigaci=C3=B3n de la vigencia 2026.
+
+los espero el s=C3=A1bado a las 8:30 A.M a todos los participantes para ini=
+ciar
+un plan de trabajo con miras a la consecuci=C3=B3n de los objetivos propues=
+tos.
+
+les anexo la URL y la invitaci=C3=B3n a sus emails via calendario.
+
+semilleristas proye inves
+S=C3=A1bado, 28 de febrero =C2=B7 8:30 =E2=80=93 9:30am
+Zona horaria: America/Bogota
+Informaci=C3=B3n para unirse con Google Meet
+Enlace de la videollamada: https://meet.google.com/cfr-auga-woj
+O marca el: =E2=80=AA(CO) +57 602 3896632=E2=80=AC PIN: =E2=80=AA159 314 36=
+9=E2=80=AC#
+M=C3=A1s n=C3=BAmeros de tel=C3=A9fono: https://tel.meet/cfr-auga-woj?pin=
+=3D5380136404595
+
+un abrazo para todos y bienvenidos.
+
+--00000000000051cfcd064b70ec5a
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Cordial saludo ingenieros a todos.<div><br></div><div>Les =
+informo que han sido seleccionados=C2=A0en calidad de semilleristas para el=
+ proyecto de investigaci=C3=B3n=C2=A0de la vigencia 2026.=C2=A0</div><div><=
+br></div><div>los espero el s=C3=A1bado a las 8:30 A.M a todos los particip=
+antes para iniciar un plan de trabajo con miras a la consecuci=C3=B3n=C2=A0=
+de los objetivos propuestos.=C2=A0</div><div><br></div><div>les anexo la UR=
+L y la invitaci=C3=B3n=C2=A0a sus emails via calendario.</div><div><br></di=
+v><div>semilleristas proye inves<br>S=C3=A1bado, 28 de febrero =C2=B7 8:30 =
+=E2=80=93 9:30am<br>Zona horaria: America/Bogota<br>Informaci=C3=B3n para u=
+nirse con Google Meet<br>Enlace de la videollamada: <a href=3D"https://meet=
+.google.com/cfr-auga-woj">https://meet.google.com/cfr-auga-woj</a><br>O mar=
+ca el: =E2=80=AA(CO) +57 602 3896632=E2=80=AC PIN: =E2=80=AA159 314 369=E2=
+=80=AC#<br>M=C3=A1s n=C3=BAmeros de tel=C3=A9fono: <a href=3D"https://tel.m=
+eet/cfr-auga-woj?pin=3D5380136404595">https://tel.meet/cfr-auga-woj?pin=3D5=
+380136404595</a></div><div><br></div><div>un abrazo para todos y bienvenido=
+s.</div><div><br></div><div><br></div><div><br></div><div><div><br></div><d=
+iv><br></div></div></div>
+
+--00000000000051cfcd064b70ec5a--
