@@ -212,5 +212,5 @@ El docente establece las condiciones **obligatorias** (a rajatabla) para los equ
 - [ ] **Reporte Turnitin:** Validar documento final (< 25%).
     
 - [ ] **Publicación Artículo:** Soporte de sometimiento/ponencia.
-- [ ] 
+
 **#Semillero #ProyectoGrado #Ingeniería #Obsidian #IA #Roadmap**
