@@ -13,58 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Integrantes/Equipo 1/María Virginia Labarca/📑 Perfil Profesional - [Nombre del Integrante].md",
+                "file": "Investigaciones/Tareas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "📑 Perfil Profesional - [Nombre del Integrante]"
-            }
-          },
-          {
-            "id": "fe37a318e9acd70b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Actas/07 de Marzo de 2026 - Proyecto IA-DataFlow.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "07 de Marzo de 2026 - Proyecto IA-DataFlow"
-            }
-          },
-          {
-            "id": "81ea463715b8e7c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Actas/18 de abril del 2026 semilleristas proye inves.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "18 de abril del 2026 semilleristas proye inves"
-            }
-          },
-          {
-            "id": "01082a52bcf119bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "🚀 Resumen de Reunión Requisitos y Entregables de Semillero"
+              "title": "Tareas"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
+                "file": "Investigaciones/Tareas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de 🚀 Resumen de Reunión Requisitos y Entregables de Semillero"
+              "title": "Enlaces entrantes de Tareas"
             }
           },
           {
@@ -156,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
+                "file": "Investigaciones/Tareas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de 🚀 Resumen de Reunión Requisitos y Entregables de Semillero"
+              "title": "Enlaces salientes de Tareas"
             }
           },
           {
@@ -199,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
+                "file": "Investigaciones/Tareas.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de 🚀 Resumen de Reunión Requisitos y Entregables de Semillero"
+              "title": "Esquema de Tareas"
             }
           },
           {
@@ -238,16 +195,18 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "874fa732d324216a",
+  "active": "5acc4edec9bf4280",
   "lastOpenFiles": [
-    "Actas/18 de abril del 2026 semilleristas proye inves.md",
-    "Actas/28 de febrero de 2026 - Inicio de Semillero IA-DataFlow.md",
     "Actas/Actas de Reunión.md",
+    "Sin título.base",
+    "Readme.md",
+    "Actas/Reunion 3 18 de abril del 2026 semilleristas proye inves.md",
+    "Actas/Reunion 2 - 07 de Marzo de 2026 - Proyecto IA-DataFlow.md",
+    "Actas/Reunion 1 - 28 de febrero de 2026 - Inicio de Semillero IA-DataFlow.md",
     "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
-    "Sin nombre",
-    "Actas/07 de Marzo de 2026 - Proyecto IA-DataFlow.md",
-    "Integrantes/Equipo 1/María Virginia Labarca/📑 Perfil Profesional - María Virginia Labarca.md",
     "Integrantes/Equipo 2/Pohlman Cuartas/📑 Perfil Profesional - [Nombre del Integrante].md",
+    "Sin nombre",
+    "Integrantes/Equipo 1/María Virginia Labarca/📑 Perfil Profesional - María Virginia Labarca.md",
     "Integrantes/Equipo 2/David Ospina/📑 Perfil Profesional - David Ospina.md",
     "Integrantes/Equipo 2/Andres Felipe Andrade/📑 Perfil Profesional - Andres Felipe Andrade.md",
     "Integrantes/Equipo 1/Sebastián Bautista Martínez/📑 Perfil Profesional - [Nombre del Integrante].md",
@@ -257,7 +216,6 @@
     "Investigaciones/Internal/HU - Investigacion/HU - GItHub/🚀 IA-DataFlow Informe Ejecutivo de Infraestructura y Estrategia.md",
     "Procesos Grados Entregables",
     "Investigaciones/🌎 Investigaciones Externas.md",
-    "Actas/Readme.md",
     "Investigaciones/Internal/HU - Investigacion/HU - GItHub",
     "Docs/Resumen del Proyecto Ecosistema IA-DataFlow.md",
     "Integrantes/Equipo 1/Juan Diego Mejía Maestre/📑 Perfil Profesional - Juan Diego Mejia Maestre.md",
@@ -269,13 +227,11 @@
     "🎊 Bienvenidos a IA-DataFlow Hub.md",
     "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML.md",
     "Investigaciones/🏠 Investigaciones Internas.md",
-    "Investigaciones/Inscripción de Estudiantes Semilleros.md",
     "Integrantes/Equipo 2",
     "Integrantes/Equipo 2/Andres Felipe Andrade",
     "Integrantes/Equipo 2/Pohlman Cuartas",
     "Integrantes/Equipo 1/María Virginia Labarca",
     "Integrantes/Equipo 1/Sebastián Bautista Martínez",
-    "Integrantes/Equipo 1",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Tablero de Avances.canvas",

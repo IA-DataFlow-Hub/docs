@@ -8,6 +8,9 @@
 
 **Asistentes:** Equipo 1 (Bloque de urgencia), Equipo 2, Juan Diego, Andrés, David, Óscar y demás integrantes.
 
+https://drive.google.com/file/d/1NINrhBGi0bAIeYOSl36SdGS1NkdxXQuU/view?usp=drivesdk
+
+
 ---
 
 ## 1. Objetivos de la Sesión
