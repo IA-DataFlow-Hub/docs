@@ -11,14 +11,12 @@
             "id": "d75463b248a57c84",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
-                "mode": "source",
-                "source": false
+                "file": "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/Propuesta (OPPROSE-02).pdf"
               },
-              "icon": "lucide-file",
-              "title": "🚀 Resumen de Reunión Requisitos y Entregables de Semillero"
+              "icon": "lucide-file-text",
+              "title": "Propuesta (OPPROSE-02)"
             }
           }
         ]
@@ -196,23 +194,24 @@
   },
   "active": "d75463b248a57c84",
   "lastOpenFiles": [
-    "Procesos Grados Entregables/Propuesta (OPPROSE-02)/Propuesta (OPPROSE-02).pdf",
     "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
+    "Requisitos para aprobar el semillero/Aceptación y Asignación/Propuesta (OPPROSE-02).pdf",
+    "Requisitos para aprobar el semillero/Aceptación y Asignación/Incripción semillero Investigación Inteligente..eml",
+    "Requisitos para aprobar el semillero/Aceptación y Asignación/asignación y aprobación semilleristas 2026.eml",
+    "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/Propuesta (OPPROSE-02).pdf",
+    "Requisitos para aprobar el semillero/CV-LAC/CVLAC Pohlman Cuartas.pdf",
+    "Requisitos para aprobar el semillero/CV-LAC/CvLAC - Sebastian Bautista Martinez.pdf",
+    "Requisitos para aprobar el semillero/CV-LAC/CVLAC David Ospina.pdf",
+    "Requisitos para aprobar el semillero/CV-LAC/CvLAC - Oscar Antury.pdf",
+    "Requisitos para aprobar el semillero/CV-LAC/CvLAC - RG - Andres Andrade.pdf",
+    "Requisitos para aprobar el semillero/CV-LAC/CvLAC - Maria Virginia Labarca.pdf",
+    "Requisitos para aprobar el semillero/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
     "🎊 Bienvenidos a IA-DataFlow Hub.md",
     "Investigaciones/Tareas.md",
     "Investigaciones/🌎 Investigaciones Externas.md",
     "Investigaciones/🏠 Investigaciones Internas.md",
     "Investigaciones/Inscripción de Estudiantes Semilleros.md",
     "Integrantes/Equipo 2/Andres Felipe Andrade/📑 Perfil Profesional - Andres Felipe Andrade.md",
-    "Procesos Grados Entregables/Aceptación y Asignación/Propuesta (OPPROSE-02).pdf",
-    "Procesos Grados Entregables/Aceptación y Asignación/Propuesta (OPPROSE-02) comunicacion.pdf",
-    "Procesos Grados Entregables/Aceptación y Asignación/Incripción semillero Investigación Inteligente..eml",
-    "Procesos Grados Entregables/Aceptación y Asignación/asignación y aprobación semilleristas 2026.eml",
-    "Procesos Grados Entregables/Aceptación y Asignación",
-    "Procesos Grados Entregables/Propuesta (OPPROSE-02)/Propuesta (OPPROSE-02) comunicacion.pdf",
-    "Procesos Grados Entregables/Propuesta (OPPROSE-02)/Incripción semillero Investigación Inteligente..eml",
-    "Procesos Grados Entregables/Propuesta (OPPROSE-02)/asignación y aprobación semilleristas 2026.eml",
-    "Procesos Grados Entregables/Propuesta (OPPROSE-02)",
     "Integrantes/Equipo 2/Pohlman Cuartas/📑 Perfil Profesional - [Nombre del Integrante].md",
     "Integrantes/Equipo 2/Oscar Antury Avila/📑 Perfil Profesional - [Nombre del Integrante].md",
     "Integrantes/Equipo 2/David Ospina/📑 Perfil Profesional - David Ospina.md",
@@ -230,7 +229,6 @@
     "Integrantes/Equipo 1/Juan Diego Mejía Maestre/📑 Perfil Profesional - Juan Diego Mejia Maestre.md",
     "Docs/📊 Informe Ejecutivo – Capacidades del Equipo.md",
     "Docs/📚 Biblioteca de Investigación.md",
-    "Tutoriales/💎 Guía de Instalación Obsidian + Sincronización Git.md",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Tablero de Avances.canvas",
