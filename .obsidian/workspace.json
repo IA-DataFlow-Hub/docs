@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e9fb6a7d86f2ae9e",
+        "id": "09f8e07479b7cca3",
         "type": "tabs",
         "children": [
           {
-            "id": "d75463b248a57c84",
+            "id": "4f92d3d902820b9e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Requisitos para aprobar el semillero/2 - Aceptación y Asignación/Correo Aceptacion  Propuesta (OPPROSE-02).pdf"
+                "file": "Requisitos para aprobar el semillero/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Correo Aceptacion  Propuesta (OPPROSE-02)"
+              "icon": "lucide-file",
+              "title": "🚀 Resumen de Reunión Requisitos y Entregables de Semillero"
             }
           }
         ]
@@ -192,13 +194,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aaeff519f0d34833",
+  "active": "5acc4edec9bf4280",
   "lastOpenFiles": [
+    "Requisitos para aprobar el semillero/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
     "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización",
     "Requisitos para aprobar el semillero/8 - Publicación Artículo",
     "Requisitos para aprobar el semillero/7 - Reporte Turnitin",
     "Investigaciones/🌎 Investigaciones Externas.md",
-    "Requisitos para aprobar el semillero/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales",
     "Requisitos para aprobar el semillero/5 - Cesión de Derechos",
     "Requisitos para aprobar el semillero/3 - Plan de Trabajo",
@@ -208,7 +210,6 @@
     "Sin título.base",
     "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
     "Requisitos para aprobar el semillero/2 - Aceptación y Asignación/Incripción semillero Investigación Inteligente..eml",
-    "Requisitos para aprobar el semillero/2 - Aceptación y Asignación/asignación y aprobación semilleristas 2026.eml",
     "🎊 Bienvenidos a IA-DataFlow Hub.md",
     "Investigaciones/Tareas.md",
     "Investigaciones/🏠 Investigaciones Internas.md",

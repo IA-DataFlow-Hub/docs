@@ -1,4 +1,4 @@
-# 🚀 Resumen Ejecutivo: Requisitos y Entregables de Semillero
+
 
 ## 📋 Contexto General
 
