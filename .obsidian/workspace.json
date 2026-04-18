@@ -11,10 +11,14 @@
             "id": "98e4494df6153152",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Integrantes/Equipo 2/David Ospina/📑 Perfil Profesional - [Nombre del Integrante].md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "📑 Perfil Profesional - [Nombre del Integrante]"
             }
           }
         ]
@@ -191,12 +195,12 @@
   },
   "active": "98e4494df6153152",
   "lastOpenFiles": [
-    "Integrantes/Equipo 2/Pohlman Cuartas/📑 Perfil Profesional - [Nombre del Integrante].md",
+    "Integrantes/Equipo 1/Juan Diego Mejía Maestre/📑 Perfil Profesional - Juan Diego Mejia Maestre.md",
     "Integrantes/Equipo 2/David Ospina/📑 Perfil Profesional - [Nombre del Integrante].md",
+    "Integrantes/Equipo 2/Pohlman Cuartas/📑 Perfil Profesional - [Nombre del Integrante].md",
     "Integrantes/Equipo 2/Andres Felipe Andrade/📑 Perfil Profesional - [Nombre del Integrante].md",
     "Integrantes/Equipo 1/Sebastián Bautista Martínez/📑 Perfil Profesional - [Nombre del Integrante].md",
     "Integrantes/Equipo 1/María Virginia Labarca/📑 Perfil Profesional - [Nombre del Integrante].md",
-    "Integrantes/Equipo 1/Juan Diego Mejía Maestre/📑 Perfil Profesional - Juan Diego Mejia Maestre.md",
     "Actas/07 de Marzo de 2026 - Proyecto IA-DataFlow.md",
     "Actas/Actas de Reunión.md",
     "Actas/28 de febrero de 2026 - Inicio de Semillero IA-DataFlow.md",

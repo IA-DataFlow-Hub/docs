@@ -1,40 +1,38 @@
 ### 👤 Datos Generales
 
-- **Profesión:** [Ejemplo: Ingeniero de Sistemas]
+- **Profesión:** Ingeniero de Sistemas
     
-- **Enfoque Actual:** [Ejemplo: Desarrollo Full Stack y Arquitectura]
+- **Enfoque Actual:** Desarrollo Backend .NET
     
-- **Nivel de Experiencia:** [Ejemplo: Estudiante de 8vo semestre / Senior / Junior]
+- **Nivel de Experiencia:** Estudiante 9 Semestre
     
 
 ### 🚀 Mis "Superpoderes" (Habilidades Técnicas)
 
 - **Lenguajes que domino:**
     
-    - [Ejemplo: C# para el backend]
+    - C# para el backend
         
-    - [Ejemplo: JavaScript y TypeScript para el frontend]
+    - JavaScript y TypeScript para el frontend
         
-    - [Ejemplo: SQL para bases de datos]
+    - SQL para bases de datos
         
 - **Herramientas y Frameworks:**
     
-    - [Ejemplo: NestJS, React, .NET 9]
-        
-    - [Ejemplo: Docker para contenedores]
+    -  Angular
         
 - **¿En qué puedo aportar más al equipo?**
     
-    - [Ejemplo: Puedo encargarme de crear las APIs y conectar n8n con la base de datos MySQL.]
+    -Puedo aportar en el desarrollo general del backend.
         
 
 ### 💻 Especificaciones de mi Estación de Trabajo
 
-- **Procesador:** [Ejemplo: Intel Core i7 12va Gen]
+- **Procesador:**  AMD Ryzen 5500U
     
-- **Memoria RAM:** [Ejemplo: 32 GB]
+- **Memoria RAM:** 8 GB
     
-- **Tarjeta de Video (GPU):** [Ejemplo: NVIDIA RTX 3050 - Importante para IA local]
+- **Tarjeta de Video (GPU):** Gráficos del procesador AMD Radeon Graphics
     
 - **Almacenamiento:** [Ejemplo: 1TB SSD]
     
