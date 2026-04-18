@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "92ad5c5330d8e7eb",
+        "id": "bd5941f6d6f5f847",
         "type": "tabs",
         "children": [
           {
-            "id": "0e5fd39b5cc7447f",
+            "id": "abe2fd5ed88e7208",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -189,8 +189,10 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "d901c5c738bad70f",
+  "active": "abe2fd5ed88e7208",
   "lastOpenFiles": [
+    "Archivos/INFORME MICROSOFT POWER PLATFORM.pdf",
+    "Investigaciones/🌎 Investigaciones Externas.md",
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 06 - Arquitectura y Modelado UML (JUAN DIEGO).md",
     "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML.md",
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 04 Optimización de UX y Evolución de Dashboards ( Oscar Antury Avila).md",
@@ -224,8 +226,6 @@
     "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 05 - Seguridad y Cumplimiento Legal.md",
     "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 04 - UX y Evolución de Dashboards.md",
     "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 03 - Stack Tecnológico y Procesos.md",
-    "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 02 - IA, ETL y Economía de Tokens.md",
-    "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 01 - Infraestructura.md",
-    "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 05 Seguridad, Privacidad y Cumplimiento.md"
+    "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 02 - IA, ETL y Economía de Tokens.md"
   ]
 }
