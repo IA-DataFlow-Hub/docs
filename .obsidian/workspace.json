@@ -25,10 +25,14 @@
             "id": "fe37a318e9acd70b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Integrantes/Equipo 1/María Virginia Labarca/📑 Perfil Profesional - María Virginia Labarca.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "📑 Perfil Profesional - María Virginia Labarca"
             }
           }
         ],
@@ -105,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bienvenidos a IA-DataFlow Hub.md",
+                "file": "Integrantes/Equipo 1/María Virginia Labarca/📑 Perfil Profesional - María Virginia Labarca.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Bienvenidos a IA-DataFlow Hub"
+              "title": "Enlaces entrantes de 📑 Perfil Profesional - María Virginia Labarca"
             }
           },
           {
@@ -124,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bienvenidos a IA-DataFlow Hub.md",
+                "file": "Integrantes/Equipo 1/María Virginia Labarca/📑 Perfil Profesional - María Virginia Labarca.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Bienvenidos a IA-DataFlow Hub"
+              "title": "Enlaces salientes de 📑 Perfil Profesional - María Virginia Labarca"
             }
           },
           {
@@ -144,7 +148,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Etiquetas"
             }
           },
           {
@@ -158,7 +162,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "Todas las propiedades"
             }
           },
           {
@@ -167,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bienvenidos a IA-DataFlow Hub.md",
+                "file": "Integrantes/Equipo 1/María Virginia Labarca/📑 Perfil Profesional - María Virginia Labarca.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Bienvenidos a IA-DataFlow Hub"
+              "title": "Esquema de 📑 Perfil Profesional - María Virginia Labarca"
             }
           },
           {
@@ -208,9 +212,13 @@
   },
   "active": "aad8df08861cf204",
   "lastOpenFiles": [
-    "Investigaciones/Internal/HU - Investigacion/HU - GItHub/📄 Hu 09 Matriz de Capacidades de Agentes y Skills.md",
+    "Integrantes/Equipo 2/Pohlman Cuartas/📑 Perfil Profesional - [Nombre del Integrante].md",
     "Integrantes/Equipo 2/David Ospina/📑 Perfil Profesional - David Ospina.md",
-    "Integrantes/Equipo 2/Andres Felipe Andrade/📑 Perfil Profesional - [Nombre del Integrante].md",
+    "Integrantes/Equipo 2/Andres Felipe Andrade/📑 Perfil Profesional - Andres Felipe Andrade.md",
+    "Integrantes/Equipo 1/Sebastián Bautista Martínez/📑 Perfil Profesional - [Nombre del Integrante].md",
+    "Integrantes/Equipo 1/María Virginia Labarca/📑 Perfil Profesional - María Virginia Labarca.md",
+    "Integrantes/Equipo 2/David Ospina/📑 Perfil Profesional - [Nombre del Integrante].md",
+    "Investigaciones/Internal/HU - Investigacion/HU - GItHub/📄 Hu 09 Matriz de Capacidades de Agentes y Skills.md",
     "Procesos Grados Entregables/CV-LAC/CvLAC - Sebastian Bautista Martinez.pdf",
     "Investigaciones/Internal/HU - Investigacion/HU - GItHub/🚀 IA-DataFlow Informe Ejecutivo de Infraestructura y Estrategia.md",
     "Procesos Grados Entregables",
@@ -221,12 +229,8 @@
     "Integrantes/Equipo 1/Juan Diego Mejía Maestre/📑 Perfil Profesional - Juan Diego Mejia Maestre.md",
     "Docs/📊 Informe Ejecutivo – Capacidades del Equipo.md",
     "Docs/📚 Biblioteca de Investigación.md",
-    "Integrantes/Equipo 1/María Virginia Labarca/📑 Perfil Profesional - [Nombre del Integrante].md",
     "Tutoriales/💎 Guía de Instalación Obsidian + Sincronización Git.md",
     "Tutoriales/🎓 Manual de Sincronización Git + GitHub.md",
-    "Integrantes/Equipo 2/Pohlman Cuartas/📑 Perfil Profesional - [Nombre del Integrante].md",
-    "Integrantes/Equipo 2/David Ospina/📑 Perfil Profesional - [Nombre del Integrante].md",
-    "Integrantes/Equipo 1/Sebastián Bautista Martínez/📑 Perfil Profesional - [Nombre del Integrante].md",
     "Tutoriales/🛖 Tutoriales.md",
     "🎊 Bienvenidos a IA-DataFlow Hub.md",
     "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML.md",
