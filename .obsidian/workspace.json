@@ -11,10 +11,14 @@
             "id": "90b8404808155295",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Investigaciones/Internal/HU - Investigacion/Hu - GitHub/📄 Hu 09 Matriz de Capacidades de Agentes y Skills.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "📄 Hu 09 Matriz de Capacidades de Agentes y Skills"
             }
           }
         ]
