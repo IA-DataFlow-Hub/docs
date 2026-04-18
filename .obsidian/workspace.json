@@ -11,10 +11,14 @@
             "id": "98af916c98909028",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "conflict-files-obsidian-git"
             }
           }
         ]
@@ -189,22 +193,24 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "98af916c98909028",
+  "active": "415e38775fba04d3",
   "lastOpenFiles": [
-    "Sin título.base",
     "conflict-files-obsidian-git.md",
+    "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/Propuesta (OPPROSE-02).pdf",
+    "Requisitos para aprobar el semillero/CV-LAC/CVLAC Pohlman Cuartas.pdf",
+    "Requisitos para aprobar el semillero/CV-LAC/CVLAC David Ospina.pdf",
+    "Requisitos para aprobar el semillero/Aceptación y Asignación/Propuesta (OPPROSE-02).pdf",
+    "Requisitos para aprobar el semillero/Aceptación y Asignación/asignación y aprobación semilleristas 2026.eml",
+    "Requisitos para aprobar el semillero/Aceptación y Asignación/Incripción semillero Investigación Inteligente..eml",
+    "Requisitos para aprobar el semillero/CV-LAC/CvLAC - Sebastian Bautista Martinez.pdf",
+    "Requisitos para aprobar el semillero/CV-LAC/CvLAC - Oscar Antury.pdf",
+    "Requisitos para aprobar el semillero/CV-LAC/CvLAC - Maria Virginia Labarca.pdf",
+    "Requisitos para aprobar el semillero/CV-LAC/CvLAC - RG - Andres Andrade.pdf",
+    "Requisitos para aprobar el semillero/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
+    "Integrantes/Equipo 2/Oscar Antury Avila/📑 Perfil Profesional - [Nombre del Integrante].md",
     "Investigaciones/Internal/HU - Investigacion/Hu - GitHub/📄 Hu 09 Matriz de Capacidades de Agentes y Skills.md",
     "Investigaciones/Internal/HU - Investigacion/Hu - GitHub/🚀 IA-DataFlow Informe Ejecutivo de Infraestructura y Estrategia.md",
-    "Procesos Grados Entregables/CV-LAC/CVLAC Pohlman Cuartas.pdf",
-    "Procesos Grados Entregables/CV-LAC/CvLAC - Maria Virginia Labarca.pdf",
-    "Procesos Grados Entregables/CV-LAC/CvLAC - RG - Andres Andrade.pdf",
-    "Procesos Grados Entregables/CV-LAC/CvLAC - Oscar Antury.pdf",
-    "Procesos Grados Entregables/CV-LAC/CVLAC David Ospina.pdf",
-    "Procesos Grados Entregables/CV-LAC/CvLAC - Sebastian Bautista Martinez.pdf",
-    "Procesos Grados Entregables/CV-LAC/CvLAC - JUAN DIEGO MEJIA MAESTRE.pdf",
     "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
-    "Procesos Grados Entregables/CV-LAC",
-    "Procesos Grados Entregables",
     "Investigaciones/Tareas.md",
     "Integrantes/Equipo 2/Andres Felipe Andrade/📑 Perfil Profesional - Andres Felipe Andrade.md",
     "Integrantes/Equipo 1/María Virginia Labarca/📑 Perfil Profesional - María Virginia Labarca.md",
@@ -223,8 +229,6 @@
     "Integrantes/Equipo 2/Andres Felipe Andrade/📑 Perfil Profesional - [Nombre del Integrante].md",
     "Integrantes/Equipo 1/Juan Diego Mejía Maestre/📑 Perfil Profesional - Juan Diego Mejia Maestre.md",
     "📊 Informe Ejecutivo – Capacidades del Equipo.md",
-    "Actas/07 de Marzo de 2026 - Proyecto IA-DataFlow.md",
-    "Actas/Actas de Reunión.md",
-    "Actas/28 de febrero de 2026 - Inicio de Semillero IA-DataFlow.md"
+    "Actas/07 de Marzo de 2026 - Proyecto IA-DataFlow.md"
   ]
 }
