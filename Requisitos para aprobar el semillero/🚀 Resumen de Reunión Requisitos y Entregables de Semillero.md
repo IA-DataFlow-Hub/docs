@@ -159,7 +159,7 @@ El docente establece las condiciones **obligatorias** (a rajatabla) para los equ
 
 ### **👤 David Ospina**
 
-- [ ] **Propuesta (OPPROSE-02):** Aprobada.
+- [x] **Propuesta (OPPROSE-02):** Aprobada.
     
 - [x] **Aceptación/Asignación:** Notificación recibida.
     
@@ -178,7 +178,7 @@ El docente establece las condiciones **obligatorias** (a rajatabla) para los equ
 
 ### **👤 Oscar Antury Avila**
 
-- [ ] **Propuesta (OPPROSE-02):** Aprobada.
+- [x] **Propuesta (OPPROSE-02):** Aprobada.
     
 - [x] **Aceptación/Asignación:** Notificación recibida.
     
@@ -197,7 +197,7 @@ El docente establece las condiciones **obligatorias** (a rajatabla) para los equ
 
 ### **👤 Pohlman Cuartas**
 
-- [ ] **Propuesta (OPPROSE-02):** Aprobada.
+- [x] **Propuesta (OPPROSE-02):** Aprobada.
     
 - [x] **Aceptación/Asignación:** Notificación recibida.
     

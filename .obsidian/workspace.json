@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e8a9a292243e6bb1",
+        "id": "79aca2eaab7ed97c",
         "type": "tabs",
         "children": [
           {
-            "id": "e22f7263108665b1",
+            "id": "19aab006b67357ac",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Requisitos para aprobar el semillero/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "🚀 Resumen de Reunión Requisitos y Entregables de Semillero"
             }
           }
         ]
@@ -58,7 +62,7 @@
             }
           },
           {
-            "id": "d901c5c738bad70f",
+            "id": "cf0d456a5cf7cfc9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -75,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 365.5
   },
   "right": {
     "id": "2daa72a0765e1673",
@@ -188,20 +192,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "415e38775fba04d3",
+  "active": "19aab006b67357ac",
   "lastOpenFiles": [
-    "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/FORMATO OPPROSE-02 - Grupo 2 2.docx",
+    "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/FORMATO OPPROSE-02 - Grupo 2.pdf",
     "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/Propuesta (OPPROSE-02).pdf",
+    "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/mso5A88.tmp",
+    "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/~$RMATO OPPROSE-02 - Grupo 2.docx",
+    "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/FORMATO OPPROSE-02 - Grupo 2.docx",
+    "Sin título.base",
+    "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/FORMATO OPPROSE-02 - Grupo 2 2.docx",
     "conflict-files-obsidian-git.md",
     "Requisitos para aprobar el semillero/4 - CV-LAC/CVLAC Pohlman Cuartas.pdf",
     "Requisitos para aprobar el semillero/4 - CV-LAC/CVLAC David Ospina.pdf",
     "Requisitos para aprobar el semillero/4 - CV-LAC/CvLAC - RG - Andres Andrade.pdf",
     "Requisitos para aprobar el semillero/4 - CV-LAC/CvLAC - Sebastian Bautista Martinez.pdf",
-    "Requisitos para aprobar el semillero/4 - CV-LAC/CvLAC - Oscar Antury.pdf",
-    "Requisitos para aprobar el semillero/4 - CV-LAC/CvLAC - Maria Virginia Labarca.pdf",
-    "Requisitos para aprobar el semillero/4 - CV-LAC/CvLAC - JUAN DIEGO MEJIA MAESTRE.pdf",
-    "Requisitos para aprobar el semillero/4 - CV-LAC",
-    "Requisitos para aprobar el semillero/2 - Aceptación y Asignación/Incripción semillero Investigación Inteligente..eml",
     "Requisitos para aprobar el semillero/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
     "Integrantes/Equipo 2/Oscar Antury Avila/📑 Perfil Profesional - [Nombre del Integrante].md",
     "Investigaciones/Internal/HU - Investigacion/Hu - GitHub/📄 Hu 09 Matriz de Capacidades de Agentes y Skills.md",
