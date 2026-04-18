@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bd5941f6d6f5f847",
+        "id": "0ecaf55c8090ad34",
         "type": "tabs",
         "children": [
           {
-            "id": "abe2fd5ed88e7208",
+            "id": "90b8404808155295",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -189,8 +189,10 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "abe2fd5ed88e7208",
+  "active": "90b8404808155295",
   "lastOpenFiles": [
+    "Investigaciones/Internal/HU - Investigacion/Hu - GitHub/📄 Hu 09 Matriz de Capacidades de Agentes y Skills.md",
+    "Investigaciones/Internal/HU - Investigacion/Hu - GitHub",
     "Archivos/INFORME MICROSOFT POWER PLATFORM.pdf",
     "Investigaciones/🌎 Investigaciones Externas.md",
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 06 - Arquitectura y Modelado UML (JUAN DIEGO).md",
@@ -216,8 +218,6 @@
     "Integrantes/Equipo 1/Sebastián Bautista Martínez",
     "Integrantes/Equipo 1/María Virginia Labarca",
     "Integrantes/Equipo 1/Juan Diego Mejía Maestre",
-    "Integrantes/Equipo 2",
-    "Integrantes/Equipo 1",
     "Docs/Resumen del Proyecto Ecosistema IA-DataFlow.md",
     "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 06 Arquitectura Lógica y Diseño de Datos.md",
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 02 - IA, ETL (JUAN DIEGO).md",
