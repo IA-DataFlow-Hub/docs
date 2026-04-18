@@ -57,21 +57,21 @@ Total usado: ~14 GB ✅
 
 ## 📊 Escenarios Concurrentes (Llama 3.1 8B int4):
 
-|Usuarios|Modelo Base|KV Cache por Usuario|VRAM/RAM Total Estimada|Resultado|
-|---|---|---|---|---|
-|**1-5**|6 GB|~0.2 GB c/u|7-8 GB|✅ Fluido|
-|**10**|6 GB|~0.4 GB c/u|10 GB|✅ Lento|
-|**30**|6 GB|~1 GB c/u|16 GB|⚠️ Límite, caídas|
-|**50**|6 GB|~2 GB c/u|20+ GB|❌ OOM (Out of Memory)|
-|**100**|6 GB|~4 GB c/u|30+ GB|❌ Falla total|
-|**500-1000**|-|-|150-500 GB|❌ Imposible en tu servidor|
+| Usuarios     | Modelo Base | KV Cache por Usuario | VRAM/RAM Total Estimada | Resultado                  |
+| ------------ | ----------- | -------------------- | ----------------------- | -------------------------- |
+| **1-5**      | 6 GB        | ~0.2 GB c/u          | 7-8 GB                  | ✅ Fluido                   |
+| **10**       | 6 GB        | ~0.4 GB c/u          | 10 GB                   | ✅ Lento                    |
+| **30**       | 6 GB        | ~1 GB c/u            | 16 GB                   | ⚠️ Límite, caídas          |
+| **50**       | 6 GB        | ~2 GB c/u            | 20+ GB                  | ❌ OOM (Out of Memory)      |
+| **100**      | 6 GB        | ~4 GB c/u            | 30+ GB                  | ❌ Falla total              |
+| **500-1000** | -           | -                    | 150-500 GB              | ❌ Imposible en tu servidor |
 
 	┌─────────────┐     ┌──────────┐     ┌─────────────┐
 	│   React UI  │────▶│ NestJS   │────▶│    n8n      │
 	│             │◀────│ Gateway  │◀────│ Orquestador │
 	└─────────────┘     └──────────┘     └─────────────┘
                                               │
-                           ┌─────────────────────────┼─────────────────────────┐
+                       ┌─────────────────────────┼─────────────────────────┐
                        ▼                         ▼                         ▼
 	              ┌───────────┐            ┌───────────┐             ┌───────────┐
 	              │ OpenRefine│            │  Llama 3.1│             │   MySQL   │
@@ -97,13 +97,13 @@ Total usado: ~14 GB ✅
 
 ## ⚙️ Configuración Recomendada:
 
-|Componente|Configuración|RAM|
-|---|---|---|
-|**n8n**|Docker container|~500 MB|
-|**Redis Queue**|Max clients=100|~200 MB|
-|**Llama 3.1 8B**|int4 quantized|~6 GB|
-|**OpenRefine**|Standalone server|~1-2 GB|
-|**MySQL**|Innodb buffer pool|~2 GB|
-|**NestJS Backend**|Production mode|~500 MB|
-|**TOTAL**|-|**~11-12 GB** ✅|
+| Componente         | Configuración      | RAM             |
+| ------------------ | ------------------ | --------------- |
+| **n8n**            | Docker container   | ~500 MB         |
+| **Redis Queue**    | Max clients=100    | ~200 MB         |
+| **Llama 3.1 8B**   | int4 quantized     | ~6 GB           |
+| **OpenRefine**     | Standalone server  | ~1-2 GB         |
+| **MySQL**          | Innodb buffer pool | ~2 GB           |
+| **NestJS Backend** | Production mode    | ~500 MB         |
+| **TOTAL**          | -                  | **~11-12 GB** ✅ |
 

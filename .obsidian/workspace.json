@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "beaa39cb1fcdf4df",
+        "id": "8929a0cfb126a0cd",
         "type": "tabs",
         "children": [
           {
-            "id": "98e4494df6153152",
+            "id": "4a2d33e843c2af9a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Integrantes/Equipo 2/David Ospina/📑 Perfil Profesional - [Nombre del Integrante].md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "📑 Perfil Profesional - [Nombre del Integrante]"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -193,10 +189,12 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "98e4494df6153152",
+  "active": "4a2d33e843c2af9a",
   "lastOpenFiles": [
-    "Integrantes/Equipo 1/Juan Diego Mejía Maestre/📑 Perfil Profesional - Juan Diego Mejia Maestre.md",
+    "conflict-files-obsidian-git.md",
     "Integrantes/Equipo 2/David Ospina/📑 Perfil Profesional - [Nombre del Integrante].md",
+    "📊 Informe Ejecutivo – Capacidades del Equipo.md",
+    "Integrantes/Equipo 1/Juan Diego Mejía Maestre/📑 Perfil Profesional - Juan Diego Mejia Maestre.md",
     "Integrantes/Equipo 2/Pohlman Cuartas/📑 Perfil Profesional - [Nombre del Integrante].md",
     "Integrantes/Equipo 2/Andres Felipe Andrade/📑 Perfil Profesional - [Nombre del Integrante].md",
     "Integrantes/Equipo 1/Sebastián Bautista Martínez/📑 Perfil Profesional - [Nombre del Integrante].md",
@@ -216,7 +214,6 @@
     "Integrantes/Equipo 1",
     "Integrantes",
     "Docs/Resumen del Proyecto Ecosistema IA-DataFlow.md",
-    "conflict-files-obsidian-git.md",
     "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 06 Arquitectura Lógica y Diseño de Datos.md",
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 02 - IA, ETL (JUAN DIEGO).md",
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres).md",
@@ -229,7 +226,6 @@
     "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 02 - IA, ETL y Economía de Tokens.md",
     "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 01 - Infraestructura.md",
     "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 05 Seguridad, Privacidad y Cumplimiento.md",
-    "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 04 Optimización de UX y Dashboards.md",
-    "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 02  IA, ETL.md"
+    "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 04 Optimización de UX y Dashboards.md"
   ]
 }

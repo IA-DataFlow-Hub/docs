@@ -34,9 +34,9 @@
     
 - **Tarjeta de Video (GPU):** Gráficos del procesador AMD Radeon Graphics
     
-- **Almacenamiento:** [Ejemplo: 1TB SSD]
+- **Almacenamiento:** 500 GB
     
 
 ### 🎯 Expectativa en el Proyecto
 
-- [Ejemplo: Quiero aprender a optimizar prompts con el estándar TOON y asegurar que todo cumpla con la Ley 1581.]
+- Quiero aprender todo el proceso del desarrollo con IA, el uso de propmts , tokens.
