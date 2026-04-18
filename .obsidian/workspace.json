@@ -27,16 +27,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Integrantes/Equipo 1/María Virginia Labarca/📑 Perfil Profesional - María Virginia Labarca.md",
+                "file": "Actas/07 de Marzo de 2026 - Proyecto IA-DataFlow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "📑 Perfil Profesional - María Virginia Labarca"
+              "title": "07 de Marzo de 2026 - Proyecto IA-DataFlow"
+            }
+          },
+          {
+            "id": "81ea463715b8e7c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Actas/18 de abril del 2026 semilleristas proye inves.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "18 de abril del 2026 semilleristas proye inves"
+            }
+          },
+          {
+            "id": "01082a52bcf119bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "🚀 Resumen de Reunión Requisitos y Entregables de Semillero"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -109,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Integrantes/Equipo 1/María Virginia Labarca/📑 Perfil Profesional - María Virginia Labarca.md",
+                "file": "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de 📑 Perfil Profesional - María Virginia Labarca"
+              "title": "Enlaces entrantes de 🚀 Resumen de Reunión Requisitos y Entregables de Semillero"
             }
           },
           {
@@ -128,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Integrantes/Equipo 1/María Virginia Labarca/📑 Perfil Profesional - María Virginia Labarca.md",
+                "file": "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de 📑 Perfil Profesional - María Virginia Labarca"
+              "title": "Enlaces salientes de 🚀 Resumen de Reunión Requisitos y Entregables de Semillero"
             }
           },
           {
@@ -171,17 +199,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Integrantes/Equipo 1/María Virginia Labarca/📑 Perfil Profesional - María Virginia Labarca.md",
-                "followCursor": false,
+                "file": "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de 📑 Perfil Profesional - María Virginia Labarca"
+              "title": "Esquema de 🚀 Resumen de Reunión Requisitos y Entregables de Semillero"
             }
           },
           {
-            "id": "aad8df08861cf204",
+            "id": "aaeff519f0d34833",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -210,20 +238,26 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "aad8df08861cf204",
+  "active": "874fa732d324216a",
   "lastOpenFiles": [
+    "Actas/18 de abril del 2026 semilleristas proye inves.md",
+    "Actas/28 de febrero de 2026 - Inicio de Semillero IA-DataFlow.md",
+    "Actas/Actas de Reunión.md",
+    "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
+    "Sin nombre",
+    "Actas/07 de Marzo de 2026 - Proyecto IA-DataFlow.md",
+    "Integrantes/Equipo 1/María Virginia Labarca/📑 Perfil Profesional - María Virginia Labarca.md",
     "Integrantes/Equipo 2/Pohlman Cuartas/📑 Perfil Profesional - [Nombre del Integrante].md",
     "Integrantes/Equipo 2/David Ospina/📑 Perfil Profesional - David Ospina.md",
     "Integrantes/Equipo 2/Andres Felipe Andrade/📑 Perfil Profesional - Andres Felipe Andrade.md",
     "Integrantes/Equipo 1/Sebastián Bautista Martínez/📑 Perfil Profesional - [Nombre del Integrante].md",
-    "Integrantes/Equipo 1/María Virginia Labarca/📑 Perfil Profesional - María Virginia Labarca.md",
     "Integrantes/Equipo 2/David Ospina/📑 Perfil Profesional - [Nombre del Integrante].md",
     "Investigaciones/Internal/HU - Investigacion/HU - GItHub/📄 Hu 09 Matriz de Capacidades de Agentes y Skills.md",
     "Procesos Grados Entregables/CV-LAC/CvLAC - Sebastian Bautista Martinez.pdf",
     "Investigaciones/Internal/HU - Investigacion/HU - GItHub/🚀 IA-DataFlow Informe Ejecutivo de Infraestructura y Estrategia.md",
     "Procesos Grados Entregables",
     "Investigaciones/🌎 Investigaciones Externas.md",
-    "Readme.md",
+    "Actas/Readme.md",
     "Investigaciones/Internal/HU - Investigacion/HU - GItHub",
     "Docs/Resumen del Proyecto Ecosistema IA-DataFlow.md",
     "Integrantes/Equipo 1/Juan Diego Mejía Maestre/📑 Perfil Profesional - Juan Diego Mejia Maestre.md",
@@ -236,18 +270,12 @@
     "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML.md",
     "Investigaciones/🏠 Investigaciones Internas.md",
     "Investigaciones/Inscripción de Estudiantes Semilleros.md",
-    "Tutoriales/💎 Guía Maestra de Estilo en Obsidian.md",
-    "Tareas.md",
-    "Investigaciones/Externas/🏗️ Requerimientos y Diseño de Arquitectura (UML).md",
     "Integrantes/Equipo 2",
     "Integrantes/Equipo 2/Andres Felipe Andrade",
     "Integrantes/Equipo 2/Pohlman Cuartas",
     "Integrantes/Equipo 1/María Virginia Labarca",
-    "📑 Perfil Profesional - [Nombre del Integrante].md",
     "Integrantes/Equipo 1/Sebastián Bautista Martínez",
-    "📑 Perfil Profesional - [Nombre del Integrante] 1.md",
     "Integrantes/Equipo 1",
-    "Integrantes/Equipo 1/Juan Diego Mejía Maestre",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Tablero de Avances.canvas",
