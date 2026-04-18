@@ -84,7 +84,7 @@ El docente establece las condiciones **obligatorias** (a rajatabla) para los equ
     
 - [ ] **Plan de Trabajo (Excel):** Definir fechas con urgencia a Junio.
     
-- [ ] **CvLAC:** Registro activo y link compartido.
+- [x] **CvLAC:** Registro activo y link compartido.
     
 - [ ] **Derechos/Confidencialidad:** Firma de cesión de obra.
     
@@ -103,7 +103,7 @@ El docente establece las condiciones **obligatorias** (a rajatabla) para los equ
     
 - [ ] **Plan de Trabajo (Excel):** Avances y fechas a Junio.
     
-- [ ] **CvLAC:** Registro activo y link compartido.
+- [x] **CvLAC:** Registro activo y link compartido.
     
 - [ ] **Derechos/Confidencialidad:** Firma de cesión de obra.
     
@@ -122,7 +122,7 @@ El docente establece las condiciones **obligatorias** (a rajatabla) para los equ
     
 - [ ] **Plan de Trabajo (Excel):** Avances y fechas a Junio.
     
-- [ ] **CvLAC:** Registro activo y link compartido.
+- [x] **CvLAC:** Registro activo y link compartido.
     
 - [ ] **Derechos/Confidencialidad:** Firma de cesión de obra.
     
@@ -139,13 +139,13 @@ El docente establece las condiciones **obligatorias** (a rajatabla) para los equ
 
 ### **👤 Andres Felipe Andrade**
 
-- [x] **Propuesta (OPPROSE-02):** Aprobada.
+- [ ] **Propuesta (OPPROSE-02):** Aprobada.
     
-- [x] **Aceptación/Asignación:** Notificación recibida.
+- [ ] **Aceptación/Asignación:** Notificación recibida.
     
 - [ ] **Plan de Trabajo (Excel):** Definir fechas a Agosto.
     
-- [ ] **CvLAC:** Registro activo y link compartido.
+- [x] **CvLAC:** Registro activo y link compartido.
     
 - [ ] **Derechos/Confidencialidad:** Firma de cesión de obra.
     
@@ -158,13 +158,13 @@ El docente establece las condiciones **obligatorias** (a rajatabla) para los equ
 
 ### **👤 David Ospina**
 
-- [x] **Propuesta (OPPROSE-02):** Aprobada.
+- [ ] **Propuesta (OPPROSE-02):** Aprobada.
     
-- [x] **Aceptación/Asignación:** Notificación recibida.
+- [ ] **Aceptación/Asignación:** Notificación recibida.
     
 - [ ] **Plan de Trabajo (Excel):** Definir fechas a Agosto.
     
-- [ ] **CvLAC:** Registro activo y link compartido.
+- [x] **CvLAC:** Registro activo y link compartido.
     
 - [ ] **Derechos/Confidencialidad:** Firma de cesión de obra.
     
@@ -177,13 +177,13 @@ El docente establece las condiciones **obligatorias** (a rajatabla) para los equ
 
 ### **👤 Oscar Antury Avila**
 
-- [x] **Propuesta (OPPROSE-02):** Aprobada.
+- [ ] **Propuesta (OPPROSE-02):** Aprobada.
     
 - [x] **Aceptación/Asignación:** Notificación recibida.
     
 - [ ] **Plan de Trabajo (Excel):** Definir fechas a Agosto.
     
-- [ ] **CvLAC:** Registro activo y link compartido.
+- [x] **CvLAC:** Registro activo y link compartido.
     
 - [ ] **Derechos/Confidencialidad:** Firma de cesión de obra.
     
@@ -196,13 +196,13 @@ El docente establece las condiciones **obligatorias** (a rajatabla) para los equ
 
 ### **👤 Pohlman Cuartas**
 
-- [x] **Propuesta (OPPROSE-02):** Aprobada.
+- [ ] **Propuesta (OPPROSE-02):** Aprobada.
     
 - [x] **Aceptación/Asignación:** Notificación recibida.
     
 - [ ] **Plan de Trabajo (Excel):** Definir fechas a Agosto.
     
-- [ ] **CvLAC:** Registro activo y link compartido.
+- [x] **CvLAC:** Registro activo y link compartido.
     
 - [ ] **Derechos/Confidencialidad:** Firma de cesión de obra.
     
