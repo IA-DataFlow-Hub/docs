@@ -4,21 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "0ecaf55c8090ad34",
+        "id": "a038a3c46612e2c4",
         "type": "tabs",
         "children": [
           {
-            "id": "90b8404808155295",
+            "id": "99e93b0756568beb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Investigaciones/Internal/HU - Investigacion/Hu - GitHub/📄 Hu 09 Matriz de Capacidades de Agentes y Skills.md",
-                "mode": "source",
-                "source": false
+                "file": "Sin título.base",
+                "viewName": "Tabla"
               },
-              "icon": "lucide-file",
-              "title": "📄 Hu 09 Matriz de Capacidades de Agentes y Skills"
+              "icon": "lucide-table",
+              "title": "Sin título"
             }
           }
         ]
@@ -193,11 +192,29 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "90b8404808155295",
+  "active": "99e93b0756568beb",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Sin título.base",
     "Investigaciones/Internal/HU - Investigacion/Hu - GitHub/📄 Hu 09 Matriz de Capacidades de Agentes y Skills.md",
-    "Investigaciones/Internal/HU - Investigacion/Hu - GitHub",
-    "Archivos/INFORME MICROSOFT POWER PLATFORM.pdf",
+    "Investigaciones/Internal/HU - Investigacion/Hu - GitHub/🚀 IA-DataFlow Informe Ejecutivo de Infraestructura y Estrategia.md",
+    "Procesos Grados Entregables/CV-LAC/CVLAC Pohlman Cuartas.pdf",
+    "Procesos Grados Entregables/CV-LAC/CvLAC - Maria Virginia Labarca.pdf",
+    "Procesos Grados Entregables/CV-LAC/CvLAC - RG - Andres Andrade.pdf",
+    "Procesos Grados Entregables/CV-LAC/CvLAC - Oscar Antury.pdf",
+    "Procesos Grados Entregables/CV-LAC/CVLAC David Ospina.pdf",
+    "Procesos Grados Entregables/CV-LAC/CvLAC - Sebastian Bautista Martinez.pdf",
+    "Procesos Grados Entregables/CV-LAC/CvLAC - JUAN DIEGO MEJIA MAESTRE.pdf",
+    "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
+    "Procesos Grados Entregables/CV-LAC",
+    "Procesos Grados Entregables",
+    "Investigaciones/Tareas.md",
+    "Integrantes/Equipo 2/Andres Felipe Andrade/📑 Perfil Profesional - Andres Felipe Andrade.md",
+    "Integrantes/Equipo 1/María Virginia Labarca/📑 Perfil Profesional - María Virginia Labarca.md",
+    "Docs/📊 Informe Ejecutivo – Capacidades del Equipo.md",
+    "Actas/Reunion 3 18 de abril del 2026 semilleristas proye inves.md",
+    "Actas/Reunion 2 - 07 de Marzo de 2026 - Proyecto IA-DataFlow.md",
+    "Actas/Reunion 1 - 28 de febrero de 2026 - Inicio de Semillero IA-DataFlow.md",
     "Investigaciones/🌎 Investigaciones Externas.md",
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 06 - Arquitectura y Modelado UML (JUAN DIEGO).md",
     "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 06 - Arquitectura y Modelado UML.md",
@@ -208,28 +225,9 @@
     "Integrantes/Equipo 1/Sebastián Bautista Martínez/📑 Perfil Profesional - [Nombre del Integrante].md",
     "Integrantes/Equipo 2/Andres Felipe Andrade/📑 Perfil Profesional - [Nombre del Integrante].md",
     "Integrantes/Equipo 1/Juan Diego Mejía Maestre/📑 Perfil Profesional - Juan Diego Mejia Maestre.md",
-    "CV-LAC/CVLAC David Ospina.pdf",
-    "conflict-files-obsidian-git.md",
     "📊 Informe Ejecutivo – Capacidades del Equipo.md",
     "Actas/07 de Marzo de 2026 - Proyecto IA-DataFlow.md",
     "Actas/Actas de Reunión.md",
-    "Actas/28 de febrero de 2026 - Inicio de Semillero IA-DataFlow.md",
-    "Investigaciones/Internal/HU - Investigacion/HU/Hu 05.docx",
-    "Investigaciones/Inscripción de Estudiantes Semilleros.md",
-    "Integrantes/Equipo 2/Pohlman Cuartas",
-    "Integrantes/Equipo 2/David Ospina",
-    "Integrantes/Equipo 2/Andres Felipe Andrade",
-    "Integrantes/Equipo 1/Sebastián Bautista Martínez",
-    "Integrantes/Equipo 1/María Virginia Labarca",
-    "Integrantes/Equipo 1/Juan Diego Mejía Maestre",
-    "Docs/Resumen del Proyecto Ecosistema IA-DataFlow.md",
-    "Investigaciones/Internal/HU - Investigacion/Resumen Ejecutivo/📄Resumen Ejecutivo HU 06 Arquitectura Lógica y Diseño de Datos.md",
-    "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 02 - IA, ETL (JUAN DIEGO).md",
-    "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres).md",
-    "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 06 - Arquitectura y Modelado UML (DAVID).md",
-    "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 05 - Seguridad y Cumplimiento Legal.md",
-    "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 04 - UX y Evolución de Dashboards.md",
-    "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 03 - Stack Tecnológico y Procesos.md",
-    "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 02 - IA, ETL y Economía de Tokens.md"
+    "Actas/28 de febrero de 2026 - Inicio de Semillero IA-DataFlow.md"
   ]
 }
