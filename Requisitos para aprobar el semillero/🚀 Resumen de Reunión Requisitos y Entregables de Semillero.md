@@ -27,6 +27,7 @@ El docente establece las condiciones **obligatorias** (a rajatabla) para los equ
 | **Reporte Turnitin**            | ⚠️ < 25%             | El documento final debe tener menos del 25% de similitud.             |
 | **Publicación Artículo**        | 📝 En proceso        | Soporte de publicación/sometimiento o certificado de ponencia.        |
 | **Uso de Obra / Socialización** | 📄 Pendiente         | Diligenciar formatos y certificado de participación en evento.        |
+|                                 |                      |                                                                       |
 
 ---
 
@@ -160,7 +161,7 @@ El docente establece las condiciones **obligatorias** (a rajatabla) para los equ
 
 - [ ] **Propuesta (OPPROSE-02):** Aprobada.
     
-- [ ] **Aceptación/Asignación:** Notificación recibida.
+- [x] **Aceptación/Asignación:** Notificación recibida.
     
 - [ ] **Plan de Trabajo (Excel):** Definir fechas a Agosto.
     

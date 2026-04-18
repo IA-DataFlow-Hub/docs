@@ -23,14 +23,14 @@
             "id": "abcb2a9d825a4ea4",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "conflict-files-obsidian-git.md",
-                "bFile": "conflict-files-obsidian-git.md",
-                "aRef": ""
+                "file": "Requisitos para aprobar el semillero/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: conflict-files-obsidian-git  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "🚀 Resumen de Reunión Requisitos y Entregables de Semillero"
             }
           }
         ],
@@ -207,24 +207,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "abcb2a9d825a4ea4",
+  "active": "5acc4edec9bf4280",
   "lastOpenFiles": [
+    "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización",
+    "Requisitos para aprobar el semillero/8 - Publicación Artículo",
+    "Requisitos para aprobar el semillero/7 - Reporte Turnitin",
+    "Investigaciones/🌎 Investigaciones Externas.md",
+    "Requisitos para aprobar el semillero/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales",
+    "Requisitos para aprobar el semillero/5 - Cesión de Derechos",
+    "Requisitos para aprobar el semillero/3 - Plan de Trabajo",
+    "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/Propuesta (OPPROSE-02).pdf",
     "conflict-files-obsidian-git.md",
     "Requisitos para aprobar el semillero/2 - Aceptación y Asignación/Correo Aceptacion  Propuesta (OPPROSE-02).pdf",
     "Sin título.base",
-    "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/Propuesta (OPPROSE-02).pdf",
     "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
     "Requisitos para aprobar el semillero/2 - Aceptación y Asignación/Incripción semillero Investigación Inteligente..eml",
     "Requisitos para aprobar el semillero/2 - Aceptación y Asignación/asignación y aprobación semilleristas 2026.eml",
-    "Requisitos para aprobar el semillero/4 - CV-LAC/CVLAC Pohlman Cuartas.pdf",
-    "Requisitos para aprobar el semillero/4 - CV-LAC/CvLAC - Sebastian Bautista Martinez.pdf",
-    "Requisitos para aprobar el semillero/4 - CV-LAC/CVLAC David Ospina.pdf",
-    "Requisitos para aprobar el semillero/4 - CV-LAC/CvLAC - Oscar Antury.pdf",
-    "Requisitos para aprobar el semillero/4 - CV-LAC/CvLAC - RG - Andres Andrade.pdf",
-    "Requisitos para aprobar el semillero/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
     "🎊 Bienvenidos a IA-DataFlow Hub.md",
     "Investigaciones/Tareas.md",
-    "Investigaciones/🌎 Investigaciones Externas.md",
     "Investigaciones/🏠 Investigaciones Internas.md",
     "Investigaciones/Inscripción de Estudiantes Semilleros.md",
     "Integrantes/Equipo 2/Andres Felipe Andrade/📑 Perfil Profesional - Andres Felipe Andrade.md",
