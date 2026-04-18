@@ -1,50 +1,62 @@
+# 🚀 Resumen Ejecutivo: Requisitos y Entregables de Semillero
 
 ## 📋 Contexto General
 
-El docente establece las condiciones **obligatorias** (a rajatabla) para los equipos de semilleristas, especialmente para aquellos con **urgencia manifiesta** de finalizar su proceso para graduación.
+El docente establece las condiciones **obligatorias** (a rajatabla) para los equipos, especialmente para el bloque con **urgencia manifiesta** de graduación. Se define una ruta clara de entregables académicos y técnicos.
 
 ---
 
-## ⚖️ Condición de Oro para el "Bloque de Salida"
+## ⚖️ Condición de Oro (Bloque de Salida)
 
 > [!IMPORTANT] Requisito Técnico Principal
 > 
-> El equipo que necesita graduarse pronto debe liderar el desarrollo y dejar el **entorno de Backend (BAC) limpio, puro y listo** para que los demás integrantes puedan continuar la construcción sobre esa base.
+> El equipo que finaliza primero debe liderar el desarrollo y dejar el **entorno de Backend (BAC) limpio, puro y listo** para que el resto del equipo pueda construir encima sin inconvenientes.
 
 ---
 
-## 🛠️ Check-list de Documentación Obligatoria
+## 🛠️ Matriz de Requisitos y Estados (Fase Semillero)
 
-|**Requisito**|**Estado / Acción**|**📎 Detalle**|
-|---|---|---|
-|**Propuesta**|✅ Lista|Ya fue aprobada para ambos equipos.|
-|**Aceptación/Asignación**|✅ Lista|Correo enviado por el docente invitando a trabajar.|
-|**Plan de Trabajo**|📅 Pendiente|Archivo Excel: Grupo de urgencia (a junio) / Resto (a agosto).|
-|**CvLAC**|👤 Obligatorio|Todos deben tener cuenta activa y enlace compartido.|
-|**Derechos de Autor**|✍️ Por gestionar|Firma de cesión de derechos a la Universidad y al docente.|
-|**Entregas Parciales**|✉️ Acción inmediata|Enviar correo formal con avances para trazabilidad.|
-|**Prototipo**|⚙️ En marcha|Incluye lo presentado en el Congreso y manuales finales.|
+| **Requisito**                   | **Estado / Detalle** | **🔍 Especificación Institucional**                                   |
+| ------------------------------- | -------------------- | --------------------------------------------------------------------- |
+| **Propuesta (OPPROSE-02)**      | ✅ OK                 | Aprobada para ambos equipos.                                          |
+| **Aceptación y Asignación**     | ✅ OK                 | Notificación enviada vía correo electrónico.                          |
+| **Plan de Trabajo**             | 📅 Pendiente         | Excel detallado con fechas (Junio para salida rápida / Agosto resto). |
+| **CvLAC**                       | 👤 Obligatorio       | Todos deben tener cuenta activa y link compartido.                    |
+| **Cesión de Derechos**          | ✍️ Aplica            | Firma obligatoria para vinculación con proyecto docente.              |
+| **Entregas Parciales**          | ✉️ Urgente           | Enviar correo formal para dejar trazabilidad de avances.              |
+| **Reporte Turnitin**            | ⚠️ < 25%             | El documento final debe tener menos del 25% de similitud.             |
+| **Publicación Artículo**        | 📝 En proceso        | Soporte de publicación/sometimiento o certificado de ponencia.        |
+| **Uso de Obra / Socialización** | 📄 Pendiente         | Diligenciar formatos y certificado de participación en evento.        |
 
 ---
 
-## 📝 Entregables Finales y Calidad
+## 👥 Roles y Responsabilidades
 
-- **Trazabilidad:** Es vital enviar correos de avances parciales para evitar suspicacias sobre el trabajo realizado.
+- **Estudiantes (Diego, Hector, Kevin):** Actualmente con estado **"OK"** en la mayoría de ítems previos; enfocados en el artículo y cierre de actas.
     
-- **Paquete Final:** Debe incluir manual de usuario, manual de instalación, requisitos (funcionales/no funcionales) y arquitectura.
+- **Docente Asesor (Raúl Maestre):** 📞 3105213349. Experto en **motores de IA** para procesos automatizados. Encargado de solicitar planes de trabajo y avalar contenidos.
     
-- **Turnitin:** El documento final será sometido a revisión de similitud (plagio).
+- **Líder de Opción de Grados:** Valida administrativamente la carpeta completa previo al grado.
     
-- **Artículo/Ponencia:** La participación en el Congreso ya cuenta como ítem de publicación.
+
+---
+
+## 📝 Entregables Finales de Calidad
+
+- **Trazabilidad:** Las actas deben estar firmadas por los asistentes a las asesorías.
+    
+- **Paquete Técnico:** Documento final, manual de usuario, manual de instalación y arquitectura.
+    
+- **Sustentación:** Se requiere el certificado de participación en el evento de socialización (Congreso/Libro/Revista).
     
 
 ---
 
 ## 🎓 Próximos Pasos y Capacitación
 
-- **Charla de Investigación:** 🗓️ **Miércoles - 8:00 PM**. Tema: _Cómo escribir un artículo científico_ (Uso de IA en investigación).
+- **Charla de Investigación:** 🗓️ **Miércoles - 8:00 PM**. Tema: _Cómo escribir un artículo científico con IA_.
     
-- **Carpeta Compartida:** Se debe organizar todo según los ítems anteriores para la revisión final del Maestro Camilo antes del envío a grados.
+- **Carpeta Compartida:** Organizar según la matriz para revisión del Maestro Camilo.
     
 
 ---
@@ -53,6 +65,151 @@ El docente establece las condiciones **obligatorias** (a rajatabla) para los equ
 
 > [!TIP] Invitación al aporte
 > 
-> El docente hace un llamado a la proactividad. Si no tienes habilidades en una tecnología específica (**X**), aporta en otra (**Y** o **Z**). Lo importante es que el equipo que desea graduarse tome la batuta y lidere el desarrollo técnico ahora.
+> Si no tienes habilidades en **X**, aporta en **Y** o **Z**. Se requiere que el equipo de salida tome la batuta técnica para asegurar que el proyecto sea sostenible para quienes se quedan.
 
-**#Semillero #ProyectoGrado #Ingeniería #TareasPendientes**
+
+# 🚀 Control de Requisitos por Integrante: Ecosistema IA-DataFlow
+
+> [!IMPORTANT] Estado de Entrega Los ítems marcados con ✅ ya están gestionados a nivel general, pero cada integrante debe asegurar su registro individual (especialmente CvLAC y Firmas).
+
+---
+
+## 🟦 Equipo 1 (Bloque de Salida)
+
+### **👤 Juan Diego Mejía Maestre**
+
+- [x] **Propuesta (OPPROSE-02):** Aprobada.
+    
+- [x] **Aceptación/Asignación:** Notificación recibida.
+    
+- [ ] **Plan de Trabajo (Excel):** Definir fechas con urgencia a Junio.
+    
+- [ ] **CvLAC:** Registro activo y link compartido.
+    
+- [ ] **Derechos/Confidencialidad:** Firma de cesión de obra.
+    
+- [ ] **Entregas Parciales:** Enviar correo formal de trazabilidad.
+    
+- [ ] **Reporte Turnitin:** Validar documento final (< 25%).
+    
+- [ ] **Publicación Artículo:** Soporte de sometimiento/ponencia.
+    
+
+### **👤 María Virginia Labarca**
+
+- [x] **Propuesta (OPPROSE-02):** Aprobada.
+    
+- [x] **Aceptación/Asignación:** Notificación recibida.
+    
+- [ ] **Plan de Trabajo (Excel):** Avances y fechas a Junio.
+    
+- [ ] **CvLAC:** Registro activo y link compartido.
+    
+- [ ] **Derechos/Confidencialidad:** Firma de cesión de obra.
+    
+- [ ] **Entregas Parciales:** Enviar correo formal de trazabilidad.
+    
+- [ ] **Reporte Turnitin:** Validar documento final (< 25%).
+    
+- [ ] **Publicación Artículo:** Soporte de sometimiento/ponencia.
+    
+
+### **👤 Sebastián Bautista Martínez**
+
+- [x] **Propuesta (OPPROSE-02):** Aprobada.
+    
+- [x] **Aceptación/Asignación:** Notificación recibida.
+    
+- [ ] **Plan de Trabajo (Excel):** Avances y fechas a Junio.
+    
+- [ ] **CvLAC:** Registro activo y link compartido.
+    
+- [ ] **Derechos/Confidencialidad:** Firma de cesión de obra.
+    
+- [ ] **Entregas Parciales:** Enviar correo formal de trazabilidad.
+    
+- [ ] **Reporte Turnitin:** Validar documento final (< 25%).
+    
+- [ ] **Publicación Artículo:** Soporte de sometimiento/ponencia.
+    
+
+---
+
+## 🟧 Equipo 2 (Continuidad)
+
+### **👤 Andres Felipe Andrade**
+
+- [x] **Propuesta (OPPROSE-02):** Aprobada.
+    
+- [x] **Aceptación/Asignación:** Notificación recibida.
+    
+- [ ] **Plan de Trabajo (Excel):** Definir fechas a Agosto.
+    
+- [ ] **CvLAC:** Registro activo y link compartido.
+    
+- [ ] **Derechos/Confidencialidad:** Firma de cesión de obra.
+    
+- [ ] **Entregas Parciales:** Enviar correo formal de trazabilidad.
+    
+- [ ] **Reporte Turnitin:** Validar documento final (< 25%).
+    
+- [ ] **Publicación Artículo:** Soporte de sometimiento/ponencia.
+    
+
+### **👤 David Ospina**
+
+- [x] **Propuesta (OPPROSE-02):** Aprobada.
+    
+- [x] **Aceptación/Asignación:** Notificación recibida.
+    
+- [ ] **Plan de Trabajo (Excel):** Definir fechas a Agosto.
+    
+- [ ] **CvLAC:** Registro activo y link compartido.
+    
+- [ ] **Derechos/Confidencialidad:** Firma de cesión de obra.
+    
+- [ ] **Entregas Parciales:** Enviar correo formal de trazabilidad.
+    
+- [ ] **Reporte Turnitin:** Validar documento final (< 25%).
+    
+- [ ] **Publicación Artículo:** Soporte de sometimiento/ponencia.
+    
+
+### **👤 Oscar Antury Avila**
+
+- [x] **Propuesta (OPPROSE-02):** Aprobada.
+    
+- [x] **Aceptación/Asignación:** Notificación recibida.
+    
+- [ ] **Plan de Trabajo (Excel):** Definir fechas a Agosto.
+    
+- [ ] **CvLAC:** Registro activo y link compartido.
+    
+- [ ] **Derechos/Confidencialidad:** Firma de cesión de obra.
+    
+- [ ] **Entregas Parciales:** Enviar correo formal de trazabilidad.
+    
+- [ ] **Reporte Turnitin:** Validar documento final (< 25%).
+    
+- [ ] **Publicación Artículo:** Soporte de sometimiento/ponencia.
+    
+
+### **👤 Pohlman Cuartas**
+
+- [x] **Propuesta (OPPROSE-02):** Aprobada.
+    
+- [x] **Aceptación/Asignación:** Notificación recibida.
+    
+- [ ] **Plan de Trabajo (Excel):** Definir fechas a Agosto.
+    
+- [ ] **CvLAC:** Registro activo y link compartido.
+    
+- [ ] **Derechos/Confidencialidad:** Firma de cesión de obra.
+    
+- [ ] **Entregas Parciales:** Enviar correo formal de trazabilidad.
+    
+- [ ] **Reporte Turnitin:** Validar documento final (< 25%).
+    
+- [ ] **Publicación Artículo:** Soporte de sometimiento/ponencia.
+- [ ] 
+**#Semillero #ProyectoGrado #Ingeniería #Obsidian #IA #Roadmap**
