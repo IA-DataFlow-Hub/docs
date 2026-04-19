@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e4b29ba5bd0e9a0b",
+        "id": "68e074604495e1e2",
         "type": "tabs",
         "children": [
           {
-            "id": "495f268207299321",
+            "id": "f0e0005e5c6a840f",
             "type": "leaf",
             "state": {
               "type": "univer-xlsx",
@@ -39,7 +39,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de archivos"
@@ -196,6 +196,9 @@
   },
   "active": "5acc4edec9bf4280",
   "lastOpenFiles": [
+    "Requisitos para aprobar el semillero/4 - CV-LAC/CvLAC - JUAN DIEGO MEJIA MAESTRE.pdf",
+    "Requisitos para aprobar el semillero/3 - Plan de Trabajo/Plan de trabajo FUAA.xlsx",
+    "Requisitos para aprobar el semillero/3 - Plan de Trabajo/3B340110",
     "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/FORMATO OPPROSE-02 - Grupo 2.pdf",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entrega de Entregable 1 - Semillero IA DataFlow Hub.pdf",
     "🎊 Bienvenidos a IA-DataFlow Hub.md",
@@ -215,14 +218,12 @@
     "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 02 - IA, ETL y Economía de Tokens.md",
     "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 01 - Infraestructura.md",
     "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 05 - Seguridad y Cumplimiento Legal.md",
-    "Requisitos para aprobar el semillero/3 - Plan de Trabajo/Plan de trabajo FUAA.xlsx",
     "Requisitos para aprobar el semillero/3 - Plan de Trabajo/~$Plan de trabajo FUAA.xlsx",
     "conflict-files-obsidian-git.md",
     "Untitled.xlsx",
     "Sin título.base",
     "Requisitos para aprobar el semillero/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
     "Tutoriales/🛖 Tutoriales.md",
-    "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización",
     "Investigaciones/🌎 Investigaciones Externas.md",
     "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
     "Investigaciones/🏠 Investigaciones Internas.md",
