@@ -50,4 +50,4 @@
 
 ### 🎯 Expectativa en el Proyecto
 
-- [Ejemplo: Quiero aprender a optimizar prompts con el estándar TOON y asegurar que todo cumpla con la Ley 1581.]
+- Se espera desarrollar una solución funcional que cumpla con los objetivos planteados, aportando valor práctico y demostrando la correcta aplicación de los conceptos trabajados. Asimismo, se busca evidenciar un proceso claro y organizado que permita validar los resultados obtenidos.
