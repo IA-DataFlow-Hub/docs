@@ -11,12 +11,14 @@
             "id": "f0e0005e5c6a840f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Requisitos para aprobar el semillero/4 - CV-LAC/CvLAC - Sebastian Bautista Martinez.pdf"
+                "file": "Requisitos para aprobar el semillero/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "CvLAC - Sebastian Bautista Martinez"
+              "icon": "lucide-file",
+              "title": "🚀 Resumen de Reunión Requisitos y Entregables de Semillero"
             }
           }
         ]
@@ -196,6 +198,11 @@
   },
   "active": "f0e0005e5c6a840f",
   "lastOpenFiles": [
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 04 Optimización de UX y Evolución de Dashboards ( Oscar Antury Avila).md",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 02 - IA, ETL (JUAN DIEGO).md",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 03 Stack Tecnológico y Manejo de Procesos ( Oscar Antury Avila).md",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres).md",
+    "Requisitos para aprobar el semillero/4 - CV-LAC/CvLAC - Sebastian Bautista Martinez.pdf",
     "Requisitos para aprobar el semillero/4 - CV-LAC/CVLAC David Ospina.pdf",
     "Requisitos para aprobar el semillero/4 - CV-LAC/CVLAC Pohlman Cuartas.pdf",
     "Requisitos para aprobar el semillero/4 - CV-LAC/CvLAC - JUAN DIEGO MEJIA MAESTRE.pdf",
@@ -205,18 +212,12 @@
     "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/Propuesta (OPPROSE-02).pdf",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entrega de Entregable 1 - Semillero IA DataFlow Hub.pdf",
     "Requisitos para aprobar el semillero/4 - CV-LAC/CvLAC - RG - Andres Andrade.pdf",
-    "Requisitos para aprobar el semillero/4 - CV-LAC/CvLAC - Maria Virginia Labarca.pdf",
-    "Requisitos para aprobar el semillero/4 - CV-LAC/CvLAC - Oscar Antury.pdf",
     "🎊 Bienvenidos a IA-DataFlow Hub.md",
     "Investigaciones/Tareas.md",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 02 - IA, ETL (JUAN DIEGO).md",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 03 Stack Tecnológico y Manejo de Procesos ( Oscar Antury Avila).md",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres).md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 06 - Arquitectura y Modelado UML (JUAN DIEGO).md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 06 - Arquitectura y Modelado UML (DAVID).md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 05 Seguridad, Privacidad y Cumplimiento (Ley 1581 - Pohlman y David Steven ).md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 04 Optimización de UX y Evolución de Dashboards (María Virginia Labarca).md",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 04 Optimización de UX y Evolución de Dashboards ( Oscar Antury Avila).md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 03 Stack Tecnológico y Manejo de Procesos (JUAN DIEGO).md",
     "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 02 - IA, ETL y Economía de Tokens.md",
     "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 01 - Infraestructura.md",
