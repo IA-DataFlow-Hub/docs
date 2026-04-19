@@ -11,14 +11,13 @@
             "id": "f0e0005e5c6a840f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Investigaciones/Internal/HU - Investigacion/HU - GItHub/📄 Hu 09 Matriz de Capacidades de Agentes y Skills.md",
-                "mode": "source",
-                "source": false
+                "file": "Sin título.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "📄 Hu 09 Matriz de Capacidades de Agentes y Skills"
+              "icon": "lucide-table",
+              "title": "Sin título"
             }
           }
         ]
@@ -198,6 +197,16 @@
   },
   "active": "f0e0005e5c6a840f",
   "lastOpenFiles": [
+    "Actas/Actas de Reunión.md",
+    "Sin título.base",
+    "Actas/Reunion 3 - 18 de abril del 2026 semilleristas proye inves.md",
+    "Actas/Reunion 1 - 28 de febrero de 2026 - Inicio de Semillero IA-DataFlow.md",
+    "Actas/Reunion 2 - 07 de Marzo de 2026 - Proyecto IA-DataFlow.md",
+    "Integrantes/Equipo 1/Sebastián Bautista Martínez/📑 Perfil Profesional - [Nombre del Integrante].md",
+    "Integrantes/Equipo 2/Pohlman Cuartas/📑 Perfil Profesional - [Nombre del Integrante].md",
+    "Integrantes/Equipo 2/Oscar Antury Avila/📑 Perfil Profesional - [Nombre del Integrante].md",
+    "Integrantes/Equipo 2/David Ospina/📑 Perfil Profesional - David Ospina.md",
+    "Investigaciones/Internal/HU - Investigacion/HU - GItHub/📄 Hu 09 Matriz de Capacidades de Agentes y Skills.md",
     "Investigaciones/Internal/HU - Investigacion/HU - GItHub/🚀 IA-DataFlow Informe Ejecutivo de Infraestructura y Estrategia.md",
     "Requisitos para aprobar el semillero/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 04 Optimización de UX y Evolución de Dashboards ( Oscar Antury Avila).md",
@@ -213,7 +222,6 @@
     "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/FORMATO OPPROSE-02 - Grupo 2.pdf",
     "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/Propuesta (OPPROSE-02).pdf",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entrega de Entregable 1 - Semillero IA DataFlow Hub.pdf",
-    "Requisitos para aprobar el semillero/4 - CV-LAC/CvLAC - RG - Andres Andrade.pdf",
     "🎊 Bienvenidos a IA-DataFlow Hub.md",
     "Investigaciones/Tareas.md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 06 - Arquitectura y Modelado UML (JUAN DIEGO).md",
@@ -225,15 +233,6 @@
     "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 01 - Infraestructura.md",
     "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 05 - Seguridad y Cumplimiento Legal.md",
     "conflict-files-obsidian-git.md",
-    "Tutoriales/🛖 Tutoriales.md",
-    "Investigaciones/🌎 Investigaciones Externas.md",
-    "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
-    "Investigaciones/🏠 Investigaciones Internas.md",
-    "Investigaciones/Inscripción de Estudiantes Semilleros.md",
-    "Integrantes/Equipo 2/Andres Felipe Andrade/📑 Perfil Profesional - Andres Felipe Andrade.md",
-    "Integrantes/Equipo 2/Pohlman Cuartas/📑 Perfil Profesional - [Nombre del Integrante].md",
-    "Integrantes/Equipo 2/Oscar Antury Avila/📑 Perfil Profesional - [Nombre del Integrante].md",
-    "Integrantes/Equipo 2/David Ospina/📑 Perfil Profesional - David Ospina.md",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Tablero de Avances.canvas",
