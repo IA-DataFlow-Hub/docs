@@ -1,42 +1,51 @@
 ### 👤 Datos Generales
 
-- **Profesión:** [Ejemplo: Ingeniero de Sistemas]
+- **Profesión:** Ingeniero de Sistemas
     
-- **Enfoque Actual:** [Ejemplo: Desarrollo Full Stack y Arquitectura]
+- **Enfoque Actual:** Especialista en Infraestructura TI - DBA
     
-- **Nivel de Experiencia:** [Ejemplo: Estudiante de 8vo semestre / Senior / Junior]
+- **Nivel de Experiencia:** Consultor Especialista
     
 
 ### 🚀 Mis "Superpoderes" (Habilidades Técnicas)
 
+- **Habilidades:**
+    
+    - Administración y optimización de bases de datos
+    - Gestión de servidores y sistemas operativos
+    - Diseño de infraestructura de TI
+    - Monitoreo y análisis de rendimiento
+    - Implementación de alta disponibilidad y recuperación ante desastres
+    - Seguridad informática y control de accesos
+    - Análisis y resolución de problemas
+    - Documentación técnica y buenas prácticas
+    - Liderazgo, trabajo en equipo y comunicación proactiva 
+
 - **Lenguajes que domino:**
     
-    - [Ejemplo: C# para el backend]
-        
-    - [Ejemplo: JavaScript y TypeScript para el frontend]
-        
-    - [Ejemplo: SQL para bases de datos]
+    - Lenguajes y scripting: SQL, Bash, PowerShell
         
 - **Herramientas y Frameworks:**
     
-    - [Ejemplo: NestJS, React, .NET 9]
-        
-    - [Ejemplo: Docker para contenedores]
+    - Bases de datos: Oracle Database, Microsoft SQL Server, MySQL, PostgreSQL, iSeries DB2
+    - Sistemas operativos: Linux, Windows Server
+    - Administración de BD: Oracle SQL Developer, SQL Server Management Studio, MySQL Workbench, pgAdmin
+    - Monitoreo: Grafana, Cloud Control, Dynatrace
+    - Cloud: Amazon Web Services, Microsoft Azure
         
 - **¿En qué puedo aportar más al equipo?**
     
-    - [Ejemplo: Puedo encargarme de crear las APIs y conectar n8n con la base de datos MySQL.]
+    - Puedo encargarme de la estructuracion, gestion y administracion de Bases de Datos e Infraestructura TI del proyecto.
         
-
 ### 💻 Especificaciones de mi Estación de Trabajo
 
-- **Procesador:** [Ejemplo: Intel Core i7 12va Gen]
+- **Procesador:** AMD Ryzen 7 7735HS With Radeon Graphics
     
-- **Memoria RAM:** [Ejemplo: 32 GB]
+- **Memoria RAM:** 32 GB
     
-- **Tarjeta de Video (GPU):** [Ejemplo: NVIDIA RTX 3050 - Importante para IA local]
+- **Tarjeta de Video (GPU):** NVIDIA GeForce RTX 4050
     
-- **Almacenamiento:** [Ejemplo: 1TB SSD]
+- **Almacenamiento:** 1TB SSD NVMe
     
 
 ### 🎯 Expectativa en el Proyecto
