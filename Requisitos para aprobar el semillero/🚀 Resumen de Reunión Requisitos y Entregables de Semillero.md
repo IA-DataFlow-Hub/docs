@@ -94,6 +94,8 @@ El docente establece las condiciones **obligatorias** (a rajatabla) para los equ
 - [ ] **Reporte Turnitin:** Validar documento final (< 25%).
     
 - [ ] **Publicación Artículo:** Soporte de sometimiento/ponencia.
+
+- [x] Diligenciar formatos y certificado de participación en evento.
     
 
 ### **👤 María Virginia Labarca**
@@ -113,7 +115,8 @@ El docente establece las condiciones **obligatorias** (a rajatabla) para los equ
 - [ ] **Reporte Turnitin:** Validar documento final (< 25%).
     
 - [ ] **Publicación Artículo:** Soporte de sometimiento/ponencia.
-    
+
+- [x] Diligenciar formatos y certificado de participación en evento.
 
 ### **👤 Sebastián Bautista Martínez**
 
@@ -132,7 +135,8 @@ El docente establece las condiciones **obligatorias** (a rajatabla) para los equ
 - [ ] **Reporte Turnitin:** Validar documento final (< 25%).
     
 - [ ] **Publicación Artículo:** Soporte de sometimiento/ponencia.
-    
+
+- [x] Diligenciar formatos y certificado de participación en evento.
 
 ---
 
@@ -155,7 +159,9 @@ El docente establece las condiciones **obligatorias** (a rajatabla) para los equ
 - [ ] **Reporte Turnitin:** Validar documento final (< 25%).
     
 - [ ] **Publicación Artículo:** Soporte de sometimiento/ponencia.
-    
+ 
+- [ ] Diligenciar formatos y certificado de participación en evento.
+
 
 ### **👤 David Ospina**
 
@@ -174,7 +180,9 @@ El docente establece las condiciones **obligatorias** (a rajatabla) para los equ
 - [ ] **Reporte Turnitin:** Validar documento final (< 25%).
     
 - [ ] **Publicación Artículo:** Soporte de sometimiento/ponencia.
-    
+
+- [ ] Diligenciar formatos y certificado de participación en evento.
+
 
 ### **👤 Oscar Antury Avila**
 
