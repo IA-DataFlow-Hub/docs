@@ -11,13 +11,14 @@
             "id": "f0e0005e5c6a840f",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Sin título.base",
-                "viewName": "Table"
+                "file": "Requisitos para aprobar el semillero/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Sin título"
+              "icon": "lucide-file",
+              "title": "🚀 Resumen de Reunión Requisitos y Entregables de Semillero"
             }
           }
         ]
@@ -197,8 +198,9 @@
   },
   "active": "f0e0005e5c6a840f",
   "lastOpenFiles": [
-    "Actas/Actas de Reunión.md",
+    "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Repuesta Participación VI Congreso Internacional de Convergencia Tecnológica 2026.eml",
     "Sin título.base",
+    "Actas/Actas de Reunión.md",
     "Actas/Reunion 3 - 18 de abril del 2026 semilleristas proye inves.md",
     "Actas/Reunion 1 - 28 de febrero de 2026 - Inicio de Semillero IA-DataFlow.md",
     "Actas/Reunion 2 - 07 de Marzo de 2026 - Proyecto IA-DataFlow.md",
@@ -232,7 +234,6 @@
     "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 02 - IA, ETL y Economía de Tokens.md",
     "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 01 - Infraestructura.md",
     "Investigaciones/Internal/HU - Investigacion/HU - IA/📄 Resumen Ejecutivo HU 05 - Seguridad y Cumplimiento Legal.md",
-    "conflict-files-obsidian-git.md",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Tablero de Avances.canvas",
