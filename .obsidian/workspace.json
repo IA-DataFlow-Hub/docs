@@ -11,12 +11,12 @@
             "id": "8c40ec71085cfe13",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "univer-xlsx",
               "state": {
-                "file": "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/FORMATO OPPROSE-02 - Grupo 2.pdf"
+                "file": "Requisitos para aprobar el semillero/3 - Plan de Trabajo/Plan de trabajo FUAA.xlsx"
               },
-              "icon": "lucide-file-text",
-              "title": "FORMATO OPPROSE-02 - Grupo 2"
+              "icon": "lucide-file",
+              "title": "Plan de trabajo FUAA"
             }
           }
         ]
@@ -196,11 +196,13 @@
   },
   "active": "5acc4edec9bf4280",
   "lastOpenFiles": [
+    "Requisitos para aprobar el semillero/3 - Plan de Trabajo/~$Plan de trabajo FUAA.xlsx",
+    "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/FORMATO OPPROSE-02 - Grupo 2.pdf",
+    "Requisitos para aprobar el semillero/3 - Plan de Trabajo/Plan de trabajo FUAA.xlsx",
     "🎊 Bienvenidos a IA-DataFlow Hub.md",
     "conflict-files-obsidian-git.md",
     "Untitled.xlsx",
     "Sin título.base",
-    "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/FORMATO OPPROSE-02 - Grupo 2.pdf",
     "Requisitos para aprobar el semillero/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
     "Investigaciones/Tareas.md",
     "Tutoriales/🛖 Tutoriales.md",
@@ -211,7 +213,6 @@
     "Requisitos para aprobar el semillero/6 - Entregas Parciales",
     "Requisitos para aprobar el semillero/5 - Cesión de Derechos",
     "Requisitos para aprobar el semillero/3 - Plan de Trabajo",
-    "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/Propuesta (OPPROSE-02).pdf",
     "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
     "Investigaciones/🏠 Investigaciones Internas.md",
     "Investigaciones/Inscripción de Estudiantes Semilleros.md",
