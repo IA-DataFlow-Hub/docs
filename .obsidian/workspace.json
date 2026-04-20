@@ -25,12 +25,12 @@
             "id": "27f93e1c8fa2ee60",
             "type": "leaf",
             "state": {
-              "type": "univer-xlsx",
+              "type": "pdf",
               "state": {
-                "file": "Requisitos para aprobar el semillero/3 - Plan de Trabajo/Plan de trabajo FUAA.xlsx"
+                "file": "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Equipo 1 - Repuesta Participación VI Congreso Internacional de Convergencia Tecnológica 2026.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Plan de trabajo FUAA"
+              "icon": "lucide-file-text",
+              "title": "Equipo 1 - Repuesta Participación VI Congreso Internacional de Convergencia Tecnológica 2026"
             }
           }
         ],
@@ -209,8 +209,10 @@
       "univer:Univer": false
     }
   },
-  "active": "5acc4edec9bf4280",
+  "active": "27f93e1c8fa2ee60",
   "lastOpenFiles": [
+    "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Evidencias Equipo 1 - Repuesta Participación VI Congreso Internacional de Convergencia Tecnológica 2026.pdf",
+    "Requisitos para aprobar el semillero/3 - Plan de Trabajo/Plan de trabajo FUAA.xlsx",
     "Integrantes/Equipo 1/Sebastián Bautista Martínez/📑 Perfil Profesional - Sebastian Bautista Martinez.md",
     "Integrantes/Equipo 1/Sebastián Bautista Martínez",
     "DataSets/bd_empresarial_realista_unificacion.xlsx",
@@ -221,7 +223,6 @@
     "DataSets/JSON",
     "DataSets/Identificación de duplicados difusos/datos_muy_erroneos_muchas_columnas.xlsx",
     "DataSets/Identificación de duplicados difusos/datos_muy_erroneos_muchas_columnas (1).xlsx",
-    "DataSets/Identificación de duplicados difusos/datos_erroneos_mas_columnas 2.xlsx",
     "Requisitos para aprobar el semillero/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
     "Requisitos para aprobar el semillero/8 - Publicación Artículo/Pendiente....md",
     "Requisitos para aprobar el semillero/5 - Cesión de Derechos/Pendiente....md",
@@ -246,7 +247,6 @@
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 06 - Arquitectura y Modelado UML (DAVID).md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 05 Seguridad, Privacidad y Cumplimiento (Ley 1581 - Pohlman y David Steven ).md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 04 Optimización de UX y Evolución de Dashboards (María Virginia Labarca).md",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 03 Stack Tecnológico y Manejo de Procesos (JUAN DIEGO).md",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Tablero de Avances.canvas",
