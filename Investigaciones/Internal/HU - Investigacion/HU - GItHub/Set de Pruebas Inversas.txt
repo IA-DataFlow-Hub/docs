@@ -1,0 +1,127 @@
+You are a strict data parser.
+
+TASK:
+Convert TOON format into valid JSON.
+
+RULES:
+
+Return ONLY valid JSON
+No markdown
+No explanations
+Do not modify values
+
+INPUT:
+[H:n|p|e|r|c|i]
+[D:Marvin Jefferson|9474733904|marvin1@mail.com|A|US|1]
+[D:Sebastian Jenkins|1138121221|sebastian2@mail.com|B|PL|2]
+[D:Ignacia Craig|12325630876|ignacia3@mail.com|C|NZ|3]
+[D:Lucas Meyer|5551234567|lucas4@mail.com|D|DE|4]
+[D:Ana Silva|4449876543|ana5@mail.com|E|BR|5]
+[D:John Carter|7778889999|john6@mail.com|F|US|6]
+[D:Maria Lopez|6665554444|maria7@mail.com|G|ES|7]
+[D:David Kim|2223334444|david8@mail.com|H|KR|8]
+[D:Emma Brown|9998887777|emma9@mail.com|I|UK|9]
+[D:Carlos Ruiz|1112223333|carlos10@mail.com|J|MX|10]
+[D:Sofia Martinez|9100000001|sofia11@mail.com|A|AR|11]
+[D:Daniel Torres|9100000002|daniel12@mail.com|B|CO|12]
+[D:Olivia Peterson|9100000003|olivia13@mail.com|C|US|13]
+[D:Noah Williams|9100000004|noah14@mail.com|D|CA|14]
+[D:Emily Johnson|9100000005|emily15@mail.com|E|GB|15]
+[D:Liam Anderson|9100000006|liam16@mail.com|F|AU|16]
+[D:Chloe Martin|9100000007|chloe17@mail.com|G|FR|17]
+[D:Mateo Garcia|9100000008|mateo18@mail.com|H|ES|18]
+[D:Emma Rossi|9100000009|emma19@mail.com|I|IT|19]
+[D:Lucas Silva|9100000010|lucas20@mail.com|J|BR|20]
+[D:Anna Schmidt|9100000011|anna21@mail.com|A|DE|21]
+[D:Peter Novak|9100000012|peter22@mail.com|B|CZ|22]
+[D:Laura Dubois|9100000013|laura23@mail.com|C|FR|23]
+[D:James Miller|9100000014|james24@mail.com|D|US|24]
+[D:Isabella Rossi|9100000015|isabella25@mail.com|E|IT|25]
+[D:William Brown|9100000016|william26@mail.com|F|UK|26]
+[D:Amelia Davis|9100000017|amelia27@mail.com|G|CA|27]
+[D:Benjamin Lee|9100000018|benjamin28@mail.com|H|SG|28]
+[D:Mia Wilson|9100000019|mia29@mail.com|I|NZ|29]
+[D:Ethan Harris|9100000020|ethan30@mail.com|J|US|30]
+[D:Zoe Clark|9100000021|zoe31@mail.com|A|IE|31]
+[D:Henry Lewis|9100000022|henry32@mail.com|B|UK|32]
+[D:Lily Walker|9100000023|lily33@mail.com|C|AU|33]
+[D:Jack Hall|9100000024|jack34@mail.com|D|US|34]
+[D:Grace Young|9100000025|grace35@mail.com|E|CA|35]
+[D:Alexander King|9100000026|alex36@mail.com|F|DE|36]
+[D:Harper Wright|9100000027|harper37@mail.com|G|US|37]
+[D:Sebastian Lopez|9100000028|sebastian38@mail.com|H|MX|38]
+[D:Ella Scott|9100000029|ella39@mail.com|I|UK|39]
+[D:Daniel White|9100000030|daniel40@mail.com|J|US|40]
+[D:Victoria Green|9100000031|victoria41@mail.com|A|AR|41]
+[D:Michael Adams|9100000032|michael42@mail.com|B|US|42]
+[D:Sophia Baker|9100000033|sophia43@mail.com|C|CA|43]
+[D:Logan Nelson|9100000034|logan44@mail.com|D|NZ|44]
+[D:Ava Carter|9100000035|ava45@mail.com|E|US|45]
+[D:Elijah Mitchell|9100000036|elijah46@mail.com|F|UK|46]
+[D:Aria Perez|9100000037|aria47@mail.com|G|ES|47]
+[D:Matthew Roberts|9100000038|matthew48@mail.com|H|US|48]
+[D:Scarlett Turner|9100000039|scarlett49@mail.com|I|AU|49]
+[D:David Phillips|9100000040|david50@mail.com|J|US|50]
+[D:Julia Campbell|9100000041|julia51@mail.com|A|CA|51]
+[D:Andrew Parker|9100000042|andrew52@mail.com|B|US|52]
+[D:Madison Evans|9100000043|madison53@mail.com|C|UK|53]
+[D:Samuel Edwards|9100000044|samuel54@mail.com|D|US|54]
+[D:Layla Collins|9100000045|layla55@mail.com|E|NZ|55]
+[D:Joseph Stewart|9100000046|joseph56@mail.com|F|CA|56]
+[D:Ellie Sanchez|9100000047|ellie57@mail.com|G|ES|57]
+[D:Joshua Morris|9100000048|joshua58@mail.com|H|US|58]
+[D:Penelope Rogers|9100000049|penelope59@mail.com|I|UK|59]
+[D:Ryan Reed|9100000050|ryan60@mail.com|J|US|60]
+[D:Nathan Cook|9100000051|nathan61@mail.com|A|US|61]
+[D:Brooklyn Morgan|9100000052|brooklyn62@mail.com|B|CA|62]
+[D:Christopher Bell|9100000053|chris63@mail.com|C|UK|63]
+[D:Samantha Murphy|9100000054|samantha64@mail.com|D|US|64]
+[D:Anthony Bailey|9100000055|anthony65@mail.com|E|AU|65]
+[D:Charlotte Rivera|9100000056|charlotte66@mail.com|F|ES|66]
+[D:Isaac Cooper|9100000057|isaac67@mail.com|G|US|67]
+[D:Amelia Richardson|9100000058|amelia68@mail.com|H|CA|68]
+[D:Gabriel Cox|9100000059|gabriel69@mail.com|I|UK|69]
+[D:Victoria Howard|9100000060|victoria70@mail.com|J|US|70]
+[D:Leo Ward|9100000061|leo71@mail.com|A|US|71]
+[D:Hannah Torres|9100000062|hannah72@mail.com|B|CO|72]
+[D:Julian Flores|9100000063|julian73@mail.com|C|MX|73]
+[D:Stella Rivera|9100000064|stella74@mail.com|D|AR|74]
+[D:Isaiah Gomez|9100000065|isaiah75@mail.com|E|ES|75]
+[D:Nora Diaz|9100000066|nora76@mail.com|F|CL|76]
+[D:Leo Morales|9100000067|leo77@mail.com|G|PE|77]
+[D:Violet Castro|9100000068|violet78@mail.com|H|US|78]
+[D:Henry Ortiz|9100000069|henry79@mail.com|I|BO|79]
+[D:Lucy Ramirez|9100000070|lucy80@mail.com|J|US|80]
+[D:Adam Foster|9100000071|adam81@mail.com|A|CA|81]
+[D:Evelyn Simmons|9100000072|evelyn82@mail.com|B|UK|82]
+[D:Jason Bryant|9100000073|jason83@mail.com|C|US|83]
+[D:Zoey Alexander|9100000074|zoey84@mail.com|D|NZ|84]
+[D:Luke Russell|9100000075|luke85@mail.com|E|AU|85]
+[D:Lily Griffin|9100000076|lily86@mail.com|F|US|86]
+[D:Owen Hayes|9100000077|owen87@mail.com|G|CA|87]
+[D:Aria Long|9100000078|aria88@mail.com|H|UK|88]
+[D:Caleb Bennett|9100000079|caleb89@mail.com|I|US|89]
+[D:Sofia Wood|9100000080|sofia90@mail.com|J|ES|90]
+[D:Leo Barnes|9100000081|leo91@mail.com|A|US|91]
+[D:Emma Powell|9100000082|emma92@mail.com|B|CA|92]
+[D:Noah Perry|9100000083|noah93@mail.com|C|UK|93]
+[D:Ava Reed|9100000084|ava94@mail.com|D|US|94]
+[D:James Howard|9100000085|james95@mail.com|E|AU|95]
+[D:Mia Ward|9100000086|mia96@mail.com|F|NZ|96]
+[D:Logan James|9100000087|logan97@mail.com|G|US|97]
+[D:Grace Bennett|9100000088|grace98@mail.com|H|CA|98]
+[D:Daniel Gray|9100000089|daniel99@mail.com|I|UK|99]
+[D:Olivia Stone|9100000090|olivia100@mail.com|J|US|100]
+
+Output (JSON)
+
+[{"n":"Marvin Jefferson","p":"9474733904","e":"marvin1@mail.com","r":"A","c":"US","i":"1"},{"n":"Sebastian Jenkins","p":"1138121221","e":"sebastian2@mail.com","r":"B","c":"PL","i":"2"},{"n":"Ignacia Craig","p":"12325630876","e":"ignacia3@mail.com","r":"C","c":"NZ","i":"3"},{"n":"Lucas Meyer","p":"5551234567","e":"lucas4@mail.com","r":"D","c":"DE","i":"4"},{"n":"Ana Silva","p":"4449876543","e":"ana5@mail.com","r":"E","c":"BR","i":"5"},{"n":"John Carter","p":"7778889999","e":"john6@mail.com","r":"F","c":"US","i":"6"},{"n":"Maria Lopez","p":"6665554444","e":"maria7@mail.com","r":"G","c":"ES","i":"7"},{"n":"David Kim","p":"2223334444","e":"david8@mail.com","r":"H","c":"KR","i":"8"},{"n":"Emma Brown","p":"9998887777","e":"emma9@mail.com","r":"I","c":"UK","i":"9"},{"n":"Carlos Ruiz","p":"1112223333","e":"carlos10@mail.com","r":"J","c":"MX","i":"10"},{"n":"Sofia Martinez","p":"9100000001","e":"sofia11@mail.com","r":"A","c":"AR","i":"11"},{"n":"Daniel Torres","p":"9100000002","e":"daniel12@mail.com","r":"B","c":"CO","i":"12"},{"n":"Olivia Peterson","p":"9100000003","e":"olivia13@mail.com","r":"C","c":"US","i":"13"},{"n":"Noah Williams","p":"9100000004","e":"noah14@mail.com","r":"D","c":"CA","i":"14"},{"n":"Emily Johnson","p":"9100000005","e":"emily15@mail.com","r":"E","c":"GB","i":"15"},{"n":"Liam Anderson","p":"9100000006","e":"liam16@mail.com","r":"F","c":"AU","i":"16"},{"n":"Chloe Martin","p":"9100000007","e":"chloe17@mail.com","r":"G","c":"FR","i":"17"},{"n":"Mateo Garcia","p":"9100000008","e":"mateo18@mail.com","r":"H","c":"ES","i":"18"},{"n":"Emma Rossi","p":"9100000009","e":"emma19@mail.com","r":"I","c":"IT","i":"19"},{"n":"Lucas Silva","p":"9100000010","e":"lucas20@mail.com","r":"J","c":"BR","i":"20"},{"n":"Anna Schmidt","p":"9100000011","e":"anna21@mail.com","r":"A","c":"DE","i":"21"},{"n":"Peter Novak","p":"9100000012","e":"peter22@mail.com","r":"B","c":"CZ","i":"22"},{"n":"Laura Dubois","p":"9100000013","e":"laura23@mail.com","r":"C","c":"FR","i":"23"},{"n":"James Miller","p":"9100000014","e":"james24@mail.com","r":"D","c":"US","i":"24"},{"n":"Isabella Rossi","p":"9100000015","e":"isabella25@mail.com","r":"E","c":"IT","i":"25"},{"n":"William Brown","p":"9100000016","e":"william26@mail.com","r":"F","c":"UK","i":"26"},{"n":"Amelia Davis","p":"9100000017","e":"amelia27@mail.com","r":"G","c":"CA","i":"27"},{"n":"Benjamin Lee","p":"9100000018","e":"benjamin28@mail.com","r":"H","c":"SG","i":"28"},{"n":"Mia Wilson","p":"9100000019","e":"mia29@mail.com","r":"I","c":"NZ","i":"29"},{"n":"Ethan Harris","p":"9100000020","e":"ethan30@mail.com","r":"J","c":"US","i":"30"},{"n":"Zoe Clark","p":"9100000021","e":"zoe31@mail.com","r":"A","c":"IE","i":"31"},{"n":"Henry Lewis","p":"9100000022","e":"henry32@mail.com","r":"B","c":"UK","i":"32"},{"n":"Lily Walker","p":"9100000023","e":"lily33@mail.com","r":"C","c":"AU","i":"33"},{"n":"Jack Hall","p":"9100000024","e":"jack34@mail.com","r":"D","c":"US","i":"34"},{"n":"Grace Young","p":"9100000025","e":"grace35@mail.com","r":"E","c":"CA","i":"35"},{"n":"Alexander King","p":"9100000026","e":"alex36@mail.com","r":"F","c":"DE","i":"36"},{"n":"Harper Wright","p":"9100000027","e":"harper37@mail.com","r":"G","c":"US","i":"37"},{"n":"Sebastian Lopez","p":"9100000028","e":"sebastian38@mail.com","r":"H","c":"MX","i":"38"},{"n":"Ella Scott","p":"9100000029","e":"ella39@mail.com","r":"I","c":"UK","i":"39"},{"n":"Daniel White","p":"9100000030","e":"daniel40@mail.com","r":"J","c":"US","i":"40"},{"n":"Victoria Green","p":"9100000031","e":"victoria41@mail.com","r":"A","c":"AR","i":"41"},{"n":"Michael Adams","p":"9100000032","e":"michael42@mail.com","r":"B","c":"US","i":"42"},{"n":"Sophia Baker","p":"9100000033","e":"sophia43@mail.com","r":"C","c":"CA","i":"43"},{"n":"Logan Nelson","p":"9100000034","e":"logan44@mail.com","r":"D","c":"NZ","i":"44"},{"n":"Ava Carter","p":"9100000035","e":"ava45@mail.com","r":"E","c":"US","i":"45"},{"n":"Elijah Mitchell","p":"9100000036","e":"elijah46@mail.com","r":"F","c":"UK","i":"46"},{"n":"Aria Perez","p":"9100000037","e":"aria47@mail.com","r":"G","c":"ES","i":"47"},{"n":"Matthew Roberts","p":"9100000038","e":"matthew48@mail.com","r":"H","c":"US","i":"48"},{"n":"Scarlett Turner","p":"9100000039","e":"scarlett49@mail.com","r":"I","c":"AU","i":"49"},{"n":"David Phillips","p":"9100000040","e":"david50@mail.com","r":"J","c":"US","i":"50"},{"n":"Julia Campbell","p":"9100000041","e":"julia51@mail.com","r":"A","c":"CA","i":"51"},{"n":"Andrew Parker","p":"9100000042","e":"andrew52@mail.com","r":"B","c":"US","i":"52"},{"n":"Madison Evans","p":"9100000043","e":"madison53@mail.com","r":"C","c":"UK","i":"53"},{"n":"Samuel Edwards","p":"9100000044","e":"samuel54@mail.com","r":"D","c":"US","i":"54"},{"n":"Layla Collins","p":"9100000045","e":"layla55@mail.com","r":"E","c":"NZ","i":"55"},{"n":"Joseph Stewart","p":"9100000046","e":"joseph56@mail.com","r":"F","c":"CA","i":"56"},{"n":"Ellie Sanchez","p":"9100000047","e":"ellie57@mail.com","r":"G","c":"ES","i":"57"},{"n":"Joshua Morris","p":"9100000048","e":"joshua58@mail.com","r":"H","c":"US","i":"58"},{"n":"Penelope Rogers","p":"9100000049","e":"penelope59@mail.com","r":"I","c":"UK","i":"59"},{"n":"Ryan Reed","p":"9100000050","e":"ryan60@mail.com","r":"J","c":"US","i":"60"},{"n":"Nathan Cook","p":"9100000051","e":"nathan61@mail.com","r":"A","c":"US","i":"61"},{"n":"Brooklyn Morgan","p":"9100000052","e":"brooklyn62@mail.com","r":"B","c":"CA","i":"62"},{"n":"Christopher Bell","p":"9100000053","e":"chris63@mail.com","r":"C","c":"UK","i":"63"},{"n":"Samantha Murphy","p":"9100000054","e":"samantha64@mail.com","r":"D","c":"US","i":"64"},{"n":"Anthony Bailey","p":"9100000055","e":"anthony65@mail.com","r":"E","c":"AU","i":"65"},{"n":"Charlotte Rivera","p":"9100000056","e":"charlotte66@mail.com","r":"F","c":"ES","i":"66"},{"n":"Isaac Cooper","p":"9100000057","e":"isaac67@mail.com","r":"G","c":"US","i":"67"},{"n":"Amelia Richardson","p":"9100000058","e":"amelia68@mail.com","r":"H","c":"CA","i":"68"},{"n":"Gabriel Cox","p":"9100000059","e":"gabriel69@mail.com","r":"I","c":"UK","i":"69"},{"n":"Victoria Howard","p":"9100000060","e":"victoria70@mail.com","r":"J","c":"US","i":"70"},{"n":"Leo Ward","p":"9100000061","e":"leo71@mail.com","r":"A","c":"US","i":"71"},{"n":"Hannah Torres","p":"9100000062","e":"hannah72@mail.com","r":"B","c":"CO","i":"72"},{"n":"Julian Flores","p":"9100000063","e":"julian73@mail.com","r":"C","c":"MX","i":"73"},{"n":"Stella Rivera","p":"9100000064","e":"stella74@mail.com","r":"D","c":"AR","i":"74"},{"n":"Isaiah Gomez","p":"9100000065","e":"isaiah75@mail.com","r":"E","c":"ES","i":"75"},{"n":"Nora Diaz","p":"9100000066","e":"nora76@mail.com","r":"F","c":"CL","i":"76"},{"n":"Leo Morales","p":"9100000067","e":"leo77@mail.com","r":"G","c":"PE","i":"77"},{"n":"Violet Castro","p":"9100000068","e":"violet78@mail.com","r":"H","c":"US","i":"78"},{"n":"Henry Ortiz","p":"9100000069","e":"henry79@mail.com","r":"I","c":"BO","i":"79"},{"n":"Lucy Ramirez","p":"9100000070","e":"lucy80@mail.com","r":"J","c":"US","i":"80"},{"n":"Adam Foster","p":"9100000071","e":"adam81@mail.com","r":"A","c":"CA","i":"81"},{"n":"Evelyn Simmons","p":"9100000072","e":"evelyn82@mail.com","r":"B","c":"UK","i":"82"},{"n":"Jason Bryant","p":"9100000073","e":"jason83@mail.com","r":"C","c":"US","i":"83"},{"n":"Zoey Alexander","p":"9100000074","e":"zoey84@mail.com","r":"D","c":"NZ","i":"84"},{"n":"Luke Russell","p":"9100000075","e":"luke85@mail.com","r":"E","c":"AU","i":"85"},{"n":"Lily Griffin","p":"9100000076","e":"lily86@mail.com","r":"F","c":"US","i":"86"},{"n":"Owen Hayes","p":"9100000077","e":"owen87@mail.com","r":"G","c":"CA","i":"87"},{"n":"Aria Long","p":"9100000078","e":"aria88@mail.com","r":"H","c":"UK","i":"88"},{"n":"Caleb Bennett","p":"9100000079","e":"caleb89@mail.com","r":"I","c":"US","i":"89"},{"n":"Sofia Wood","p":"9100000080","e":"sofia90@mail.com","r":"J","c":"ES","i":"90"},{"n":"Leo Barnes","p":"9100000081","e":"leo91@mail.com","r":"A","c":"US","i":"91"},{"n":"Emma Powell","p":"9100000082","e":"emma92@mail.com","r":"B","c":"CA","i":"92"},{"n":"Noah Perry","p":"9100000083","e":"noah93@mail.com","r":"C","c":"UK","i":"93"},{"n":"Ava Reed","p":"9100000084","e":"ava94@mail.com","r":"D","c":"US","i":"94"},{"n":"James Howard","p":"9100000085","e":"james95@mail.com","r":"E","c":"AU","i":"95"},{"n":"Mia Ward","p":"9100000086","e":"mia96@mail.com","r":"F","c":"NZ","i":"96"},{"n":"Logan James","p":"9100000087","e":"logan97@mail.com","r":"G","c":"US","i":"97"},{"n":"Grace Bennett","p":"9100000088","e":"grace98@mail.com","r":"H","c":"CA","i":"98"},{"n":"Daniel Gray","p":"9100000089","e":"daniel99@mail.com","r":"I","c":"UK","i":"99"},{"n":"Olivia Stone","p":"9100000090","e":"olivia100@mail.com","r":"J","c":"US","i":"100"}]
+
+After conversion, validate:
+Same number of records as input
+No key renaming
+No value modification
+Output must be strictly valid JSON
+
+
+Validation successful: All rules passed.
