@@ -36,8 +36,6 @@
 **Memoria RAM:** 32GB DDR5 6000MHz 
 **Tarjeta de Video (GPU):** NVIDIA RTX 5060 Ti 16GB 
 **Almacenamiento:** 3TB Total (Samsung 990 EVO Plus 2TB NVMe Gen4 como principal). 
-**Periféricos:** Setup Dual Monitor 2K a 144Hz para máxima productividad en multiarea.
-    
 
 ### 🎯 Expectativa en el Proyecto
 
