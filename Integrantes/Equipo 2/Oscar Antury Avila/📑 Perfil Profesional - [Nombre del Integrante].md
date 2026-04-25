@@ -1,44 +1,44 @@
 ### 👤 Datos Generales
 
-- **Profesión:** [Ejemplo: Ingeniero de Sistemas]
+- **Profesión:** Ingeniero de Sistemas en formación 
     
-- **Enfoque Actual:** [Ejemplo: Desarrollo Full Stack y Arquitectura]
+- **Enfoque Actual:** Analista de información, documentación y soporte QA.
     
-- **Nivel de Experiencia:** [Ejemplo: Estudiante de 8vo semestre / Senior / Junior]
+- **Nivel de Experiencia:** En formación
     
 
 ### 🚀 Mis "Superpoderes" (Habilidades Técnicas)
 
 - **Lenguajes que domino:**
     
-    - [Ejemplo: C# para el backend]
+    - Python, PHP y Java para el backend
         
-    - [Ejemplo: JavaScript y TypeScript para el frontend]
+    - HTML, CSS y JavaScript para el frontend
         
-    - [Ejemplo: SQL para bases de datos]
+    -  SQL para bases de datos
         
 - **Herramientas y Frameworks:**
     
-    - [Ejemplo: NestJS, React, .NET 9]
+    - NestJS, React, laravel y Bootstrap
         
-    - [Ejemplo: Docker para contenedores]
+    - Postman, visual Studio Code
         
 - **¿En qué puedo aportar más al equipo?**
     
-    - [Ejemplo: Puedo encargarme de crear las APIs y conectar n8n con la base de datos MySQL.]
+    - En el análisis de información, documentación y apoyo en pruebas del proyecto.
         
 
 ### 💻 Especificaciones de mi Estación de Trabajo
 
-- **Procesador:** [Ejemplo: Intel Core i7 12va Gen]
+- **Procesador:** AMD Ryzen 7000 Series
     
-- **Memoria RAM:** [Ejemplo: 32 GB]
+- **Memoria RAM:** 16 GB
     
-- **Tarjeta de Video (GPU):** [Ejemplo: NVIDIA RTX 3050 - Importante para IA local]
+- **Tarjeta de Video (GPU):** No tienes dedicada
     
-- **Almacenamiento:** [Ejemplo: 1TB SSD]
+- **Almacenamiento:** 238 GB
     
 
 ### 🎯 Expectativa en el Proyecto
 
-- [Ejemplo: Quiero aprender a optimizar prompts con el estándar TOON y asegurar que todo cumpla con la Ley 1581.]
+- Quiero aprender a organizar y analizar información del proyecto, mejorar mis habilidades en documentación y apoyar en pruebas para asegurar la calidad de los entregables
