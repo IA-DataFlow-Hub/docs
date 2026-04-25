@@ -37,12 +37,14 @@
             "id": "a2da0daa62549c40",
             "type": "leaf",
             "state": {
-              "type": "univer-xlsx",
+              "type": "markdown",
               "state": {
-                "file": "Requisitos para aprobar el semillero/3 - Plan de Trabajo/Plan de trabajo FUAA.xlsx"
+                "file": "Arquitectura.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Plan de trabajo FUAA"
+              "title": "Arquitectura"
             }
           }
         ],
@@ -223,10 +225,12 @@
   },
   "active": "a2da0daa62549c40",
   "lastOpenFiles": [
+    "🎊 Bienvenidos a IA-DataFlow Hub.md",
+    "Requisitos para aprobar el semillero/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
+    "Requisitos para aprobar el semillero/3 - Plan de Trabajo/Plan de trabajo FUAA.xlsx",
     "Requisitos para aprobar el semillero/2 - Aceptación y Asignación/Correo Aceptacion  Propuesta (OPPROSE-02).pdf",
     "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/PROPUESTA OPPROSE-02 - Grupo 1.pdf",
     "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/PROPUESTA OPPROSE-02 - Grupo 2.pdf",
-    "Requisitos para aprobar el semillero/3 - Plan de Trabajo/Plan de trabajo FUAA.xlsx",
     "Integrantes/Equipo 2/Pohlman Cuartas/📑 Perfil Profesional - [Nombre del Integrante].md",
     "Integrantes/Equipo 2/Oscar Antury Avila/📑 Perfil Profesional - [Nombre del Integrante].md",
     "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Evidencias Equipo 1 - Repuesta Participación VI Congreso Internacional de Convergencia Tecnológica 2026.pdf",
@@ -235,10 +239,8 @@
     "Requisitos para aprobar el semillero/4 - CV-LAC/CvLAC - Maria Virginia Labarca.pdf",
     "Requisitos para aprobar el semillero/4 - CV-LAC/CvLAC - Oscar Antury.pdf",
     "Requisitos para aprobar el semillero/4 - CV-LAC/CvLAC - RG - Andres Andrade.pdf",
-    "Requisitos para aprobar el semillero/4 - CV-LAC/CvLAC - Sebastian Bautista Martinez.pdf",
     "Integrantes/Equipo 2/Andres Felipe Andrade/📑 Perfil Profesional - Andres Felipe Andrade.md",
     "Arquitectura.md",
-    "🎊 Bienvenidos a IA-DataFlow Hub.md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 02 - IA, ETL (JUAN DIEGO).md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres).md",
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 03 Stack Tecnológico y Manejo de Procesos ( Oscar Antury Avila).md",
@@ -253,7 +255,6 @@
     "Actas/Actas de Reunión.md",
     "Investigaciones/Internal/HU - Investigacion/HU - GItHub/TOON_DICTIONARY.md",
     "Integrantes/Equipo 1/Sebastián Bautista Martínez/📑 Perfil Profesional - Sebastian Bautista Martinez.md",
-    "Requisitos para aprobar el semillero/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
     "Requisitos para aprobar el semillero/8 - Publicación Artículo/Pendiente....md",
     "Requisitos para aprobar el semillero/5 - Cesión de Derechos/Pendiente....md",
     "Requisitos para aprobar el semillero/7 - Reporte Turnitin/Pendiente....md",
