@@ -1,8 +1,8 @@
 ### 👤 Datos Generales
 
-- **Profesión:** [Tecnico en Canales Electronicos N II]
+- **Profesión:** Ingeniero de soporte en sitio para canales electronicos
     
-- **Enfoque Actual:** [Ejemplo: Desarrollo Full Stack y Arquitectura]
+- **Enfoque Actual:** 
     
 - **Nivel de Experiencia:** [Ejemplo: Estudiante de 8vo semestre / Senior / Junior]
     
