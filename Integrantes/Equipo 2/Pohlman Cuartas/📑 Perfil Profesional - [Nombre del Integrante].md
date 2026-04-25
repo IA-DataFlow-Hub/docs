@@ -1,6 +1,6 @@
 ### 👤 Datos Generales
 
-- **Profesión:** [Ejemplo: Ingeniero de Sistemas]
+- **Profesión:** [Tecnico en Canales Electronicos N II]
     
 - **Enfoque Actual:** [Ejemplo: Desarrollo Full Stack y Arquitectura]
     
