@@ -11,7 +11,7 @@
 
 - **Lenguajes que domino:**
     
-    - Python, PHP y Java para el backend
+    - Python para el backend
         
     - HTML, CSS y JavaScript para el frontend
         
@@ -19,9 +19,9 @@
         
 - **Herramientas y Frameworks:**
     
-    - NestJS, React, laravel y Bootstrap
+    - NestJS, React
         
-    - Postman, visual Studio Code
+    - Postman
         
 - **¿En qué puedo aportar más al equipo?**
     
