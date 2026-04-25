@@ -25,7 +25,7 @@
         
 - **¿En qué puedo aportar más al equipo?**
     
-    - Puedo aportar para el desarrollo del front
+    - Puedo aportar para el desarrollo del frontend
         
 
 ### 💻 Especificaciones de mi Estación de Trabajo
