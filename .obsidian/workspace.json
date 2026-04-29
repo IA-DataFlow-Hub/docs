@@ -1,22 +1,38 @@
 {
   "main": {
-    "id": "ef47669cdb58cd09",
+    "id": "b166b345944ee591",
     "type": "split",
     "children": [
       {
-        "id": "a162e18de3912c51",
+        "id": "68e074604495e1e2",
         "type": "tabs",
         "children": [
           {
-            "id": "64173f8dff31b2d5",
+            "id": "f0e0005e5c6a840f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Evidencias Equipo 1 - Repuesta Participación VI Congreso Internacional de Convergencia Tecnológica 2026.pdf"
+                "file": "Integrantes/Equipo 1/María Virginia Labarca/📑 Perfil Profesional - María Virginia Labarca.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Evidencias Equipo 1 - Repuesta Participación VI Congreso Internacional de Convergencia Tecnológica 2026"
+              "icon": "lucide-file",
+              "title": "📑 Perfil Profesional - María Virginia Labarca"
+            }
+          },
+          {
+            "id": "27f93e1c8fa2ee60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Integrantes/Equipo 2/Oscar Antury Avila/📑 Perfil Profesional - Oscar Antury Avila.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "📑 Perfil Profesional - Oscar Antury Avila"
             }
           }
         ]
@@ -25,15 +41,28 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a9ebaaade4cb292e",
+    "id": "e7f7370a77e52a65",
     "type": "split",
     "children": [
       {
-        "id": "f2194f1899eb4c35",
+        "id": "519a6095a7da8e61",
         "type": "tabs",
         "children": [
           {
-            "id": "62c443d14e05302f",
+            "id": "5acc4edec9bf4280",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0ee8731a34febfd7",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -50,7 +79,7 @@
             }
           },
           {
-            "id": "2774ed0c1aa85840",
+            "id": "43875c9f68c28518",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -58,41 +87,28 @@
               "icon": "lucide-bookmark",
               "title": "Marcadores"
             }
-          },
-          {
-            "id": "cf0d456a5cf7cfc9",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 786.5
   },
   "right": {
-    "id": "2daa72a0765e1673",
+    "id": "dc99987b28e84d42",
     "type": "split",
     "children": [
       {
-        "id": "fff42e81fef0c05d",
+        "id": "deca8cc49018607c",
         "type": "tabs",
         "children": [
           {
-            "id": "b7dd69cea37d80d9",
+            "id": "021db1060885acc4",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,24 +118,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes"
+              "title": "Enlaces entrantes de 🚀 Resumen de Reunión Requisitos y Entregables de Semillero"
             }
           },
           {
-            "id": "9e12dffd0069c48e",
+            "id": "956f5f7bdafb42bb",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes"
+              "title": "Enlaces salientes de 🚀 Resumen de Reunión Requisitos y Entregables de Semillero"
             }
           },
           {
-            "id": "46093e970fbb2030",
+            "id": "874fa732d324216a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -134,7 +151,7 @@
             }
           },
           {
-            "id": "f145275379844da6",
+            "id": "01e58b594d3bf80f",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -148,21 +165,22 @@
             }
           },
           {
-            "id": "eb8d8aa63a01748a",
+            "id": "e63c12ae5911c129",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "followCursor": false,
+                "file": "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema"
+              "title": "Esquema de 🚀 Resumen de Reunión Requisitos y Entregables de Semillero"
             }
           },
           {
-            "id": "415e38775fba04d3",
+            "id": "aaeff519f0d34833",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -176,57 +194,63 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 666.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false,
-      "obsidian-git:Open Git source control": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
+      "excel:Create Excel File": false,
+      "univer:Univer": false
     }
   },
-  "active": "cf0d456a5cf7cfc9",
+  "active": "f0e0005e5c6a840f",
   "lastOpenFiles": [
+    "Integrantes/Equipo 1/Juan Diego Mejía Maestre/📑 Perfil Profesional - Juan Diego Mejia Maestre.md",
+    "Integrantes/Equipo 1/Sebastián Bautista Martínez/📑 Perfil Profesional - Sebastian Bautista Martinez.md",
+    "Integrantes/Equipo 1/María Virginia Labarca/📑 Perfil Profesional - María Virginia Labarca.md",
+    "Integrantes/Equipo 2/Andres Felipe Andrade/📑 Perfil Profesional - Andres Felipe Andrade.md",
+    "Integrantes/Equipo 2/David Ospina/📑 Perfil Profesional - David Ospina.md",
+    "Integrantes/Equipo 2/Oscar Antury Avila/📑 Perfil Profesional - Oscar Antury Avila.md",
+    "Integrantes/Equipo 2/Pohlman Cuartas/📑 Perfil Profesional - Pohlman Cuartas.md",
     "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Evidencias Equipo 2 - Repuesta Participación VI Congreso Internacional de Convergencia Tecnológica 2026.pdf",
-    "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/PROPUESTA OPPROSE-02 - Grupo 1.pdf",
-    "Requisitos para aprobar el semillero/4 - CV-LAC/CvLAC - JUAN DIEGO MEJIA MAESTRE.pdf",
-    "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/PROPUESTA OPPROSE-02 - Grupo 2.pdf",
+    "Arquitectura.md",
+    "Requisitos para aprobar el semillero/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
+    "Investigaciones/Internal/HU - Investigacion/HU - GItHub/HU 08 Investigación Exploratoria - Estándar TOON  y Eficiencia en Tokens.pdf",
+    "Integrantes/Equipo 2/Pohlman Cuartas/📑 Perfil Profesional - [Nombre del Integrante].md",
+    "Docs/📚 Biblioteca de Investigación.md",
+    "🎊 Bienvenidos a IA-DataFlow Hub.md",
+    "Requisitos para aprobar el semillero/3 - Plan de Trabajo/Plan de trabajo FUAA.xlsx",
     "Requisitos para aprobar el semillero/2 - Aceptación y Asignación/Correo Aceptacion  Propuesta (OPPROSE-02).pdf",
+    "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/PROPUESTA OPPROSE-02 - Grupo 1.pdf",
+    "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/PROPUESTA OPPROSE-02 - Grupo 2.pdf",
     "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Evidencias Equipo 1 - Repuesta Participación VI Congreso Internacional de Convergencia Tecnológica 2026.pdf",
     "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Equipo 1 - Repuesta Participación VI Congreso Internacional de Convergencia Tecnológica 2026.pdf",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entrega de Entregable 1 - Semillero IA DataFlow Hub.pdf",
-    "Requisitos para aprobar el semillero/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
-    "conflict-files-obsidian-git.md",
-    "Requisitos para aprobar el semillero/8 - Publicación Artículo/Pendiente....md",
-    "Requisitos para aprobar el semillero/8 - Publicación Artículo",
-    "Requisitos para aprobar el semillero/7 - Reporte Turnitin/Pendiente....md",
-    "Requisitos para aprobar el semillero/7 - Reporte Turnitin",
-    "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Evidencias Equipo 1 - Repuesta Participación VI Congreso Internacional de Convergencia Tecnológica 2026.docx",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 06 - Arquitectura y Modelado UML (JUAN DIEGO).md",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 06 - Arquitectura y Modelado UML (DAVID).md",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 05 Seguridad, Privacidad y Cumplimiento (Ley 1581 - Pohlman y David Steven ).md",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 04 Optimización de UX y Evolución de Dashboards ( Oscar Antury Avila).md",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 04 Optimización de UX y Evolución de Dashboards (María Virginia Labarca).md",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 03 Stack Tecnológico y Manejo de Procesos (JUAN DIEGO).md",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 03 Stack Tecnológico y Manejo de Procesos ( Oscar Antury Avila).md",
+    "Requisitos para aprobar el semillero/4 - CV-LAC/CvLAC - JUAN DIEGO MEJIA MAESTRE.pdf",
+    "Requisitos para aprobar el semillero/4 - CV-LAC/CvLAC - Maria Virginia Labarca.pdf",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 02 - IA, ETL (JUAN DIEGO).md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres).md",
-    "Requisitos para aprobar el semillero/5 - Cesión de Derechos/Pendiente....md",
-    "Investigaciones/Internal/HU - Investigacion/Hu - GitHub/📄 Hu 09 Matriz de Capacidades de Agentes y Skills.md",
-    "Investigaciones/Internal/HU - Investigacion/Hu - GitHub/TOON_DICTIONARY.md",
-    "Integrantes/Equipo 2/Pohlman Cuartas/📑 Perfil Profesional - Pohlman Cuartas.md",
-    "Integrantes/Equipo 2/Oscar Antury Avila/📑 Perfil Profesional - Oscar Antury Avila.md",
-    "Integrantes/Equipo 1/Sebastián Bautista Martínez/📑 Perfil Profesional - Sebastian Bautista Martinez.md",
-    "Arquitectura.md",
+    "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 03 Stack Tecnológico y Manejo de Procesos ( Oscar Antury Avila).md",
+    "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 02 - IA, ETL (JUAN DIEGO).md",
+    "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres).md",
+    "Investigaciones/Externas/🏗️ Requerimientos y Diseño de Arquitectura (UML).md",
+    "Docs/📊 Informe Ejecutivo – Capacidades del Equipo.md",
     "Actas/Reunion 3 - 18 de abril del 2026 semilleristas proye inves.md",
-    "Integrantes/Equipo 2/Oscar Antury Avila/📑 Perfil Profesional - [Nombre del Integrante].md",
-    "Investigaciones/Internal/HU - Investigacion/Hu - GitHub/🚀 IA-DataFlow Informe Ejecutivo de Infraestructura y Estrategia.md",
-    "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
-    "Investigaciones/Tareas.md"
+    "Actas/Reunion 2 - 07 de Marzo de 2026 - Proyecto IA-DataFlow.md",
+    "Actas/Reunion 1 - 28 de febrero de 2026 - Inicio de Semillero IA-DataFlow.md",
+    "Actas/Actas de Reunión.md",
+    "Investigaciones/Internal/HU - Investigacion/HU - GItHub/TOON_DICTIONARY.md",
+    "Requisitos para aprobar el semillero/8 - Publicación Artículo/Pendiente....md",
+    "Requisitos para aprobar el semillero/5 - Cesión de Derechos/Pendiente....md",
+    "Sin título.canvas",
+    "Sin título 1.canvas",
+    "Tablero de Avances.canvas",
+    "Untitled.canvas"
   ]
 }
