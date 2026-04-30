@@ -13,12 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 05 Seguridad, Privacidad y Cumplimiento (Ley 1581 - Pohlman y David Steven ).md",
+                "file": "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 03 Stack Tecnológico y Manejo de Procesos ( Oscar Antury Avila).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "📄 HU 05 Seguridad, Privacidad y Cumplimiento (Ley 1581 - Pohlman y David Steven )"
+              "title": "📄 HU 03 Stack Tecnológico y Manejo de Procesos ( Oscar Antury Avila)"
+            }
+          },
+          {
+            "id": "8bdc995502123bbc",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Archivos/interno/Semillero - HU 01 Infraestructura y Viabilidad de Servidores.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Semillero - HU 01 Infraestructura y Viabilidad de Servidores"
             }
           },
           {
@@ -35,7 +47,8 @@
               "title": "📑 Perfil Profesional - Oscar Antury Avila"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -210,13 +223,23 @@
       "univer:Univer": false
     }
   },
-  "active": "5acc4edec9bf4280",
+  "active": "8bdc995502123bbc",
   "lastOpenFiles": [
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/HU 04 Optimización de UX y Evolución de Dashboards (María Virginia Labarca).pdf",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres).pdf",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/HU 06 - Arquitectura y Modelado UML (DAVID).pdf",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/HU 05 Seguridad, Privacidad y Cumplimiento (Ley 1581 - Pohlman y David Steven ).pdf",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 05 Seguridad, Privacidad y Cumplimiento (Ley 1581 - Pohlman y David Steven ).pdf",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres).pdf",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/Semillero - HU 01 Infraestructura y Viabilidad de Servidores.pdf",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/Hu 06 David.pdf",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/Hu 05.pdf",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/HU 04 Maria.pdf",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/HU 03 y HU 04.pdf",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres).md",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 03 Stack Tecnológico y Manejo de Procesos ( Oscar Antury Avila).md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 02 - IA, ETL (JUAN DIEGO).md",
-    "Requisitos para aprobar el semillero/3 - Plan de Trabajo/Plan de trabajo FUAA.xlsx",
-    "Investigaciones/Internal/HU - Investigacion/HU - GItHub/IADataFlow_ Benchmark Report.pdf",
-    "Investigaciones/Internal/HU - Investigacion/HU - GItHub/HU 08 Investigación Exploratoria - Estándar TOON  y Eficiencia en Tokens.pdf",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 05 Seguridad, Privacidad y Cumplimiento (Ley 1581 - Pohlman y David Steven ).md",
     "Investigaciones/Internal/HU - Investigacion/HU - GItHub/🚀 IA-DataFlow Informe Ejecutivo de Infraestructura y Estrategia.md",
     "Investigaciones/Internal/HU - Investigacion/HU - GItHub/📄 Hu 09 Matriz de Capacidades de Agentes y Skills.md",
     "Integrantes/Equipo 2/David Ospina/📑 Perfil Profesional - David Ospina.md",
@@ -234,19 +257,10 @@
     "Integrantes/Equipo 1/María Virginia Labarca/📑 Perfil Profesional - María Virginia Labarca.md",
     "Integrantes/Equipo 1/Sebastián Bautista Martínez/📑 Perfil Profesional - Sebastian Bautista Martinez.md",
     "🎊 Bienvenidos a IA-DataFlow Hub.md",
-    "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Evidencias Equipo 2 - Repuesta Participación VI Congreso Internacional de Convergencia Tecnológica 2026.pdf",
     "Requisitos para aprobar el semillero/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
     "Integrantes/Equipo 2/Pohlman Cuartas/📑 Perfil Profesional - [Nombre del Integrante].md",
     "Docs/📚 Biblioteca de Investigación.md",
-    "Requisitos para aprobar el semillero/2 - Aceptación y Asignación/Correo Aceptacion  Propuesta (OPPROSE-02).pdf",
-    "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/PROPUESTA OPPROSE-02 - Grupo 1.pdf",
-    "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/PROPUESTA OPPROSE-02 - Grupo 2.pdf",
-    "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Evidencias Equipo 1 - Repuesta Participación VI Congreso Internacional de Convergencia Tecnológica 2026.pdf",
-    "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Equipo 1 - Repuesta Participación VI Congreso Internacional de Convergencia Tecnológica 2026.pdf",
-    "Requisitos para aprobar el semillero/4 - CV-LAC/CvLAC - JUAN DIEGO MEJIA MAESTRE.pdf",
     "Investigaciones/Externas/🏗️ Requerimientos y Diseño de Arquitectura (UML).md",
-    "Docs/📊 Informe Ejecutivo – Capacidades del Equipo.md",
-    "Actas/Reunion 3 - 18 de abril del 2026 semilleristas proye inves.md",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Tablero de Avances.canvas",
