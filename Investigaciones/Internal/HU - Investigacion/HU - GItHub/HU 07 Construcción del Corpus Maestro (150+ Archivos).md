@@ -1,4 +1,6 @@
 # 📑 HU 07: Construcción del Corpus Maestro (150+ Archivos)
+# 📑 HU 07: Construcción del Corpus Maestro (150+ Archivos)
+# 📑 HU 07: Construcción del Corpus Maestro (150+ Archivos)
 
 ## 📝 Descripción
 **Como** Líder de IA y Datos,  

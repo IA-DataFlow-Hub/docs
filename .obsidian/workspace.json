@@ -11,14 +11,12 @@
             "id": "8bdc995502123bbc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Investigaciones/Internal/HU - Investigacion/HU - GItHub/HU 07 Construcción del Corpus Maestro (150+ Archivos).md",
-                "mode": "source",
-                "source": false
+                "file": "Investigaciones/Internal/HU - Investigacion/HU - GItHub/HU 08 Investigación Exploratoria - Estándar TOON  y Eficiencia en Tokens.pdf"
               },
-              "icon": "lucide-file",
-              "title": "HU 07 Construcción del Corpus Maestro (150+ Archivos)"
+              "icon": "lucide-file-text",
+              "title": "HU 08 Investigación Exploratoria - Estándar TOON  y Eficiencia en Tokens"
             }
           },
           {
@@ -210,10 +208,19 @@
       "univer:Univer": false
     }
   },
-  "active": "8bdc995502123bbc",
+  "active": "5acc4edec9bf4280",
   "lastOpenFiles": [
-    "Archivos/interno/Hu 05.pdf",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/HU 08 IADataFlow_ Benchmark Report.pdf",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/HU 08 Investigación Exploratoria - Estándar TOON  y Eficiencia en Tokens.pdf",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/IADataFlow_ Benchmark Report.pdf",
+    "HU 08 Investigación Exploratoria - Estándar TOON  y Eficiencia en Tokens.pdf",
+    "Investigaciones/Internal/HU - Investigacion/HU - GItHub/HU 07 Construcción del Corpus Maestro (150+ Archivos) 1.md",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/HU 07 Construcción del Corpus Maestro (150+ Archivos) 1.pdf",
+    "Pasted image 20260429201211.png",
     "Investigaciones/Internal/HU - Investigacion/HU - GItHub/HU 07 Construcción del Corpus Maestro (150+ Archivos).md",
+    "Investigaciones/Internal/HU - Investigacion/HU - GItHub/HU 08 Investigación Exploratoria - Estándar TOON  y Eficiencia en Tokens.pdf",
+    "Investigaciones/Internal/HU - Investigacion/HU - GItHub/📄 Hu 09 Matriz de Capacidades de Agentes y Skills.md",
+    "Archivos/interno/Hu 05.pdf",
     "Integrantes/Equipo 1/Juan Diego Mejía Maestre/📑 Perfil Profesional - Juan Diego Mejia Maestre.md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/HU 06 Perfil Profesional - Juan Diego Mejia Maestre.pdf",
     "Integrantes/Equipo 1/Sebastián Bautista Martínez/📑 Perfil Profesional - Sebastian Bautista Martinez.md",
@@ -223,17 +230,10 @@
     "Integrantes/Equipo 2/David Ospina/📑 Perfil Profesional - David Ospina.md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/HU 03Perfil Profesional - David Ospina.pdf",
     "Integrantes/Equipo 2/Andres Felipe Andrade/📑 Perfil Profesional - Andres Felipe Andrade.md",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/HU 02 Perfil Profesional - Andres Felipe Andrade.pdf",
     "Integrantes/Equipo 2/Oscar Antury Avila/📑 Perfil Profesional - Oscar Antury Avila.md",
     "Integrantes/Equipo 2/Pohlman Cuartas/📑 Perfil Profesional - Pohlman Cuartas.md",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/HU 01 Perfil Profesional - Pohlman Cuartas.pdf",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entrega de Entregable 1 - Semillero IA DataFlow Hub.pdf",
-    "Investigaciones/Internal/HU - Investigacion/HU - GItHub/IADataFlow_ Benchmark Report.pdf",
     "Investigaciones/Internal/HU - Investigacion/HU - GItHub/HU 10 Spike Exploratorio - Selección de Modelo y Estrategia de Fine-Tuning.md",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/HU 10 Spike Exploratorio - Selección de Modelo y Estrategia de Fine-Tuning.pdf",
-    "Investigaciones/Internal/HU - Investigacion/HU - GItHub/HU 08 Investigación Exploratoria - Estándar TOON  y Eficiencia en Tokens.pdf",
     "Investigaciones/Internal/HU - Investigacion/HU - GItHub/TOON_DICTIONARY.md",
-    "Investigaciones/Internal/HU - Investigacion/HU - GItHub/📄 Hu 09 Matriz de Capacidades de Agentes y Skills.md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 03 Stack Tecnológico y Manejo de Procesos ( Oscar Antury Avila).md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 03 Stack Tecnológico y Manejo de Procesos (JUAN DIEGO).md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 04 Optimización de UX y Evolución de Dashboards ( Oscar Antury Avila).md",
@@ -247,7 +247,6 @@
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres).md",
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 02 - IA, ETL (JUAN DIEGO).md",
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 06 - Arquitectura y Modelado UML (DAVID).md",
-    "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 03 Stack Tecnológico y Manejo de Procesos (JUAN DIEGO).md",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Tablero de Avances.canvas",
