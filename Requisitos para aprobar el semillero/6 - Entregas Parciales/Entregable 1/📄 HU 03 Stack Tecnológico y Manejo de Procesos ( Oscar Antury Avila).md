@@ -1,4 +1,4 @@
-![[HU 03 y HU 04.pdf]]
+
 
 
 # ⚙️ HU 03: Stack Tecnológico y Manejo de Procesos
