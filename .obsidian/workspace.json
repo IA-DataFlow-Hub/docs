@@ -11,10 +11,14 @@
             "id": "b7db9eb7c65b124f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Readme.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Readme"
             }
           }
         ]
@@ -192,18 +196,18 @@
       "univer:Univer": false
     }
   },
-  "active": "b7db9eb7c65b124f",
+  "active": "5acc4edec9bf4280",
   "lastOpenFiles": [
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/Evidencias de las HU 07.png",
     "Integrantes/Equipo 2/Oscar Antury Avila/📑 Perfil Profesional - Oscar Antury Avila.md",
     "Integrantes/Equipo 2/Pohlman Cuartas/📑 Perfil Profesional - Pohlman Cuartas.md",
     "Investigaciones/Internal/HU - Investigacion/HU - GItHub/HU 08 Investigación Exploratoria - Estándar TOON  y Eficiencia en Tokens.pdf",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/HU 08 IADataFlow_ Benchmark Report.pdf",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/HU 08 Investigación Exploratoria - Estándar TOON  y Eficiencia en Tokens.pdf",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/IADataFlow_ Benchmark Report.pdf",
-    "HU 08 Investigación Exploratoria - Estándar TOON  y Eficiencia en Tokens.pdf",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/HU 08 Investigación Exploratoria - Estándar TOON  y Eficiencia en Tokens 1.pdf",
     "Investigaciones/Internal/HU - Investigacion/HU - GItHub/HU 07 Construcción del Corpus Maestro (150+ Archivos) 1.md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/HU 07 Construcción del Corpus Maestro (150+ Archivos) 1.pdf",
-    "Pasted image 20260429201211.png",
     "Investigaciones/Internal/HU - Investigacion/HU - GItHub/HU 07 Construcción del Corpus Maestro (150+ Archivos).md",
     "Investigaciones/Internal/HU - Investigacion/HU - GItHub/📄 Hu 09 Matriz de Capacidades de Agentes y Skills.md",
     "Archivos/interno/Hu 05.pdf",

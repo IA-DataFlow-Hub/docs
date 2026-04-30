@@ -2,7 +2,7 @@ He preparado una documentación técnica formal y profesional que consolida el t
 
 Este documento detalla la estructura de los 150+ archivos, los desafíos de limpieza y transformación a los que se someterán los agentes de IA, y la justificación técnica de por qué este repositorio garantiza un sistema resiliente.
 
-![[Pasted image 20260429201211.png]]
+![[Evidencias de las HU 07.png]]
 
 ### Resumen de la Documentación:
 
