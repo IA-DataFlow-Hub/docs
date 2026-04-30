@@ -4,33 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "68e074604495e1e2",
+        "id": "e547b7ad8aebdba8",
         "type": "tabs",
         "children": [
           {
-            "id": "8bdc995502123bbc",
+            "id": "b7db9eb7c65b124f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Investigaciones/Internal/HU - Investigacion/HU - GItHub/HU 08 Investigación Exploratoria - Estándar TOON  y Eficiencia en Tokens.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "HU 08 Investigación Exploratoria - Estándar TOON  y Eficiencia en Tokens"
-            }
-          },
-          {
-            "id": "27f93e1c8fa2ee60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Integrantes/Equipo 2/Oscar Antury Avila/📑 Perfil Profesional - Oscar Antury Avila.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "📑 Perfil Profesional - Oscar Antury Avila"
+              "title": "New tab"
             }
           }
         ]
@@ -208,8 +192,11 @@
       "univer:Univer": false
     }
   },
-  "active": "5acc4edec9bf4280",
+  "active": "b7db9eb7c65b124f",
   "lastOpenFiles": [
+    "Integrantes/Equipo 2/Oscar Antury Avila/📑 Perfil Profesional - Oscar Antury Avila.md",
+    "Integrantes/Equipo 2/Pohlman Cuartas/📑 Perfil Profesional - Pohlman Cuartas.md",
+    "Investigaciones/Internal/HU - Investigacion/HU - GItHub/HU 08 Investigación Exploratoria - Estándar TOON  y Eficiencia en Tokens.pdf",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/HU 08 IADataFlow_ Benchmark Report.pdf",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/HU 08 Investigación Exploratoria - Estándar TOON  y Eficiencia en Tokens.pdf",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/IADataFlow_ Benchmark Report.pdf",
@@ -218,7 +205,6 @@
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/HU 07 Construcción del Corpus Maestro (150+ Archivos) 1.pdf",
     "Pasted image 20260429201211.png",
     "Investigaciones/Internal/HU - Investigacion/HU - GItHub/HU 07 Construcción del Corpus Maestro (150+ Archivos).md",
-    "Investigaciones/Internal/HU - Investigacion/HU - GItHub/HU 08 Investigación Exploratoria - Estándar TOON  y Eficiencia en Tokens.pdf",
     "Investigaciones/Internal/HU - Investigacion/HU - GItHub/📄 Hu 09 Matriz de Capacidades de Agentes y Skills.md",
     "Archivos/interno/Hu 05.pdf",
     "Integrantes/Equipo 1/Juan Diego Mejía Maestre/📑 Perfil Profesional - Juan Diego Mejia Maestre.md",
@@ -228,10 +214,7 @@
     "Integrantes/Equipo 1/María Virginia Labarca/📑 Perfil Profesional - María Virginia Labarca.md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/HU 04 Perfil Profesional - María Virginia Labarca.pdf",
     "Integrantes/Equipo 2/David Ospina/📑 Perfil Profesional - David Ospina.md",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/HU 03Perfil Profesional - David Ospina.pdf",
     "Integrantes/Equipo 2/Andres Felipe Andrade/📑 Perfil Profesional - Andres Felipe Andrade.md",
-    "Integrantes/Equipo 2/Oscar Antury Avila/📑 Perfil Profesional - Oscar Antury Avila.md",
-    "Integrantes/Equipo 2/Pohlman Cuartas/📑 Perfil Profesional - Pohlman Cuartas.md",
     "Investigaciones/Internal/HU - Investigacion/HU - GItHub/HU 10 Spike Exploratorio - Selección de Modelo y Estrategia de Fine-Tuning.md",
     "Investigaciones/Internal/HU - Investigacion/HU - GItHub/TOON_DICTIONARY.md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 03 Stack Tecnológico y Manejo de Procesos ( Oscar Antury Avila).md",
