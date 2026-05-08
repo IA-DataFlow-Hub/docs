@@ -1,0 +1,64 @@
+# IA DataFlow — Visión General
+
+## ¿Qué es IA DataFlow?
+
+**IA DataFlow** es una plataforma de procesamiento inteligente de datos donde los usuarios suben archivos (Excel, CSV, PDF, JSON), una IA los analiza, detecta problemas, sugiere correcciones y los transforma según las necesidades del usuario. Todo el flujo de trabajo se organiza siguiendo el ciclo BPM (Business Process Management) de **4 fases**:
+
+1. **Diseñar** — Carga de documentos y análisis de su estructura
+2. **Ejecutar** — Aplicación de transformaciones con aprobación del usuario
+3. **Supervisar** — Registro de cambios y auditoría
+4. **Optimizar** — Sugerencias de mejora continua
+
+## Características principales
+
+- **Trabajo colaborativo** mediante equipos (`teams`) con roles diferenciados
+- **Permisos granulares** por módulo y por fase
+- **Dos motores de IA** integrados:
+  - **Llama 3.1 (Ollama)** — local, para datos privados/sensibles
+  - **Gemini Pro** — cloud, para procesamiento general
+- **Auditoría completa** de todas las acciones del sistema
+- **Versionado de archivos** cuando la IA los modifica
+- **Sistema de tareas** con prioridades y deadlines
+- **Chat integrado** entre usuario e IA con contexto de proyecto
+
+## Stack de la base de datos
+
+| Componente | Detalle |
+|---|---|
+| Motor | MySQL 8.0+ |
+| Tablas | 21 |
+| Tablas intermedias (N:M) | 4 |
+| Foreign Keys | 35+ |
+| Índices | 17 |
+| Codificación | UTF-8 |
+
+## Cómo está organizada la BD
+
+Las 21 tablas se agrupan en **7 dominios funcionales**:
+
+| Dominio | Tablas |
+|---|---|
+| Identidad | `users`, `credentials`, `user_preferences`, `sessions` |
+| Permisos | `roles`, `permissions`, `user_roles`, `role_permissions` |
+| Equipos | `teams`, `team_members` |
+| Núcleo BPM | `projects`, `workflow_phases`, `project_phases` |
+| Archivos | `files`, `file_versions` |
+| Inteligencia Artificial | `ai_engines`, `ai_jobs`, `ai_results` |
+| Comunicación | `conversations`, `messages` |
+| Tareas | `tasks` |
+| Auditoría | `audit_logs` |
+
+## Concepto clave: la tabla `projects`
+
+`projects` es la **columna vertebral** del sistema. Cuando un usuario inicia su primera interacción con el chat, se crea un proyecto y todo lo que haga después (subir archivos, ejecutar IA, generar tareas, conversar) se vincula a ese proyecto a través del campo `id_project`.
+
+Esto resuelve el problema de tener tablas operativas "flotando" sin un eje común y permite preguntar fácilmente: *"¿Qué hizo este usuario en este proyecto?"*
+
+## Documentos disponibles
+
+- **Arquitectura** — diagrama relacional y vista de alto nivel
+- **Modelo de datos** — descripción detallada de cada tabla
+- **Flujos de trabajo** — casos de uso end-to-end
+
+- **Motores de IA** — lógica Llama vs Gemini
+- **Seguridad y permisos** — autenticación, roles y RBAC
