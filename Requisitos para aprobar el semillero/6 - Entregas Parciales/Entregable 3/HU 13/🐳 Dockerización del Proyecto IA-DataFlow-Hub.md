@@ -32,21 +32,13 @@ El proyecto **IA-DataFlow-Hub** utiliza una arquitectura de microservicios orque
 ### Servicios Implementados
 
   
-
-| Servicio | Tecnología | Puerto | Descripción |
-
-|----------|------------|--------|-------------|
-
-| **client** | React + Vite + Nginx | 5173 | Frontend de usuario |
-
-| **api** | NestJS + Node.js | 3000 | API REST backend |
-
-| **db** | MySQL 8.0 | 3307 | Base de datos principal |
-
-| **phpmyadmin** | phpMyAdmin | 8080 | Administración BD |
-
-| **n8n** | n8n | 5678 | Automatización de flujos |
-
+| Servicio         | Stack Tecnológico    | Puerto (Host:Container) | Descripción                    |
+| :--------------- | :------------------- | :---------------------- | :----------------------------- |
+| **`client`**     | React + Vite + Nginx | `5173:80`               | Interfaz de usuario (Frontend) |
+| **`api`**        | NestJS (Node.js)     | `3000:3000`             | Core Business Logic (Backend)  |
+| **`db`**         | MySQL 8.0            | `3307:3306`             | Capa de persistencia principal |
+| **`phpmyadmin`** | phpMyAdmin           | `8080:80`               | GUI para administración de BD  |
+| **`n8n`**        | n8n Workflow         | `5678:5678`             | Motor de automatización        |
 
   
 
@@ -501,14 +493,10 @@ docker-compose logs db
   
 
 | Servicio | Comando | Intervalo | Timeout |
-
-|----------|---------|-----------|---------|
-
-| client | `curl -fs http://localhost:80` | 30s | 5s |
-
-| api | `wget -q --spider http://localhost:3000` | 30s | 5s |
-
-| db | `mysqladmin ping` | 10s | 5s |
+| :--- | :--- | :--- | :--- |
+| **client** | `curl -fs http://localhost:80` | 30s | 5s |
+| **api** | `wget -q --spider http://localhost:3000` | 30s | 5s |
+| **db** | `mysqladmin ping` | 10s | 5s |
 
   
 
@@ -528,19 +516,13 @@ docker-compose logs db
 
   
 
-| Contenedor | Imagen | Puerto | CPU | Memoria |
-
-|------------|--------|--------|-----|---------|
-
-| **iadataflow_client** | `iadataflow/client:latest` | 5173:80 | 0% | 22.04MB / 15.47GB |
-
-| **iadataflow_api** | `iadataflow/api:latest` | 3000:3000 | 0% | 21.98MB / 15.47GB |
-
-| **iadataflow_db** | `mysql:8.0` | 3307:3306 | 0.49% | 384.4MB / 15.47GB |
-
-| **iadataflow_phpmyadmin** | `phpmyadmin:latest` | 8080:80 | 0% | 19.34MB / 15.47GB |
-
-| **iadataflow_n8n** | `n8nio/n8n:latest` | 5678:5678 | 0.11% | 348.6MB / 15.47GB |
+| Contenedor | Imagen | Puerto (H:C) | CPU % | Uso de Memoria |
+| :--- | :--- | :--- | :--- | :--- |
+| **`client`** | `iadataflow/client:latest` | `5173:80` | `0.00%` | 22.04 MB |
+| **`api`** | `iadataflow/api:latest` | `3000:3000` | `0.00%` | 21.98 MB |
+| **`db`** | `mysql:8.0` | `3307:3306` | `0.49%` | 384.4 MB |
+| **`phpmyadmin`** | `phpmyadmin:latest` | `8080:80` | `0.00%` | 19.34 MB |
+| **`n8n`** | `n8nio/n8n:latest` | `5678:5678` | `0.11%` | 348.6 MB |
 
   
 
