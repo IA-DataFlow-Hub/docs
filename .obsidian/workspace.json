@@ -11,12 +11,14 @@
             "id": "4230798746b26514",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 13/🐳 Dockerización del Proyecto IA-DataFlow-Hub.pdf"
+                "file": "Docs/📚 Biblioteca de Investigación.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "🐳 Dockerización del Proyecto IA-DataFlow-Hub"
+              "icon": "lucide-file",
+              "title": "📚 Biblioteca de Investigación"
             }
           }
         ]
@@ -194,17 +196,24 @@
       "univer:Univer": false
     }
   },
-  "active": "5acc4edec9bf4280",
+  "active": "4230798746b26514",
   "lastOpenFiles": [
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 13/docker.png",
-    "Readme.md",
-    "HU & Investigaciones/Internas/HU 13 - Docker/🐳 Dockerización del Proyecto IA-DataFlow-Hub.md",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 13/🐳 Dockerización del Proyecto IA-DataFlow-Hub.pdf",
     "Docs/📊 Informe Ejecutivo – Capacidades del Equipo.md",
     "Docs/📚 Biblioteca de Investigación.md",
-    "Docs/Resumen del Proyecto Ecosistema IA-DataFlow.md",
+    "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Evidencias Equipo 2 - Repuesta Participación VI Congreso Internacional de Convergencia Tecnológica 2026.pdf",
+    "Requisitos para aprobar el semillero/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
+    "Tutoriales/🎓 Manual de Sincronización Git + GitHub.md",
+    "Tutoriales/💎 Guía de Instalación Obsidian + Sincronización Git.md",
+    "Tutoriales/💎 Guía Maestra de Estilo en Obsidian.md",
+    "Tutoriales/🛖 Tutoriales.md",
     "🎊 Bienvenidos a IA-DataFlow Hub.md",
+    "Readme.md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 14/Arquitectura IA-DataFlow-Hub.pdf",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 11/HU11 - Diseño y Creación de la Base de Datos Relacional (MySQL).pdf",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 13/🐳 Dockerización del Proyecto IA-DataFlow-Hub.pdf",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 13/docker.png",
+    "HU & Investigaciones/Internas/HU 13 - Docker/🐳 Dockerización del Proyecto IA-DataFlow-Hub.md",
+    "Docs/Resumen del Proyecto Ecosistema IA-DataFlow.md",
     "Integrantes/Equipo 2/David Ospina/📑 Perfil Profesional - David Ospina.md",
     "HU & Investigaciones/Internas/HU 14 - Infraestructura",
     "HU & Investigaciones/Internas/HU 13 - Docker",
@@ -214,8 +223,6 @@
     "HU & Investigaciones/Internas/HU 11 - Database/HU 11 Diseño y Creación de la Base de Datos Relacional (MySQL).md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 13",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/New folder",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 11/ia_dataflow_v2.sql",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 11/ia_dataflow_v2_test_data.sql",
     "HU & Investigaciones/Internas/Sin título.md",
     "HU & Investigaciones/Internas/HU 14 - Infraestructura/Arquitectura IA-DataFlow-Hub.md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/Evidencias de las HU 07.png",
@@ -228,11 +235,6 @@
     "Integrantes/Equipo 1/María Virginia Labarca/📑 Perfil Profesional - María Virginia Labarca.md",
     "Integrantes/Equipo 2/Andres Felipe Andrade/📑 Perfil Profesional - Andres Felipe Andrade.md",
     "Investigaciones/Internal/HU - Investigacion/HU - GItHub/HU 10 Spike Exploratorio - Selección de Modelo y Estrategia de Fine-Tuning.md",
-    "Investigaciones/Internal/HU - Investigacion/HU - GItHub/TOON_DICTIONARY.md",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 03 Stack Tecnológico y Manejo de Procesos ( Oscar Antury Avila).md",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 03 Stack Tecnológico y Manejo de Procesos (JUAN DIEGO).md",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 04 Optimización de UX y Evolución de Dashboards ( Oscar Antury Avila).md",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 04 Optimización de UX y Evolución de Dashboards (María Virginia Labarca).md",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Tablero de Avances.canvas",
