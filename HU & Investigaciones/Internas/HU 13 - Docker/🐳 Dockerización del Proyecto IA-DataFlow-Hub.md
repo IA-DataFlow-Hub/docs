@@ -1,9 +1,9 @@
 ---
-title: "Dockerización - IA-DataFlow-Hub"
-created: 2024-05-08
+title: Dockerización - IA-DataFlow-Hub
+created: 2026-05-08
 participants:
-  - "Juan Diego Mejia Maestre"
-  - "David Ospina"
+  - Juan Diego Mejia Maestre
+  - David Ospina
 tags:
   - docker
   - infraestructura
@@ -632,26 +632,4 @@ graph LR
 
   
 
----
-
-  
-
-## 📚 Referencias
-
-  
-
-- [Docker Compose Documentation](https://docs.docker.com/compose/)
-
-- [Docker Best Practices](https://docs.docker.com/develop/dev-best-practices/)
-
-- [NestJS Docker Guide](https://docs.nestjs.com/)
-
-- [React Docker Deployment](https://vitejs.dev/guide/static-deploy.html)
-
-  
-
----
-
-  
-
-*Documentación creada por Juan Diego Mejia Maestre y David Ospina - Mayo 2024*
+*Documentación creada por Juan Diego Mejia Maestre y David Ospina - Mayo 2026
