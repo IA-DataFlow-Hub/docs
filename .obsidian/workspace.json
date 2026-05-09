@@ -192,8 +192,7 @@
       "command-palette:Abrir paleta de comandos": false,
       "bases:Crear nueva base": false,
       "obsidian-git:Open Git source control": false,
-      "excel:Create Excel File": false,
-      "univer:Univer": false
+      "excel:Create Excel File": false
     }
   },
   "active": "5acc4edec9bf4280",
