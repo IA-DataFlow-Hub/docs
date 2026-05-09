@@ -11,12 +11,12 @@
             "id": "4230798746b26514",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "pdf",
               "state": {
-                "file": "Pasted image 20260508201350.png"
+                "file": "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 13/🐳 Dockerización del Proyecto IA-DataFlow-Hub.pdf"
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260508201350"
+              "icon": "lucide-file-text",
+              "title": "🐳 Dockerización del Proyecto IA-DataFlow-Hub"
             }
           }
         ]
@@ -194,12 +194,12 @@
       "univer:Univer": false
     }
   },
-  "active": "4230798746b26514",
+  "active": "5acc4edec9bf4280",
   "lastOpenFiles": [
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 13/docker.png",
     "Readme.md",
     "HU & Investigaciones/Internas/HU 13 - Docker/🐳 Dockerización del Proyecto IA-DataFlow-Hub.md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 13/🐳 Dockerización del Proyecto IA-DataFlow-Hub.pdf",
-    "Pasted image 20260508201350.png",
     "Docs/📊 Informe Ejecutivo – Capacidades del Equipo.md",
     "Docs/📚 Biblioteca de Investigación.md",
     "Docs/Resumen del Proyecto Ecosistema IA-DataFlow.md",

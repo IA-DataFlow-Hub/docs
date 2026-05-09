@@ -49,7 +49,7 @@ El proyecto **IA-DataFlow-Hub** utiliza una arquitectura de microservicios orque
 ## 🏗️ Arquitectura Docker
 
   
-![[Pasted image 20260508201350.png]]
+![[docker.png]]
 ### Estructura de Contenedores
 
   
