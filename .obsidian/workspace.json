@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arquitectura IA-DataFlow-Hub.md",
+                "file": "Docs/Resumen del Proyecto Ecosistema IA-DataFlow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arquitectura IA-DataFlow-Hub"
+              "title": "Resumen del Proyecto Ecosistema IA-DataFlow"
             }
           }
         ]
@@ -198,25 +198,26 @@
   },
   "active": "4230798746b26514",
   "lastOpenFiles": [
+    "Archivos/interno/HU 11/ia_dataflow_v2_test_data.sql",
+    "Archivos/interno/HU 11/ia_dataflow_v2.sql",
+    "Archivos/interno/HU 11/HU11 - Diseño y Creación de la Base de Datos Relacional (MySQL).pdf",
+    "Archivos/interno/HU 11/HU11 - Diseño y Creación de la Base de Datos Relacional (MySQL).docx",
+    "Archivos/interno/HU 11",
+    "Archivos/interno/HU 01/HU01 -  Infraestructura y Viabilidad de Servidores.pdf",
+    "Archivos/interno/HU 01/HU01 -  Infraestructura y Viabilidad de Servidores.docx",
+    "Archivos/interno/HU 01",
+    "🎊 Bienvenidos a IA-DataFlow Hub.md",
+    "Arquitectura IA-DataFlow-Hub.md",
     "Readme.md",
-    "Arquitectura IA-DataFlow-Hub.md",
-    "Arquitectura IA-DataFlow-Hub.md",
     "Requisitos para aprobar el semillero/3 - Plan de Trabajo/Plan de trabajo FUAA.xlsx",
     "Requisitos para aprobar el semillero/3 - Plan de Trabajo/7639D700",
     "Requisitos para aprobar el semillero/3 - Plan de Trabajo/~$Plan de trabajo FUAA.xlsx",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/Evidencias de las HU 07.png",
     "Integrantes/Equipo 2/Oscar Antury Avila/📑 Perfil Profesional - Oscar Antury Avila.md",
     "Integrantes/Equipo 2/Pohlman Cuartas/📑 Perfil Profesional - Pohlman Cuartas.md",
-    "Investigaciones/Internal/HU - Investigacion/HU - GItHub/HU 08 Investigación Exploratoria - Estándar TOON  y Eficiencia en Tokens.pdf",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/HU 08 IADataFlow_ Benchmark Report.pdf",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/HU 08 Investigación Exploratoria - Estándar TOON  y Eficiencia en Tokens.pdf",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/IADataFlow_ Benchmark Report.pdf",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/HU 08 Investigación Exploratoria - Estándar TOON  y Eficiencia en Tokens 1.pdf",
     "Investigaciones/Internal/HU - Investigacion/HU - GItHub/HU 07 Construcción del Corpus Maestro (150+ Archivos) 1.md",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/HU 07 Construcción del Corpus Maestro (150+ Archivos) 1.pdf",
     "Investigaciones/Internal/HU - Investigacion/HU - GItHub/HU 07 Construcción del Corpus Maestro (150+ Archivos).md",
     "Investigaciones/Internal/HU - Investigacion/HU - GItHub/📄 Hu 09 Matriz de Capacidades de Agentes y Skills.md",
-    "Archivos/interno/Hu 05.pdf",
     "Integrantes/Equipo 1/Juan Diego Mejía Maestre/📑 Perfil Profesional - Juan Diego Mejia Maestre.md",
     "Integrantes/Equipo 1/Sebastián Bautista Martínez/📑 Perfil Profesional - Sebastian Bautista Martinez.md",
     "Integrantes/Equipo 1/María Virginia Labarca/📑 Perfil Profesional - María Virginia Labarca.md",
@@ -234,7 +235,6 @@
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 05 Seguridad, Privacidad y Cumplimiento (Ley 1581 - Pohlman y David Steven ).md",
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 04 Optimización de UX y Evolución de Dashboards (María Virginia Labarca).md",
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 03 Stack Tecnológico y Manejo de Procesos ( Oscar Antury Avila).md",
-    "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres).md",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Tablero de Avances.canvas",
