@@ -11,14 +11,12 @@
             "id": "4230798746b26514",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Docs/Resumen del Proyecto Ecosistema IA-DataFlow.md",
-                "mode": "source",
-                "source": false
+                "file": "Archivos/interno/HU 01/HU01 -  Infraestructura y Viabilidad de Servidores.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Resumen del Proyecto Ecosistema IA-DataFlow"
+              "icon": "lucide-file-text",
+              "title": "HU01 -  Infraestructura y Viabilidad de Servidores"
             }
           }
         ]
@@ -198,9 +196,10 @@
   },
   "active": "4230798746b26514",
   "lastOpenFiles": [
+    "Archivos/interno/HU 11/HU11 - Diseño y Creación de la Base de Datos Relacional (MySQL).pdf",
+    "Docs/Resumen del Proyecto Ecosistema IA-DataFlow.md",
     "Archivos/interno/HU 11/ia_dataflow_v2_test_data.sql",
     "Archivos/interno/HU 11/ia_dataflow_v2.sql",
-    "Archivos/interno/HU 11/HU11 - Diseño y Creación de la Base de Datos Relacional (MySQL).pdf",
     "Archivos/interno/HU 11/HU11 - Diseño y Creación de la Base de Datos Relacional (MySQL).docx",
     "Archivos/interno/HU 11",
     "Archivos/interno/HU 01/HU01 -  Infraestructura y Viabilidad de Servidores.pdf",
@@ -211,7 +210,6 @@
     "Readme.md",
     "Requisitos para aprobar el semillero/3 - Plan de Trabajo/Plan de trabajo FUAA.xlsx",
     "Requisitos para aprobar el semillero/3 - Plan de Trabajo/7639D700",
-    "Requisitos para aprobar el semillero/3 - Plan de Trabajo/~$Plan de trabajo FUAA.xlsx",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/Evidencias de las HU 07.png",
     "Integrantes/Equipo 2/Oscar Antury Avila/📑 Perfil Profesional - Oscar Antury Avila.md",
     "Integrantes/Equipo 2/Pohlman Cuartas/📑 Perfil Profesional - Pohlman Cuartas.md",
@@ -234,7 +232,6 @@
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 02 - IA, ETL (JUAN DIEGO).md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 1/📄 HU 05 Seguridad, Privacidad y Cumplimiento (Ley 1581 - Pohlman y David Steven ).md",
     "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 04 Optimización de UX y Evolución de Dashboards (María Virginia Labarca).md",
-    "Investigaciones/Internal/HU - Investigacion/HU/📄 HU 03 Stack Tecnológico y Manejo de Procesos ( Oscar Antury Avila).md",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Tablero de Avances.canvas",
