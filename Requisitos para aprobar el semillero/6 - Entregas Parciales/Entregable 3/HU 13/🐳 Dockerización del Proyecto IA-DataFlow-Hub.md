@@ -1,46 +1,25 @@
 ---
-
 title: "Dockerización - IA-DataFlow-Hub"
-
-created: "2024-05-08"
-
+created: 2024-05-08
 participants:
-
-  - "Juan Diego Mejia Maestre"
-
-  - "David Ospina"
-
-tags: [docker, infraestructura, arquitectura, monorepo]
-
+  - "Juan Diego Mejia Maestre"
+  - "David Ospina"
+tags:
+  - docker
+  - infraestructura
+  - arquitectura
+  - monorepo
 ---
 
-  
-
 # 🐳 Dockerización del Proyecto IA-DataFlow-Hub
-
-  
-
-## 📋 Información General
-
-  
-
-**Fecha de Creación:** Mayo 2024  
 
 **Participantes:**
 
 - Juan Diego Mejia Maestre
-
 - David Ospina
 
-  
 
 **Objetivo:** Implementar una infraestructura Docker completa para el desarrollo y despliegue del monorepo IA-DataFlow-Hub.
-
-  
-
----
-
-  
 
 ## 🎯 Visión General de la Dockerización
 
@@ -68,6 +47,7 @@ El proyecto **IA-DataFlow-Hub** utiliza una arquitectura de microservicios orque
 
 | **n8n** | n8n | 5678 | Automatización de flujos |
 
+
   
 
 ---
@@ -77,7 +57,7 @@ El proyecto **IA-DataFlow-Hub** utiliza una arquitectura de microservicios orque
 ## 🏗️ Arquitectura Docker
 
   
-
+![[Pasted image 20260508201350.png]]
 ### Estructura de Contenedores
 
   
@@ -529,6 +509,50 @@ docker-compose logs db
 | api | `wget -q --spider http://localhost:3000` | 30s | 5s |
 
 | db | `mysqladmin ping` | 10s | 5s |
+
+  
+
+### 📈 Uso Real de Recursos (Estado Actual)
+
+  
+
+**Resumen General:**
+
+- **CPU Total:** 0.60% de 2000% disponible (20 CPUs)
+
+- **Memoria Total:** 796.36MB de 15.11GB disponible
+
+  
+
+**Uso por Contenedor:**
+
+  
+
+| Contenedor | Imagen | Puerto | CPU | Memoria |
+
+|------------|--------|--------|-----|---------|
+
+| **iadataflow_client** | `iadataflow/client:latest` | 5173:80 | 0% | 22.04MB / 15.47GB |
+
+| **iadataflow_api** | `iadataflow/api:latest` | 3000:3000 | 0% | 21.98MB / 15.47GB |
+
+| **iadataflow_db** | `mysql:8.0` | 3307:3306 | 0.49% | 384.4MB / 15.47GB |
+
+| **iadataflow_phpmyadmin** | `phpmyadmin:latest` | 8080:80 | 0% | 19.34MB / 15.47GB |
+
+| **iadataflow_n8n** | `n8nio/n8n:latest` | 5678:5678 | 0.11% | 348.6MB / 15.47GB |
+
+  
+
+**Observaciones:**
+
+- ✅ **Bajo consumo de CPU:** La mayoría de servicios mantienen uso mínimo (< 0.5%)
+
+- ✅ **Memoria eficiente:** MySQL consume la mayor parte (384MB) debido a buffers internos
+
+- ✅ **Cliente ligero:** React + Nginx optimizado (solo 22MB)
+
+- ✅ **API optimizada:** NestJS compilado mantiene footprint mínimo (22MB)
 
   
 
