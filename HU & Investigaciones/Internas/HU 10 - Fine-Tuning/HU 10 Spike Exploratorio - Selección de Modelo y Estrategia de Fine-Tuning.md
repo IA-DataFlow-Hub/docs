@@ -214,4 +214,58 @@ Google no te deja "reentrenar" el modelo base desde cero, pero ofrece **Google A
 > Dado que eres analista, te sugiero que el **Fine-Tuning** lo uses solo para que la IA aprenda el **formato de salida**, y uses **RAG** para que la IA lea los **datos nuevos**. Entrenar una IA con datos que cambian todos los días (como contabilidad) es muy costoso; es mejor que aprenda a "leer" y "limpiar" una vez, y luego solo le pases los archivos.
 
 
+
+2026-05-08 21:47:17 [DEBUG]
+ Received request: POST to /v1/messages with body  {
+  "model": "claude-haiku-4-5-20251001",
+  "messages": [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "hazlo por mi"
+        }
+      ]
+    }
+  ],
+  "system": [
+    {
+      "type": "text",
+      "text": "x-anthropic-billing-header: cc_version=2.1.137.794; cc_entrypoint=cli; cch=4e2de;"
+    },
+    {
+      "type": "text",
+      "text": "You are Claude Code, Anthropic's official CLI for Claude."
+    },
+    {
+      "type": "text",
+      "text": "Generate a concise, sentence-case title (3-7 words... <Truncated in logs> ...ong case): {\"title\": \"Fix Login Button On Mobile\"}"
+    }
+  ],
+  "tools": [],
+  "metadata": {
+    "user_id": "{\"device_id\":\"2e1b19865f3e3f2e1321bd1668f01a70be9c... <Truncated in logs> ...ession_id\":\"925649e1-a184-402d-9699-e0acdb54d16a\"}"
+  },
+  "max_tokens": 32000,
+  "temperature": 1,
+  "output_config": {
+    "format": {
+      "type": "json_schema",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "title"
+        ],
+        "additionalProperties": false
+      }
+    }
+  }
+}
+
 #ia-dataflow #software-architecture #ai-agents #local-llm

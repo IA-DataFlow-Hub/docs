@@ -9,7 +9,8 @@
       "Bash(mklink Febrero_2026\\\\Inicio-Semillero.md Reunion%201%20-%2028%20de%20febrero%20de%202026%20-%20Inicio%20de%20Semillero%20IA-DataFlow.md)",
       "Bash(Copy-Item *)",
       "PowerShell(Copy-Item *)",
-      "Bash(Remove-Item \"Reunion 1 - 28 de febrero de 2026 - Inicio de Semillero IA-DataFlow.md\", \"Reunion 2 - 07 de Marzo de 2026 - Proyecto IA-DataFlow.md\", \"Reunion 3 - 18 de abril del 2026 semilleristas proye inves.md\", \"Actas de Reunión.md\" -Force)"
+      "Bash(Remove-Item \"Reunion 1 - 28 de febrero de 2026 - Inicio de Semillero IA-DataFlow.md\", \"Reunion 2 - 07 de Marzo de 2026 - Proyecto IA-DataFlow.md\", \"Reunion 3 - 18 de abril del 2026 semilleristas proye inves.md\", \"Actas de Reunión.md\" -Force)",
+      "Bash(dir /s \"Archivos\")"
     ]
   }
 }
