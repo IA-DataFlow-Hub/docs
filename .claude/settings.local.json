@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"E:\\\\Areandina\\\\Semillero\\\\Docs\\\\IA-DataFlow Hub - Semillero\" -Recurse -Force)",
+      "Bash(Select-Object FullName, PSIsContainer)",
+      "Bash(Sort-Object FullName)",
+      "Bash(Get-ChildItem -Path \"E:\\\\Areandina\\\\Semillero\\\\Docs\\\\IA-DataFlow Hub - Semillero\\\\Investigaciones\" -Recurse)",
+      "PowerShell(Get-ChildItem \"E:\\\\Areandina\\\\Semillero\\\\Docs\\\\IA-DataFlow Hub - Semillero\\\\Investigaciones\" -Recurse | Select-Object FullName | Sort-Object FullName | ForEach-Object { $_.FullName })"
+    ]
+  }
+}
