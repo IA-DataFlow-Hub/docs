@@ -1,5 +1,11 @@
 # 🚀 IA-DataFlow-Hub — Arquitectura del Proyecto
 
+**Participantes:**
+
+- Juan Diego Mejia Maestre
+- David Ospina
+
+
 > [!info]
 > Plataforma monorepo para automatización de flujos de datos e integración de IA local usando **React + NestJS + Docker + n8n + LM Studio**.
 
