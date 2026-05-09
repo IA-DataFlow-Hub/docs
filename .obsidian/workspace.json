@@ -11,14 +11,12 @@
             "id": "4230798746b26514",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Actas/Abril_2026/Cierre-Requisitos.md",
-                "mode": "source",
-                "source": false
+                "file": "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 13/🐳 Dockerización del Proyecto IA-DataFlow-Hub.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Cierre-Requisitos"
+              "icon": "lucide-file-text",
+              "title": "🐳 Dockerización del Proyecto IA-DataFlow-Hub"
             }
           }
         ]
@@ -44,7 +42,7 @@
                 "autoReveal": true
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -180,22 +178,26 @@
       }
     ],
     "direction": "horizontal",
-    "width": 338.5
+    "width": 801.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "obsidian-git:Open Git source control": false,
+      "excel:Create Excel File": false,
+      "univer:Univer": false
     }
   },
   "active": "5acc4edec9bf4280",
   "lastOpenFiles": [
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 14/Arquitectura IA-DataFlow-Hub.pdf",
+    "Actas/Abril_2026/Cierre-Requisitos.md",
     "Archivos/Investigaciones/UML",
     "Archivos/Investigaciones/Informe",
     "Archivos/Investigaciones/invetigacion openrefine.pdf",
@@ -209,7 +211,6 @@
     "Actas/Febrero_2026/Inicio-Semillero.md",
     "Actas/Febrero_2026/INDEX.md",
     "Actas/Abril_2026/INDEX.md",
-    "Actas/Abril_2026/Cierre-Requisitos.md",
     "Docs/📚 Biblioteca de Investigación.md",
     "Docs/📊 Informe Ejecutivo – Capacidades del Equipo.md",
     "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Evidencias Equipo 2 - Repuesta Participación VI Congreso Internacional de Convergencia Tecnológica 2026.pdf",
@@ -220,8 +221,6 @@
     "Tutoriales/🛖 Tutoriales.md",
     "🎊 Bienvenidos a IA-DataFlow Hub.md",
     "Readme.md",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 14/Arquitectura IA-DataFlow-Hub.pdf",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 11/HU11 - Diseño y Creación de la Base de Datos Relacional (MySQL).pdf",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 13/docker.png",
     "HU & Investigaciones/Internas/HU 13 - Docker/🐳 Dockerización del Proyecto IA-DataFlow-Hub.md",
     "Docs/Resumen del Proyecto Ecosistema IA-DataFlow.md",
