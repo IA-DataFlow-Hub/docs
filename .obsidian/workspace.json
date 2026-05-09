@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 13/🐳 Dockerización del Proyecto IA-DataFlow-Hub.pdf"
+                "file": "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 14/Arquitectura IA-DataFlow-Hub.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "🐳 Dockerización del Proyecto IA-DataFlow-Hub"
+              "title": "Arquitectura IA-DataFlow-Hub"
             }
           }
         ]
@@ -76,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270.5
+    "width": 642.5
   },
   "right": {
     "id": "dc99987b28e84d42",
@@ -194,8 +194,11 @@
       "univer:Univer": false
     }
   },
-  "active": "5acc4edec9bf4280",
+  "active": "4230798746b26514",
   "lastOpenFiles": [
+    "HU & Investigaciones/Internas/HU 14 - Infraestructura/Arquitectura.md",
+    "HU & Investigaciones/Internas/HU 14 - Infraestructura/Unconfirmed 973157.crdownload",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 13/🐳 Dockerización del Proyecto IA-DataFlow-Hub.pdf",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 14/Arquitectura IA-DataFlow-Hub.pdf",
     "Actas/Abril_2026/Cierre-Requisitos.md",
     "Archivos/Investigaciones/UML",
@@ -205,7 +208,6 @@
     "Archivos/Investigaciones/Investigación Google Colab y TOON en procesos ETL con IA.pdf",
     "Archivos/HU",
     "Archivos/Tecnologías",
-    "Archivos/Investigaciones",
     "Actas/INDEX.md",
     "Actas/Marzo_2026/Protocolo-Fase1.md",
     "Actas/Febrero_2026/Inicio-Semillero.md",
@@ -213,7 +215,6 @@
     "Actas/Abril_2026/INDEX.md",
     "Docs/📚 Biblioteca de Investigación.md",
     "Docs/📊 Informe Ejecutivo – Capacidades del Equipo.md",
-    "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Evidencias Equipo 2 - Repuesta Participación VI Congreso Internacional de Convergencia Tecnológica 2026.pdf",
     "Requisitos para aprobar el semillero/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
     "Tutoriales/🎓 Manual de Sincronización Git + GitHub.md",
     "Tutoriales/💎 Guía de Instalación Obsidian + Sincronización Git.md",
