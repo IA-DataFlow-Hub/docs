@@ -14,7 +14,9 @@
       "Bash(Select-Object FullName)",
       "Bash(ConvertTo-Csv -NoTypeInformation)",
       "Bash(Out-String)",
-      "Bash(dir \"E:\\\\Areandina\\\\Semillero\\\\Docs\\\\IA-DataFlow Hub - Semillero\")"
+      "Bash(dir \"E:\\\\Areandina\\\\Semillero\\\\Docs\\\\IA-DataFlow Hub - Semillero\")",
+      "Bash(Get-ChildItem \"E:\\\\Areandina\\\\Semillero\\\\Docs\\\\IA-DataFlow Hub - Semillero\\\\docs\")",
+      "Bash(Select-Object Name, Length, LastWriteTime)"
     ]
   }
 }
