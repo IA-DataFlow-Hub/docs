@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/ESTRUCTURA.md",
+                "file": "Docs/README_SUMMARY.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ESTRUCTURA"
+              "title": "README_SUMMARY"
             }
           }
         ]
@@ -197,6 +197,7 @@
   },
   "active": "4230798746b26514",
   "lastOpenFiles": [
+    "Docs/ESTRUCTURA.md",
     "Docs/DOCUMENTACION_TECNICA.md",
     "Docs/DIAGRAMAS.md",
     "Tutoriales/Metodologia/TSP y PSP — Resumen Completo.md",
@@ -233,7 +234,6 @@
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 13 - Docker/docker.png",
     "Docs/Resumen del Proyecto Ecosistema IA-DataFlow.md",
     "Integrantes/Equipo 2/David Ospina/📑 Perfil Profesional - David Ospina.md",
-    "Integrantes/Equipo 1/Juan Diego Mejía Maestre/📑 Perfil Profesional - Juan Diego Mejia Maestre.md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/Evidencias de las HU 07.png",
     "Sin título.canvas",
     "Sin título 1.canvas",
