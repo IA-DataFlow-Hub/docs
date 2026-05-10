@@ -10,7 +10,10 @@
       "Bash(Copy-Item *)",
       "PowerShell(Copy-Item *)",
       "Bash(Remove-Item \"Reunion 1 - 28 de febrero de 2026 - Inicio de Semillero IA-DataFlow.md\", \"Reunion 2 - 07 de Marzo de 2026 - Proyecto IA-DataFlow.md\", \"Reunion 3 - 18 de abril del 2026 semilleristas proye inves.md\", \"Actas de Reunión.md\" -Force)",
-      "Bash(dir /s \"Archivos\")"
+      "Bash(dir /s \"Archivos\")",
+      "Bash(Select-Object FullName)",
+      "Bash(ConvertTo-Csv -NoTypeInformation)",
+      "Bash(Out-String)"
     ]
   }
 }
