@@ -13,7 +13,8 @@
       "Bash(dir /s \"Archivos\")",
       "Bash(Select-Object FullName)",
       "Bash(ConvertTo-Csv -NoTypeInformation)",
-      "Bash(Out-String)"
+      "Bash(Out-String)",
+      "Bash(dir \"E:\\\\Areandina\\\\Semillero\\\\Docs\\\\IA-DataFlow Hub - Semillero\")"
     ]
   }
 }
