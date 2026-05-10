@@ -2,11 +2,12 @@
 
 ## Estructura por Meses
 
-| Mes | Archivo | Ubicación | Fecha(s) | Tópico |
-|-----|---------|-----------|----------|--------|
-| ✅ **Febrero 2026** | [Inicio Semillero](./Febrero_2026/Inicio-Semillero.md) | `Febrero_2026/` | 28 feb | Inicio del semillero, definición de estructura y roles |
-| ✅ **Marzo 2026** | [Prototipo Fase 1](./Marzo_2026/Protocolo-Fase1.md) | `Marzo_2026/` | 7 mar | Prototipo IA-DataFlow, decisión Grupo 1 vs Grupo 2 |
-| ✅ **Abril 2026** | [Cierre Requisitos](./Abril_2026/Cierre-Requisitos.md) | `Abril_2026/` | 18 abr | Requisitos administrativos, firma de procesos finales |
+| Mes                | Archivo                                                | Ubicación       | Fecha(s) | Tópico                                                 |
+| ------------------ | ------------------------------------------------------ | --------------- | -------- | ------------------------------------------------------ |
+| ✅ **Febrero 2026** | [Inicio Semillero](./Febrero_2026/Inicio-Semillero.md) | `Febrero_2026/` | 28 feb   | Inicio del semillero, definición de estructura y roles |
+| ✅ **Marzo 2026**   | [Prototipo Fase 1](./Marzo_2026/Protocolo-Fase1.md)    | `Marzo_2026/`   | 7 mar    | Prototipo IA-DataFlow, decisión Grupo 1 vs Grupo 2     |
+| ✅ **Abril 2026**   | [Cierre Requisitos](./Abril_2026/Cierre-Requisitos.md) | `Abril_2026/`   | 18 abr   | Requisitos administrativos, firma de procesos finales  |
+| ✅ **Mayo 2026**    | [[10 mayo 2026]]                                       | `Mayo_2026/`    | 09- may  | comienzo del  dearrollo del proyecto                   |
 
 ---
 
