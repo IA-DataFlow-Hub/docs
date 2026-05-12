@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Actas/INDEX.md",
+                "file": "Docs/DIAGRAMAS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "INDEX"
+              "title": "DIAGRAMAS"
             }
           }
         ],
@@ -210,8 +210,9 @@
       "excel:Create Excel File": false
     }
   },
-  "active": "69d7524cf2bfc96b",
+  "active": "5acc4edec9bf4280",
   "lastOpenFiles": [
+    "Actas/INDEX.md",
     "Actas/Mayo_2026/10 mayo 2026.md",
     "Integrantes/Equipo 2/Pohlman Cuartas/📑 Perfil Profesional - Pohlman Cuartas.md",
     "Integrantes/Equipo 2/Oscar Antury Avila/📑 Perfil Profesional - Oscar Antury Avila.md",
@@ -235,7 +236,6 @@
     "HU & Investigaciones/Internas/HU 14 - Infraestructura/Arquitectura.md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 13/Sin título.md",
     "Actas/Abril_2026/Cierre-Requisitos.md",
-    "Actas/INDEX.md",
     "Actas/Marzo_2026/Protocolo-Fase1.md",
     "Actas/Febrero_2026/Inicio-Semillero.md",
     "Actas/Febrero_2026/INDEX.md",
