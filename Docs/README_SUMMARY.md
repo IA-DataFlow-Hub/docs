@@ -136,3 +136,4 @@ El sistema sigue una arquitectura de **N-Capas** desacoplada, orquestada por n8n
 - **Repositorio Git:** `https://github.com/IA-DataFlow-Hub/docs`
 - **Prototipo en vivo:** `https://ia-dataflow.codigolimpio.com.co/`
 - **Base de documentación:** Obsidian Vault sincronizado con Git
+.
