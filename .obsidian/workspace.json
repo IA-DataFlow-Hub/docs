@@ -210,8 +210,9 @@
       "excel:Create Excel File": false
     }
   },
-  "active": "5acc4edec9bf4280",
+  "active": "69d7524cf2bfc96b",
   "lastOpenFiles": [
+    "Docs/DIAGRAMAS.md",
     "Docs/diagramas/DIAGRAMAS.md",
     "Docs/diagramas/09-estructura-monorepo.md",
     "Docs/diagramas/04-flujo-autenticacion.md",
@@ -256,7 +257,6 @@
     "Docs/HU/HU-024 — Gestión Avanzada de Sesiones y Dispositivos.md",
     "Docs/HU/HU-023-Feedback y Reporte de Errores en Chat.md",
     "Docs/HU/HU-022-AI-Jobs-Tracking-y-Logs.md",
-    "Docs/HU/HU-021-Proyecto-CreadoPor-Chats-Archivos-Mensajes.md",
     "Docs/HU",
     "Sin título.canvas",
     "Sin título 1.canvas",
