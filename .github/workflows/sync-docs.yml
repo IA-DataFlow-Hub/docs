@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'docs/**'
+      - 'Docs/**'
 
 jobs:
   sync:
@@ -28,7 +28,7 @@ jobs:
         run: |
           rm -rf destination/docs
           mkdir -p destination/docs
-          cp -r source/docs/. destination/docs/
+          cp -r source/Docs/. destination/docs/
 
       - name: Commit y push
         run: |
