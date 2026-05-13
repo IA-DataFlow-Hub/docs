@@ -74,3 +74,24 @@ Se espera que cada integrante investigue más allá de los links básicos:
 2. Cada archivo está clasificado y nombrado según la convención de categorías.
 3. Se ha verificado manualmente que **no existe información sensible real** (PII) cumpliendo la Ley 1581.
 4. El log de hallazgos en este repositorio registra la fuente y el tipo de error de cada archivo nuevo.
+
+---
+
+## 📋 Seguimiento del Proyecto
+
+| Campo | Valor |
+|---|---|
+| **Tema** | IA / NLP |
+| **Actividad** | HU 07: Construcción del Corpus Maestro (150+ Archivos) |
+| **Entregable** | Entregable 2 |
+| **Meta Numérica** | 3 |
+| **Responsable(s)** | Andres Felipe Andrade |
+| **Fecha Inicio** | 13/04/2026 |
+| **Fecha Fin** | 17/04/2026 |
+| **Fecha Entrega** | 29/04/2026 |
+| **Riesgo** | Bajo |
+| **Entregable Verificado** | Sí |
+| **% Avance** | 100% |
+| **Estado** | ✅ Completado |
+| **Aprobado Por** | Todo el equipo |
+| **Observaciones** | Entregado sin observaciones |

@@ -78,3 +78,25 @@ Se espera que cada integrante investigue más allá de los links básicos:
 - [VizNet](https://github.com/mitmedialab/viznet) - Corpus masivo de hojas de cálculo para entender estructuras visuales.
 
 ---
+
+
+---
+
+## 📋 Seguimiento del Proyecto
+
+| Campo | Valor |
+|---|---|
+| **Tema** | Datasets |
+| **Actividad** | HU 15: Clasificación de Dataset de Caos para Entrenamiento de IA |
+| **Entregable** | Entregable 3 |
+| **Meta Numérica** | 3 |
+| **Responsable(s)** | Equipo: Pohlman Cuartas y Oscar Antury Avila |
+| **Fecha Inicio** | 3/05/2026 |
+| **Fecha Fin** | 9/05/2026 |
+| **Fecha Entrega** | — |
+| **Riesgo** | Media |
+| **Entregable Verificado** | Sí |
+| **% Avance** | 100% |
+| **Estado** | ✅ Completado |
+| **Aprobado Por** | Todo el equipo |
+| **Observaciones** | El equipo no entregó la tarea. Reasignada a Juan Diego Mejía para completarla. |

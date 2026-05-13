@@ -54,3 +54,24 @@ https://github.com/agentskills/agentskills?tab=readme-ov-file
 2. Se demuestra, mediante pruebas en el Playground, que la IA es capaz de ejecutar acciones basadas en comandos cortos.
 3. Se entrega un análisis sobre cómo estas características facilitan el entrenamiento futuro del modelo.
 4. Toda la investigación queda consolidada en el repositorio `/docs`.
+
+---
+
+## 📋 Seguimiento del Proyecto
+
+| Campo | Valor |
+|---|---|
+| **Tema** | IA / Agentes |
+| **Actividad** | HU 09: Spike Exploratorio - Agentes, Skills y Comandos de IA |
+| **Entregable** | Entregable 2 |
+| **Meta Numérica** | 3 |
+| **Responsable(s)** | David Ospina |
+| **Fecha Inicio** | 13/04/2026 |
+| **Fecha Fin** | 17/04/2026 |
+| **Fecha Entrega** | 29/04/2026 |
+| **Riesgo** | Bajo |
+| **Entregable Verificado** | Sí |
+| **% Avance** | 100% |
+| **Estado** | ✅ Completado |
+| **Aprobado Por** | Todo el equipo |
+| **Observaciones** | Entregado sin observaciones |

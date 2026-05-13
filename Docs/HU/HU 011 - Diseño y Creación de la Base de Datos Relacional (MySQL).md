@@ -15,3 +15,25 @@ Tener en cuenta la pagina para hacer el modelo entidad Relacion https://ia-dataf
 [![Ver video](https://img.youtube.com/vi/voTEEV6XUKw/0.jpg)](https://www.youtube.com/watch?v=voTEEV6XUKw)
 
 
+
+
+---
+
+## 📋 Seguimiento del Proyecto
+
+| Campo | Valor |
+|---|---|
+| **Tema** | Base de Datos |
+| **Actividad** | HU 11: Diseño y Creación de la Base de Datos Relacional (MySQL) |
+| **Entregable** | Entregable 3 |
+| **Meta Numérica** | 3 |
+| **Responsable(s)** | Equipo: Sebastián Bautista Martínez, María Virginia Labarca, Andres Felipe Andrade |
+| **Fecha Inicio** | 3/05/2026 |
+| **Fecha Fin** | 9/05/2026 |
+| **Fecha Entrega** | 9/06/2026 |
+| **Riesgo** | Media |
+| **Entregable Verificado** | Sí |
+| **% Avance** | 100% |
+| **Estado** | ✅ Completado |
+| **Aprobado Por** | Todo el equipo |
+| **Observaciones** | Queda pendiente revisión por Juan Diego para verificar si está completa |

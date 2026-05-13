@@ -45,3 +45,24 @@
 2. Se detalla la cantidad mínima de datos necesarios para que el modelo sea "experto" en el estándar TOON.
 3. Se presenta un presupuesto estimado de tokens/recursos para la fase de entrenamiento.
 4. La investigación queda documentada y aprobada para iniciar la configuración del ambiente de inferencia.
+
+---
+
+## 📋 Seguimiento del Proyecto
+
+| Campo | Valor |
+|---|---|
+| **Tema** | IA / ML |
+| **Actividad** | HU 10: Spike Exploratorio - Selección de Modelo y Fine-Tuning |
+| **Entregable** | Entregable 2 |
+| **Meta Numérica** | 3 |
+| **Responsable(s)** | Juan Diego Mejía Maestre |
+| **Fecha Inicio** | 13/04/2026 |
+| **Fecha Fin** | 17/04/2026 |
+| **Fecha Entrega** | 29/04/2026 |
+| **Riesgo** | Bajo |
+| **Entregable Verificado** | Sí |
+| **% Avance** | 100% |
+| **Estado** | ✅ Completado |
+| **Aprobado Por** | Todo el equipo |
+| **Observaciones** | Entregado sin observaciones |

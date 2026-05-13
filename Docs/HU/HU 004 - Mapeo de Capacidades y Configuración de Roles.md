@@ -26,3 +26,45 @@ Tu perfil profesional está documentado en Obsidian siguiendo la estructura de p
 <img width="491" height="424" alt="Image" src="https://github.com/user-attachments/assets/c2e3ffe9-3664-4e06-aaf4-f3f3441c28ea" />
 
 Has movido esta tarjeta a la columna Finalizado / Done para notificar al líder que estás listo para recibir tareas técnicas.
+
+---
+
+## 📋 Seguimiento del Proyecto
+
+### Entregable 1 — Investigación
+
+| Campo | Valor |
+|---|---|
+| **Tema** | Investigación |
+| **Actividad** | HU 04: Optimización de UX y Evolución de Dashboards |
+| **Entregable** | Entregable 1 |
+| **Meta Numérica** | 3 |
+| **Responsable(s)** | Equipo: Oscar Antury Avila y María Virginia Labarca |
+| **Fecha Inicio** | 15/03/2026 |
+| **Fecha Fin** | 30/03/2026 |
+| **Fecha Entrega** | 18/04/2026 |
+| **Riesgo** | Bajo |
+| **Entregable Verificado** | Sí |
+| **% Avance** | 100% |
+| **Estado** | ✅ Completado |
+| **Aprobado Por** | Todo el equipo |
+| **Observaciones** | Entregado sin observaciones |
+
+### Entregable 2 — Roles y Equipo
+
+| Campo | Valor |
+|---|---|
+| **Tema** | Roles / Equipo |
+| **Actividad** | HU 04: Mapeo de Capacidades y Configuración de Roles |
+| **Entregable** | Entregable 2 |
+| **Meta Numérica** | 3 |
+| **Responsable(s)** | María Virginia Labarca |
+| **Fecha Inicio** | 13/04/2026 |
+| **Fecha Fin** | 17/04/2026 |
+| **Fecha Entrega** | 29/04/2026 |
+| **Riesgo** | Bajo |
+| **Entregable Verificado** | Sí |
+| **% Avance** | 100% |
+| **Estado** | ✅ Completado |
+| **Aprobado Por** | Todo el equipo |
+| **Observaciones** | Entregado sin observaciones |

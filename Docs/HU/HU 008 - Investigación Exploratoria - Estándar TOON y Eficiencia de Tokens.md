@@ -110,3 +110,24 @@ TOON: Ganador absoluto. Ahorras casi un 50% de tokens comparado con JSON.
 CSV: Muy bueno para datos tabulares, pero los espacios y comas a veces generan tokens extra en nombres largos.
 
 JSON: Solo úsalo para la salida final que va al Power BI, pero nunca para enviarle datos masivos a la IA en la entrada.
+
+---
+
+## 📋 Seguimiento del Proyecto
+
+| Campo | Valor |
+|---|---|
+| **Tema** | IA / NLP |
+| **Actividad** | HU 08: Investigación Exploratoria - Estándar TOON y Tokens |
+| **Entregable** | Entregable 2 |
+| **Meta Numérica** | 3 |
+| **Responsable(s)** | Andres Felipe Andrade |
+| **Fecha Inicio** | 13/04/2026 |
+| **Fecha Fin** | 17/04/2026 |
+| **Fecha Entrega** | 29/04/2026 |
+| **Riesgo** | Bajo |
+| **Entregable Verificado** | Sí |
+| **% Avance** | 100% |
+| **Estado** | ✅ Completado |
+| **Aprobado Por** | Todo el equipo |
+| **Observaciones** | Entregado sin observaciones |
