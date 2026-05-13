@@ -11,12 +11,14 @@
             "id": "09a691c70ebe61a8",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Docs/diagramas/07-ciclo-vida-ai-job/07-ciclo-vida-ai-job.png"
+                "file": "Docs/CHAOS_GENERATOR.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "07-ciclo-vida-ai-job"
+              "icon": "lucide-file",
+              "title": "CHAOS_GENERATOR"
             }
           }
         ]
@@ -193,10 +195,12 @@
       "excel:Create Excel File": false
     }
   },
-  "active": "5acc4edec9bf4280",
+  "active": "09a691c70ebe61a8",
   "lastOpenFiles": [
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entrega Formal - Entregable 3 - Semillero IA-DataFlow Hu.pdf",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entrega Formal - Entregable 2 - Semillero IA-DataFlow Hub.pdf",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entrega Formal - Entregable 3 - Semillero IA-DataFlow Hub.pdf",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entrega Formal - Entregable 1 - Semillero IA DataFlow Hub.pdf",
+    "Docs/diagramas/07-ciclo-vida-ai-job/07-ciclo-vida-ai-job.png",
     "Docs/HU/✅ HU 014 - Arquitectura Base y Monorepo.md",
     "Docs/HU/✅ HU 013 - Configuración de Infraestructura de Datos (Docker).md",
     "Docs/HU/✅ HU 011 - Diseño y Creación de la Base de Datos Relacional (MySQL).md",
@@ -223,7 +227,6 @@
     "Docs/HU/HU 030 - Migración Estratégica de IDs Enteros a UUID.md",
     "Docs/HU/HU 029 - Sistema de Reportes y Dashboards Persistentes.md",
     "Docs/diagramas/07-ciclo-vida-ai-job/07-ciclo-vida-ai-job.svg",
-    "Docs/diagramas/07-ciclo-vida-ai-job/07-ciclo-vida-ai-job.png",
     "Docs/diagramas/07-ciclo-vida-ai-job",
     "Docs/diagramas/06-flujo-etl/06-flujo-etl.svg",
     "Docs/diagramas/06-flujo-etl/06-flujo-etl.png",
@@ -240,7 +243,6 @@
     "Docs/diagramas/generate-exports.mjs",
     "Docs/diagramas/10-privacidad-ley-1581",
     "Docs/diagramas/11-flujo-conversaciones-chat",
-    "Docs/diagramas/09-estructura-monorepo",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Tablero de Avances.canvas",
