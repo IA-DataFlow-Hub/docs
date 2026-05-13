@@ -2,15 +2,15 @@
 
 > **HU-015** · Responsable: Juan Diego Mejía · Estado: ✅ Completado
 
-Esta guía explica cómo usar el script `chaos-generator` para producir los **130+ archivos de prueba** que alimentan el fine-tuning del modelo de normalización de datos de DataFlow Hub.
+Esta guía explica cómo usar el script `chaos-generator` para producir los archivos de prueba que alimentan el fine-tuning del modelo de normalización de datos de DataFlow Hub.
 
 ---
 
 ## ¿Para qué sirven estos datasets?
 
-El modelo de IA necesita aprender a **limpiar y normalizar datos del mundo real**, que llegan en formatos caóticos: columnas mezcladas, fechas en 7 formatos distintos, duplicados con errores tipográficos, archivos con encoding roto, etc. 
+El modelo de IA necesita aprender a **limpiar y normalizar datos del mundo real**, que llegan en formatos caóticos: columnas mezcladas, fechas en 7 formatos distintos, duplicados con errores tipográficos, archivos con encoding roto, etc.
 
-Los datasets generados son pares **Input Caótico → Output Esperado**, donde el Input es lo que produce este script y el Output es lo que el modelo debe aprender a producir.
+Los datasets generados son pares **Input Caótico → Output Esperado**, donde el Input es lo que produce este script y el Output es lo que el modelo debe aprender a producir. La categoría `DATOS_LIMPIOS` provee los ejemplos de salida esperada.
 
 ---
 
@@ -24,7 +24,7 @@ Los datasets generados son pares **Input Caótico → Output Esperado**, donde e
 
 Si vas a usar LM Studio para temas dinámicos:
 1. Abre LM Studio → pestaña **Local Server**.
-2. Carga el modelo `microsoft/phi-4-reasoning-plus` (u otro disponible).
+2. Carga el modelo configurado (`qwen/qwen3.5-9b` u otro disponible).
 3. Presiona **Start Server** — por defecto queda en `http://localhost:1234`.
 
 > Si LM Studio no está corriendo, el generador usa **48 temas predefinidos** automáticamente. No es un error, es el comportamiento esperado.
@@ -36,53 +36,108 @@ Si vas a usar LM Studio para temas dinámicos:
 Desde la **raíz del proyecto**:
 
 ```bash
-# Opción 1 — Con LM Studio activo (temas dinámicos generados por IA)
+# Con LM Studio activo (temas dinámicos generados por IA)
 npm run generate:chaos
 
-# Opción 2 — Sin LM Studio (temas predefinidos, más rápido)
+# Sin LM Studio (temas predefinidos, más rápido)
 npm run generate:chaos:fast
 
-# Opción 3 — Simulación (no escribe archivos, solo verifica la config)
+# Simulación (no escribe archivos, solo verifica la config)
 npm run generate:chaos:dry
+
+# Solo la categoría DATOS_LIMPIOS
+npm run generate:chaos:clean
+
+# Ver todos los parámetros disponibles
+npm run generate:chaos:help
 ```
 
-La generación completa tarda entre **30 segundos y 3 minutos** dependiendo de la velocidad de LM Studio y la cantidad de archivos configurados.
+---
+
+## Parámetros CLI
+
+El generador acepta parámetros para controlar exactamente qué se genera sin tocar el `chaos.config.json`.
+Se pasan después de `--` en los scripts de npm.
+
+### Filtrado y escala
+
+| Parámetro | Descripción | Ejemplo |
+|---|---|---|
+| `--count <n>` | Archivos por tipo por categoría | `--count 3` |
+| `--category <lista>` | Solo las categorías indicadas, coma-separadas | `--category REDUNDANCIA,ESQUEMA` |
+| `--type <lista>` | Solo los tipos de archivo, coma-separados | `--type csv,excel` |
+| `--rows <n>` | Filas fijas por archivo (ignora min/max del config) | `--rows 100` |
+| `--only-clean` | Atajo para `--category DATOS_LIMPIOS` | |
+
+### Generación
+
+| Parámetro | Descripción |
+|---|---|
+| `--data-ia` | Filas generadas por IA en lugar de faker (ver sección más abajo) |
+| `--overwrite` | Sobreescribir archivos existentes sin preguntar |
+| `--no-ai` | Deshabilitar LM Studio — usar temas predefinidos |
+| `--dry-run` | Simular sin escribir ningún archivo en disco |
+| `--help`, `-h` | Mostrar ayuda en consola |
+
+### Ejemplos combinados
+
+```bash
+# Solo CSVs de REDUNDANCIA, 3 archivos de 50 filas
+npm run generate:chaos -- --category REDUNDANCIA --type csv --count 3 --rows 50
+
+# Datos limpios con filas generadas por IA
+npm run generate:chaos -- --only-clean --data-ia
+
+# Prueba rápida: 1 archivo por tipo, sin IA, sin escribir
+npm run generate:chaos -- --no-ai --dry-run --count 1
+
+# Dos archivos Excel por categoría, sobreescribiendo los existentes
+npm run generate:chaos -- --type excel --count 2 --overwrite
+```
 
 ---
 
 ## ¿Qué genera?
 
-### Distribución de archivos (130 en total)
+### Distribución de archivos
 
-| Tipo | Cantidad | Categorías |
-|---|---|---|
-| `.csv` | 50 | Todas |
-| `.xlsx` | 50 | Todas |
-| `.json` | 10 | REDUNDANCIA (3), ESQUEMA (7) |
-| `.log` | 10 | ESTRUCTURA\_ROTA (5), EXTRACCION (5) |
-| `.xml` | 5 | MULTI\_ENTIDAD (3), EXTRACCION (2) |
-| `.pdf` | 5 | TIPOS\_INCONSISTENTES (3), EXTRACCION (2) |
+La distribución se configura en `chaos.config.json`. La distribución estándar completa:
+
+| Categoría | CSV | Excel | JSON | JSONL | LOG | XML | PDF | TOML | Total |
+|---|---|---|---|---|---|---|---|---|---|
+| REDUNDANCIA | 10 | 10 | 3 | — | — | — | — | — | 23 |
+| ESTRUCTURA_ROTA | 10 | 10 | — | — | 5 | — | — | — | 25 |
+| MULTI_ENTIDAD | 10 | 10 | — | — | — | 3 | — | — | 23 |
+| TIPOS_INCONSISTENTES | 10 | 10 | — | — | — | — | 3 | — | 23 |
+| EXTRACCION | 5 | 5 | — | — | 5 | 2 | 2 | — | 19 |
+| ESQUEMA | 5 | 5 | 7 | — | — | — | — | — | 17 |
+| DATOS_LIMPIOS | 8 | 8 | 5 | 4 | — | — | — | 4 | 29 |
 
 ### Categorías de caos
 
-| Categoría | Archivos | Propósito técnico |
-|---|---|---|
-| **REDUNDANCIA** | 23 | Identificar duplicados exactos y difusos (fuzzy matching) |
-| **ESTRUCTURA\_ROTA** | 25 | Manejar nulos, filas vacías y archivos mal formados |
-| **MULTI\_ENTIDAD** | 23 | Unificar múltiples tablas/pestañas en un solo esquema |
-| **TIPOS\_INCONSISTENTES** | 23 | Normalizar fechas, monedas y formatos regionales |
-| **EXTRACCION** | 19 | Parsear PDFs y Logs para convertirlos en tablas |
-| **ESQUEMA** | 17 | Inferir tipos de datos correctos desde dumps |
+| Categoría | Propósito técnico |
+|---|---|
+| **REDUNDANCIA** | Identificar duplicados exactos y difusos (fuzzy matching) |
+| **ESTRUCTURA_ROTA** | Manejar nulos, filas vacías y archivos mal formados |
+| **MULTI_ENTIDAD** | Unificar múltiples tablas/pestañas en un solo esquema |
+| **TIPOS_INCONSISTENTES** | Normalizar fechas, monedas y formatos regionales |
+| **EXTRACCION** | Parsear PDFs y Logs para convertirlos en tablas |
+| **ESQUEMA** | Inferir tipos de datos correctos desde dumps |
+| **DATOS_LIMPIOS** | Datos de referencia normalizados — el "output esperado" |
 
 ### Nomenclatura de archivos
 
-Todos los archivos siguen el estándar **`{CATEGORÍA}_{TIPO}_{ID}.ext`**:
+Los archivos usan nombres descriptivos basados en el tema generado:
 
 ```
-REDUNDANCIA_CSV_001.csv
-ESTRUCTURA_ROTA_XLSX_003.xlsx
-MULTI_ENTIDAD_XML_002.xml
-TIPOS_INCONSISTENTES_PDF_001.pdf
+{dominio}_{palabras_del_tema}_{NNN}.ext
+```
+
+Ejemplos reales:
+```
+logistica_control_inventario_001.csv
+salud_registros_pacientes_002.xlsx
+finanzas_transacciones_bancarias_001.json
 ```
 
 ### Dónde se guardan
@@ -90,12 +145,23 @@ TIPOS_INCONSISTENTES_PDF_001.pdf
 ```
 datasets/Generados/dataset_caos/
 ├── REDUNDANCIA/
+│   ├── CSV/
+│   ├── EXCEL/
+│   └── JSON/
 ├── ESTRUCTURA_ROTA/
 ├── MULTI_ENTIDAD/
 ├── TIPOS_INCONSISTENTES/
 ├── EXTRACCION/
-└── ESQUEMA/
+├── ESQUEMA/
+└── DATOS_LIMPIOS/
+    ├── CSV/
+    ├── EXCEL/
+    ├── JSON/
+    ├── JSONL/
+    └── TOML/
 ```
+
+En modo acumulativo (`overwrite: false` en el config), los nuevos archivos se numeran continuando desde el último existente.
 
 ---
 
@@ -125,67 +191,99 @@ datasets/Generados/dataset_caos/
 
 **Excel (.xlsx):**
 - **Hojas basura**: pestañas `Copia_Temporal`, `HOJA_ANTIGUA_NO_BORRAR`, `Sheet3` con datos inútiles
-- **Hojas multi-entidad**: segunda hoja con entidad relacionada (para MULTI\_ENTIDAD)
-- **Filas con columnas incorrectas**: celdas extra fuera del rango de columnas
+- **Multi-hoja y multi-tabla**: entre 2 y 8 hojas con 1-3 tablas por hoja
 - **Errores de fórmula**: `#REF!`, `###`, `#¡DIV/0!` en hojas basura
 
 **JSON:**
-- **Duplicados inter-archivo**: registros del pool compartido aparecen en varios JSONs (para pruebas de deduplicación cross-file)
-- **Versión de esquema inconsistente**: `_schema_version: "1.0"` vs `"2.0"` 
+- **Duplicados inter-archivo**: registros del pool compartido aparecen en varios JSONs (para deduplicación cross-file)
+- **Versión de esquema inconsistente**: `_schema_version: "1.0"` vs `"2.0"`
 - **Campos extra inesperados**: `_src: "legacy_abc123"` en algunos registros
-- **Tipos mezclados**: número guardado como string en ciertos registros
+
+**JSONL (.jsonl):**
+- Formato de fine-tuning: `{"instruction": "...", "input": {...}, "output": "..."}` por línea
+- Aleatoriamente puede emitir el registro plano sin envolver en instrucción
+- Solo en DATOS_LIMPIOS (datos de referencia para entrenamiento)
 
 **Log (.log):**
 - **8 formatos de timestamp**: ISO, Unix, US, UTS, solo fecha, etc.
 - **Niveles mezclados**: `INFO`, `info`, `WARN`, `WARNING`, `ERR`, `FATAL`
-- **Stack traces completos**: con `Caused by:` anidados
+- **Stack traces completos** con `Caused by:` anidados
 - **JSON inline**: payloads embebidos dentro de la línea de log
-- **Logs anidados**: `>> FORWARDED [ERROR] ...` dentro de otra entrada
 
 **XML:**
 - **Atributos vs elementos hijo**: inconsistente entre registros del mismo archivo
 - **CDATA**: algunos valores en secciones `<![CDATA[...]]>`
-- **Tags sin cerrar**: para ESTRUCTURA\_ROTA (intencional)
 - **Campos extra desconocidos**: `<campo_desconocido_legacy>` sin schema
 
 **PDF:**
 - **Tablas difíciles de OCR**: celdas truncadas, columnas superpuestas
 - **Metadatos dispersos**: referencias y códigos antes de la tabla
 - **Páginas múltiples**: continúa en páginas siguientes con encabezados inconsistentes
-- **Nota de pie caótica**: formatos mezclados de moneda explicados al pie
+
+**TOML (.toml):**
+- Metadatos en `[metadata]`, registros como `[[records]]`
+- Solo en DATOS_LIMPIOS (formato estructurado limpio)
 
 ---
 
 ## Cómo funciona la integración con LM Studio
 
-Cuando LM Studio está activo, el generador le pide al modelo sugerencias de temas de negocio para cada categoría. Esto hace que los datasets sean variados y realistas.
+### Temas dinámicos (siempre activo si hay conexión)
 
-**Flujo con IA activa:**
+El generador pide al modelo sugerencias de **temas de negocio** para cada categoría. Esto hace que los datasets sean variados y con columnas realistas.
 
 ```
 1. Detecta modelo cargado en localhost:1234
-2. Para cada categoría (6 total):
-   → Envía prompt pidiendo 8 temas de negocio con columnas en JSON
-   → Ejemplo respuesta: "Inventario Farmacia", "Expedientes Jurídicos", etc.
+2. Para cada categoría:
+   → Envía prompt pidiendo N temas de negocio con columnas en JSON
+   → Respuesta: [{theme, domain, columns: [{name, type, examples}]}]
 3. Genera los archivos usando esas columnas con Faker
 4. Aplica caos sobre los datos generados
 ```
 
-**Flujo sin IA (fallback):**
+### Filas generadas por IA (`--data-ia`)
+
+Con este flag el generador pide adicionalmente **~40 filas de datos realistas** por tema (una sola llamada, no una por archivo). Esas filas se reutilizan mezcladas y barajadas en todos los archivos de ese tema, y el caos se aplica encima igual.
 
 ```
-1. LM Studio no disponible o no responde
+5. Para cada tema único:
+   → Envía prompt pidiendo 40 filas de datos para ese tema/columnas
+   → Guarda el pool de filas en memoria
+6. Al generar cada archivo, rellena con filas del pool (mezcladas)
+7. Si falla para un tema → fallback a Faker automáticamente
+```
+
+Más lento que Faker, pero los valores son específicos del dominio (ej. nombres de medicamentos reales para un tema de farmacia).
+
+### Flujo sin IA (fallback)
+
+```
+1. LM Studio no disponible o no responde en el timeout
 2. Usa los 48 temas hardcodeados en fallback-themes.js
-3. Continúa la generación normalmente
+3. Continúa la generación normalmente — no es un error
 ```
 
-El modelo configurado es **`microsoft/phi-4-reasoning-plus`**. Si usas otro modelo, actualiza el campo `model` en `packages/chaos-generator/chaos.config.json`.
+### Compatibilidad con modelos de razonamiento
+
+Modelos como **Qwen3**, **DeepSeek-R1** y similares generan un bloque `<think>...</think>` antes de responder. El generador los elimina automáticamente antes de parsear el JSON, y usa `maxTokens: 12000` para que el bloque de razonamiento no consuma todo el presupuesto de tokens.
+
+El modelo configurado actualmente es **`qwen/qwen3.5-9b`**. Para cambiarlo, editar el campo `model` en `packages/chaos-generator/chaos.config.json`.
 
 ---
 
 ## Personalizar la generación
 
-Edita `packages/chaos-generator/chaos.config.json`:
+### Via CLI (sin tocar el config)
+
+```bash
+# Generar solo Excel de ESQUEMA, 5 archivos de 80 filas
+npm run generate:chaos -- --category ESQUEMA --type excel --count 5 --rows 80
+
+# Regenerar DATOS_LIMPIOS sobreescribiendo todo
+npm run generate:chaos -- --only-clean --overwrite
+```
+
+### Via `chaos.config.json`
 
 ```jsonc
 // Cambiar cantidad de registros por archivo
@@ -205,6 +303,13 @@ Edita `packages/chaos-generator/chaos.config.json`:
 "distribucion_categorias": {
   "REDUNDANCIA": { "csv": 20, "excel": 20, "json": 5 }
 }
+
+// Controlar LM Studio
+"lmstudio": {
+  "themesPerCategory": 4,   // más temas = más variedad
+  "maxTokens": 12000,       // importante para modelos de razonamiento
+  "maxRetries": 3
+}
 ```
 
 ---
@@ -214,10 +319,12 @@ Edita `packages/chaos-generator/chaos.config.json`:
 | Síntoma | Causa probable | Solución |
 |---|---|---|
 | `⚠ LM Studio: no disponible` | LM Studio no está corriendo | Usar `--no-ai` o iniciar LM Studio |
-| `400 Failed to load model` | Modelo detectado pero no cargado | Cargar el modelo en LM Studio antes de generar |
+| `✘ Error API: Unexpected end of JSON input` | Modelo de razonamiento con `maxTokens` muy bajo | Verificar que `maxTokens` sea ≥ 8000 en el config |
+| `Respuesta vacía del modelo` | Todo el contenido quedó en `reasoning_content` | El generador hace fallback a temas predefinidos automáticamente |
 | `Error: ENOENT: no such file` | Directorio de salida no existe | El script lo crea automáticamente; verificar permisos |
 | PDFs sin texto CJK | pdfkit no embebe fuentes CJK | Comportamiento esperado; se muestran como □ (caos intencional) |
-| Archivos vacíos | Theme sin columnas válidas | Verificar que `fallback-themes.js` tenga el fallback correcto |
+| `--data-ia` genera filas repetidas | Pool de 40 filas se reutiliza mezclado | Normal; aumentar el count en `generateRowsForTheme` si se necesita más variedad |
+| Archivos vacíos o sin columnas | Theme sin columnas válidas (JSON mal parseado) | Revisar logs — el script hace fallback a temas predefinidos |
 
 ---
 
@@ -226,5 +333,5 @@ Edita `packages/chaos-generator/chaos.config.json`:
 Para más detalles sobre la arquitectura interna del paquete, ver:
 
 - [`packages/chaos-generator/README.md`](../packages/chaos-generator/README.md) — documentación técnica del paquete
-- [`packages/chaos-generator/chaos.config.json`](../packages/chaos-generator/chaos.config.json) — configuración completa con comentarios
+- [`packages/chaos-generator/chaos.config.json`](../packages/chaos-generator/chaos.config.json) — configuración completa
 - [`HU 015 - Clasificación de Dataset de Caos para Entrenamiento de IA.md`](./HU/HU%20015%20-%20Clasificaci%C3%B3n%20de%20Dataset%20de%20Caos%20para%20Entrenamiento%20de%20IA.md) — historia de usuario original
