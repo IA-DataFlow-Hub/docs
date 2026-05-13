@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a162e18de3912c51",
+        "id": "98775cf1c04679df",
         "type": "tabs",
         "children": [
           {
-            "id": "64173f8dff31b2d5",
+            "id": "58ed9c91735ff302",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Evidencias Equipo 1 - Repuesta Participación VI Congreso Internacional de Convergencia Tecnológica 2026.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Evidencias Equipo 1 - Repuesta Participación VI Congreso Internacional de Convergencia Tecnológica 2026"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -180,6 +178,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "univer:Univer": false,
+      "excel:Create Excel File": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
@@ -190,14 +190,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cf0d456a5cf7cfc9",
+  "active": "58ed9c91735ff302",
   "lastOpenFiles": [
     "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Evidencias Equipo 2 - Repuesta Participación VI Congreso Internacional de Convergencia Tecnológica 2026.pdf",
+    "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Evidencias Equipo 1 - Repuesta Participación VI Congreso Internacional de Convergencia Tecnológica 2026.pdf",
     "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/PROPUESTA OPPROSE-02 - Grupo 1.pdf",
     "Requisitos para aprobar el semillero/4 - CV-LAC/CvLAC - JUAN DIEGO MEJIA MAESTRE.pdf",
     "Requisitos para aprobar el semillero/1 - Propuesta (OPPROSE-02)/PROPUESTA OPPROSE-02 - Grupo 2.pdf",
     "Requisitos para aprobar el semillero/2 - Aceptación y Asignación/Correo Aceptacion  Propuesta (OPPROSE-02).pdf",
-    "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Evidencias Equipo 1 - Repuesta Participación VI Congreso Internacional de Convergencia Tecnológica 2026.pdf",
     "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Equipo 1 - Repuesta Participación VI Congreso Internacional de Convergencia Tecnológica 2026.pdf",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entrega de Entregable 1 - Semillero IA DataFlow Hub.pdf",
     "Requisitos para aprobar el semillero/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
