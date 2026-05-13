@@ -1,69 +1,41 @@
 {
   "main": {
-    "id": "b166b345944ee591",
+    "id": "ef47669cdb58cd09",
     "type": "split",
     "children": [
       {
-        "id": "e547b7ad8aebdba8",
+        "id": "6091f7e1a2a26f52",
         "type": "tabs",
         "children": [
           {
-            "id": "4230798746b26514",
+            "id": "e3d84e99dc519b5a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Integrantes/Equipo 2/Oscar Antury Avila/📑 Perfil Profesional - Oscar Antury Avila.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "📑 Perfil Profesional - Oscar Antury Avila"
-            }
-          },
-          {
-            "id": "69d7524cf2bfc96b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docs/DIAGRAMAS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DIAGRAMAS"
+              "title": "conflict-files-obsidian-git"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "e7f7370a77e52a65",
+    "id": "a9ebaaade4cb292e",
     "type": "split",
     "children": [
       {
-        "id": "519a6095a7da8e61",
+        "id": "f2194f1899eb4c35",
         "type": "tabs",
         "children": [
           {
-            "id": "5acc4edec9bf4280",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": true
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
-            }
-          },
-          {
-            "id": "0ee8731a34febfd7",
+            "id": "62c443d14e05302f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -80,7 +52,7 @@
             }
           },
           {
-            "id": "43875c9f68c28518",
+            "id": "2774ed0c1aa85840",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -88,28 +60,41 @@
               "icon": "lucide-bookmark",
               "title": "Marcadores"
             }
+          },
+          {
+            "id": "cf0d456a5cf7cfc9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 642.5
+    "width": 365.5
   },
   "right": {
-    "id": "dc99987b28e84d42",
+    "id": "2daa72a0765e1673",
     "type": "split",
     "children": [
       {
-        "id": "deca8cc49018607c",
+        "id": "fff42e81fef0c05d",
         "type": "tabs",
         "children": [
           {
-            "id": "021db1060885acc4",
+            "id": "b7dd69cea37d80d9",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,25 +104,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de 🚀 Resumen de Reunión Requisitos y Entregables de Semillero"
+              "title": "Enlaces entrantes"
             }
           },
           {
-            "id": "956f5f7bdafb42bb",
+            "id": "9e12dffd0069c48e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de 🚀 Resumen de Reunión Requisitos y Entregables de Semillero"
+              "title": "Enlaces salientes"
             }
           },
           {
-            "id": "874fa732d324216a",
+            "id": "46093e970fbb2030",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -152,7 +136,7 @@
             }
           },
           {
-            "id": "01e58b594d3bf80f",
+            "id": "f145275379844da6",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -166,22 +150,21 @@
             }
           },
           {
-            "id": "e63c12ae5911c129",
+            "id": "eb8d8aa63a01748a",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
-                "followCursor": true,
+                "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de 🚀 Resumen de Reunión Requisitos y Entregables de Semillero"
+              "title": "Esquema"
             }
           },
           {
-            "id": "aaeff519f0d34833",
+            "id": "415e38775fba04d3",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -195,10 +178,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 801.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "univer:Univer": false,
+      "excel:Create Excel File": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
@@ -206,61 +191,56 @@
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Crear nueva base": false,
-      "obsidian-git:Open Git source control": false,
-      "excel:Create Excel File": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5acc4edec9bf4280",
+  "active": "415e38775fba04d3",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Tutoriales/Ruta de Aprendizaje/🛖 Tutoriales.md",
+    "Tutoriales/Ruta de Aprendizaje",
+    "Tutoriales/Obsidian/💎 Guía de Instalación Obsidian + Sincronización Git.md",
+    "Tutoriales/Obsidian",
+    "Tutoriales/Metodologia/TSP y PSP — Resumen Completo.md",
+    "Tutoriales/Metodologia",
+    "Tutoriales/Git/🎓 Manual de Sincronización Git + GitHub.md",
+    "Tutoriales/Git",
+    "Tutoriales/Estilo/💎 Guía Maestra de Estilo en Obsidian.md",
+    "Tutoriales/Estilo",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 14 - Infraestructura/Arquitectura IA-DataFlow-Hub.pdf",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 11 - Database/HU11 - Diseño y Creación de la Base de Datos Relacional (MySQL).docx",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 13 - Docker/🐳 Dockerización del Proyecto IA-DataFlow-Hub.pdf",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 11 - Database/ia_dataflow_v2_test_data.sql",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 11 - Database/ia_dataflow_v2.sql",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 13 - Docker/docker.png",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/Evidencias de las HU 07.png",
+    "HU & Investigaciones/Internas/HU 10 - Fine-Tuning/HU 10 Spike Exploratorio - Selección de Modelo y Estrategia de Fine-Tuning.md",
+    "HU & Investigaciones/Internas/Recursos/TOON_DICTIONARY.md",
+    "HU & Investigaciones/Internas/HU 14 - Infraestructura/Arquitectura IA-DataFlow-Hub.md",
+    "HU & Investigaciones/Internas/HU 13 - Docker/🐳 Dockerización del Proyecto IA-DataFlow-Hub.md",
+    "HU & Investigaciones/Internas/HU 11 - Database/HU 11 Diseño y Creación de la Base de Datos Relacional (MySQL).md",
+    "HU & Investigaciones/Internas/HU 09 - Agentes y Skills/📄 Hu 09 Matriz de Capacidades de Agentes y Skills.md",
+    "HU & Investigaciones/Internas/HU 07 - Corpus Maestro/HU 07 Construcción del Corpus Maestro (150+ Archivos).md",
+    "HU & Investigaciones/Internas/HU 06 - Arquitectura UML/📄Resumen Ejecutivo HU 06 Arquitectura Lógica y Diseño de Datos.md",
+    "HU & Investigaciones/Internas/HU 06 - Arquitectura UML/📄 HU 06 - Arquitectura y Modelado UML (JUAN DIEGO).md",
+    "HU & Investigaciones/Internas/HU 06 - Arquitectura UML/📄 HU 06 - Arquitectura y Modelado UML (DAVID).md",
+    "HU & Investigaciones/Internas/HU 05 - Seguridad/📄Resumen Ejecutivo HU 05 Seguridad, Privacidad y Cumplimiento.md",
+    "HU & Investigaciones/Internas/HU 05 - Seguridad/📄 HU 05 Seguridad, Privacidad y Cumplimiento (Ley 1581 - Pohlman y David Steven ).md",
+    "HU & Investigaciones/Internas/HU 02 - IA y ETL/📄Resumen Ejecutivo HU 02  IA, ETL.md",
+    "HU & Investigaciones/Internas/HU 02 - IA y ETL/📄 HU 02 - IA, ETL (JUAN DIEGO).md",
+    "HU & Investigaciones/Internas/HU 04 - UX y Dashboards/📄Resumen Ejecutivo HU 04 Optimización de UX y Dashboards.md",
+    "HU & Investigaciones/Internas/HU 04 - UX y Dashboards/📄 HU 04 Optimización de UX y Evolución de Dashboards (María Virginia Labarca).md",
+    "HU & Investigaciones/Internas/HU 04 - UX y Dashboards/📄 HU 04 Optimización de UX y Evolución de Dashboards ( Oscar Antury Avila).md",
+    "HU & Investigaciones/Internas/HU 03 - Stack Tecnológico/📄Resumen Ejecutivo HU 03 Stack Tecnológico y Manejo de Procesos.md",
+    "HU & Investigaciones/Internas/HU 03 - Stack Tecnológico/📄 HU 03 Stack Tecnológico y Manejo de Procesos (JUAN DIEGO).md",
+    "HU & Investigaciones/Internas/HU 03 - Stack Tecnológico/📄 HU 03 Stack Tecnológico y Manejo de Procesos ( Oscar Antury Avila).md",
     "Docs/diagramas/10-privacidad-ley-1581/10-privacidad-ley-1581.svg",
     "Docs/diagramas/10-privacidad-ley-1581/10-privacidad-ley-1581.png",
-    "Docs/diagramas/10-privacidad-ley-1581/10-privacidad-ley-1581.md",
     "Docs/diagramas/10-privacidad-ley-1581/10-privacidad-ley-1581 - 10c-—-reglas-de-negocio-ley-1581.svg",
     "Docs/diagramas/10-privacidad-ley-1581/10-privacidad-ley-1581 - 10c-—-reglas-de-negocio-ley-1581.png",
     "Docs/diagramas/10-privacidad-ley-1581/10-privacidad-ley-1581 - 10b-—-clasificacion-de-datos-pii-vs-seguros.svg",
     "Docs/diagramas/10-privacidad-ley-1581/10-privacidad-ley-1581 - 10b-—-clasificacion-de-datos-pii-vs-seguros.png",
-    "Docs/diagramas/11-flujo-conversaciones-chat/11-flujo-conversaciones-chat.svg",
-    "Docs/diagramas/11-flujo-conversaciones-chat/11-flujo-conversaciones-chat.png",
-    "Docs/diagramas/11-flujo-conversaciones-chat/11-flujo-conversaciones-chat.md",
     "Docs/diagramas/11-flujo-conversaciones-chat/11-flujo-conversaciones-chat - 11d-—-ciclo-de-vida-de-una-conversacion.svg",
-    "Docs/diagramas/11-flujo-conversaciones-chat/11-flujo-conversaciones-chat - 11d-—-ciclo-de-vida-de-una-conversacion.png",
-    "Docs/diagramas/11-flujo-conversaciones-chat/11-flujo-conversaciones-chat - 11c-—-modelo-de-datos-de-conversaciones.svg",
-    "Docs/diagramas/09-estructura-monorepo/09-estructura-monorepo.md",
-    "Docs/diagramas/04-flujo-autenticacion/04-flujo-autenticacion.md",
-    "Docs/diagramas/03-modelo-base-de-datos/03-modelo-base-de-datos.md",
-    "Docs/diagramas/02-flujo-procesamiento-ia/02-flujo-procesamiento-ia.md",
-    "Docs/diagramas/01-arquitectura-general/01-arquitectura-general.md",
-    "Docs/diagramas/README.md",
-    "Docs/diagramas/generate-exports.mjs",
-    "Docs/diagramas/10-privacidad-ley-1581",
-    "Docs/diagramas/11-flujo-conversaciones-chat",
-    "Docs/diagramas/09-estructura-monorepo.md",
-    "Docs/diagramas/09-estructura-monorepo",
-    "Docs/diagramas/04-flujo-autenticacion",
-    "Docs/diagramas/04-flujo-autenticacion.md",
-    "Docs/diagramas/03-modelo-base-de-datos",
-    "Docs/diagramas/02-flujo-procesamiento-ia.md",
-    "Docs/diagramas/02-flujo-procesamiento-ia",
-    "Docs/diagramas/01-arquitectura-general",
-    "Docs/diagramas",
-    "Docs/HU/HU-034 — Flujos Base en n8n.md",
-    "Docs/HU/HU-033 — Configuración del Entorno de IA.md",
-    "Docs/HU/HU-032 — Esquema de Escenarios de Validación.md",
-    "Docs/HU/HU-031 — Plan de Pruebas y Esquema de Testing.md",
-    "Docs/HU/HU-030 — Migración Estratégica de IDs Enteros a UUID.md",
-    "Docs/HU/HU-029 — Sistema de Reportes y Dashboards Persistentes.md",
-    "Docs/HU/HU-028  Feed de Actividad y Timeline de Eventos.md",
-    "Docs/HU/HU-027 — Gestión de Templates ETL y Transformaciones Predefinidas.md",
-    "Docs/HU/HU-026 — Gestión de Datasets, Tablas Generadas y Lineage de Datos.md",
-    "Docs/HU/HU-025 — Sistema de Notificaciones Individuales y Grupales.md",
-    "Docs/HU/HU-024 — Gestión Avanzada de Sesiones y Dispositivos.md",
-    "Docs/HU/HU-023-Feedback y Reporte de Errores en Chat.md",
-    "Docs/HU/HU-022-AI-Jobs-Tracking-y-Logs.md",
-    "Docs/HU/HU-021-Proyecto-CreadoPor-Chats-Archivos-Mensajes.md",
-    "Docs/HU",
-    "Sin título.canvas",
-    "Sin título 1.canvas",
-    "Tablero de Avances.canvas",
-    "Untitled.canvas"
+    "Docs/diagramas/11-flujo-conversaciones-chat/11-flujo-conversaciones-chat.svg"
   ]
 }
