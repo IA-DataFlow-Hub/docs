@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6091f7e1a2a26f52",
+        "id": "17c0ebf8b9394967",
         "type": "tabs",
         "children": [
           {
-            "id": "e3d84e99dc519b5a",
+            "id": "3ed49569df2bb62c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -194,8 +190,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "415e38775fba04d3",
+  "active": "3ed49569df2bb62c",
   "lastOpenFiles": [
+    "Sin título.base",
     "conflict-files-obsidian-git.md",
     "Tutoriales/Ruta de Aprendizaje/🛖 Tutoriales.md",
     "Tutoriales/Ruta de Aprendizaje",
@@ -233,7 +230,6 @@
     "HU & Investigaciones/Internas/HU 04 - UX y Dashboards/📄 HU 04 Optimización de UX y Evolución de Dashboards ( Oscar Antury Avila).md",
     "HU & Investigaciones/Internas/HU 03 - Stack Tecnológico/📄Resumen Ejecutivo HU 03 Stack Tecnológico y Manejo de Procesos.md",
     "HU & Investigaciones/Internas/HU 03 - Stack Tecnológico/📄 HU 03 Stack Tecnológico y Manejo de Procesos (JUAN DIEGO).md",
-    "HU & Investigaciones/Internas/HU 03 - Stack Tecnológico/📄 HU 03 Stack Tecnológico y Manejo de Procesos ( Oscar Antury Avila).md",
     "Docs/diagramas/10-privacidad-ley-1581/10-privacidad-ley-1581.svg",
     "Docs/diagramas/10-privacidad-ley-1581/10-privacidad-ley-1581.png",
     "Docs/diagramas/10-privacidad-ley-1581/10-privacidad-ley-1581 - 10c-—-reglas-de-negocio-ley-1581.svg",
