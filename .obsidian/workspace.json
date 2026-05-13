@@ -4,17 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "10daffd58dc7b724",
+        "id": "c13b307a3f98892f",
         "type": "tabs",
         "children": [
           {
-            "id": "52ae15112943743d",
+            "id": "bdf26d2e4cf6750c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "type": "bases",
+              "state": {
+                "file": "Sin título 1.base",
+                "viewName": "Tabla"
+              },
+              "icon": "lucide-table",
+              "title": "Sin título 1"
             }
           }
         ]
@@ -178,7 +181,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "univer:Univer": false,
       "excel:Create Excel File": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
@@ -190,8 +192,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "52ae15112943743d",
+  "active": "bdf26d2e4cf6750c",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Sin título 1.base",
     "Docs/diagramas/02-flujo-procesamiento-ia/02-flujo-procesamiento-ia.png",
     "Docs/diagramas/01-arquitectura-general/01-arquitectura-general.svg",
     "Docs/diagramas/01-arquitectura-general/01-arquitectura-general.png",
@@ -201,7 +205,6 @@
     "Archivos/Diagramas/UM.pdf",
     "Archivos/Diagramas/RF y RNF DIAGRAMAS UML - ETL - IA.pdf",
     "Sin título.base",
-    "conflict-files-obsidian-git.md",
     "Tutoriales/Ruta de Aprendizaje/🛖 Tutoriales.md",
     "Tutoriales/Ruta de Aprendizaje",
     "Tutoriales/Obsidian/💎 Guía de Instalación Obsidian + Sincronización Git.md",
@@ -212,7 +215,6 @@
     "Tutoriales/Git",
     "Tutoriales/Estilo/💎 Guía Maestra de Estilo en Obsidian.md",
     "Tutoriales/Estilo",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 14 - Infraestructura/Arquitectura IA-DataFlow-Hub.pdf",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 13 - Docker/docker.png",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/Evidencias de las HU 07.png",
     "HU & Investigaciones/Internas/HU 10 - Fine-Tuning/HU 10 Spike Exploratorio - Selección de Modelo y Estrategia de Fine-Tuning.md",
@@ -236,7 +238,6 @@
     "Docs/diagramas/10-privacidad-ley-1581/10-privacidad-ley-1581.png",
     "Docs/diagramas/10-privacidad-ley-1581/10-privacidad-ley-1581 - 10c-—-reglas-de-negocio-ley-1581.svg",
     "Docs/diagramas/10-privacidad-ley-1581/10-privacidad-ley-1581 - 10c-—-reglas-de-negocio-ley-1581.png",
-    "Docs/diagramas/10-privacidad-ley-1581/10-privacidad-ley-1581 - 10b-—-clasificacion-de-datos-pii-vs-seguros.svg",
-    "Docs/diagramas/10-privacidad-ley-1581/10-privacidad-ley-1581 - 10b-—-clasificacion-de-datos-pii-vs-seguros.png"
+    "Docs/diagramas/10-privacidad-ley-1581/10-privacidad-ley-1581 - 10b-—-clasificacion-de-datos-pii-vs-seguros.svg"
   ]
 }
