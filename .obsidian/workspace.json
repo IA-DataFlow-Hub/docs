@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Actas/INDEX.md",
+                "file": "Docs/diagramas/01-arquitectura-general/01-arquitectura-general.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "INDEX"
+              "title": "01-arquitectura-general"
             }
           }
         ],
@@ -212,6 +212,7 @@
   },
   "active": "69d7524cf2bfc96b",
   "lastOpenFiles": [
+    "Actas/INDEX.md",
     "Docs/DIAGRAMAS.md",
     "Docs/diagramas/DIAGRAMAS.md",
     "Docs/diagramas/09-estructura-monorepo.md",
@@ -256,7 +257,6 @@
     "Docs/HU/HU-025 — Sistema de Notificaciones Individuales y Grupales.md",
     "Docs/HU/HU-024 — Gestión Avanzada de Sesiones y Dispositivos.md",
     "Docs/HU/HU-023-Feedback y Reporte de Errores en Chat.md",
-    "Docs/HU/HU-022-AI-Jobs-Tracking-y-Logs.md",
     "Docs/HU",
     "Sin título.canvas",
     "Sin título 1.canvas",
