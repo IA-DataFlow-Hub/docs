@@ -1,4 +1,4 @@
-# Diagrama 9 — Estructura del Monorepo
+# Diagrama 8 — Estructura del Monorepo
 
 **Qué muestra:** Cómo está organizado el monorepo con Turborepo, qué contiene cada workspace, el orden de build y las dependencias entre paquetes.
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 9a — Árbol de directorios y responsabilidades
+## 8a — Árbol de directorios y responsabilidades
 
 ```mermaid
 graph TD
@@ -44,7 +44,7 @@ graph TD
 
 ---
 
-## 9b — Pipeline de build con Turborepo
+## 8b — Pipeline de build con Turborepo
 
 ```mermaid
 graph LR
@@ -72,7 +72,7 @@ graph LR
 
 ---
 
-## 9c — Dependencias entre workspaces
+## 8c — Dependencias entre workspaces
 
 ```mermaid
 graph LR

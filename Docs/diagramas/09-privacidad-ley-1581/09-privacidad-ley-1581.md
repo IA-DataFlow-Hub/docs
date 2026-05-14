@@ -1,4 +1,4 @@
-# Diagrama 10 — Privacidad y Cumplimiento Ley 1581
+# Diagrama 9 — Privacidad y Cumplimiento Ley 1581
 
 **Qué muestra:** Cómo el sistema decide qué datos pueden salir a la nube y cuáles deben procesarse localmente, garantizando el cumplimiento de la Ley 1581 de protección de datos personales de Colombia.
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 10a — Flujo de decisión: local vs nube
+## 9a — Flujo de decisión: local vs nube
 
 ```mermaid
 flowchart TD
@@ -56,7 +56,7 @@ flowchart TD
 
 ---
 
-## 10b — Clasificación de datos PII vs seguros
+## 9b — Clasificación de datos PII vs seguros
 
 ```mermaid
 graph LR
@@ -88,7 +88,7 @@ graph LR
 
 ---
 
-## 10c — Reglas de negocio (Ley 1581)
+## 9c — Reglas de negocio (Ley 1581)
 
 ```mermaid
 flowchart LR
