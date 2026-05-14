@@ -1,6 +1,6 @@
 # Guía: Generación de Datasets de Caos para Entrenamiento de IA
 
-> **HU-015** · Responsable: Juan Diego Mejía · Estado: ✅ Completado
+> **HU-015** · Responsable: Juan Diego Mejía y  David Ospina · Estado: ✅ Completado
 
 Esta guía explica cómo usar el script `chaos-generator` para producir los archivos de prueba que alimentan el fine-tuning del modelo de normalización de datos de DataFlow Hub.
 
