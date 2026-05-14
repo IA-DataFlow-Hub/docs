@@ -11,14 +11,14 @@
             "id": "09a691c70ebe61a8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Docs/CHAOS_GENERATOR.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/plugins/univer/main.js",
+                "bFile": ".obsidian/plugins/univer/main.js",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "CHAOS_GENERATOR"
+              "icon": "diff",
+              "title": "Diff: main.js  (Working Tree)"
             }
           }
         ]
@@ -192,11 +192,14 @@
       "command-palette:Abrir paleta de comandos": false,
       "bases:Crear nueva base": false,
       "obsidian-git:Open Git source control": false,
-      "excel:Create Excel File": false
+      "excel:Create Excel File": false,
+      "univer:Univer": false
     }
   },
-  "active": "5acc4edec9bf4280",
+  "active": "09a691c70ebe61a8",
   "lastOpenFiles": [
+    "Requisitos para aprobar el semillero/3 - Plan de Trabajo/Plan de trabajo FUAA.xlsx",
+    "Docs/CHAOS_GENERATOR.md",
     "Requisitos para aprobar el semillero/3 - Plan de Trabajo/~$Plan de trabajo FUAA.xlsx",
     "Docs/diagramas/05-roles-y-permisos/05-roles-y-permisos.svg",
     "Docs/diagramas/05-roles-y-permisos/05-roles-y-permisos.png",
@@ -207,7 +210,6 @@
     "Archivos/HU/HU 16/Version 3 BD ia_dataflow.mwb.zip",
     "Archivos/HU/HU 16",
     "Docs/HU/HU 015 - Clasificación de Dataset de Caos para Entrenamiento de IA.md",
-    "Docs/CHAOS_GENERATOR.md",
     "Integrantes/Equipo 2/David Ospina/📑 Perfil Profesional - David Ospina.md",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entrega Formal - Entregable 2 - Semillero IA-DataFlow Hub.pdf",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entrega Formal - Entregable 3 - Semillero IA-DataFlow Hub.pdf",
@@ -238,7 +240,6 @@
     "Docs/diagramas/07-ciclo-vida-ai-job",
     "Docs/diagramas/06-flujo-etl/06-flujo-etl.svg",
     "Docs/diagramas/06-flujo-etl/06-flujo-etl.png",
-    "Docs/diagramas/06-flujo-etl",
     "Docs/diagramas/02-flujo-procesamiento-ia/02-flujo-procesamiento-ia.svg",
     "Docs/diagramas/02-flujo-procesamiento-ia/02-flujo-procesamiento-ia.png",
     "Docs/diagramas/01-arquitectura-general/01-arquitectura-general.svg",
