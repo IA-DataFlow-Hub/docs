@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/feedback-system.md",
+                "file": "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/protocolo-seguridad.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "feedback-system"
+              "title": "protocolo-seguridad"
             }
           }
         ]
@@ -195,22 +195,23 @@
       "univer:Univer": false
     }
   },
-  "active": "5acc4edec9bf4280",
+  "active": "09a691c70ebe61a8",
   "lastOpenFiles": [
+    "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/feedback-system.md",
+    "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/protocolo-seguridad.md",
+    "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/~$otocolo de Seguridad.docx",
     "HU & Investigaciones/Internas/Recursos/reportes  fruty kennedy.pdf",
     "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/Protocolo de Seguridad.docx",
     "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/Hu 32 esquema de escenarios.wps",
     "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación",
     "HU & Investigaciones/Internas/Recursos/protocolo-seguridad.md",
     "HU & Investigaciones/Internas/Recursos/IADataFlow_ Benchmark Report.pdf",
-    "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/feedback-system.md",
     "HU & Investigaciones/🌎 Investigaciones Externas.md",
     "HU & Investigaciones/Inscripción de Estudiantes Semilleros.md",
     "Archivos/Diagramas/RF y RNF DIAGRAMAS UML - ETL - IA.pdf",
     "Archivos/HU/HU 18/schema.prisma",
     "Archivos/HU/HU 18/ia_dataflow_v5.sql",
     "Archivos/HU/HU 18/Diagrama V5.pdf",
-    "Archivos/HU/HU 18",
     "HU & Investigaciones/Internas/HU 02 - IA y ETL/📄Resumen Ejecutivo HU 02  IA, ETL.md",
     "HU & Investigaciones/Internas/HU 02 - IA y ETL/📄 HU 02 - IA, ETL (JUAN DIEGO).md",
     "HU & Investigaciones/Internas/HU 01 - Infraestructura/📄Resumen Ejecutivo HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres).md",
@@ -224,7 +225,6 @@
     "Docs/diagramas/10-flujo-conversaciones-chat/10-flujo-conversaciones-chat - 10c-—-modelo-de-datos-de-conversaciones.png",
     "Docs/diagramas/10-flujo-conversaciones-chat/10-flujo-conversaciones-chat - 10b-—-estructura-del-prompt-enviado-a-la-ia.svg",
     "Docs/diagramas/10-flujo-conversaciones-chat/10-flujo-conversaciones-chat - 10b-—-estructura-del-prompt-enviado-a-la-ia.png",
-    "Docs/diagramas/10-flujo-conversaciones-chat",
     "Docs/diagramas/09-privacidad-ley-1581/09-privacidad-ley-1581.svg",
     "Docs/diagramas/09-privacidad-ley-1581/09-privacidad-ley-1581.png",
     "Docs/diagramas/09-privacidad-ley-1581/09-privacidad-ley-1581.md",
