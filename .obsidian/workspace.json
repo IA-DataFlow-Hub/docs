@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/protocolo-seguridad.md",
+                "file": "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/feedback-system.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "protocolo-seguridad"
+              "title": "feedback-system"
             }
           }
         ]
@@ -197,8 +197,10 @@
   },
   "active": "09a691c70ebe61a8",
   "lastOpenFiles": [
-    "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/feedback-system.md",
+    "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/Hu 32 esquema de escenarios.pdf",
+    "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/~$ 32 esquema de escenarios.wps",
     "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/protocolo-seguridad.md",
+    "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/feedback-system.md",
     "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/~$otocolo de Seguridad.docx",
     "HU & Investigaciones/Internas/Recursos/reportes  fruty kennedy.pdf",
     "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/Protocolo de Seguridad.docx",
@@ -211,7 +213,6 @@
     "Archivos/Diagramas/RF y RNF DIAGRAMAS UML - ETL - IA.pdf",
     "Archivos/HU/HU 18/schema.prisma",
     "Archivos/HU/HU 18/ia_dataflow_v5.sql",
-    "Archivos/HU/HU 18/Diagrama V5.pdf",
     "HU & Investigaciones/Internas/HU 02 - IA y ETL/📄Resumen Ejecutivo HU 02  IA, ETL.md",
     "HU & Investigaciones/Internas/HU 02 - IA y ETL/📄 HU 02 - IA, ETL (JUAN DIEGO).md",
     "HU & Investigaciones/Internas/HU 01 - Infraestructura/📄Resumen Ejecutivo HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres).md",
@@ -242,7 +243,6 @@
     "Docs/HU/✅ HU 007 - Construcción del Corpus Maestro (150+ Archivos).md",
     "Docs/HU/✅ HU 006 - Mapeo de Capacidades y Configuración de Roles.md",
     "Docs/HU/✅ HU 005 - Mapeo de Capacidades y Configuración de Roles.md",
-    "Docs/HU/✅ HU 004 - Mapeo de Capacidades y Configuración de Roles.md",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Tablero de Avances.canvas",
