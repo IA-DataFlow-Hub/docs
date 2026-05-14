@@ -11,10 +11,12 @@
             "id": "0169b7bd9ecd275e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "type": "pdf",
+              "state": {
+                "file": "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/Hu 32 esquema de escenarios.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Hu 32 esquema de escenarios"
             }
           }
         ]
@@ -193,11 +195,11 @@
   },
   "active": "0169b7bd9ecd275e",
   "lastOpenFiles": [
+    "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/protocolo-seguridad.md",
     "Archivos/HU/HU 18/Diagrama V5.pdf",
     "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/Hu 32 esquema de escenarios.pdf",
     "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/feedback-system.md",
     "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/~$ 32 esquema de escenarios.wps",
-    "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/protocolo-seguridad.md",
     "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/~$otocolo de Seguridad.docx",
     "HU & Investigaciones/Internas/Recursos/reportes  fruty kennedy.pdf",
     "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/Protocolo de Seguridad.docx",
@@ -208,7 +210,6 @@
     "HU & Investigaciones/🌎 Investigaciones Externas.md",
     "HU & Investigaciones/Inscripción de Estudiantes Semilleros.md",
     "Archivos/Diagramas/RF y RNF DIAGRAMAS UML - ETL - IA.pdf",
-    "Archivos/HU/HU 18/schema.prisma",
     "HU & Investigaciones/Internas/HU 02 - IA y ETL/📄Resumen Ejecutivo HU 02  IA, ETL.md",
     "HU & Investigaciones/Internas/HU 02 - IA y ETL/📄 HU 02 - IA, ETL (JUAN DIEGO).md",
     "HU & Investigaciones/Internas/HU 01 - Infraestructura/📄Resumen Ejecutivo HU 01 Infraestructura y Viabilidad de Servidores (Sebastian y Andres).md",
