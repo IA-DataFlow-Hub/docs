@@ -1,4 +1,4 @@
-# Diagrama 11 — Flujo de Conversaciones y Chat con IA
+# Diagrama 10 — Flujo de Conversaciones y Chat con IA
 
 **Qué muestra:** Cómo funciona el sistema de chat contextual: cómo el usuario interactúa con la IA dentro de un proyecto, cómo se mantiene el historial de mensajes, y cómo la IA usa el contexto del dataset activo para responder.
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 11a — Secuencia de un mensaje en el chat
+## 10a — Secuencia de un mensaje en el chat
 
 ```mermaid
 sequenceDiagram
@@ -52,7 +52,7 @@ sequenceDiagram
 
 ---
 
-## 11b — Estructura del prompt enviado a la IA
+## 10b — Estructura del prompt enviado a la IA
 
 ```mermaid
 graph TD
@@ -75,7 +75,7 @@ graph TD
 
 ---
 
-## 11c — Modelo de datos de conversaciones
+## 10c — Modelo de datos de conversaciones
 
 ```mermaid
 erDiagram
@@ -106,7 +106,7 @@ erDiagram
 
 ---
 
-## 11d — Ciclo de vida de una conversación
+## 10d — Ciclo de vida de una conversación
 
 ```mermaid
 stateDiagram-v2
