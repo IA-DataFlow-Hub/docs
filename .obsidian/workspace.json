@@ -11,12 +11,14 @@
             "id": "09a691c70ebe61a8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "HU & Investigaciones/Internas/Recursos/reportes  fruty kennedy.pdf"
+                "file": "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/feedback-system.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "reportes  fruty kennedy"
+              "icon": "lucide-file",
+              "title": "feedback-system"
             }
           }
         ]
@@ -195,6 +197,9 @@
   },
   "active": "5acc4edec9bf4280",
   "lastOpenFiles": [
+    "HU & Investigaciones/Internas/Recursos/reportes  fruty kennedy.pdf",
+    "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/Protocolo de Seguridad.docx",
+    "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/Hu 32 esquema de escenarios.wps",
     "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación",
     "HU & Investigaciones/Internas/Recursos/protocolo-seguridad.md",
     "HU & Investigaciones/Internas/Recursos/IADataFlow_ Benchmark Report.pdf",
@@ -223,10 +228,7 @@
     "Docs/diagramas/09-privacidad-ley-1581/09-privacidad-ley-1581.svg",
     "Docs/diagramas/09-privacidad-ley-1581/09-privacidad-ley-1581.png",
     "Docs/diagramas/09-privacidad-ley-1581/09-privacidad-ley-1581.md",
-    "Docs/diagramas/09-privacidad-ley-1581",
     "Docs/diagramas/08-estructura-monorepo/08-estructura-monorepo.md",
-    "Docs/diagramas/08-estructura-monorepo",
-    "Archivos/HU/HU 17/schema.prisma",
     "Docs/CHAOS_GENERATOR.md",
     "Docs/diagramas/05-roles-y-permisos/05-roles-y-permisos.md",
     "Docs/HU/HU 015 - Clasificación de Dataset de Caos para Entrenamiento de IA.md",
