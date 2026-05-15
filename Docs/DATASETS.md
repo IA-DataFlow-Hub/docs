@@ -36,8 +36,9 @@ cd IA-DataFlow-Hub
 Pídele al líder del proyecto el archivo `dvc-service-account.json` y guárdalo localmente (nunca lo subas a git).
 
 ```bash
-dvc remote modify --local gdrive gdrive_use_service_account true
-dvc remote modify --local gdrive gdrive_service_account_json_file_path "C:/ruta/al/dvc-service-account.json"
+dvc remote modify --local gdrive gdrive_use_service_account false
+dvc remote modify --local gdrive gdrive_client_id "pongo el clientId del archivo que me paso el lider"
+dvc remote modify --local gdrive gdrive_client_secret "pongo el client_secret del archivo que me paso el lider"
 ```
 
 ### 4. Descargar los datasets
