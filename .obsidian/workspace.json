@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "31c3f274ae1f0e01",
+        "id": "7308b30f00143c01",
         "type": "tabs",
         "children": [
           {
-            "id": "0169b7bd9ecd275e",
+            "id": "393788a048d405fd",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/Hu 32 esquema de escenarios.pdf"
+                "file": "HU & Investigaciones/Internas/HU 14 - Infraestructura/Arquitectura IA-DataFlow-Hub.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Hu 32 esquema de escenarios"
+              "icon": "lucide-file",
+              "title": "Arquitectura IA-DataFlow-Hub"
             }
           }
         ]
@@ -193,8 +195,14 @@
       "univer:Univer": false
     }
   },
-  "active": "0169b7bd9ecd275e",
+  "active": "393788a048d405fd",
   "lastOpenFiles": [
+    "Docs/diagramas/README.md",
+    "Docs/diagramas/DIAGRAMAS.md",
+    "Docs/diagramas/08-estructura-monorepo/08-estructura-monorepo.md",
+    "HU & Investigaciones/Tareas.md",
+    "🎊 Bienvenidos a IA-DataFlow Hub.md",
+    "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/Hu 32 esquema de escenarios.pdf",
     "Archivos/HU/HU 27/HU27.rar",
     "Archivos/HU/HU 27",
     "Archivos/HU/HU 26/HU26.rar",
@@ -204,8 +212,6 @@
     "Archivos/HU/HU 24/HU24.rar",
     "Archivos/HU/HU 24",
     "Archivos/HU/HU 23/HU23.rar",
-    "Archivos/HU/HU 23",
-    "Archivos/HU/HU 22/HU22.rar",
     "Docs/DATASETS.md",
     "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/protocolo-seguridad.md",
     "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/feedback-system.md",
@@ -228,7 +234,6 @@
     "Docs/diagramas/09-privacidad-ley-1581/09-privacidad-ley-1581.svg",
     "Docs/diagramas/09-privacidad-ley-1581/09-privacidad-ley-1581.png",
     "Docs/diagramas/09-privacidad-ley-1581/09-privacidad-ley-1581.md",
-    "Docs/diagramas/08-estructura-monorepo/08-estructura-monorepo.md",
     "Docs/CHAOS_GENERATOR.md",
     "Docs/diagramas/05-roles-y-permisos/05-roles-y-permisos.md",
     "Docs/HU/HU 015 - Clasificación de Dataset de Caos para Entrenamiento de IA.md",
@@ -238,9 +243,6 @@
     "Docs/HU/✅ HU 011 - Diseño y Creación de la Base de Datos Relacional (MySQL).md",
     "Docs/HU/✅ HU 010 - Spike Exploratorio - Selección de Modelo y Estrategia de Fine-Tuning.md",
     "Docs/HU/✅ HU 009 - Spike Exploratorio - Agentes, Skills y Comandos de IA.md",
-    "Docs/HU/✅ HU 008 - Investigación Exploratoria - Estándar TOON y Eficiencia de Tokens.md",
-    "Docs/HU/✅ HU 007 - Construcción del Corpus Maestro (150+ Archivos).md",
-    "Docs/HU/✅ HU 006 - Mapeo de Capacidades y Configuración de Roles.md",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Tablero de Avances.canvas",
