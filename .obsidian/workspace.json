@@ -11,14 +11,12 @@
             "id": "393788a048d405fd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "HU & Investigaciones/Internas/HU 14 - Infraestructura/Arquitectura IA-DataFlow-Hub.md",
-                "mode": "source",
-                "source": false
+                "file": "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Certificado/Sebastián Bautista Martínez.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Arquitectura IA-DataFlow-Hub"
+              "icon": "lucide-file-text",
+              "title": "Sebastián Bautista Martínez"
             }
           }
         ]
@@ -195,8 +193,12 @@
       "univer:Univer": false
     }
   },
-  "active": "393788a048d405fd",
+  "active": "5acc4edec9bf4280",
   "lastOpenFiles": [
+    "Requisitos para aprobar el semillero/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
+    "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Certificado/Andrés Felipe Andrade Borbon.pdf",
+    "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Certificado",
+    "HU & Investigaciones/Internas/HU 14 - Infraestructura/Arquitectura IA-DataFlow-Hub.md",
     "Docs/packages/hu-cli.md",
     "Docs/packages/database.md",
     "Docs/packages/chaos-generator.md",
@@ -228,11 +230,7 @@
     "Archivos/HU/HU 26/HU26.rar",
     "Archivos/HU/HU 26",
     "Archivos/HU/HU 25/HU25.rar",
-    "Archivos/HU/HU 25",
-    "Archivos/HU/HU 24/HU24.rar",
     "Docs/DATASETS.md",
-    "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/protocolo-seguridad.md",
-    "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/feedback-system.md",
     "Docs/diagramas/10-flujo-conversaciones-chat/10-flujo-conversaciones-chat.svg",
     "Docs/diagramas/10-flujo-conversaciones-chat/10-flujo-conversaciones-chat.png",
     "Docs/diagramas/10-flujo-conversaciones-chat/10-flujo-conversaciones-chat - 10d-—-ciclo-de-vida-de-una-conversacion.svg",
