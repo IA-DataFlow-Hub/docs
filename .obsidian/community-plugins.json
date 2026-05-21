@@ -1,4 +1,7 @@
 [
   "obsidian-git",
-  "excel"
+  "univer",
+  "editing-toolbar",
+  "advanced-import-export",
+  "obsidian-pandoc"
 ]
