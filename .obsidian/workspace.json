@@ -1,24 +1,22 @@
 {
   "main": {
-    "id": "ef47669cdb58cd09",
+    "id": "b166b345944ee591",
     "type": "split",
     "children": [
       {
-        "id": "de19c3352d93fc8c",
+        "id": "7308b30f00143c01",
         "type": "tabs",
         "children": [
           {
-            "id": "91bd7eedefcc3887",
+            "id": "393788a048d405fd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
+                "file": "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Certificado/Sebastián Bautista Martínez.pdf"
               },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "icon": "lucide-file-text",
+              "title": "Sebastián Bautista Martínez"
             }
           }
         ]
@@ -27,15 +25,28 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a9ebaaade4cb292e",
+    "id": "e7f7370a77e52a65",
     "type": "split",
     "children": [
       {
-        "id": "f2194f1899eb4c35",
+        "id": "519a6095a7da8e61",
         "type": "tabs",
         "children": [
           {
-            "id": "62c443d14e05302f",
+            "id": "5acc4edec9bf4280",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "0ee8731a34febfd7",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -52,7 +63,7 @@
             }
           },
           {
-            "id": "2774ed0c1aa85840",
+            "id": "43875c9f68c28518",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -60,41 +71,28 @@
               "icon": "lucide-bookmark",
               "title": "Marcadores"
             }
-          },
-          {
-            "id": "cf0d456a5cf7cfc9",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 642.5
   },
   "right": {
-    "id": "2daa72a0765e1673",
+    "id": "dc99987b28e84d42",
     "type": "split",
     "children": [
       {
-        "id": "fff42e81fef0c05d",
+        "id": "deca8cc49018607c",
         "type": "tabs",
         "children": [
           {
-            "id": "b7dd69cea37d80d9",
+            "id": "021db1060885acc4",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,24 +102,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes"
+              "title": "Enlaces entrantes de 🚀 Resumen de Reunión Requisitos y Entregables de Semillero"
             }
           },
           {
-            "id": "9e12dffd0069c48e",
+            "id": "956f5f7bdafb42bb",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes"
+              "title": "Enlaces salientes de 🚀 Resumen de Reunión Requisitos y Entregables de Semillero"
             }
           },
           {
-            "id": "46093e970fbb2030",
+            "id": "874fa732d324216a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -136,7 +135,7 @@
             }
           },
           {
-            "id": "f145275379844da6",
+            "id": "01e58b594d3bf80f",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -150,21 +149,22 @@
             }
           },
           {
-            "id": "eb8d8aa63a01748a",
+            "id": "e63c12ae5911c129",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "followCursor": false,
+                "file": "Procesos Grados Entregables/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema"
+              "title": "Esquema de 🚀 Resumen de Reunión Requisitos y Entregables de Semillero"
             }
           },
           {
-            "id": "415e38775fba04d3",
+            "id": "aaeff519f0d34833",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -178,11 +178,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 801.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "excel:Create Excel File": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
@@ -190,56 +189,61 @@
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Crear nueva base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "univer:Univer": false
     }
   },
-  "active": "91bd7eedefcc3887",
+  "active": "aaeff519f0d34833",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Docs/diagramas/09-privacidad-ley-1581/09-privacidad-ley-1581.svg",
-    "Docs/diagramas/09-privacidad-ley-1581/09-privacidad-ley-1581.md",
-    "Docs/diagramas/09-privacidad-ley-1581/09-privacidad-ley-1581 - 10b-—-clasificacion-de-datos-pii-vs-seguros.svg",
-    "Docs/diagramas/09-privacidad-ley-1581/09-privacidad-ley-1581.png",
-    "Docs/diagramas/09-privacidad-ley-1581/09-privacidad-ley-1581 - 10c-—-reglas-de-negocio-ley-1581.png",
-    "Docs/diagramas/09-privacidad-ley-1581/09-privacidad-ley-1581 - 10c-—-reglas-de-negocio-ley-1581.svg",
-    "Docs/diagramas/09-privacidad-ley-1581/09-privacidad-ley-1581 - 10b-—-clasificacion-de-datos-pii-vs-seguros.png",
-    "Docs/diagramas/09-privacidad-ley-1581",
+    "Sin título.base",
+    "Sin título 1.base",
+    "Docs/PRESENTACION_TECNICA.md",
+    "Requisitos para aprobar el semillero/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
+    "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Certificado/Andrés Felipe Andrade Borbon.pdf",
+    "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Certificado",
+    "HU & Investigaciones/Internas/HU 14 - Infraestructura/Arquitectura IA-DataFlow-Hub.md",
+    "Docs/packages/hu-cli.md",
+    "Docs/packages/database.md",
+    "Docs/packages/chaos-generator.md",
+    "Docs/packages",
+    "Docs/apps/client.md",
+    "Docs/apps/api.md",
+    "Docs/apps",
+    "Docs/README.md",
+    "Docs/HU/HU 051 - Módulo Auditoría.md",
+    "Docs/HU/HU 050 - Módulo Notificaciones.md",
+    "Docs/HU/HU 049 - Módulo Feedback y Reportes.md",
+    "Docs/HU/HU 048 - Módulo ETL y Tablas Generadas.md",
+    "Docs/HU/HU 047 - Módulo Motor de IA AI Jobs.md",
+    "Docs/HU/HU 046 - Módulo Tareas.md",
+    "Docs/HU/HU 045 - Módulo Conversaciones y Mensajería.md",
+    "Docs/HU/HU 044 - Módulo Archivos y Versionado.md",
+    "Docs/HU/HU 043 - Módulo Proyectos y Fases de Flujo.md",
+    "Docs/HU/HU 042 - Módulo Teams y Control de Acceso RBAC.md",
+    "Docs/HU/HU 041 - Módulo Perfil de Usuario y Configuración.md",
+    "Docs/HU/HU 040 - Módulo Auth y Gestión de Sesiones.md",
+    "Docs/diagramas/README.md",
+    "Docs/diagramas/DIAGRAMAS.md",
+    "Docs/diagramas/08-estructura-monorepo/08-estructura-monorepo.md",
+    "HU & Investigaciones/Tareas.md",
+    "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/Hu 32 esquema de escenarios.pdf",
     "Archivos/HU/HU 27/HU27.rar",
     "Archivos/HU/HU 27",
     "Archivos/HU/HU 26/HU26.rar",
     "Archivos/HU/HU 26",
-    "Archivos/HU/HU 25/HU25.rar",
-    "Archivos/HU/HU 25",
-    "Archivos/HU/HU 24/HU24.rar",
-    "Archivos/HU/HU 24",
-    "Archivos/HU/HU 23/HU23.rar",
-    "HU & Investigaciones/Internas/Recursos/protocolo-seguridad.md",
-    "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/protocolo-seguridad.md",
-    "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/feedback-system.md",
-    "Docs/packages/chaos-generator.md",
-    "Docs/packages/hu-cli.md",
-    "Docs/packages/database.md",
     "Docs/diagramas/10-flujo-conversaciones-chat/10-flujo-conversaciones-chat.svg",
-    "Docs/diagramas/10-flujo-conversaciones-chat/10-flujo-conversaciones-chat - 10c-—-modelo-de-datos-de-conversaciones.png",
-    "Docs/diagramas/10-flujo-conversaciones-chat/10-flujo-conversaciones-chat - 10c-—-modelo-de-datos-de-conversaciones.svg",
     "Docs/diagramas/10-flujo-conversaciones-chat/10-flujo-conversaciones-chat.png",
-    "Docs/diagramas/10-flujo-conversaciones-chat/10-flujo-conversaciones-chat.md",
-    "Docs/diagramas/08-estructura-monorepo/08-estructura-monorepo.md",
-    "Docs/diagramas/05-roles-y-permisos/05-roles-y-permisos.md",
-    "Docs/apps/client.md",
-    "Docs/apps/api.md",
-    "Docs/README.md",
-    "Docs/PRESENTACION_TECNICA.md",
-    "Docs/HU/✅ HU 014 - Arquitectura Base y Monorepo.md",
-    "Docs/HU/✅ HU 010 - Spike Exploratorio - Selección de Modelo y Estrategia de Fine-Tuning.md",
-    "Docs/HU/✅ HU 013 - Configuración de Infraestructura de Datos (Docker).md",
-    "Docs/HU/✅ HU 011 - Diseño y Creación de la Base de Datos Relacional (MySQL).md",
-    "Docs/HU/✅ HU 007 - Construcción del Corpus Maestro (150+ Archivos).md",
-    "Docs/HU/✅ HU 009 - Spike Exploratorio - Agentes, Skills y Comandos de IA.md",
-    "Docs/HU/✅ HU 008 - Investigación Exploratoria - Estándar TOON y Eficiencia de Tokens.md",
-    "Docs/HU/✅ HU 005 - Mapeo de Capacidades y Configuración de Roles.md",
-    "Docs/HU/✅ HU 006 - Mapeo de Capacidades y Configuración de Roles.md",
-    "Docs/HU/✅ HU 003 - Mapeo de Capacidades y Configuración de Roles.md",
-    "Docs/HU/HU 051 - Módulo Auditoría.md"
+    "Docs/diagramas/10-flujo-conversaciones-chat/10-flujo-conversaciones-chat - 10d-—-ciclo-de-vida-de-una-conversacion.svg",
+    "Docs/diagramas/10-flujo-conversaciones-chat/10-flujo-conversaciones-chat - 10d-—-ciclo-de-vida-de-una-conversacion.png",
+    "Docs/diagramas/10-flujo-conversaciones-chat/10-flujo-conversaciones-chat - 10c-—-modelo-de-datos-de-conversaciones.svg",
+    "Docs/diagramas/10-flujo-conversaciones-chat/10-flujo-conversaciones-chat - 10c-—-modelo-de-datos-de-conversaciones.png",
+    "Docs/diagramas/10-flujo-conversaciones-chat/10-flujo-conversaciones-chat - 10b-—-estructura-del-prompt-enviado-a-la-ia.svg",
+    "Docs/diagramas/10-flujo-conversaciones-chat/10-flujo-conversaciones-chat - 10b-—-estructura-del-prompt-enviado-a-la-ia.png",
+    "Docs/diagramas/09-privacidad-ley-1581/09-privacidad-ley-1581.svg",
+    "Docs/diagramas/09-privacidad-ley-1581/09-privacidad-ley-1581.png",
+    "Sin título.canvas",
+    "Sin título 1.canvas",
+    "Tablero de Avances.canvas",
+    "Untitled.canvas"
   ]
 }
