@@ -4,20 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c13b307a3f98892f",
+        "id": "de19c3352d93fc8c",
         "type": "tabs",
         "children": [
           {
-            "id": "bdf26d2e4cf6750c",
+            "id": "91bd7eedefcc3887",
             "type": "leaf",
             "state": {
-              "type": "bases",
-              "state": {
-                "file": "Sin título 1.base",
-                "viewName": "Tabla"
-              },
-              "icon": "lucide-table",
-              "title": "Sin título 1"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -192,10 +189,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bdf26d2e4cf6750c",
+  "active": "91bd7eedefcc3887",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Docs/diagramas/07-ciclo-vida-ai-job/07-ciclo-vida-ai-job.png",
+    "Docs/diagramas/06-flujo-etl/06-flujo-etl.png",
+    "Docs/sync-test.md",
+    "Docs/diagramas/07-ciclo-vida-ai-job/07-ciclo-vida-ai-job.md",
+    "Docs/diagramas/07-ciclo-vida-ai-job/07-ciclo-vida-ai-job.svg",
+    "Docs/diagramas/07-ciclo-vida-ai-job",
+    "Docs/diagramas/06-flujo-etl/06-flujo-etl.svg",
+    "Docs/diagramas/06-flujo-etl/06-flujo-etl.md",
+    "Docs/diagramas/06-flujo-etl",
+    "Docs/Resumenes/Resumen del Proyecto Ecosistema IA-DataFlow.md",
+    "Docs/Resumenes",
+    "Docs/Investigaciones/📚 Biblioteca de Investigación.md",
+    "Docs/Investigaciones",
+    "Docs/Informes/📊 Informe Ejecutivo – Capacidades del Equipo.md",
+    "Docs/Informes",
     "Sin título 1.base",
+    "conflict-files-obsidian-git.md",
     "Docs/diagramas/02-flujo-procesamiento-ia/02-flujo-procesamiento-ia.png",
     "Docs/diagramas/01-arquitectura-general/01-arquitectura-general.svg",
     "Docs/diagramas/01-arquitectura-general/01-arquitectura-general.png",
@@ -206,15 +218,10 @@
     "Archivos/Diagramas/RF y RNF DIAGRAMAS UML - ETL - IA.pdf",
     "Sin título.base",
     "Tutoriales/Ruta de Aprendizaje/🛖 Tutoriales.md",
-    "Tutoriales/Ruta de Aprendizaje",
     "Tutoriales/Obsidian/💎 Guía de Instalación Obsidian + Sincronización Git.md",
-    "Tutoriales/Obsidian",
     "Tutoriales/Metodologia/TSP y PSP — Resumen Completo.md",
-    "Tutoriales/Metodologia",
     "Tutoriales/Git/🎓 Manual de Sincronización Git + GitHub.md",
-    "Tutoriales/Git",
     "Tutoriales/Estilo/💎 Guía Maestra de Estilo en Obsidian.md",
-    "Tutoriales/Estilo",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 3/HU 13 - Docker/docker.png",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 2/Evidencias de las HU 07.png",
     "HU & Investigaciones/Internas/HU 10 - Fine-Tuning/HU 10 Spike Exploratorio - Selección de Modelo y Estrategia de Fine-Tuning.md",
@@ -228,16 +235,6 @@
     "HU & Investigaciones/Internas/HU 06 - Arquitectura UML/📄 HU 06 - Arquitectura y Modelado UML (JUAN DIEGO).md",
     "HU & Investigaciones/Internas/HU 06 - Arquitectura UML/📄 HU 06 - Arquitectura y Modelado UML (DAVID).md",
     "HU & Investigaciones/Internas/HU 05 - Seguridad/📄Resumen Ejecutivo HU 05 Seguridad, Privacidad y Cumplimiento.md",
-    "HU & Investigaciones/Internas/HU 05 - Seguridad/📄 HU 05 Seguridad, Privacidad y Cumplimiento (Ley 1581 - Pohlman y David Steven ).md",
-    "HU & Investigaciones/Internas/HU 02 - IA y ETL/📄Resumen Ejecutivo HU 02  IA, ETL.md",
-    "HU & Investigaciones/Internas/HU 02 - IA y ETL/📄 HU 02 - IA, ETL (JUAN DIEGO).md",
-    "HU & Investigaciones/Internas/HU 04 - UX y Dashboards/📄Resumen Ejecutivo HU 04 Optimización de UX y Dashboards.md",
-    "HU & Investigaciones/Internas/HU 04 - UX y Dashboards/📄 HU 04 Optimización de UX y Evolución de Dashboards (María Virginia Labarca).md",
-    "HU & Investigaciones/Internas/HU 04 - UX y Dashboards/📄 HU 04 Optimización de UX y Evolución de Dashboards ( Oscar Antury Avila).md",
-    "Docs/diagramas/10-privacidad-ley-1581/10-privacidad-ley-1581.svg",
-    "Docs/diagramas/10-privacidad-ley-1581/10-privacidad-ley-1581.png",
-    "Docs/diagramas/10-privacidad-ley-1581/10-privacidad-ley-1581 - 10c-—-reglas-de-negocio-ley-1581.svg",
-    "Docs/diagramas/10-privacidad-ley-1581/10-privacidad-ley-1581 - 10c-—-reglas-de-negocio-ley-1581.png",
-    "Docs/diagramas/10-privacidad-ley-1581/10-privacidad-ley-1581 - 10b-—-clasificacion-de-datos-pii-vs-seguros.svg"
+    "Docs/diagramas/10-privacidad-ley-1581/10-privacidad-ley-1581.svg"
   ]
 }
