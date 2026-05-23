@@ -127,14 +127,18 @@ El archivo `.vscode/extensions.json` lista las extensiones recomendadas. VS Code
 
 | Extensión | ID | Para qué |
 |---|---|---|
-| ESLint | `dbaeumer.vscode-eslint` | Linting TypeScript |
-| Prettier | `esbenp.prettier-vscode` | Formateo automático |
-| Prisma | `Prisma.prisma` | Syntax highlighting schema.prisma |
-| Docker | `ms-azuretools.vscode-docker` | Manejo de contenedores desde VS Code |
+| ESLint | `dbaeumer.vscode-eslint` | Linting y corrección automática de TypeScript/JavaScript |
+| Prettier | `esbenp.prettier-vscode` | Formateo automático de código |
+| Prisma | `Prisma.prisma` | Syntax highlighting y soporte de `schema.prisma` |
+| Docker | `ms-azuretools.vscode-docker` | Manejo de contenedores, imágenes y Docker Compose |
+| NestJS Files | `falvel.vscode-nestjs-files` | Generación rápida de controladores, servicios y módulos NestJS |
+| ES7+ React/Redux/React-Native snippets | `dsznajder.es7-react-js-snippets` | Snippets para React, hooks y componentes funcionales |
 | GitLens | `eamodio.gitlens` | Git integrado avanzado |
-| Tailwind CSS | `bradlc.vscode-tailwindcss` | Autocomplete clases Tailwind |
-| REST Client | `humao.rest-client` | Testear endpoints HTTP |
-| npm Intellisense | `christian-kohler.npm-intellisense` | Autocomplete imports |
+| Tailwind CSS | `bradlc.vscode-tailwindcss` | Autocomplete y linting de clases Tailwind CSS |
+| REST Client | `humao.rest-client` | Probar endpoints HTTP sin salir del editor |
+| npm Intellisense | `christian-kohler.npm-intellisense` | Autocomplete para imports de paquetes npm |
+
+Estas extensiones cubren los principales stacks del proyecto: Docker, NestJS, TypeScript, React, Prisma y frontend/Vite. También son útiles para mantener el código limpio y navegar rápido por el monorepo.
 
 ### Configuración recomendada de workspace
 
