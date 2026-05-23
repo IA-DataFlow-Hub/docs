@@ -140,6 +140,20 @@ Usa `@mermaid-js/mermaid-cli` descargado automáticamente vía `npx`, por lo que
 
 ---
 
+### Sincronización automática de `docs/` (GitHub Action)
+
+Se agregó una GitHub Action que sincroniza la carpeta `docs/` del repositorio principal hacia el repositorio `IA-DataFlow-Hub/docs`. Características principales:
+
+- Trigger: `push` en la rama `main` cuando hay cambios en `docs/**`.
+- Remoto destino: `IA-DataFlow-Hub/docs` (la acción usa `actions/checkout@v4` con `repository` apuntando al repo destino).
+- Autenticación: usa el secreto `SYNC_PAT` para hacer push al repo destino.
+- Flujo: checkout del repo origen y destino, copia de `docs/` a `destination/Docs/`, commit y push si hay cambios.
+
+Archivo de workflow: `.github/workflows/sync-docs-to-docrepo.yml`.
+
+Uso típico: simplemente haga `git push` a `main` con cambios en `docs/`; la Action se encargará de sincronizar automáticamente.
+
+
 ## 3. `hu-cli` — CLI de Gestión de Historias de Usuario
 
 ### ¿Qué es?
@@ -201,6 +215,69 @@ npm link -w @ia-dataflow-hub/hu-cli
 ```
 
 ---
+
+## 4. Control de versiones de datos con DVC — Gestión de datasets
+
+### ¿Qué se implementó?
+
+Se utilizó **DVC (Data Version Control)** para versionar la carpeta de datasets del repositorio. El archivo de control principal es `datasets.dvc` en la raíz del proyecto, que actualmente referencia la carpeta `datasets/` (nfiles: 491, tamaño total registrado: 727548695 bytes, hash: md5). Esto permite mantener metadatos ligeros en Git mientras los archivos de datos grandes quedan gestionados por DVC.
+
+### Objetivos
+
+- Versionar datasets generados (`datasets/Generados/...`) sin almacenar los binarios en Git.
+- Facilitar la replicabilidad: cualquier desarrollador puede descargar los datos necesarios con un solo comando.
+- Integrar el flujo de generación de datos con control de versiones para auditar cambios en los conjuntos de datos.
+
+### Cómo usarlo (comandos básicos)
+
+Instalar DVC y luego, desde la raíz del repositorio:
+
+```bash
+# Descargar los datos referenciados por DVC (trae archivos grandes desde el remoto configurado)
+dvc pull
+
+# Comprobar estado local vs remoto
+dvc status
+
+# Añadir nuevos archivos o cambios en datos al control de DVC
+dvc add path/to/data
+
+# Enviar cambios al remoto (después de `dvc push` configurado con remote)
+dvc push
+
+# Registrar cambios en Git (commitará los .dvc y cambios en .gitignore)
+git add datasets.dvc .dvc/config path/to/data.dvc
+git commit -m "chore(dvc): actualizar datasets versionados"
+```
+
+### Cómo autenticarse (login) — Google Drive
+
+Este repositorio usa un remoto DVC configurado con Google Drive (`gdrive`). Hay dos formas comunes de autenticarse:
+
+- Flujo interactivo (recomendado para desarrolladores): simplemente ejecute `dvc pull` desde la raíz del repo; si DVC necesita autorización con Google Drive le mostrará una URL para abrir en el navegador y un código para pegar en la terminal. Ejemplo:
+
+```bash
+# Ejecutar y seguir el flujo interactivo de autorización en el navegador
+dvc pull
+```
+
+- Configurar credenciales explícitas (útil en servidores o CI): registre un `client_id` y `client_secret` para Google Drive y configúrelos en el remote DVC, luego ejecute `dvc pull`:
+
+```bash
+# Configurar client id/secret (ejecutar una sola vez, opcionalmente con --local)
+dvc remote modify gdrive gdrive_client_id <YOUR_CLIENT_ID>
+dvc remote modify gdrive gdrive_client_secret <YOUR_CLIENT_SECRET>
+
+# Después, descargar los datos
+dvc pull
+```
+
+Alternativamente, puede usar una cuenta de servicio y apuntar a las credenciales con una variable de entorno o archivo según la guía de DVC para GDrive.
+
+### Notas operativas
+
+- El control de versiones de datos está diseñado para complementar los scripts de generación (`npm run generate`) — los archivos generados en `datasets/Generados/` quedan fuera del repositorio Git y se gestionan vía DVC.
+- Si su entorno no tiene acceso al remoto de DVC, puede seguir trabajando con datasets locales; sin embargo, para replicar un entorno completo, ejecute `dvc pull` antes de ejecutar pipelines que dependan de los datos.
 
 ## Resumen de Números
 
