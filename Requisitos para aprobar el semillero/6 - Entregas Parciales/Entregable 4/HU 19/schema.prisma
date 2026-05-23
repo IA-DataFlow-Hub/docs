@@ -1,0 +1,740 @@
+// ============================================================
+// IA DATAFLOW v3.1 - Prisma schema
+// Compatible con MySQL 8+
+// HU-016: ENUMs → catálogos | HU-017: Auditoría + soft-delete
+// HU-019: Sistema de configuración flexible clave-valor
+// ============================================================
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+// ---------- CATÁLOGOS ----------
+
+model UserStatus {
+  id_user_status Int     @id @default(autoincrement())
+  status_name    String  @unique @db.VarChar(100)
+  description    String? @db.Text
+  is_active      Boolean @default(true)
+  created_at     DateTime @default(now())
+  users          User[]
+  @@map("user_statuses")
+}
+
+
+model TeamMemberRole {
+  id_team_member_role Int     @id @default(autoincrement())
+  role_name           String  @unique @db.VarChar(100)
+  description         String? @db.Text
+  is_active           Boolean @default(true)
+  created_at          DateTime @default(now())
+  members             TeamMember[]
+  @@map("team_member_roles")
+}
+
+model AiEngineType {
+  id_ai_engine_type Int     @id @default(autoincrement())
+  type_name         String  @unique @db.VarChar(100)
+  description       String? @db.Text
+  is_active         Boolean @default(true)
+  created_at        DateTime @default(now())
+  engines           AiEngine[]
+  @@map("ai_engine_types")
+}
+
+model ProjectPrivacyLevel {
+  id_project_privacy_level Int     @id @default(autoincrement())
+  level_name               String  @unique @db.VarChar(100)
+  description              String? @db.Text
+  is_active                Boolean @default(true)
+  created_at               DateTime @default(now())
+  projects                 Project[]
+  @@map("project_privacy_levels")
+}
+
+model ProjectStatus {
+  id_project_status Int     @id @default(autoincrement())
+  status_name       String  @unique @db.VarChar(100)
+  description       String? @db.Text
+  is_active         Boolean @default(true)
+  created_at        DateTime @default(now())
+  projects          Project[]
+  @@map("project_statuses")
+}
+
+model ProjectPhaseStatus {
+  id_project_phase_status Int     @id @default(autoincrement())
+  status_name             String  @unique @db.VarChar(100)
+  description             String? @db.Text
+  is_active               Boolean @default(true)
+  created_at              DateTime @default(now())
+  phases                  ProjectPhase[]
+  @@map("project_phase_statuses")
+}
+
+model AiJobStatus {
+  id_ai_job_status Int     @id @default(autoincrement())
+  status_name      String  @unique @db.VarChar(100)
+  description      String? @db.Text
+  is_active        Boolean @default(true)
+  created_at       DateTime @default(now())
+  jobs             AiJob[]
+  @@map("ai_job_statuses")
+}
+
+model AiResultType {
+  id_ai_result_type Int     @id @default(autoincrement())
+  type_name         String  @unique @db.VarChar(100)
+  description       String? @db.Text
+  is_active         Boolean @default(true)
+  created_at        DateTime @default(now())
+  results           AiResult[]
+  @@map("ai_result_types")
+}
+
+model TaskStatus {
+  id_task_status Int     @id @default(autoincrement())
+  status_name    String  @unique @db.VarChar(100)
+  description    String? @db.Text
+  is_active      Boolean @default(true)
+  created_at     DateTime @default(now())
+  tasks          Task[]
+  @@map("task_statuses")
+}
+
+model TaskPriority {
+  id_task_priority Int     @id @default(autoincrement())
+  priority_name    String  @unique @db.VarChar(100)
+  description      String? @db.Text
+  is_active        Boolean @default(true)
+  created_at       DateTime @default(now())
+  tasks            Task[]
+  @@map("task_priorities")
+}
+
+model MessageSenderType {
+  id_message_sender_type Int     @id @default(autoincrement())
+  type_name              String  @unique @db.VarChar(100)
+  description            String? @db.Text
+  is_active              Boolean @default(true)
+  created_at             DateTime @default(now())
+  messages               Message[]
+  @@map("message_sender_types")
+}
+
+model AuthMethod {
+  id_auth_method Int     @id @default(autoincrement())
+  method_name    String  @unique @db.VarChar(100)
+  description    String? @db.Text
+  is_active      Boolean @default(true)
+  created_at     DateTime @default(now())
+  credentials    Credential[]
+  @@map("auth_methods")
+}
+
+model IdentityProvider {
+  id_provider    Int       @id @default(autoincrement())
+  provider_name  String    @unique @db.VarChar(100)
+  description    String?   @db.Text
+  is_active      Boolean   @default(true)
+  created_at     DateTime  @default(now())
+  created_by     Int?
+  updated_at     DateTime  @default(now()) @updatedAt
+  updated_by     Int?
+  deleted_at     DateTime?
+  deleted_by     Int?
+  credentials    Credential[]
+  @@map("identity_providers")
+}
+
+// ---------- DOMINIO ----------
+
+model User {
+  id_user         Int       @id @default(autoincrement())
+  full_name       String    @db.VarChar(150)
+  email           String    @unique @db.VarChar(150)
+  phone           String?   @db.VarChar(20)
+  profile_picture String?   @db.VarChar(255)
+  id_user_status  Int       @default(1)
+  created_at      DateTime  @default(now())
+  created_by      Int?
+  updated_at      DateTime  @default(now()) @updatedAt
+  updated_by      Int?
+  deleted_at      DateTime?
+  deleted_by      Int?
+
+  status          UserStatus       @relation(fields: [id_user_status], references: [id_user_status])
+  creator         User?            @relation("UserCreator", fields: [created_by], references: [id_user], onDelete: SetNull)
+  updater         User?            @relation("UserUpdater", fields: [updated_by], references: [id_user], onDelete: SetNull)
+  deleter         User?            @relation("UserDeleter", fields: [deleted_by], references: [id_user], onDelete: SetNull)
+  created_users   User[]           @relation("UserCreator")
+  updated_users   User[]           @relation("UserUpdater")
+  deleted_users   User[]           @relation("UserDeleter")
+  credentials      Credential[]
+  password_history PasswordHistory[]
+  configurations   UserConfiguration[]
+  roles           UserRole[]
+  teams_created   Team[]           @relation("TeamCreator")
+  team_members    TeamMember[]
+  projects        Project[]
+  files           File[]
+  file_versions   FileVersion[]
+  ai_jobs         AiJob[]
+  tasks_assigned  Task[]           @relation("TaskAssignee")
+  tasks_created   Task[]           @relation("TaskCreator")
+  conversations   Conversation[]
+  messages        Message[]
+  audit_logs      AuditLog[]
+  audits          Audit[]
+  sessions        Session[]
+
+  @@index([id_user_status])
+  @@index([deleted_at])
+  @@map("users")
+}
+
+model Credential {
+  id_credential        Int       @id @default(autoincrement())
+  id_user              Int
+  provider_id          Int?
+  provider_user_id     String?   @db.VarChar(255)
+  provider_email       String?   @db.VarChar(255)
+  password_hash        String?   @db.VarChar(255)
+  password_salt        String?   @db.VarChar(255)
+  mfa_enabled          Boolean   @default(false)
+  last_password_change DateTime?
+  id_auth_method       Int       @default(1)
+  created_at           DateTime  @default(now())
+  created_by           Int?
+  updated_at           DateTime  @default(now()) @updatedAt
+  updated_by           Int?
+  deleted_at           DateTime?
+  deleted_by           Int?
+
+  user                 User              @relation(fields: [id_user], references: [id_user], onDelete: Cascade)
+  provider             IdentityProvider? @relation(fields: [provider_id], references: [id_provider], onDelete: SetNull)
+  auth_method          AuthMethod        @relation(fields: [id_auth_method], references: [id_auth_method])
+
+  @@index([id_user])
+  @@index([provider_id])
+  @@index([id_auth_method])
+  @@map("credentials")
+}
+
+model PasswordHistory {
+  id_history    Int      @id @default(autoincrement())
+  id_user       Int
+  password_hash String   @db.VarChar(255)
+  created_at    DateTime @default(now())
+
+  user          User     @relation(fields: [id_user], references: [id_user], onDelete: Cascade)
+
+  @@index([id_user])
+  @@map("password_history")
+}
+
+// ---------- HU-019: CONFIGURACIÓN FLEXIBLE ----------
+
+enum ConfigValueType {
+  string
+  boolean
+  number
+  json
+}
+
+model ConfigurationKey {
+  id_config_key    Int              @id @default(autoincrement())
+  key_name         String           @unique @db.VarChar(100)
+  display_name     String           @db.VarChar(255)
+  description      String?          @db.Text
+  category         String           @db.VarChar(100)
+  value_type       ConfigValueType
+  default_value    String?          @db.Text
+  is_required      Boolean          @default(false)
+  validation_rules Json?
+  created_at       DateTime         @default(now())
+  updated_at       DateTime         @default(now()) @updatedAt
+
+  user_configs     UserConfiguration[]
+
+  @@index([category])
+  @@map("configuration_keys")
+}
+
+model UserConfiguration {
+  id_user_config Int              @id @default(autoincrement())
+  id_user        Int
+  id_config_key  Int
+  value          String           @db.Text
+  created_at     DateTime         @default(now())
+  updated_at     DateTime         @default(now()) @updatedAt
+
+  user           User             @relation(fields: [id_user], references: [id_user], onDelete: Cascade)
+  config_key     ConfigurationKey @relation(fields: [id_config_key], references: [id_config_key], onDelete: Cascade)
+
+  @@unique([id_user, id_config_key], map: "uk_user_config")
+  @@index([id_user])
+  @@index([id_config_key])
+  @@map("user_configurations")
+}
+
+model Role {
+  id_role     Int          @id @default(autoincrement())
+  role_name   String       @unique @db.VarChar(100)
+  description String?      @db.Text
+  created_at  DateTime     @default(now())
+  created_by  Int?
+  updated_at  DateTime     @default(now()) @updatedAt
+  updated_by  Int?
+  deleted_at  DateTime?
+  deleted_by  Int?
+  users       UserRole[]
+  permissions RolePermission[]
+  @@map("roles")
+}
+
+model Permission {
+  id_permission   Int       @id @default(autoincrement())
+  permission_name String    @unique @db.VarChar(100)
+  module_name     String?   @db.VarChar(100)
+  description     String?   @db.Text
+  created_at      DateTime  @default(now())
+  created_by      Int?
+  updated_at      DateTime  @default(now()) @updatedAt
+  updated_by      Int?
+  deleted_at      DateTime?
+  deleted_by      Int?
+  roles           RolePermission[]
+  @@map("permissions")
+}
+
+model UserRole {
+  id_user    Int
+  id_role    Int
+  created_at DateTime  @default(now())
+  created_by Int?
+  updated_at DateTime  @default(now()) @updatedAt
+  updated_by Int?
+  deleted_at DateTime?
+  deleted_by Int?
+
+  user    User @relation(fields: [id_user], references: [id_user], onDelete: Cascade)
+  role    Role @relation(fields: [id_role], references: [id_role], onDelete: Cascade)
+
+  @@id([id_user, id_role])
+  @@map("user_roles")
+}
+
+model RolePermission {
+  id_role       Int
+  id_permission Int
+  created_at    DateTime  @default(now())
+  created_by    Int?
+  updated_at    DateTime  @default(now()) @updatedAt
+  updated_by    Int?
+  deleted_at    DateTime?
+  deleted_by    Int?
+
+  role          Role       @relation(fields: [id_role], references: [id_role], onDelete: Cascade)
+  permission    Permission @relation(fields: [id_permission], references: [id_permission], onDelete: Cascade)
+
+  @@id([id_role, id_permission])
+  @@map("role_permissions")
+}
+
+model Team {
+  id_team     Int       @id @default(autoincrement())
+  team_name   String    @db.VarChar(150)
+  description String?   @db.Text
+  created_at  DateTime  @default(now())
+  created_by  Int?
+  updated_at  DateTime  @default(now()) @updatedAt
+  updated_by  Int?
+  deleted_at  DateTime?
+  deleted_by  Int?
+
+  creator     User?         @relation("TeamCreator", fields: [created_by], references: [id_user], onDelete: SetNull)
+  members     TeamMember[]
+  projects    Project[]
+
+  @@map("teams")
+}
+
+model TeamMember {
+  id_team_member       Int       @id @default(autoincrement())
+  id_team              Int
+  id_user              Int
+  id_team_member_role  Int       @default(2)
+  joined_at            DateTime  @default(now())
+  created_by           Int?
+  updated_at           DateTime  @default(now()) @updatedAt
+  updated_by           Int?
+  deleted_at           DateTime?
+  deleted_by           Int?
+
+  team                 Team           @relation(fields: [id_team], references: [id_team], onDelete: Cascade)
+  user                 User           @relation(fields: [id_user], references: [id_user], onDelete: Cascade)
+  role                 TeamMemberRole @relation(fields: [id_team_member_role], references: [id_team_member_role])
+
+  @@index([id_team_member_role])
+  @@map("team_members")
+}
+
+model WorkflowPhase {
+  id_phase    Int       @id @default(autoincrement())
+  phase_name  String    @unique @db.VarChar(100)
+  phase_order Int       @default(0) @db.TinyInt
+  description String?   @db.Text
+  created_at  DateTime  @default(now())
+  created_by  Int?
+  updated_at  DateTime  @default(now()) @updatedAt
+  updated_by  Int?
+  deleted_at  DateTime?
+  deleted_by  Int?
+
+  projects_current Project[]      @relation("ProjectCurrentPhase")
+  project_phases   ProjectPhase[]
+  ai_jobs          AiJob[]
+  tasks            Task[]
+  conversations    Conversation[]
+
+  @@map("workflow_phases")
+}
+
+model AiEngine {
+  id_engine         Int       @id @default(autoincrement())
+  engine_name       String    @unique @db.VarChar(100)
+  id_ai_engine_type Int
+  model_version     String?   @db.VarChar(100)
+  description       String?   @db.Text
+  is_active         Boolean   @default(true)
+  created_at        DateTime  @default(now())
+  created_by        Int?
+  updated_at        DateTime  @default(now()) @updatedAt
+  updated_by        Int?
+  deleted_at        DateTime?
+  deleted_by        Int?
+
+  type              AiEngineType @relation(fields: [id_ai_engine_type], references: [id_ai_engine_type])
+  jobs              AiJob[]
+  messages          Message[]
+
+  @@index([id_ai_engine_type])
+  @@map("ai_engines")
+}
+
+model Project {
+  id_project               Int       @id @default(autoincrement())
+  id_user                  Int
+  id_team                  Int?
+  project_name             String    @db.VarChar(255)
+  description              String?   @db.Text
+  current_phase            Int?
+  id_project_privacy_level Int       @default(2)
+  id_project_status        Int       @default(1)
+  status_changed_at        DateTime?
+  created_at               DateTime  @default(now())
+  created_by               Int?
+  updated_at               DateTime  @default(now()) @updatedAt
+  updated_by               Int?
+  deleted_at               DateTime?
+  deleted_by               Int?
+
+  user           User                @relation(fields: [id_user], references: [id_user], onDelete: Cascade)
+  team           Team?               @relation(fields: [id_team], references: [id_team], onDelete: SetNull)
+  phase          WorkflowPhase?      @relation("ProjectCurrentPhase", fields: [current_phase], references: [id_phase], onDelete: SetNull)
+  privacy_level  ProjectPrivacyLevel @relation(fields: [id_project_privacy_level], references: [id_project_privacy_level])
+  status         ProjectStatus       @relation(fields: [id_project_status], references: [id_project_status])
+
+  phases         ProjectPhase[]
+  files          File[]
+  ai_jobs        AiJob[]
+  tasks          Task[]
+  conversations  Conversation[]
+  audit_logs     AuditLog[]
+
+  @@index([id_user])
+  @@index([id_team])
+  @@index([id_project_status])
+  @@index([id_project_privacy_level])
+  @@index([deleted_at])
+  @@map("projects")
+}
+
+model ProjectPhase {
+  id_project_phase        Int       @id @default(autoincrement())
+  id_project              Int
+  id_phase                Int
+  id_project_phase_status Int       @default(1)
+  status_changed_at       DateTime?
+  started_at              DateTime  @default(now())
+  completed_at            DateTime?
+  notes                   String?   @db.Text
+  created_at              DateTime  @default(now())
+  created_by              Int?
+  updated_at              DateTime  @default(now()) @updatedAt
+  updated_by              Int?
+  deleted_at              DateTime?
+  deleted_by              Int?
+
+  project Project            @relation(fields: [id_project], references: [id_project], onDelete: Cascade)
+  phase   WorkflowPhase      @relation(fields: [id_phase], references: [id_phase], onDelete: Cascade)
+  status  ProjectPhaseStatus @relation(fields: [id_project_phase_status], references: [id_project_phase_status])
+
+  @@index([id_project])
+  @@index([id_project_phase_status])
+  @@map("project_phases")
+}
+
+model File {
+  id_file       Int       @id @default(autoincrement())
+  id_project    Int
+  id_user       Int?
+  file_name     String    @db.VarChar(255)
+  original_name String?   @db.VarChar(255)
+  file_type     String?   @db.VarChar(100)
+  file_size     BigInt?
+  storage_path  String?   @db.Text
+  uploaded_at   DateTime  @default(now())
+  created_by    Int?
+  updated_at    DateTime  @default(now()) @updatedAt
+  updated_by    Int?
+  deleted_at    DateTime?
+  deleted_by    Int?
+
+  project  Project       @relation(fields: [id_project], references: [id_project], onDelete: Cascade)
+  user     User?         @relation(fields: [id_user], references: [id_user], onDelete: SetNull)
+  versions FileVersion[]
+  ai_jobs  AiJob[]
+
+  @@index([id_project])
+  @@index([id_user])
+  @@index([deleted_at])
+  @@map("files")
+}
+
+model FileVersion {
+  id_version          Int       @id @default(autoincrement())
+  id_file             Int
+  version_number      Int
+  storage_path        String?   @db.Text
+  changes_description String?   @db.Text
+  created_by          Int?
+  created_at          DateTime  @default(now())
+  updated_at          DateTime  @default(now()) @updatedAt
+  updated_by          Int?
+  deleted_at          DateTime?
+  deleted_by          Int?
+
+  file    File  @relation(fields: [id_file], references: [id_file], onDelete: Cascade)
+  creator User? @relation(fields: [created_by], references: [id_user], onDelete: SetNull)
+
+  @@unique([id_file, version_number])
+  @@map("file_versions")
+}
+
+model AiJob {
+  id_job             Int       @id @default(autoincrement())
+  id_project         Int
+  id_file            Int?
+  id_engine          Int
+  id_phase           Int?
+  requested_by       Int?
+  job_type           String    @db.VarChar(100)
+  prompt_text        String?   @db.Text
+  is_private         Boolean   @default(false)
+  id_ai_job_status   Int       @default(1)
+  status_changed_at  DateTime?
+  started_at         DateTime?
+  finished_at        DateTime?
+  tokens_input       Int       @default(0)
+  tokens_output      Int       @default(0)
+  processing_time_ms Int       @default(0)
+  created_at         DateTime  @default(now())
+  created_by         Int?
+  updated_at         DateTime  @default(now()) @updatedAt
+  updated_by         Int?
+  deleted_at         DateTime?
+  deleted_by         Int?
+
+  project   Project        @relation(fields: [id_project], references: [id_project], onDelete: Cascade)
+  file      File?          @relation(fields: [id_file], references: [id_file], onDelete: SetNull)
+  engine    AiEngine       @relation(fields: [id_engine], references: [id_engine])
+  phase     WorkflowPhase? @relation(fields: [id_phase], references: [id_phase], onDelete: SetNull)
+  requester User?          @relation(fields: [requested_by], references: [id_user], onDelete: SetNull)
+  status    AiJobStatus    @relation(fields: [id_ai_job_status], references: [id_ai_job_status])
+  results   AiResult[]
+
+  @@index([id_project])
+  @@index([id_engine])
+  @@index([id_ai_job_status])
+  @@index([deleted_at])
+  @@map("ai_jobs")
+}
+
+model AiResult {
+  id_result         Int       @id @default(autoincrement())
+  id_job            Int
+  id_ai_result_type Int       @default(1)
+  result_summary    String?   @db.Text
+  output_path       String?   @db.Text
+  created_at        DateTime  @default(now())
+  created_by        Int?
+  updated_at        DateTime  @default(now()) @updatedAt
+  updated_by        Int?
+  deleted_at        DateTime?
+  deleted_by        Int?
+
+  job  AiJob        @relation(fields: [id_job], references: [id_job], onDelete: Cascade)
+  type AiResultType @relation(fields: [id_ai_result_type], references: [id_ai_result_type])
+
+  @@index([id_ai_result_type])
+  @@map("ai_results")
+}
+
+model Task {
+  id_task          Int       @id @default(autoincrement())
+  id_project       Int
+  id_phase         Int?
+  assigned_to      Int?
+  created_by       Int?
+  title            String    @db.VarChar(255)
+  description      String?   @db.Text
+  id_task_status   Int       @default(1)
+  id_task_priority Int       @default(2)
+  status_changed_at DateTime?
+  due_date         DateTime? @db.Date
+  created_at       DateTime  @default(now())
+  updated_at       DateTime  @default(now()) @updatedAt
+  updated_by       Int?
+  deleted_at       DateTime?
+  deleted_by       Int?
+
+  project  Project        @relation(fields: [id_project], references: [id_project], onDelete: Cascade)
+  phase    WorkflowPhase? @relation(fields: [id_phase], references: [id_phase], onDelete: SetNull)
+  assignee User?          @relation("TaskAssignee", fields: [assigned_to], references: [id_user], onDelete: SetNull)
+  creator  User?          @relation("TaskCreator",  fields: [created_by], references: [id_user], onDelete: SetNull)
+  status   TaskStatus     @relation(fields: [id_task_status], references: [id_task_status])
+  priority TaskPriority   @relation(fields: [id_task_priority], references: [id_task_priority])
+
+  @@index([id_project])
+  @@index([id_task_status])
+  @@index([id_task_priority])
+  @@index([deleted_at])
+  @@map("tasks")
+}
+
+model Conversation {
+  id_conversation Int       @id @default(autoincrement())
+  id_project      Int
+  id_phase        Int?
+  created_by      Int?
+  title           String?   @db.VarChar(255)
+  created_at      DateTime  @default(now())
+  updated_at      DateTime  @default(now()) @updatedAt
+  updated_by      Int?
+  deleted_at      DateTime?
+  deleted_by      Int?
+
+  project  Project        @relation(fields: [id_project], references: [id_project], onDelete: Cascade)
+  phase    WorkflowPhase? @relation(fields: [id_phase], references: [id_phase], onDelete: SetNull)
+  creator  User?          @relation(fields: [created_by], references: [id_user], onDelete: SetNull)
+  messages Message[]
+
+  @@index([id_project])
+  @@index([deleted_at])
+  @@map("conversations")
+}
+
+model Message {
+  id_message             Int       @id @default(autoincrement())
+  id_conversation        Int
+  id_user                Int?
+  id_engine              Int?
+  id_message_sender_type Int       @default(1)
+  message                String    @db.Text
+  sent_at                DateTime  @default(now())
+  created_by             Int?
+  updated_at             DateTime  @default(now()) @updatedAt
+  updated_by             Int?
+  deleted_at             DateTime?
+  deleted_by             Int?
+
+  conversation Conversation      @relation(fields: [id_conversation], references: [id_conversation], onDelete: Cascade)
+  user         User?             @relation(fields: [id_user], references: [id_user], onDelete: SetNull)
+  engine       AiEngine?         @relation(fields: [id_engine], references: [id_engine], onDelete: SetNull)
+  sender_type  MessageSenderType @relation(fields: [id_message_sender_type], references: [id_message_sender_type])
+
+  @@index([id_conversation])
+  @@index([id_message_sender_type])
+  @@index([deleted_at])
+  @@map("messages")
+}
+
+model AuditLog {
+  id_log      Int       @id @default(autoincrement())
+  id_user     Int?
+  id_project  Int?
+  action      String    @db.VarChar(255)
+  entity_type String?   @db.VarChar(100)
+  entity_id   Int?
+  old_value   String?   @db.Text
+  new_value   String?   @db.Text
+  ip_address  String?   @db.VarChar(45)
+  created_at  DateTime  @default(now())
+  deleted_at  DateTime?
+  deleted_by  Int?
+
+  user    User?    @relation(fields: [id_user], references: [id_user], onDelete: SetNull)
+  project Project? @relation(fields: [id_project], references: [id_project], onDelete: SetNull)
+
+  @@index([id_user])
+  @@index([id_project])
+  @@map("audit_logs")
+}
+
+model Session {
+  id_session    Int       @id @default(autoincrement())
+  id_user       Int
+  session_token String    @unique @db.VarChar(255)
+  ip_address    String?   @db.VarChar(45)
+  user_agent    String?   @db.Text
+  created_at    DateTime  @default(now())
+  created_by    Int?
+  updated_at    DateTime  @default(now()) @updatedAt
+  updated_by    Int?
+  expires_at    DateTime?
+  deleted_at    DateTime?
+  deleted_by    Int?
+
+  user User @relation(fields: [id_user], references: [id_user], onDelete: Cascade)
+
+  @@index([deleted_at])
+  @@map("sessions")
+}
+
+model Audit {
+  id_audit    Int       @id @default(autoincrement())
+  table_id    Int
+  table_name  String    @db.VarChar(255)
+  action      String    @db.VarChar(255)
+  data_old    Json?
+  data_new    Json?
+  user_id     Int?
+  deleted_at  DateTime?
+  reverted    Boolean   @default(false)
+  reverted_at DateTime?
+  created_at  DateTime  @default(now())
+
+  user User? @relation(fields: [user_id], references: [id_user], onDelete: SetNull)
+
+  @@index([action])
+  @@index([table_name])
+  @@index([user_id])
+  @@map("audits")
+}
