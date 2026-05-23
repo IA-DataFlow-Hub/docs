@@ -50,6 +50,14 @@ hu advance 40                    # Siguiente estado del flujo
 hu advance 40 --to Revision      # Estado específico (sin tildes, parcial)
 hu advance 40 -t Done
 hu advance 40 -t archivado       # Mueve a archivado + mueve archivo a docs/HU/archivado/
+
+# Varias HUs a la vez
+hu advance 56 57 58 59 -t archivado
+hu advance 62 63 64              # Cada una avanza a su siguiente estado
+
+# Atajo: archivar todos los Done
+hu advance --all-done            # Archiva todas las HUs en "Finalizado / Done"
+hu advance -A
 ```
 
 ### `hu create` — Crear issues desde archivos .md
@@ -84,15 +92,19 @@ hu assign 40 juan                # Búsqueda parcial por username o nombre
 hu assign HU-048 ospina          # Nombre parcial
 ```
 
-### `hu priority` — Establecer prioridad de una HU
+### `hu priority` — Establecer prioridad de una o varias HUs
 
-Actualiza la línea `> **Prioridad:**` en el archivo `.md` y asigna el label correspondiente en GitHub. Sin segundo argumento muestra la tabla de niveles.
+Actualiza la línea `> **Prioridad:**` en el archivo `.md` y asigna el campo **Priority** en GitHub Projects. Sin nivel muestra la tabla.
 
 ```bash
 hu priority 40 urgent            # Urgente — Bloqueante
 hu priority 40 high              # Alta — Crítica
 hu priority 40 medium            # Media — Necesaria
 hu priority 40 low               # Baja — Mejora
+
+# Varias HUs a la vez (último arg = nivel)
+hu priority 56 57 58 59 60 high
+hu priority 62 63 64 65 66 67 medium
 
 # Búsqueda parcial (español o inglés)
 hu priority 40 urgen
@@ -104,9 +116,9 @@ hu priority 40 medi
 hu priority 40
 ```
 
-### `hu size` — Establecer tamaño de una HU
+### `hu size` — Establecer tamaño de una o varias HUs
 
-Actualiza la línea `> **Tamaño:**` en el archivo `.md` y asigna el label en GitHub. Sin segundo argumento muestra la tabla de tamaños.
+Actualiza la línea `> **Tamaño:**` en el archivo `.md` y asigna el campo **Size** en GitHub Projects. Sin tamaño muestra la tabla.
 
 ```bash
 hu size 40 XS                    # Trivial — < 2 horas
@@ -114,6 +126,10 @@ hu size 40 S                     # Simple — 2–4 horas
 hu size 40 M                     # Estándar — 1 día
 hu size 40 L                     # Complejo — 2–3 días
 hu size 40 XL                    # Muy grande — 1 semana+
+
+# Varias HUs a la vez (último arg = tamaño)
+hu size 56 57 58 59 60 M
+hu size 62 63 64 65 66 67 L
 
 # Búsqueda parcial
 hu size 40 xs
@@ -241,5 +257,3 @@ docs/HU/
 | Infraestructura | @sbautista15 | Sebastián Bautista Martínez | Consultor Infraestructura y DBA |
 | Infraestructura | @POHLMAN1 | Pohlman Cuartas | Ingeniero de Soporte |
 | Infraestructura | @mlabarca-jpg | María Virginia Labarca | Analista de TI |
-
-> Brayan Monterrosa Castillo — sin username GitHub registrado. Agregar en `packages/hu-cli/src/lib/config.js` → `TEAM_MEMBERS` cuando esté disponible.
