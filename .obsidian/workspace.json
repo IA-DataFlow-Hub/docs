@@ -11,14 +11,12 @@
             "id": "393788a048d405fd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "live-preview-view",
               "state": {
-                "file": "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 4/Reunion.md",
-                "mode": "source",
-                "source": false
+                "file": "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 4/HU 15 y 35/ia_dataflow_hub_presentaci_n_t_cnica.html"
               },
-              "icon": "lucide-file",
-              "title": "Reunion"
+              "icon": "globe",
+              "title": "ia_dataflow_hub_presentaci_n_t_cnica.html"
             }
           }
         ]
@@ -195,11 +193,12 @@
       "univer:Univer": false
     }
   },
-  "active": "393788a048d405fd",
+  "active": "5acc4edec9bf4280",
   "lastOpenFiles": [
-    "🎊 Bienvenidos a IA-DataFlow Hub.md",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 4/HU 15 y 35",
     "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 4/Reunion.md",
-    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 4/ia_dataflow_hub_presentaci_n_t_cnica.html",
+    "🎊 Bienvenidos a IA-DataFlow Hub.md",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 4/HU 15 y 35/ia_dataflow_hub_presentaci_n_t_cnica.html",
     "Readme.md",
     "Sin título.base",
     "HU & Investigaciones/Inscripción de Estudiantes Semilleros.md",
@@ -232,7 +231,6 @@
     "Docs/HU/HU 045 - Módulo Conversaciones y Mensajería.md",
     "Docs/HU/HU 044 - Módulo Archivos y Versionado.md",
     "Docs/HU/HU 043 - Módulo Proyectos y Fases de Flujo.md",
-    "Docs/HU/HU 042 - Módulo Teams y Control de Acceso RBAC.md",
     "Docs/diagramas/10-flujo-conversaciones-chat/10-flujo-conversaciones-chat.svg",
     "Docs/diagramas/10-flujo-conversaciones-chat/10-flujo-conversaciones-chat.png",
     "Docs/diagramas/10-flujo-conversaciones-chat/10-flujo-conversaciones-chat - 10d-—-ciclo-de-vida-de-una-conversacion.svg",
