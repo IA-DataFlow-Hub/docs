@@ -32,7 +32,7 @@ gh auth refresh -s project,read:project,write:org
 
 ### `hu list` — Ver HUs con su estado
 
-Muestra columnas: **HU · Prioridad · Módulo · Estado · Tipo · Asignado**
+Muestra columnas: **HU · Pri · T (tamaño) · Módulo · Estado · Tipo · Asignado**
 
 ```bash
 hu list                          # Todas las HUs activas
@@ -104,6 +104,26 @@ hu priority 40 medi
 hu priority 40
 ```
 
+### `hu size` — Establecer tamaño de una HU
+
+Actualiza la línea `> **Tamaño:**` en el archivo `.md` y asigna el label en GitHub. Sin segundo argumento muestra la tabla de tamaños.
+
+```bash
+hu size 40 XS                    # Trivial — < 2 horas
+hu size 40 S                     # Simple — 2–4 horas
+hu size 40 M                     # Estándar — 1 día
+hu size 40 L                     # Complejo — 2–3 días
+hu size 40 XL                    # Muy grande — 1 semana+
+
+# Búsqueda parcial
+hu size 40 xs
+hu size 40 trivial
+hu size 40 semana
+
+# Ver tabla de tamaños
+hu size 40
+```
+
 ### `hu members` — Ver equipo
 
 ```bash
@@ -122,6 +142,20 @@ hu members                       # Lista todos los miembros con rol y célula
 | `BAJ` | 🟢 Low / Baja | **Mejora** — estético o deseable; puede esperar hasta que lo principal sea estable. |
 
 Los labels se crean automáticamente en GitHub la primera vez que se asigna una prioridad.
+
+---
+
+## Tamaños de HU
+
+| T-shirt | Esfuerzo | Descripción |
+|---------|----------|-------------|
+| `XS` | < 2h | Trivial — fix de configuración, typo, ajuste menor |
+| `S` | 2–4h | Simple — bug fix pequeño, endpoint sencillo |
+| `M` | 4–8h | Estándar — un día completo, módulo pequeño |
+| `L` | 2–3 días | Complejo — módulo completo, refactor significativo |
+| `XL` | 1 sem+ | Muy grande — arquitectura, módulo pesado, integración externa |
+
+Los labels `size: xs / s / m / l / xl` se crean automáticamente en GitHub la primera vez que se usa `hu size`.
 
 ---
 
@@ -156,6 +190,7 @@ Cada HU puede tener estas líneas de metadatos al inicio, justo después del tí
 
 > **Asignado:** @juandiegows — Juan Diego Mejía Maestre
 > **Prioridad:** 🔴 Urgent / Urgente — Bloqueante
+> **Tamaño:** L — Complejo — 2 a 3 días (2–3 días)
 ```
 
 Ambas líneas son opcionales e independientes. `hu assign` y `hu priority` las insertan o actualizan sin modificar el resto del contenido.
@@ -168,7 +203,7 @@ Ambas líneas son opcionales e independientes. `hu assign` y `hu priority` las i
 packages/hu-cli/src/
 ├── index.js
 ├── commands/
-│   list · create · update · sync · advance · assign · members · priority
+│   list · create · update · sync · advance · assign · members · priority · size
 ├── lib/
 │   config    PRIORITIES, TEAM_MEMBERS, findPriority(), findMember()
 │   files     getHuFiles(), findFileByHuNum(), setHuFileArchived()

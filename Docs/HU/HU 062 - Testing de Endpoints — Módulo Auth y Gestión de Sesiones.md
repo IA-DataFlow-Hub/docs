@@ -1,6 +1,7 @@
 # HU-062 — Testing de Endpoints — Módulo Auth y Gestión de Sesiones
 
 > **Asignado:** @juandiegows — Juan Diego Mejía Maestre
+> **Tamaño:** XS — Trivial — menos de 2 horas (< 2h)
 
 ## Archivos Principales
 

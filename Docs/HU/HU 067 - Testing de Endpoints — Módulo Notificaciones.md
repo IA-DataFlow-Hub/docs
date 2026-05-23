@@ -1,6 +1,7 @@
 # HU-067 — Testing de Endpoints — Módulo Notificaciones
 
 > **Asignado:** @juandiegows — Juan Diego Mejía Maestre
+> **Prioridad:** 🟠 High / Alta — Crítica
 
 ## Archivos Principales
 
