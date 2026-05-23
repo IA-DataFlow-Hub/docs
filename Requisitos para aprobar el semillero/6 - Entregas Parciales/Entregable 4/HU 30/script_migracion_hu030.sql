@@ -1,0 +1,175 @@
+-- ============================================================
+-- MIGRACIÓN HU-030: INT → UUID (CHAR(36))
+-- v3.11 → v4.0
+-- ============================================================
+-- ⚠️ ADVERTENCIA: Este es un cambio ESTRUCTURAL MAYOR.
+--    NO existe migración in-place segura para cambiar PKs INT→UUID
+--    en MySQL conservando todas las FKs sin downtime.
+--
+-- ESTRATEGIA RECOMENDADA: BLUE/GREEN con re-creación.
+--    1. Crear nueva BD ia_dataflow_v4 ejecutando ia_dataflow_v4.sql.
+--    2. ETL de datos v3.11 → v4.0 (mapeo INT → UUID, ver FASES).
+--    3. Switch de aplicación con downtime planificado.
+--    4. Mantener v3.11 como respaldo 30 días.
+--
+-- Si solo se desea aplicar a BD vacía/dev:
+--    USAR DIRECTAMENTE ia_dataflow_v4.sql.
+-- ============================================================
+
+-- ============================================================
+-- FASE 0: PREREQUISITOS
+-- ============================================================
+-- * MySQL 8.0.13+ (para DEFAULT (UUID()) en columnas).
+-- * Backup completo de v3.11.
+-- * Ventana de mantenimiento confirmada.
+-- * Esquema v4 desplegado en host alternativo.
+-- ============================================================
+
+-- ============================================================
+-- FASE 1: TABLAS QUE MIGRAN A UUID  (32 tablas operativas)
+-- ============================================================
+-- users, credentials, password_history, user_configurations,
+-- teams, team_roles, team_role_permissions, user_team_roles,
+-- user_project_roles, projects, project_phases,
+-- conversations, messages, files, file_versions, tasks,
+-- ai_jobs, ai_job_events, ai_results,
+-- generated_tables, generated_table_columns,
+-- etl_templates, etl_template_steps, etl_executions, etl_execution_logs,
+-- message_feedback, reports,
+-- notifications, notification_recipients, notification_groups,
+-- notification_group_members, activity_feed,
+-- analytics_reports, analytics_report_versions,
+-- analytics_report_widgets, analytics_report_metrics, analytics_report_exports,
+-- audit_logs, sessions, audits
+
+-- ============================================================
+-- FASE 2: TABLAS QUE PERMANECEN INT  (catálogos)
+-- ============================================================
+-- user_statuses, ai_engine_types, project_privacy_levels,
+-- project_statuses, project_phase_statuses, ai_job_statuses,
+-- ai_result_types, task_statuses, task_priorities,
+-- message_sender_types, auth_methods, identity_providers,
+-- workflow_phases, configuration_keys, role_templates,
+-- permissions, role_template_permissions, ai_engines
+
+-- ============================================================
+-- FASE 3: PROCEDIMIENTO DE MIGRACIÓN DE DATOS (ETL)
+-- ============================================================
+--
+-- 3.1. Conectar simultáneamente a ia_dataflow (v3.11) y a
+--      ia_dataflow_v4 (v4.0 vacía con esquema HU-030 aplicado).
+--
+-- 3.2. Crear tabla TEMPORAL de mapeos id_old → id_new para CADA
+--      tabla operativa. Ejemplo:
+--
+--      CREATE TABLE _map_users (
+--          id_old INT NOT NULL PRIMARY KEY,
+--          id_new CHAR(36) NOT NULL UNIQUE
+--      );
+--
+--      INSERT INTO _map_users (id_old, id_new)
+--      SELECT id_user, UUID() FROM ia_dataflow.users;
+--
+-- 3.3. Insertar usuarios en v4 SIN created_by/updated_by/deleted_by:
+--
+--      INSERT INTO ia_dataflow_v4.users
+--          (id_user, full_name, email, phone, profile_picture,
+--           id_user_status, created_at, updated_at, deleted_at)
+--      SELECT m.id_new, u.full_name, u.email, u.phone, u.profile_picture,
+--             u.id_user_status, u.created_at, u.updated_at, u.deleted_at
+--      FROM ia_dataflow.users u
+--      JOIN _map_users m ON m.id_old = u.id_user;
+--
+-- 3.4. UPDATE de campos created_by/updated_by/deleted_by usando _map_users:
+--
+--      UPDATE ia_dataflow_v4.users v4
+--      JOIN ia_dataflow.users v3 ON v3.id_user = (
+--          SELECT id_old FROM _map_users WHERE id_new = v4.id_user
+--      )
+--      LEFT JOIN _map_users mc ON mc.id_old = v3.created_by
+--      LEFT JOIN _map_users mu ON mu.id_old = v3.updated_by
+--      LEFT JOIN _map_users md ON md.id_old = v3.deleted_by
+--      SET v4.created_by = mc.id_new,
+--          v4.updated_by = mu.id_new,
+--          v4.deleted_by = md.id_new;
+--
+-- 3.5. ORDEN ESTRICTO de migración (respetar dependencias FK):
+--
+--      Nivel 0 (catálogos):     INSERT directo, mismo id INT.
+--      Nivel 1:                 users
+--      Nivel 2:                 identity_providers, credentials, password_history
+--      Nivel 3:                 user_configurations, permissions
+--      Nivel 4:                 role_template_permissions, teams
+--      Nivel 5:                 team_roles, team_role_permissions, user_team_roles
+--      Nivel 6:                 ai_engines, projects
+--      Nivel 7:                 project_phases, user_project_roles
+--      Nivel 8:                 conversations, files, tasks
+--      Nivel 9:                 messages, file_versions
+--      Nivel 10:                ai_jobs, generated_tables
+--      Nivel 11:                ai_job_events, ai_results, generated_table_columns
+--      Nivel 12:                etl_templates → etl_template_steps → etl_executions → etl_execution_logs
+--      Nivel 13:                message_feedback, reports
+--      Nivel 14:                notifications → notification_recipients → notification_groups → notification_group_members
+--      Nivel 15:                activity_feed
+--      Nivel 16:                analytics_reports → versions/widgets/metrics/exports
+--      Nivel 17:                audit_logs, sessions, audits
+--
+-- 3.6. CASOS ESPECIALES:
+--
+--      a) audit_logs.entity_id (era INT genérico) → CHAR(36):
+--         Hay que mapear según entity_type. Si no es factible
+--         determinar mapeo unívoco, se admite NULL + log a tabla
+--         _audit_logs_unmapped para revisión posterior.
+--
+--      b) notifications.source_entity_id (era INT) → CHAR(36):
+--         Mismo patrón que audit_logs.entity_id.
+--
+--      c) audits.table_id (era INT del registro auditado) → CHAR(36):
+--         Resolver con SELECT id_new FROM _map_<table_name>
+--         WHERE id_old = old_table_id.
+--
+--      d) self-FKs (users.created_by, generated_tables.parent_*):
+--         Usar el mismo _map_<tabla>.
+
+-- ============================================================
+-- FASE 4: VALIDACIÓN POST-MIGRACIÓN
+-- ============================================================
+-- Conteos:
+--   SELECT 'users' AS t, (SELECT COUNT(*) FROM ia_dataflow.users) AS v3,
+--                        (SELECT COUNT(*) FROM ia_dataflow_v4.users) AS v4
+--   UNION ALL ... (repetir por cada tabla).
+--
+-- Integridad referencial:
+--   SET FOREIGN_KEY_CHECKS = 1;
+--   ANALYZE TABLE ia_dataflow_v4.users, ...;
+--
+-- Spot-check de datos:
+--   - 10 usuarios aleatorios.
+--   - 10 proyectos con created_by mapeado.
+--   - 10 mensajes con id_conversation correcto.
+
+-- ============================================================
+-- FASE 5: SWITCH DE APLICACIÓN
+-- ============================================================
+-- 1. Pausar tráfico (mantenimiento).
+-- 2. Migrar delta (registros nuevos creados durante ETL).
+-- 3. Repointar DATABASE_URL → ia_dataflow_v4.
+-- 4. `prisma db pull` (regenerar schema.prisma desde v4) o usar
+--    schema.prisma actualizado manualmente con String @id @default(uuid()).
+-- 5. `prisma generate` y deploy.
+-- 6. Smoke tests + reabrir tráfico.
+
+-- ============================================================
+-- FASE 6: ROLLBACK (si fuera necesario)
+-- ============================================================
+-- 1. Repointar DATABASE_URL → ia_dataflow (v3.11).
+-- 2. Investigar logs de migración.
+-- 3. Reintentar con corrección.
+-- 4. Conservar v3.11 mínimo 30 días.
+
+-- ============================================================
+-- LIMPIEZA (post-validación, ~30 días después)
+-- ============================================================
+-- DROP TABLE _map_users, _map_credentials, ... (todas las _map_*);
+-- (Opcional) DROP DATABASE ia_dataflow;  -- v3.11
+-- ============================================================
