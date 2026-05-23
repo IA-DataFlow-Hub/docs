@@ -141,7 +141,7 @@ hu members                       # Lista todos los miembros con rol y célula
 | `MED` | 🟡 Medium / Media | **Necesaria** — añade valor pero no detiene el desarrollo del core del sistema. |
 | `BAJ` | 🟢 Low / Baja | **Mejora** — estético o deseable; puede esperar hasta que lo principal sea estable. |
 
-Los labels se crean automáticamente en GitHub la primera vez que se asigna una prioridad.
+La prioridad se asigna como campo personalizado de selección única en GitHub Projects (igual que el campo Status). El campo debe llamarse **Priority** (o **Prioridad**) y tener opciones con nombres que incluyan: `urgent/urgente`, `high/alta`, `medium/media`, `low/baja`.
 
 ---
 
@@ -155,7 +155,7 @@ Los labels se crean automáticamente en GitHub la primera vez que se asigna una 
 | `L` | 2–3 días | Complejo — módulo completo, refactor significativo |
 | `XL` | 1 sem+ | Muy grande — arquitectura, módulo pesado, integración externa |
 
-Los labels `size: xs / s / m / l / xl` se crean automáticamente en GitHub la primera vez que se usa `hu size`.
+El tamaño se asigna como campo personalizado de selección única en GitHub Projects (igual que Status y Priority). El campo debe llamarse **Size** (o **Tamaño**) con opciones: `XS`, `S`, `M`, `L`, `XL`.
 
 ---
 
@@ -209,9 +209,9 @@ packages/hu-cli/src/
 │   files     getHuFiles(), findFileByHuNum(), setHuFileArchived()
 │             parsePriority(), setPriorityInFile()
 │             parseAssignee(), setAssigneeInFile()
-│   github    getProjectData() (GraphQL con assignees + labels)
-│             setIssueAssignee(), setIssuePriority(), ensurePriorityLabels()
-│             createIssue(), updateIssueBody(), addToProject()
+│   github    getProjectData() (GraphQL con assignees + fieldValues)
+│             getItemStatus(), getItemFieldValue(), updateProjectStatus()
+│             setIssueAssignee(), createIssue(), updateIssueBody(), addToProject()
 └── utils/    output  (ok · warn · err · info · head · dim)
 ```
 
