@@ -3,6 +3,11 @@
 CLI para gestionar Historias de Usuario en GitHub Projects desde la terminal.  
 Ubicación: `packages/hu-cli/`
 
+> Flujo de documentación:
+> 1. Empieza en `README.md` raíz.
+> 2. Ve a `docs/README.md` para el índice central.
+> 3. Desde ahí abre esta guía `docs/packages/hu-cli.md`.
+
 ---
 
 ## Instalación (una sola vez)
