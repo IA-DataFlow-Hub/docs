@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA-DataFlow-Hub - Presentación Técnica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <style>
+:root {
+  --bg-dark: #030712;
+  --panel-dark: #0b0f19;
+  --accent-emerald: #10b981;
+  --accent-cyan: #06b6d4;
+  --accent-purple: #8b5cf6;
+  --accent-orange: #f97316;
+  --accent-red: #ef4444;
+  --text-primary: #f3f4f6;
+  --text-secondary: #9ca3af;
+  --text-muted: #4b5563;
+  --border-glow: rgba(16, 185, 129, 0.15);
+}
+
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  overflow: hidden;
+  /* Rejilla sutil de ingeniería de fondo */
+  background-image: 
+    radial-gradient(circle at 50% 50%, rgba(16, 185, 129, 0.05) 0%, transparent 60%),
+    linear-gradient(rgba(255, 255, 255, 0.007) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.007) 1px, transparent 1px);
+  background-size: 100% 100%, 40px 40px, 40px 40px;
+}
+
+/* Contenedor principal que llena la pantalla y permite el escalado dinámico */
+.deck-wrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Diapositivas con base más grande (1440x810) para aprovechar alta resolución */
+.deck-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1440px;
+  height: 810px;
+  transform: translate(-50%, -50%) scale(1);
+  transform-origin: center center;
+  overflow: hidden;
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.slide-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(11, 15, 25, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 24px;
+  box-shadow: 0 40px 100px -20px rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 60px 80px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(20px) scale(0.98);
+  transition: opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1), transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 1;
+}
+
+.slide-container.active {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0) scale(1);
+  z-index: 10;
+}
+
+/* Decoraciones premium de esquinas */
+.slide-container::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 15px;
+  height: 15px;
+  border-top: 2px solid rgba(16, 185, 129, 0.3);
+  border-left: 2px solid rgba(16, 185, 129, 0.3);
+  pointer-events: none;
+}
+
+.slide-container::after {
+  content: '';
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 15px;
+  height: 15px;
+  border-bottom: 2px solid rgba(6, 182, 212, 0.3);
+  border-right: 2px solid rgba(6, 182, 212, 0.3);
+  pointer-events: none;
+}
+
+h1, h2, h3, h4 {
+  color: var(--text-primary);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+p, li, th, td {
+  color: var(--text-secondary);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 84px;
+  line-height: 1.05;
+  font-weight: 800;
+  letter-spacing: -3px;
+  background: linear-gradient(135deg, #ffffff 40%, #10b981 70%, #06b6d4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.slide-title {
+  font-size: 42px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-bottom: 35px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.slide-title::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 34px;
+  background: linear-gradient(to bottom, var(--accent-emerald), var(--accent-cyan));
+  border-radius: 4px;
+}
+
+.slide-title span {
+  background: linear-gradient(90deg, var(--accent-emerald), var(--accent-cyan));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  font-size: 26px;
+  color: #64748b;
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+.content-area {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  width: 100%;
+}
+
+.two-column {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  width: 100%;
+}
+
+.two-column.asymmetric {
+  grid-template-columns: 1.1fr 0.9fr;
+}
+
+.tile-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  width: 100%;
+}
+
+/* Bento Grid Cards con gradientes internos */
+.tile {
+  background: linear-gradient(145deg, rgba(15, 23, 42, 0.6) 0%, rgba(9, 13, 22, 0.8) 100%);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 35px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.tile::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(800px circle at var(--mouse-x, 0) var(--mouse-y, 0), rgba(255, 255, 255, 0.06), transparent 40%);
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.tile:hover::before {
+  opacity: 1;
+}
+
+.tile:hover {
+  transform: translateY(-5px);
+  border-color: rgba(16, 185, 129, 0.3);
+  box-shadow: 0 25px 50px -12px rgba(16, 185, 129, 0.15);
+}
+
+.tile .icon {
+  color: var(--accent-emerald);
+  font-size: 28px;
+  margin-bottom: 25px;
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(6, 182, 212, 0.05) 100%);
+  width: 55px;
+  height: 55px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.tile h3 {
+  font-size: 24px;
+  margin-bottom: 12px;
+  letter-spacing: -0.5px;
+}
+
+.tile p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.graphics-wrapper {
+  background: #050811;
+  border-radius: 20px;
+  height: 440px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: inset 0 0 40px rgba(0,0,0,0.8), 0 15px 40px rgba(0,0,0,0.5);
+  overflow: hidden;
+  padding: 30px;
+}
+
+.graphics-wrapper svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Listas con viñetas */
+.bullet-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bullet-list li {
+  margin-bottom: 28px;
+  padding-left: 55px;
+  position: relative;
+  font-size: 18px;
+}
+
+.bullet-list i {
+  color: var(--accent-cyan);
+  font-size: 16px;
+  left: 0;
+  top: 2px;
+  position: absolute;
+  background: linear-gradient(135deg, rgba(6, 182, 212, 0.15) 0%, rgba(16, 185, 129, 0.05) 100%);
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(6, 182, 212, 0.2);
+}
+
+.bullet-list li strong {
+  color: #ffffff;
+}
+
+/* Tablas Premium */
+.table-layout {
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background-color: rgba(15, 23, 42, 0.3);
+}
+
+.table-layout table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-layout th,
+.table-layout td {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  padding: 16px 24px;
+  font-size: 16px;
+}
+
+.table-layout th {
+  background-color: rgba(15, 23, 42, 0.8);
+  color: var(--accent-emerald);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.table-layout tbody tr {
+  transition: background-color 0.2s ease;
+}
+
+.table-layout tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.02) !important;
+}
+
+.table-layout tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.007);
+}
+
+.table-layout code {
+  font-family: 'Fira Code', monospace;
+  font-size: 14px;
+  background-color: rgba(16, 185, 129, 0.12);
+  color: #34d399;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+/* Terminal Mockup */
+.terminal-window {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #030712;
+  font-family: 'Fira Code', monospace;
+  font-size: 14px;
+  color: #f1f5f9;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+}
+
+.terminal-header {
+  height: 45px;
+  background-color: #0b0f19;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  gap: 8px;
+}
+
+.terminal-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.terminal-body {
+  flex-grow: 1;
+  padding: 30px;
+  line-height: 1.7;
+}
+
+/* Bloques de comandos con botón copiar inteligente */
+.code-block {
+  background-color: #030712;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 14px;
+  font-family: 'Fira Code', monospace;
+  font-size: 15px;
+  padding: 24px;
+  color: #38bdf8;
+  margin-top: 10px;
+  line-height: 1.7;
+  position: relative;
+}
+
+.code-block-item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.code-block-item:hover {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+.code-block .comment { color: #4b5563; font-style: italic; }
+.code-block .command { color: #10b981; font-weight: 500; }
+
+.copy-btn {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--text-secondary);
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.copy-btn:hover {
+  background: var(--accent-emerald);
+  color: #000000;
+  border-color: var(--accent-emerald);
+  font-weight: 600;
+}
+
+/* Transición de sección */
+.section-title-layout {
+  text-align: center;
+  margin: auto;
+  max-width: 900px;
+}
+
+.section-title-layout h2 {
+  font-size: 72px;
+  font-weight: 800;
+  letter-spacing: -2px;
+  background: linear-gradient(135deg, #ffffff, var(--accent-cyan));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 15px;
+}
+
+.section-title-layout p {
+  font-size: 24px;
+  color: var(--text-secondary);
+}
+
+.section-title-layout hr {
+  background: linear-gradient(90deg, transparent, var(--accent-emerald), transparent);
+  border: none;
+  height: 3px;
+  margin: 35px auto;
+  width: 220px;
+}
+
+/* Grid de métricas en Bento */
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 25px;
+  width: 100%;
+  height: 100%;
+}
+
+.metric-card {
+  background: rgba(15, 23, 42, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 25px 30px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  transition: all 0.3s ease;
+}
+
+.metric-card:hover {
+  border-color: rgba(6, 182, 212, 0.3);
+  background: rgba(15, 23, 42, 0.6);
+  transform: translateY(-3px);
+}
+
+.metric-value {
+  font-size: 42px;
+  font-weight: 800;
+  font-family: 'Outfit', sans-serif;
+  background: linear-gradient(135deg, #ffffff, var(--accent-cyan));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.metric-details h4 {
+  font-size: 18px;
+  margin-bottom: 4px;
+  color: var(--text-primary);
+}
+
+.metric-details p {
+  font-size: 14px;
+  margin: 0;
+  color: var(--text-secondary);
+}
+
+/* Controles de diapositivas */
+.deck-controls {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: rgba(11, 15, 25, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 12px 30px;
+  border-radius: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  z-index: 100;
+  box-shadow: 0 15px 45px rgba(0,0,0,0.6);
+}
+
+.deck-controls button {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 20px;
+  cursor: pointer;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.deck-controls button:hover {
+  background-color: rgba(16, 185, 129, 0.15);
+  color: var(--accent-emerald);
+}
+
+.deck-controls .status {
+  font-family: 'Outfit', sans-serif;
+  font-size: 17px;
+  color: var(--text-primary);
+  font-weight: 600;
+  min-width: 70px;
+  text-align: center;
+}
+
+/* Notificación Toast */
+.toast {
+  position: fixed;
+  bottom: 100px;
+  right: 40px;
+  background-color: #0b0f19;
+  border: 1px solid var(--accent-emerald);
+  color: #ffffff;
+  padding: 15px 25px;
+  border-radius: 12px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 15px;
+  z-index: 1000;
+  box-shadow: 0 10px 30px rgba(16,185,129,0.1);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+}
+
+.toast.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+</style>
+</head>
+<body>
+
+<!-- Toast para copiado de código -->
+<div class="toast" id="toast">
+    <i class="fa-solid fa-circle-check" style="color: var(--accent-emerald);"></i>
+    <span id="toast-msg">Copiado al portapapeles</span>
+</div>
+
+<div class="deck-wrapper" id="wrapper">
+  <div class="deck-container" id="deck">
+
+    <!-- Diapositiva 1: Portada -->
+    <div class="slide-container active" id="slide1">
+        <div style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; width: 100%;">
+            <h1>IA-DataFlow-Hub</h1>
+            <p class="subtitle">Presentación Técnica — Resumen Ejecutivo</p>
+            <div style="width: 140px; height: 4px; background: linear-gradient(90deg, var(--accent-emerald), var(--accent-cyan)); margin: 35px 0; border-radius: 2px;"></div>
+            <p style="font-size: 15px; color: var(--accent-emerald); font-family: 'Fira Code', monospace; letter-spacing: 4px; text-transform: uppercase; font-weight: 600;">
+                Entregables Clave del Proyecto
+            </p>
+        </div>
+    </div>
+
+    <!-- Diapositiva 2: Separador 1 -->
+    <div class="slide-container" id="slide2">
+        <div class="section-title-layout">
+            <hr>
+            <h2>01. chaos-generator</h2>
+            <p>HU-015: Automatización de datasets sintéticos caóticos para el entrenamiento de modelos de IA.</p>
+        </div>
+    </div>
+
+    <!-- Diapositiva 3: Qué es -->
+    <div class="slide-container" id="slide3">
+        <h2 class="slide-title">¿Qué es <span>chaos-generator</span>?</h2>
+        <div class="content-area">
+            <div class="two-column">
+                <div class="tile" style="height: 100%; justify-content: center;">
+                    <div class="icon"><i class="fa-solid fa-cube"></i></div>
+                    <h3>Concepto Clave</h3>
+                    <p>Un robusto generador automatizado de datos sintéticos con imperfecciones lógicas del mundo real, diseñados para entrenar algoritmos en normalización y curaduría.</p>
+                </div>
+                <div class="tile" style="height: 100%; justify-content: center;">
+                    <div class="icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <h3>El "Lado Sucio"</h3>
+                    <p>Un modelo de IA de limpieza no puede entrenarse con estructuras ideales. Este software inyecta escenarios adversos para forzar el auto-reconocimiento y la resiliencia.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Diapositiva 4: Clasificación del Caos -->
+    <div class="slide-container" id="slide4">
+        <h2 class="slide-title">Clasificación de Anomalías de Datos</h2>
+        <div class="content-area">
+            <div class="table-layout">
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Categoría de Caos</th>
+                            <th>Problema Técnico que Representa</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><code>REDUNDANCIA</code></td><td>Duplicados idénticos y duplicación difusa (fuzzy match)</td></tr>
+                        <tr><td><code>ESTRUCTURA_ROTA</code></td><td>Celdas truncadas, marcas BOM huérfanas, codificación dañada</td></tr>
+                        <tr><td><code>MULTI_ENTIDAD</code></td><td>Tablas desnormalizadas que agrupan entidades distintas</td></tr>
+                        <tr><td><code>TIPOS_INCONSISTENTES</code></td><td>Fechas y monedas almacenadas bajo nomenclaturas heterogéneas</td></tr>
+                        <tr><td><code>EXTRACCION</code></td><td>Documentación no estructurada como PDFs planos y logs del sistema</td></tr>
+                        <tr><td><code>ESQUEMA</code></td><td>Estructura flotante que demanda inferencia tipológica activa</td></tr>
+                        <tr><td><code>DATOS_LIMPIOS</code></td><td>Baseline libre de imperfecciones para control de calidad</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p style="margin-top: 30px; font-size: 15px; color: var(--text-secondary); text-align: center; font-family: 'Fira Code', monospace;">
+                <strong>Formatos Soportados:</strong> CSV · Excel · JSON · JSONL · Log · XML · PDF · TOML
+            </p>
+        </div>
+    </div>
+
+    <!-- Diapositiva 5: Funcionamiento -->
+    <div class="slide-container" id="slide5">
+        <h2 class="slide-title">Flujo Lógico del Generador</h2>
+        <div class="content-area">
+            <div class="two-column asymmetric">
+                <div class="bullet-list">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-robot"></i>
+                            <strong>LM Studio / OpenAI API:</strong> Genera dinámicamente contextos temáticos detallados vía `http://localhost:1234/v1`.
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-database"></i>
+                            <strong>Banco de Fallback:</strong> Autonomía total mediante <strong>140 temas precargados</strong> en local ante caídas de API.
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-triangle-exclamation"></i>
+                            <strong>Inyector de Caos:</strong> Incorpora deliberadamente 12 imperfecciones para degradar de forma estructurada los registros.
+                        </li>
+                    </ul>
+                </div>
+                <div class="graphics-wrapper">
+                    <svg viewBox="0 0 500 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="150" y="20" width="200" height="40" rx="8" fill="#0f172a" stroke="#06b6d4" stroke-width="1.5" />
+                        <text x="250" y="45" fill="#f8fafc" font-size="11" font-family="'Fira Code'" text-anchor="middle">API LM Studio / Fallback (140)</text>
+                        
+                        <line x1="250" y1="60" x2="250" y2="95" stroke="#10b981" stroke-dasharray="4 4" stroke-width="2" />
+                        <polygon points="250,100 246,92 254,92" fill="#10b981" />
+
+                        <rect x="150" y="100" width="200" height="40" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.5" />
+                        <text x="250" y="125" fill="#94a3b8" font-size="11" font-family="'Plus Jakarta Sans'" font-weight="600" text-anchor="middle">Faker Helper (Filas Limpias)</text>
+
+                        <line x1="250" y1="140" x2="250" y2="175" stroke="#10b981" stroke-dasharray="4 4" stroke-width="2" />
+                        <polygon points="250,180 246,172 254,172" fill="#10b981" />
+
+                        <rect x="130" y="180" width="240" height="45" rx="8" fill="#111827" stroke="#ef4444" stroke-width="1.5" />
+                        <text x="250" y="202" fill="#f8fafc" font-size="12" font-family="'Plus Jakarta Sans'" font-weight="bold" text-anchor="middle">Inyector de Caos (12 Errores)</text>
+                        <text x="250" y="217" fill="#ef4444" font-size="9" font-family="'Fira Code'" text-anchor="middle">Drift · Nulls · UTF-8 · Estructura Rota</text>
+
+                        <line x1="250" y1="225" x2="250" y2="260" stroke="#10b981" stroke-dasharray="4 4" stroke-width="2" />
+                        <polygon points="250,265 246,257 254,257" fill="#10b981" />
+
+                        <rect x="140" y="265" width="220" height="45" rx="8" fill="#10b981" />
+                        <text x="250" y="292" fill="#030712" font-size="13" font-family="'Outfit'" font-weight="bold" text-anchor="middle">8 Formatos de Salida</text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Diapositiva 6: Comandos Chaos -->
+    <div class="slide-container" id="slide6">
+        <h2 class="slide-title">Comandos de Consola <span>(chaos-generator)</span></h2>
+        <div class="content-area">
+            <div class="code-block">
+                <div class="code-block-item">
+                    <div>
+                        <span class="comment"># Generar todo con LM Studio activo</span><br>
+                        <span class="command">npm run generate</span>
+                    </div>
+                    <button class="copy-btn" onclick="copyText(this, 'npm run generate')"><i class="fa-regular fa-copy"></i> Copiar</button>
+                </div>
+                <div class="code-block-item" style="margin-top: 15px;">
+                    <div>
+                        <span class="comment"># Generar sin IA (temas predefinidos de fallback - mucho más rápido)</span><br>
+                        <span class="command">npm run generate:fast</span>
+                    </div>
+                    <button class="copy-btn" onclick="copyText(this, 'npm run generate:fast')"><i class="fa-regular fa-copy"></i> Copiar</button>
+                </div>
+                <div class="code-block-item" style="margin-top: 15px;">
+                    <div>
+                        <span class="comment"># Generar únicamente el baseline de datos limpios</span><br>
+                        <span class="command">npm run generate:clean</span>
+                    </div>
+                    <button class="copy-btn" onclick="copyText(this, 'npm run generate:clean')"><i class="fa-regular fa-copy"></i> Copiar</button>
+                </div>
+                <div class="code-block-item" style="margin-top: 15px;">
+                    <div>
+                        <span class="comment"># Control fino: 3 CSVs de REDUNDANCIA con 50 filas</span><br>
+                        <span class="command">npm run generate -- --category REDUNDANCIA --type csv --count 3 --rows 50</span>
+                    </div>
+                    <button class="copy-btn" onclick="copyText(this, 'npm run generate -- --category REDUNDANCIA --type csv --count 3 --rows 50')"><i class="fa-regular fa-copy"></i> Copiar</button>
+                </div>
+                <div class="code-block-item" style="margin-top: 15px;">
+                    <div>
+                        <span class="comment"># Ejecución en modo simulado (Dry Run)</span><br>
+                        <span class="command">npm run generate:dry</span>
+                    </div>
+                    <button class="copy-btn" onclick="copyText(this, 'npm run generate:dry')"><i class="fa-regular fa-copy"></i> Copiar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Diapositiva 7: Separador 2 -->
+    <div class="slide-container" id="slide7">
+        <div class="section-title-layout">
+            <hr>
+            <h2>02. Documentación Visual</h2>
+            <p>HU-035: Diagramas interactivos, compilación automatizada y CI/CD de sincronización.</p>
+        </div>
+    </div>
+
+    <!-- Diapositiva 8: Mermaid -->
+    <div class="slide-container" id="slide8">
+        <h2 class="slide-title">Diagramas como Código (Mermaid)</h2>
+        <div class="content-area">
+            <div class="tile-grid">
+                <div class="tile">
+                    <div class="icon"><i class="fa-solid fa-code"></i></div>
+                    <h3>Arquitectura en Git</h3>
+                    <p>Los diagramas viven dentro de archivos Markdown tradicionales. Se editan mediante texto plano y son totalmente versionables.</p>
+                </div>
+                <div class="tile">
+                    <div class="icon"><i class="fa-solid fa-sitemap"></i></div>
+                    <h3>10 Modelos Base</h3>
+                    <p>Abarca todos los flujos principales: procesamiento IA, base de datos relacional, flujos ETL, RBAC y regulaciones de privacidad.</p>
+                </div>
+                <div class="tile">
+                    <div class="icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                    <h3>diagram-exporter</h3>
+                    <p>Un transpilador inteligente que lee sintaxis Mermaid pura y la renderiza de forma óptima a 36 recursos de imagen.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Diapositiva 9: diagram-exporter -->
+    <div class="slide-container" id="slide9">
+        <h2 class="slide-title">Compilación Ágil de Diagramas</h2>
+        <div class="content-area">
+            <div class="two-column asymmetric">
+                <div>
+                    <p style="font-size: 18px; margin-bottom: 20px;">Instrucciones para la terminal del exporter:</p>
+                    <div class="code-block">
+                        <div class="code-block-item">
+                            <div>
+                                <span class="comment"># Exportar todos los diagramas del sistema</span><br>
+                                <span class="command">npm run diagrams</span>
+                            </div>
+                            <button class="copy-btn" onclick="copyText(this, 'npm run diagrams')"><i class="fa-regular fa-copy"></i> Copiar</button>
+                        </div>
+                        <div class="code-block-item" style="margin-top: 15px;">
+                            <div>
+                                <span class="comment"># Compilar diagramas específicos por su identificador</span><br>
+                                <span class="command">npm run diagrams:only -- 10</span>
+                            </div>
+                            <button class="copy-btn" onclick="copyText(this, 'npm run diagrams:only -- 10')"><i class="fa-regular fa-copy"></i> Copiar</button>
+                        </div>
+                        <div class="code-block-item" style="margin-top: 15px;">
+                            <div>
+                                <span class="comment"># Ver qué se generaría sin crear archivos</span><br>
+                                <span class="command">npm run diagrams:list</span>
+                            </div>
+                            <button class="copy-btn" onclick="copyText(this, 'npm run diagrams:list')"><i class="fa-regular fa-copy"></i> Copiar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="graphics-wrapper">
+                    <svg viewBox="0 0 500 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="30" y="50" width="100" height="110" rx="6" fill="#1e293b" stroke="#06b6d4" stroke-width="1.5" />
+                        <text x="80" y="100" fill="#f8fafc" font-size="10" font-family="'Fira Code'" font-weight="bold" text-anchor="middle">docs/*.md</text>
+                        <text x="80" y="120" fill="#10b981" font-size="9" font-family="'Fira Code'" text-anchor="middle">```mermaid</text>
+
+                        <line x1="140" y1="105" x2="200" y2="105" stroke="#34d399" stroke-width="1.5" stroke-dasharray="3 3" />
+                        <polygon points="205,105 197,101 197,109" fill="#34d399" />
+
+                        <rect x="215" y="70" width="120" height="70" rx="8" fill="#090d16" stroke="#10b981" stroke-width="1.5" />
+                        <text x="275" y="100" fill="#10b981" font-size="11" font-family="'Fira Code'" font-weight="bold" text-anchor="middle">diagram-exporter</text>
+                        <text x="275" y="115" fill="#64748b" font-size="8" font-family="'Plus Jakarta Sans'" text-anchor="middle">@mermaid-cli</text>
+
+                        <path d="M 335 105 Q 365 105 385 75" stroke="#06b6d4" stroke-width="1.5" fill="none" />
+                        <polygon points="389,71 381,74 386,79" fill="#06b6d4" />
+
+                        <path d="M 335 105 Q 365 105 385 135" stroke="#06b6d4" stroke-width="1.5" fill="none" />
+                        <polygon points="389,139 386,131 381,136" fill="#06b6d4" />
+
+                        <rect x="395" y="45" width="60" height="40" rx="4" fill="#1e293b" stroke="#38bdf8" />
+                        <text x="425" y="68" fill="#38bdf8" font-size="9" font-family="'Fira Code'" font-weight="bold" text-anchor="middle">18 SVG</text>
+
+                        <rect x="395" y="120" width="60" height="40" rx="4" fill="#1e293b" stroke="#34d399" />
+                        <text x="425" y="143" fill="#34d399" font-size="9" font-family="'Fira Code'" font-weight="bold" text-anchor="middle">18 PNG</text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Diapositiva 10: Sincronización CI/CD Docs -->
+    <div class="slide-container" id="slide10">
+        <h2 class="slide-title">Sincronización Automática de <span>docs/</span> (CI/CD)</h2>
+        <div class="content-area">
+            <div class="two-column asymmetric" style="gap: 30px;">
+                <div class="bullet-list" style="font-size: 16px;">
+                    <ul style="margin-bottom: 0;">
+                        <li style="margin-bottom: 20px;">
+                            <i class="fa-solid fa-bolt"></i>
+                            <strong>Trigger:</strong> <code>push</code> en la rama <code>main</code> cuando hay cambios en <code>docs/**</code>.
+                        </li>
+                        <li style="margin-bottom: 20px;">
+                            <i class="fa-solid fa-code-merge"></i>
+                            <strong>Remoto destino:</strong> <code>IA-DataFlow-Hub/docs</code> (la acción usa <code>actions/checkout@v4</code> apuntando al repo destino).
+                        </li>
+                        <li style="margin-bottom: 20px;">
+                            <i class="fa-solid fa-key"></i>
+                            <strong>Autenticación:</strong> usa el secreto <code>SYNC_PAT</code> para hacer push al repo destino.
+                        </li>
+                        <li style="margin-bottom: 20px;">
+                            <i class="fa-solid fa-route"></i>
+                            <strong>Flujo:</strong> checkout del repo origen y destino, copia de <code>docs/</code> a <code>destination/Docs/</code>, commit y push si hay cambios.
+                        </li>
+                    </ul>
+                </div>
+                <div class="graphics-wrapper" style="height: 380px;">
+                    <svg viewBox="0 0 500 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Repositorio Origen -->
+                        <rect x="40" y="60" width="140" height="80" rx="8" fill="#0f172a" stroke="#3b82f6" stroke-width="2" />
+                        <text x="110" y="90" fill="#f8fafc" font-size="12" font-family="'Outfit'" font-weight="bold" text-anchor="middle">Repo Principal</text>
+                        <text x="110" y="115" fill="#60a5fa" font-size="10" font-family="'Fira Code'" text-anchor="middle">/docs/** (push)</text>
+                        
+                        <!-- Flecha al Workflow -->
+                        <path d="M 180 100 L 235 100" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4 4" />
+                        <polygon points="240,100 232,96 232,104" fill="#94a3b8" />
+
+                        <!-- GitHub Action -->
+                        <rect x="250" y="40" width="180" height="120" rx="12" fill="#1e293b" stroke="#10b981" stroke-width="2" />
+                        <text x="340" y="70" fill="#10b981" font-size="14" font-family="'Outfit'" font-weight="bold" text-anchor="middle">GitHub Actions</text>
+                        <rect x="270" y="85" width="140" height="25" rx="4" fill="#0f172a" />
+                        <text x="340" y="102" fill="#a78bfa" font-size="10" font-family="'Fira Code'" text-anchor="middle">actions/checkout@v4</text>
+                        <rect x="270" y="115" width="140" height="25" rx="4" fill="#0f172a" />
+                        <text x="340" y="132" fill="#f472b6" font-size="10" font-family="'Fira Code'" text-anchor="middle">SYNC_PAT</text>
+
+                        <!-- Flecha al Destino -->
+                        <path d="M 340 160 L 340 205" stroke="#10b981" stroke-width="2" />
+                        <polygon points="340,210 336,202 344,202" fill="#10b981" />
+
+                        <!-- Repositorio Destino -->
+                        <rect x="250" y="220" width="180" height="70" rx="8" fill="#0f172a" stroke="#06b6d4" stroke-width="2" />
+                        <text x="340" y="250" fill="#f8fafc" font-size="12" font-family="'Outfit'" font-weight="bold" text-anchor="middle">Repo Satélite</text>
+                        <text x="340" y="270" fill="#22d3ee" font-size="11" font-family="'Fira Code'" text-anchor="middle">IA-DataFlow-Hub/docs</text>
+                    </svg>
+                </div>
+            </div>
+            <div style="margin-top: 20px; padding: 15px; background: rgba(16, 185, 129, 0.05); border-radius: 8px; border: 1px solid rgba(16, 185, 129, 0.2); display: flex; flex-direction: column; gap: 8px;">
+                <p style="font-size: 14px; margin: 0; color: var(--text-secondary);">
+                    <strong style="color: var(--text-primary);">Workflow:</strong> <code>.github/workflows/sync-docs-to-docrepo.yml</code>
+                </p>
+                <p style="font-size: 14px; margin: 0; color: var(--text-secondary);">
+                    <strong style="color: var(--accent-cyan);">Uso típico:</strong> Simplemente haga <code>git push</code> a <code>main</code> con cambios en <code>docs/</code>; la Action se encargará de sincronizar automáticamente.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Diapositiva 11: Separador 3 -->
+    <div class="slide-container" id="slide11">
+        <div class="section-title-layout">
+            <hr>
+            <h2>03. Interfaz hu-cli</h2>
+            <p>Conexión directa y ágil entre Historias de Usuario locales y el Kanban de GitHub Projects.</p>
+        </div>
+    </div>
+
+    <!-- Diapositiva 12: hu-cli Terminal -->
+    <div class="slide-container" id="slide12">
+        <h2 class="slide-title">Terminal Interactiva (hu-cli)</h2>
+        <div class="content-area">
+            <div class="two-column asymmetric">
+                <div class="bullet-list">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-link"></i>
+                            <strong>Sincronizador Directo:</strong> Transforma la edición de archivos Markdown en cambios sobre los tableros de GitHub Projects.
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <strong>Protección de Estados:</strong> El comando `hu update` se restringe a Backlog/Ready para evitar corrupciones de tareas activas.
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-cubes"></i>
+                            <strong>Dependencias:</strong> Construido de manera ágil con `Commander.js`, `Chalk` para salida coloreada, y `gh` CLI local.
+                        </li>
+                    </ul>
+                </div>
+                <div class="graphics-wrapper">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <div class="terminal-dot" style="background-color: #ef4444;"></div>
+                            <div class="terminal-dot" style="background-color: #eab308;"></div>
+                            <div class="terminal-dot" style="background-color: #22c55e;"></div>
+                            <span style="color: #64748b; font-size: 11px; margin-left: 10px; font-family: 'Fira Code', monospace;">bash — hu-cli</span>
+                        </div>
+                        <div class="terminal-body" style="font-size: 13px;">
+                            <div style="color: #64748b;">$ hu list --status "In Progress"</div>
+                            <div style="color: #10b981;">✔ Consultando GitHub Projects...</div>
+                            <div style="margin-top: 10px;">
+                                <span style="color: #a78bfa;">[HU-015]</span> <span style="color: #fb923c;">In Progress</span> - chaos-generator<br>
+                                <span style="color: #a78bfa;">[HU-035]</span> <span style="color: #22d3ee;">In Review</span> - diagram-exporter
+                            </div>
+                            <div style="color: #64748b; margin-top: 20px;">$ hu advance 15 --to "In Review"</div>
+                            <div style="color: #10b981;">✔ Estado actualizado en GitHub Projects.</div>
+                            <div style="color: #38bdf8;">→ Nuevo estado de HU-015: In Review</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Diapositiva 13: Separador 4 -->
+    <div class="slide-container" id="slide13">
+        <div class="section-title-layout">
+            <hr>
+            <h2>04. DVC (Data Version Control)</h2>
+            <p>Control de versiones para datos a gran escala, separando el código del almacenamiento de datasets.</p>
+        </div>
+    </div>
+
+    <!-- Diapositiva 14: DVC Concepto -->
+    <div class="slide-container" id="slide14">
+        <h2 class="slide-title">Control de Versiones de Datos <span>(DVC)</span></h2>
+        <div class="content-area">
+            <div class="tile-grid">
+                <div class="tile">
+                    <div class="icon"><i class="fa-solid fa-code-branch"></i></div>
+                    <h3>Separación de Intereses</h3>
+                    <p>Mantiene metadatos ligeros (archivos `.dvc`) en Git, mientras los binarios pesados de datos se gestionan y almacenan independientemente.</p>
+                </div>
+                <div class="tile">
+                    <div class="icon"><i class="fa-solid fa-cloud-arrow-down"></i></div>
+                    <h3>Replicabilidad</h3>
+                    <p>Cualquier desarrollador puede sincronizar y descargar los datasets exactos de un commit específico con un solo comando: <code>dvc pull</code>.</p>
+                </div>
+                <div class="tile">
+                    <div class="icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+                    <h3>Auditoría Completa</h3>
+                    <p>Integración directa con el flujo de Git para permitir trazabilidad y reversiones en los conjuntos de datos de entrenamiento generados.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Diapositiva 15: DVC Comandos -->
+    <div class="slide-container" id="slide15">
+        <h2 class="slide-title">Comandos de Gestión de Datasets</h2>
+        <div class="content-area">
+            <div class="code-block">
+                <div class="code-block-item">
+                    <div>
+                        <span class="comment"># Descargar los datos referenciados por DVC desde el remoto configurado</span><br>
+                        <span class="command">dvc pull</span>
+                    </div>
+                    <button class="copy-btn" onclick="copyText(this, 'dvc pull')"><i class="fa-regular fa-copy"></i> Copiar</button>
+                </div>
+                <div class="code-block-item" style="margin-top: 15px;">
+                    <div>
+                        <span class="comment"># Comprobar el estado local vs remoto de los archivos de datos</span><br>
+                        <span class="command">dvc status</span>
+                    </div>
+                    <button class="copy-btn" onclick="copyText(this, 'dvc status')"><i class="fa-regular fa-copy"></i> Copiar</button>
+                </div>
+                <div class="code-block-item" style="margin-top: 15px;">
+                    <div>
+                        <span class="comment"># Añadir nuevos archivos o cambios en datos al control de DVC</span><br>
+                        <span class="command">dvc add path/to/data</span>
+                    </div>
+                    <button class="copy-btn" onclick="copyText(this, 'dvc add path/to/data')"><i class="fa-regular fa-copy"></i> Copiar</button>
+                </div>
+                <div class="code-block-item" style="margin-top: 15px;">
+                    <div>
+                        <span class="comment"># Enviar cambios de datos al remoto configurado</span><br>
+                        <span class="command">dvc push</span>
+                    </div>
+                    <button class="copy-btn" onclick="copyText(this, 'dvc push')"><i class="fa-regular fa-copy"></i> Copiar</button>
+                </div>
+            </div>
+            <div style="margin-top: 25px; padding: 15px; background: rgba(16, 185, 129, 0.05); border-radius: 8px; border: 1px solid rgba(16, 185, 129, 0.2);">
+                <p style="font-size: 14px; margin: 0; color: var(--text-secondary);">
+                    <strong>Nota Operativa:</strong> Ejecute <code>dvc pull</code> antes de correr pipelines dependientes de datos si no tiene acceso al remoto, para sincronizar los archivos referenciados en <code>datasets.dvc</code>.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Diapositiva 16: DVC Autenticación -->
+    <div class="slide-container" id="slide16">
+        <h2 class="slide-title">Autenticación Remota <span>(Google Drive)</span></h2>
+        <div class="content-area">
+            <div class="two-column asymmetric">
+                <div class="bullet-list">
+                    <ul>
+                        <li>
+                            <i class="fa-brands fa-google-drive"></i>
+                            <strong>Backend GDrive:</strong> Los datasets pesados se almacenan de forma segura y económica en un bucket de Google Drive.
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-user-check"></i>
+                            <strong>Flujo Interactivo:</strong> Ideal para desarrolladores. <code>dvc pull</code> levanta automáticamente un prompt de navegador para autorizar la lectura vía OAuth2.
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-server"></i>
+                            <strong>Flujo CI/CD:</strong> Configuración manual de credenciales (<code>client_id</code> / <code>client_secret</code>) o cuentas de servicio para entornos sin cabeza (headless).
+                        </li>
+                    </ul>
+                </div>
+                <div class="code-block">
+                    <div class="code-block-item">
+                        <div>
+                            <span class="comment"># Opción 1: Autorización en navegador (Desarrollo)</span><br>
+                            <span class="command">dvc pull</span>
+                        </div>
+                        <button class="copy-btn" onclick="copyText(this, 'dvc pull')"><i class="fa-regular fa-copy"></i> Copiar</button>
+                    </div>
+                    <div class="code-block-item" style="margin-top: 15px;">
+                        <div>
+                            <span class="comment"># Opción 2: Configurar credenciales explícitas (CI)</span><br>
+                            <span class="command">dvc remote modify gdrive gdrive_client_id &lt;ID&gt;</span>
+                        </div>
+                        <button class="copy-btn" onclick="copyText(this, 'dvc remote modify gdrive gdrive_client_id <ID>')"><i class="fa-regular fa-copy"></i> Copiar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Diapositiva 17: Métricas -->
+    <div class="slide-container" id="slide17">
+        <h2 class="slide-title">Métricas y Resumen de Entregables</h2>
+        <div class="content-area">
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-value">159</div>
+                    <div class="metric-details">
+                        <h4>Datasets</h4>
+                        <p>Archivos de caos distribuidos en 7 categorías y 8 formatos.</p>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">140</div>
+                    <div class="metric-details">
+                        <h4>Temas</h4>
+                        <p>Banco predefinido local para fallback del generador de datasets.</p>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">12</div>
+                    <div class="metric-details">
+                        <h4>Anomalías</h4>
+                        <p>Tipos de imperfecciones inyectadas de manera calibrada.</p>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">10</div>
+                    <div class="metric-details">
+                        <h4>Diagramas</h4>
+                        <p>Estructuras completas de la arquitectura como código Mermaid.</p>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">36</div>
+                    <div class="metric-details">
+                        <h4>Assets</h4>
+                        <p>Imágenes SVG y PNG exportadas asíncronamente por el parser.</p>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">491</div>
+                    <div class="metric-details">
+                        <h4>Archivos DVC</h4>
+                        <p>Total de archivos registrados (~727 MB) gestionados externamente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="deck-controls">
+    <button id="prevBtn" title="Anterior (Flecha Izquierda)"><i class="fa-solid fa-arrow-left"></i></button>
+    <div class="status" id="slideIndicator">1 / 17</div>
+    <button id="nextBtn" title="Siguiente (Flecha Derecha o Espacio)"><i class="fa-solid fa-arrow-right"></i></button>
+</div>
+
+<script>
+let currentSlide = 1;
+const totalSlides = 17;
+
+const prevBtn = document.getElementById('prevBtn');
+const nextBtn = document.getElementById('nextBtn');
+const slideIndicator = document.getElementById('slideIndicator');
+const toast = document.getElementById('toast');
+
+// Efecto interactivo de luz de ratón sobre tarjetas Bento
+document.addEventListener('mousemove', e => {
+    document.querySelectorAll('.tile, .metric-card').forEach(tile => {
+        const rect = tile.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        tile.style.setProperty('--mouse-x', `${x}px`);
+        tile.style.setProperty('--mouse-y', `${y}px`);
+    });
+});
+
+// Función de copiado con Clipboard API con fallback document.execCommand
+function copyText(button, text) {
+    const tempInput = document.createElement('textarea');
+    tempInput.value = text;
+    document.body.appendChild(tempInput);
+    tempInput.select();
+    try {
+        document.execCommand('copy');
+        showToast();
+    } catch (err) {
+        console.error('Error al copiar: ', err);
+    }
+    document.body.removeChild(tempInput);
+}
+
+function showToast() {
+    toast.classList.add('show');
+    setTimeout(() => {
+        toast.classList.remove('show');
+    }, 2000);
+}
+
+function adjustScale() {
+    const deck = document.getElementById('deck');
+    const container = document.getElementById('wrapper');
+    const targetWidth = 1440;
+    const targetHeight = 810;
+    
+    const scaleX = container.clientWidth / targetWidth;
+    const scaleY = container.clientHeight / targetHeight;
+    const scale = Math.min(scaleX, scaleY);
+    
+    deck.style.transform = `translate(-50%, -50%) scale(${scale})`;
+}
+
+window.addEventListener('resize', adjustScale);
+window.addEventListener('load', adjustScale);
+
+function showSlide(index) {
+    if (index < 1) index = totalSlides;
+    if (index > totalSlides) index = 1;
+
+    document.querySelectorAll('.slide-container').forEach(slide => {
+        slide.classList.remove('active');
+    });
+
+    document.getElementById(`slide${index}`).classList.add('active');
+
+    currentSlide = index;
+    slideIndicator.textContent = `${currentSlide} / ${totalSlides}`;
+}
+
+prevBtn.addEventListener('click', () => showSlide(currentSlide - 1));
+nextBtn.addEventListener('click', () => showSlide(currentSlide + 1));
+
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight' || e.key === ' ') {
+        e.preventDefault();
+        showSlide(currentSlide + 1);
+    } else if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        showSlide(currentSlide - 1);
+    }
+});
+
+adjustScale();
+</script>
+
+</body>
+</html>

@@ -3,5 +3,6 @@
   "univer",
   "editing-toolbar",
   "advanced-import-export",
-  "obsidian-pandoc"
+  "obsidian-pandoc",
+  "live-preview"
 ]

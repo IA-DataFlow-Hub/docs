@@ -11,12 +11,14 @@
             "id": "393788a048d405fd",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Certificado/Sebastián Bautista Martínez.pdf"
+                "file": "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 4/Reunion.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Sebastián Bautista Martínez"
+              "icon": "lucide-file",
+              "title": "Reunion"
             }
           }
         ]
@@ -193,23 +195,33 @@
       "univer:Univer": false
     }
   },
-  "active": "aaeff519f0d34833",
+  "active": "393788a048d405fd",
   "lastOpenFiles": [
-    "Docs/HU/HU 052 - Documentación del API con Swagger.md",
+    "🎊 Bienvenidos a IA-DataFlow Hub.md",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 4/Reunion.md",
+    "Requisitos para aprobar el semillero/6 - Entregas Parciales/Entregable 4/ia_dataflow_hub_presentaci_n_t_cnica.html",
+    "Readme.md",
     "Sin título.base",
+    "HU & Investigaciones/Inscripción de Estudiantes Semilleros.md",
+    "HU & Investigaciones/Tareas.md",
+    "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Certificado/Sebastián Bautista Martínez.pdf",
+    "Docs/SETUP.md",
+    "Archivos/HU/HU 30/HU30.rar",
+    "Archivos/HU/HU 30",
+    "Archivos/HU/HU 29/HU29.rar",
+    "Archivos/HU/HU 29",
+    "Archivos/HU/HU 28/HU28.rar",
+    "Archivos/HU/HU 28",
+    "Docs/HU/HU 052 - Documentación del API con Swagger.md",
     "Sin título 1.base",
     "Docs/PRESENTACION_TECNICA.md",
     "Requisitos para aprobar el semillero/🚀 Resumen de Reunión Requisitos y Entregables de Semillero.md",
-    "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Certificado/Andrés Felipe Andrade Borbon.pdf",
-    "Requisitos para aprobar el semillero/9 - Uso de Obra - Socialización/Certificado",
     "HU & Investigaciones/Internas/HU 14 - Infraestructura/Arquitectura IA-DataFlow-Hub.md",
     "Docs/packages/hu-cli.md",
     "Docs/packages/database.md",
     "Docs/packages/chaos-generator.md",
-    "Docs/packages",
     "Docs/apps/client.md",
     "Docs/apps/api.md",
-    "Docs/apps",
     "Docs/README.md",
     "Docs/HU/HU 051 - Módulo Auditoría.md",
     "Docs/HU/HU 050 - Módulo Notificaciones.md",
@@ -221,16 +233,6 @@
     "Docs/HU/HU 044 - Módulo Archivos y Versionado.md",
     "Docs/HU/HU 043 - Módulo Proyectos y Fases de Flujo.md",
     "Docs/HU/HU 042 - Módulo Teams y Control de Acceso RBAC.md",
-    "Docs/HU/HU 041 - Módulo Perfil de Usuario y Configuración.md",
-    "Docs/HU/HU 040 - Módulo Auth y Gestión de Sesiones.md",
-    "Docs/diagramas/README.md",
-    "Docs/diagramas/DIAGRAMAS.md",
-    "Docs/diagramas/08-estructura-monorepo/08-estructura-monorepo.md",
-    "HU & Investigaciones/Tareas.md",
-    "HU & Investigaciones/Internas/HU-032 - Esquema de Escenarios de Validación/Hu 32 esquema de escenarios.pdf",
-    "Archivos/HU/HU 27/HU27.rar",
-    "Archivos/HU/HU 27",
-    "Archivos/HU/HU 26/HU26.rar",
     "Docs/diagramas/10-flujo-conversaciones-chat/10-flujo-conversaciones-chat.svg",
     "Docs/diagramas/10-flujo-conversaciones-chat/10-flujo-conversaciones-chat.png",
     "Docs/diagramas/10-flujo-conversaciones-chat/10-flujo-conversaciones-chat - 10d-—-ciclo-de-vida-de-una-conversacion.svg",
