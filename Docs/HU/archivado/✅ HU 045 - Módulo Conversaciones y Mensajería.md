@@ -1,5 +1,7 @@
 # HU-045 — Módulo de Conversaciones y Mensajería
 
+> **Asignado:** @dospina56-maker — David Ospina
+
 ## Asignación de Tablas
 
 `conversations` · `messages` · `message_sender_types`

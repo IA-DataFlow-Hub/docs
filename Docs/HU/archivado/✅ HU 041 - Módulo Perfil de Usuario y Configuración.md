@@ -1,5 +1,7 @@
 # HU-041 — Módulo de Perfil de Usuario y Configuración Personal
 
+> **Asignado:** @dospina56-maker — David Ospina
+
 ## Asignación de Tablas
 
 `users` (perfil completo) · `user_statuses` · `user_configurations` · `configuration_keys`

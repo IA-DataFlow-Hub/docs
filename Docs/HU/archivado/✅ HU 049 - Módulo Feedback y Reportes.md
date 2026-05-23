@@ -1,5 +1,7 @@
 # HU-049 — Módulo de Feedback y Reportes
 
+> **Asignado:** @dospina56-maker — David Ospina
+
 ## Asignación de Tablas
 
 `message_feedback` · `reports`
