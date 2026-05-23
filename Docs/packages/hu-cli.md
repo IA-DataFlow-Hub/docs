@@ -69,6 +69,22 @@ hu update HU-048
 hu sync                          # Crear nuevas + actualizar editables
 ```
 
+### `hu assign` — Asignar miembro a una HU
+
+Actualiza el archivo `.md` local y el issue en GitHub. Si ya tiene asignado, lo reemplaza.
+
+```bash
+hu assign 40 juandiegows         # Por username exacto
+hu assign 40 juan                # Búsqueda parcial (username o nombre)
+hu assign HU-048 ospina          # Nombre parcial
+```
+
+### `hu members` — Ver equipo
+
+```bash
+hu members                       # Lista todos los miembros con rol y célula
+```
+
 ---
 
 ## Flujo de estados
@@ -98,7 +114,21 @@ Pendientes / Backlog
 ```
 packages/hu-cli/src/
 ├── index.js
-├── commands/   list · create · update · sync · advance
+├── commands/   list · create · update · sync · advance · assign · members
 ├── lib/        config · files · github
 └── utils/      output
 ```
+
+## Equipo
+
+| Célula | Username | Nombre |
+|--------|----------|--------|
+| Ingeniería | @juandiegows | Juan Diego Mejía Maestre |
+| Ingeniería | @dospina56-maker | David Ospina |
+| Ingeniería | @andres-andrade5 | Andres Felipe Andrade |
+| Ingeniería | @oantury-glitch | Oscar Antury Avila |
+| Infraestructura | @sbautista15 | Sebastián Bautista Martínez |
+| Infraestructura | @POHLMAN1 | Pohlman Cuartas |
+| Infraestructura | @mlabarca-jpg | María Virginia Labarca |
+
+> Brayan Monterrosa Castillo — sin username GitHub registrado. Agregar en `config.js` cuando esté disponible.
