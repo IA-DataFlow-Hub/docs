@@ -1,5 +1,9 @@
 # HU 084 - Listar Equipos del Usuario en el Dashboard
 
+> **Prioridad:** 🟠 High / Alta — Crítica
+
+> **Tamaño:** M — Estándar — un día completo (4–8h) (4–8h)
+
 > Generado el 29 de mayo de 2026
 > **Asignado a:** JuanDiegoWS (keitem99+claude@gmail.com)
 > **Depende de:** HU-075, HU-076

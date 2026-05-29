@@ -1,5 +1,9 @@
 # HU 075 - Crear Cliente HTTP Base con Interceptores JWT
 
+> **Prioridad:** 🟠 High / Alta — Crítica
+
+> **Tamaño:** M — Estándar — un día completo (4–8h) (4–8h)
+
 > Generado el 29 de mayo de 2026
 > **Asignado a:** JuanDiegoWS (keitem99+claude@gmail.com)
 
