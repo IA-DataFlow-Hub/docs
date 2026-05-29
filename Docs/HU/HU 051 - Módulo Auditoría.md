@@ -1,5 +1,7 @@
 # HU-051 — Módulo de Auditoría
 
+**Prioridad:** Alta
+
 ## Asignación de Tablas
 
 `audit_logs` · `audits`

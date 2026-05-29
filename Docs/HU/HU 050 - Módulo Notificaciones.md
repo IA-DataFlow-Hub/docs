@@ -1,5 +1,7 @@
 # HU-050 — Módulo de Notificaciones
 
+**Prioridad:** Alta
+
 ## Asignación de Tablas
 
 `notifications` · `notification_recipients` · `notification_groups` · `notification_group_members`

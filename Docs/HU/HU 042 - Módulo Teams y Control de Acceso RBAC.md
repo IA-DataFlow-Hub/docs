@@ -1,5 +1,9 @@
 # HU-042 — Módulo de Equipos y Control de Acceso (RBAC)
 
+> **Prioridad:** 🟠 High / Alta — Crítica
+
+**Prioridad:** Alta
+
 ## Asignación de Tablas
 
 `teams` · `team_roles` · `team_role_permissions` · `user_team_roles` · `role_templates` · `permissions` · `role_template_permissions`

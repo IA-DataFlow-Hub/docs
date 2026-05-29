@@ -1,5 +1,7 @@
 # HU-047 — Módulo de Motor de IA (AI Jobs)
 
+**Prioridad:** Alta
+
 ## Asignación de Tablas
 
 `ai_jobs` · `ai_job_events` · `ai_results` · `ai_engines` · `ai_engine_types` · `ai_job_statuses` · `ai_result_types`

@@ -1,5 +1,7 @@
 # HU-043 — Módulo de Proyectos y Fases de Flujo
 
+**Prioridad:** Alta
+
 ## Asignación de Tablas
 
 `projects` · `project_phases` · `workflow_phases` · `project_statuses` · `project_privacy_levels` · `project_phase_statuses` · `user_project_roles`

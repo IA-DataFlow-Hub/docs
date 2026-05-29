@@ -1,5 +1,9 @@
 # HU-046 — Módulo de Tareas
 
+> **Prioridad:** 🟠 High / Alta — Crítica
+
+**Prioridad:** Alta
+
 ## Asignación de Tablas
 
 `tasks` · `task_statuses` · `task_priorities`
