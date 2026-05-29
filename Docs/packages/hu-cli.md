@@ -10,6 +10,21 @@ Ubicación: `packages/hu-cli/`
 
 ---
 
+## Dos herramientas disponibles
+
+| | `hu` (hu-cli) | `scripts/hu.ps1` |
+|---|---|---|
+| **Runtime** | Node.js 20+ | PowerShell 7+ |
+| **Instalación** | `npm link` una vez | Sin instalación |
+| **Uso** | `hu <comando>` | `.\scripts\hu.ps1 <comando>` |
+| **Cuándo usar** | Flujo diario de desarrollo | Máquinas sin Node, CI, onboarding rápido |
+| **Paridad** | Completa + `advance`, `assign`, `members` | `list`, `create`, `update`, `sync`, `priority`, `size` |
+| **Rangos (priority/size)** | ✓ `42-51`, `42,43,46` | ✓ `42-51`, `42,43,46` |
+
+Ambas herramientas leen y escriben los mismos archivos `docs/HU/*.md` y apuntan al mismo proyecto GitHub Projects #1.
+
+---
+
 ## Instalación (una sola vez)
 
 ```bash
@@ -102,7 +117,11 @@ hu priority 40 high              # Alta — Crítica
 hu priority 40 medium            # Media — Necesaria
 hu priority 40 low               # Baja — Mejora
 
-# Varias HUs a la vez (último arg = nivel)
+# Rango continuo (expandido internamente a cada HU del rango)
+hu priority 42-51 high
+hu priority 75-96 medium
+
+# Lista separada por espacios (último arg = nivel)
 hu priority 56 57 58 59 60 high
 hu priority 62 63 64 65 66 67 medium
 
@@ -127,7 +146,11 @@ hu size 40 M                     # Estándar — 1 día
 hu size 40 L                     # Complejo — 2–3 días
 hu size 40 XL                    # Muy grande — 1 semana+
 
-# Varias HUs a la vez (último arg = tamaño)
+# Rango continuo
+hu size 42-51 M
+hu size 75-96 S
+
+# Lista separada por espacios (último arg = tamaño)
 hu size 56 57 58 59 60 M
 hu size 62 63 64 65 66 67 L
 
@@ -221,9 +244,12 @@ packages/hu-cli/src/
 ├── commands/
 │   list · create · update · sync · advance · assign · members · priority · size
 ├── lib/
-│   config    PRIORITIES, TEAM_MEMBERS, findPriority(), findMember()
+│   config    PRIORITIES, SIZES, TEAM_MEMBERS
+│             findPriority(), findSize(), findMember()
 │   files     getHuFiles(), findFileByHuNum(), setHuFileArchived()
+│             resolveHuNums()          ← expande "42-51" → [42..51], listas, individuales
 │             parsePriority(), setPriorityInFile()
+│             parseSize(),    setSizeInFile()
 │             parseAssignee(), setAssigneeInFile()
 │   github    getProjectData() (GraphQL con assignees + fieldValues)
 │             getItemStatus(), getItemFieldValue(), updateProjectStatus()
@@ -257,3 +283,130 @@ docs/HU/
 | Infraestructura | @sbautista15 | Sebastián Bautista Martínez | Consultor Infraestructura y DBA |
 | Infraestructura | @POHLMAN1 | Pohlman Cuartas | Ingeniero de Soporte |
 | Infraestructura | @mlabarca-jpg | María Virginia Labarca | Analista de TI |
+
+---
+
+## `scripts/hu.ps1` — Alternativa PowerShell
+
+### Cuándo usarlo
+
+- Máquina sin Node.js instalado (o sin `npm link` configurado)
+- Scripts de CI/CD en Windows que corren PowerShell directamente
+- Onboarding rápido sin dependencias adicionales
+
+### Ubicación y ejecución
+
+```powershell
+# Desde la raíz del repositorio
+.\scripts\hu.ps1 <comando> [arg1] [arg2]
+
+# O con ruta absoluta
+pwsh -File "D:\Proyectos\IA-DataFlow-Hub\scripts\hu.ps1" <comando>
+```
+
+### Prerrequisito
+
+```powershell
+gh auth login
+gh auth refresh -s project,read:project,write:org
+```
+
+### Comandos disponibles
+
+#### `list` — Ver HUs con estado
+
+```powershell
+.\scripts\hu.ps1 list
+.\scripts\hu.ps1 list -FilterStatus Backlog
+.\scripts\hu.ps1 list -FilterStatus "Listo para trabajar"
+```
+
+#### `create` — Crear issues desde archivos `.md`
+
+```powershell
+.\scripts\hu.ps1 create           # Issues reales
+.\scripts\hu.ps1 create -Draft    # Drafts en el proyecto
+```
+
+#### `update` — Actualizar body de una HU
+
+Solo si está en **Backlog** o **Ready**.
+
+```powershell
+.\scripts\hu.ps1 update 40
+.\scripts\hu.ps1 update HU-048
+```
+
+#### `sync` — Crear nuevas + actualizar editables
+
+```powershell
+.\scripts\hu.ps1 sync
+```
+
+#### `priority` — Establecer prioridad
+
+Acepta número único, rango (`42-51`) o lista (`42,43,46`). Solo modifica archivos `.md` locales (no actualiza campo en GitHub Projects — para eso usar `hu priority` de hu-cli).
+
+```powershell
+# Número único
+.\scripts\hu.ps1 priority 42 high
+
+# Rango continuo
+.\scripts\hu.ps1 priority 42-51 high
+.\scripts\hu.ps1 priority 75-96 medium
+
+# Lista
+.\scripts\hu.ps1 priority 42,46,50 low
+
+# Niveles: high | medium | low  (o: alta | media | baja | h | m | l)
+```
+
+| Argumento | Resultado en `.md` |
+|---|---|
+| `high` / `alta` | `> **Prioridad:** 🔴 High / Alta` |
+| `medium` / `media` | `> **Prioridad:** 🟡 Medium / Media` |
+| `low` / `baja` | `> **Prioridad:** 🟢 Low / Baja` |
+
+#### `size` — Establecer tamaño
+
+Misma sintaxis de rangos que `priority`.
+
+```powershell
+# Número único
+.\scripts\hu.ps1 size 42 m
+
+# Rango continuo
+.\scripts\hu.ps1 size 42-51 l
+.\scripts\hu.ps1 size 75-96 s
+
+# Lista
+.\scripts\hu.ps1 size 42,46,50 xl
+
+# Tamaños: xs | s | m | l | xl
+```
+
+| Argumento | Resultado en `.md` |
+|---|---|
+| `xs` | `> **Tamaño:** ⚪ XS / Extra Small` |
+| `s` | `> **Tamaño:** 🟢 S / Small` |
+| `m` | `> **Tamaño:** 🔵 M / Medium` |
+| `l` | `> **Tamaño:** 🟡 L / Large` |
+| `xl` | `> **Tamaño:** 🔴 XL / Extra Large` |
+
+### Diferencias con `hu-cli`
+
+| Característica | `hu-cli` | `scripts/hu.ps1` |
+|---|---|---|
+| `priority` / `size` actualiza GitHub Projects | ✓ Sí | ✗ Solo `.md` local |
+| `advance` (mover estado en GitHub) | ✓ Sí | ✗ No disponible |
+| `assign` (asignar miembro) | ✓ Sí | ✗ No disponible |
+| `members` (ver equipo) | ✓ Sí | ✗ No disponible |
+| Rangos `42-51` en priority/size | ✓ Sí | ✓ Sí |
+| Requiere Node.js | ✓ Sí | ✗ No |
+
+### Ayuda integrada
+
+```powershell
+.\scripts\hu.ps1 help
+.\scripts\hu.ps1        # Sin args también muestra ayuda
+```
