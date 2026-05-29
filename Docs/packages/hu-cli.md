@@ -97,14 +97,23 @@ hu update HU-048
 hu sync                          # Crear nuevas + actualizar editables
 ```
 
-### `hu assign` — Asignar miembro a una HU
+### `hu assign` — Asignar miembro a una o varias HUs
 
-Actualiza la línea `> **Asignado:**` en el archivo `.md` y el assignee en el issue de GitHub. Si ya tiene asignado, lo reemplaza.
+Actualiza la línea `> **Asignado:**` en el archivo `.md` y el assignee en el issue de GitHub. Si ya tiene asignado, lo reemplaza. El **último argumento** es siempre el miembro.
 
 ```bash
+# HU única
 hu assign 40 juandiegows         # Username exacto
 hu assign 40 juan                # Búsqueda parcial por username o nombre
 hu assign HU-048 ospina          # Nombre parcial
+
+# Rango continuo
+hu assign 42-51 juandiegows
+hu assign 75-96 juan
+
+# Lista separada por espacios
+hu assign 56 57 58 59 60 ospina
+hu assign 42 46 50 juandiegows
 ```
 
 ### `hu priority` — Establecer prioridad de una o varias HUs
