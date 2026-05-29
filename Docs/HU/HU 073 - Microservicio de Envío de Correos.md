@@ -1,5 +1,7 @@
 # HU 073 - Microservicio de Envío de Correos
 
+> **Asignado:** @juandiegows — Juan Diego Mejía Maestre
+
 > Generado el 29 de mayo de 2026
 > **Asignado a:** JuanDiegoWS (keitem99+claude@gmail.com)
 
