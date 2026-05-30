@@ -1,5 +1,7 @@
 # HU 114 - Plantilla de Correo — Invitación a Equipo
 
+> **Asignado:** @juandiegows — Juan Diego Mejía Maestre
+
 > Generado el 29 de mayo de 2026
 > **Asignado a:** JuanDiegoWS (keitem99+claude@gmail.com)
 > **Depende de:** HU-073, HU-089
