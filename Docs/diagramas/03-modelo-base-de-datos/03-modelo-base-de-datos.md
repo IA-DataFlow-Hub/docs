@@ -225,3 +225,12 @@ erDiagram
 - Todos los IDs son **UUID v4** (HU-030 — migración de INT a UUID).
 - Las eliminaciones son lógicas mediante `deleted_at` (soft delete) según HU-017.
 - El campo `status` en `ai_jobs` sigue el ciclo: `PENDING → QUEUED → PROCESSING → COMPLETED / FAILED / CANCELLED`.
+
+
+---
+
+## Documentos relacionados
+
+**Docs:** [[DOCUMENTACION_TECNICA]] · [[ARQUITECTURA]]
+**Paquetes:** [[database]]
+**HUs:** [[✅ HU 011 - Diseño y Creación de la Base de Datos Relacional (MySQL)|HU-011]] · [[✅ HU 012 - Implementación del Esquema con Prisma ORM|HU-012]] · [[✅ HU 016 - Reemplazar ENUMs con Tablas|HU-016]] · [[✅ HU 030 - Migración Estratégica de IDs Enteros a UUID|HU-030]]

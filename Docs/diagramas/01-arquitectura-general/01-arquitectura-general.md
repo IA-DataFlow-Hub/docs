@@ -77,3 +77,13 @@ graph TD
 - Puerto MySQL externo es **3307** porque el 3306 está ocupado por la instalación local del host.
 - LM Studio corre en el host Windows y es accesible desde Docker vía `host.docker.internal`.
 - Nginx no está activo en desarrollo local; cada servicio es directamente accesible por su puerto.
+
+
+---
+
+## Documentos relacionados
+
+**Docs:** [[ARQUITECTURA]] · [[DOCKERIZACION]] · [[DOCUMENTACION_TECNICA]]
+**Apps:** [[api]] · [[client]] · [[mailer-service]]
+**Paquetes:** [[database]]
+**HUs:** [[✅ HU 014 - Arquitectura Base y Monorepo|HU-014]] · [[✅ HU 036 - Estructura Base del API NestJS|HU-036]] · [[✅ HU 013 - Configuración de Infraestructura de Datos (Docker)|HU-013]]

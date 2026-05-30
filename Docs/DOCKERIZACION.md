@@ -349,3 +349,13 @@ graph LR
 ---
 
 *Documentación creada por Juan Diego Mejia Maestre y David Ospina - Mayo 2024*
+
+---
+
+## Documentos relacionados
+
+**Arquitectura:** [[ARQUITECTURA]] · [[SETUP]] · [[DOCUMENTACION_TECNICA]]
+**Apps:** [[api]] · [[client]] · [[mailer-service]]
+**Paquetes:** [[database]]
+**Diagramas:** [[01-arquitectura-general]]
+**HUs:** [[✅ HU 013 - Configuración de Infraestructura de Datos (Docker)|HU-013]] · [[HU 072 - Logging de API y Persistencia en Volumen Docker|HU-072]]

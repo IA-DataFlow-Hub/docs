@@ -51,3 +51,11 @@ stateDiagram-v2
     class COMPLETED success
     class FAILED,CANCELLED,failure_handling,Retrying error
     ```
+
+---
+
+## Documentos relacionados
+
+**Apps:** [[api]]
+**Diagramas relacionados:** [[02-flujo-procesamiento-ia]]
+**HUs:** [[HU 047 - Módulo Motor de IA AI Jobs|HU-047]] · [[✅ HU 022 - AI Jobs Tracking y Logs|HU-022]] · [[HU 057 - Testing de Endpoints — Módulo Motor de IA y AI Jobs|HU-057]]

@@ -97,3 +97,13 @@ sequenceDiagram
 - Cada sesión activa tiene una fila en `sessions`; el logout la elimina, invalidando el refresh_token.
 - El guard `JwtGuard` de NestJS intercepta todas las rutas marcadas con `@UseGuards(JwtGuard)`.
 - Si el usuario tiene múltiples dispositivos, cada uno tiene su propia fila en `sessions` (HU-024).
+
+
+---
+
+## Documentos relacionados
+
+**Docs:** [[DOCUMENTACION_TECNICA]]
+**Apps:** [[api]]
+**Diagramas relacionados:** [[05-roles-y-permisos]]
+**HUs:** [[✅ HU 040 - Módulo Auth y Gestión de Sesiones|HU-040]] · [[HU 079 - Implementar Refresh Automático de Access Token|HU-079]] · [[HU 080 - Proteger Rutas Privadas con Guard de Autenticación|HU-080]] · [[HU 062 - Testing de Endpoints — Módulo Auth y Gestión de Sesiones|HU-062]]

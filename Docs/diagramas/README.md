@@ -87,3 +87,12 @@ El título de la sección se toma del encabezado `##` inmediatamente anterior al
 
 - **Node.js 18+** (el proyecto ya lo incluye)
 - `@mermaid-js/mermaid-cli` se descarga automáticamente vía `npx` la primera vez; las siguientes ejecuciones usan la caché de npx.
+
+
+---
+
+## Documentos relacionados
+
+**Índice:** [[DIAGRAMAS]]
+**Todos los diagramas:** [[01-arquitectura-general]] · [[02-flujo-procesamiento-ia]] · [[03-modelo-base-de-datos]] · [[04-flujo-autenticacion]] · [[05-roles-y-permisos]] · [[06-flujo-etl]] · [[07-ciclo-vida-ai-job]] · [[08-estructura-monorepo]] · [[09-privacidad-ley-1581]] · [[10-flujo-conversaciones-chat]]
+**Contexto:** [[ARQUITECTURA]] · [[DOCUMENTACION_TECNICA]]

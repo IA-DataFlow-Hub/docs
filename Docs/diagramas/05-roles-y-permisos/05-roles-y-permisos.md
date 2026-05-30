@@ -60,3 +60,11 @@ graph TD
     Equipo -.->|Consulta| EvalT
     Global -.->|Consulta| EvalG
     ```
+
+---
+
+## Documentos relacionados
+
+**Docs:** [[DOCUMENTACION_TECNICA]]
+**Diagramas relacionados:** [[04-flujo-autenticacion]]
+**HUs:** [[HU 042 - Módulo Teams y Control de Acceso RBAC|HU-042]] · [[✅ HU 020 - Roles Equipo Proyecto Personal|HU-020]] · [[HU 063 - Testing de Endpoints — Módulo Teams y Control de Acceso RBAC|HU-063]] · [[HU 100 - Asignar Rol de Equipo a Usuario en Proyecto|HU-100]]

@@ -67,3 +67,12 @@ PENDING → QUEUED → PROCESSING → COMPLETED
 - El frontend se actualiza en tiempo real vía **WebSocket** (Socket.IO); no requiere polling.
 - Todos los estados quedan registrados en `ai_job_events` para auditoría y trazabilidad.
 - Los datos sensibles (PII) deben procesarse **únicamente** en LM Studio (local); nunca se envían a Gemini sin anonimización previa.
+
+
+---
+
+## Documentos relacionados
+
+**Datos:** [[chaos-generator]] · [[DATASETS]] · [[CHAOS_GENERATOR]] · [[csv-retail]]
+**Diagramas relacionados:** [[07-ciclo-vida-ai-job]]
+**HUs:** [[✅ HU 015 - Clasificación de Dataset de Caos para Entrenamiento de IA|HU-015]] · [[HU 038 - Fine-Tuning y Preparación de Datasets de IA|HU-038]] · [[HU 039 - Entrenamiento y Fine-Tuning de Modelos de IA|HU-039]] · [[HU 047 - Módulo Motor de IA AI Jobs|HU-047]]

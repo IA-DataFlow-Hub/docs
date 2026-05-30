@@ -382,3 +382,11 @@ docker-compose up mailer
 - Mailer API: `http://localhost:3002`
 - Swagger: `http://localhost:3002/docs`
 - Mailhog (bandeja dev): `http://localhost:8025`
+
+
+---
+
+## Documentos relacionados
+
+**Backend:** [[api]] · [[DOCKERIZACION]] · [[ARQUITECTURA]]
+**HUs:** [[HU 073 - Microservicio de Envío de Correos|HU-073]] · [[HU 074 - Microservicio Notificaciones — Canales SMS y WhatsApp|HU-074]] · [[HU 112 - Plantilla de Correo — Registro Exitoso|HU-112]] · [[HU 113 - Plantilla de Correo — Restablecer Contraseña|HU-113]] · [[HU 114 - Plantilla de Correo — Invitación a Equipo|HU-114]]

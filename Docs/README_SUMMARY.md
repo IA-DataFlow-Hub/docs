@@ -138,3 +138,13 @@ El sistema sigue una arquitectura de **N-Capas** desacoplada, orquestada por n8n
 - **Base de documentación:** Obsidian Vault sincronizado con Git
 .
 .
+
+
+---
+
+## Documentos relacionados
+
+**Arquitectura:** [[ARQUITECTURA]] · [[01-arquitectura-general]] · [[08-estructura-monorepo]]
+**Datos & IA:** [[PRESENTACION_TECNICA]] · [[CHAOS_GENERATOR]] · [[chaos-generator]] · [[DATASETS]]
+**Contexto:** [[Resumen del Proyecto Ecosistema IA-DataFlow]] · [[📚 Biblioteca de Investigación]] · [[📊 Informe Ejecutivo – Capacidades del Equipo]]
+**HUs fundacionales:** [[✅ HU 000 - Mapeo de Capacidades Técnicas y Roles del Equipo|HU-000]] · [[✅ HU 008 - Investigación Exploratoria - Estándar TOON y Eficiencia de Tokens|HU-008]]

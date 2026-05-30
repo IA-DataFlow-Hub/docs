@@ -119,3 +119,13 @@ packages/chaos-generator/src/
 └── generators/
     └── csv · excel · json · jsonl · log · pdf · toml · xml
 ```
+
+
+---
+
+## Documentos relacionados
+
+**Guías:** [[CHAOS_GENERATOR]] · [[PRESENTACION_TECNICA]] · [[DATASETS]]
+**Datos:** [[csv-retail]]
+**Diagramas:** [[02-flujo-procesamiento-ia]]
+**HUs:** [[✅ HU 015 - Clasificación de Dataset de Caos para Entrenamiento de IA|HU-015]] · [[HU 038 - Fine-Tuning y Preparación de Datasets de IA|HU-038]]

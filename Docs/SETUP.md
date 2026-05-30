@@ -235,3 +235,13 @@ El proyecto requiere exactamente TypeScript `5.7.3`. Si hay conflictos:
 cd apps/api
 npm install  # Instala la versión exacta del package.json
 ```
+
+
+---
+
+## Documentos relacionados
+
+**Infraestructura:** [[DOCKERIZACION]] · [[ARQUITECTURA]]
+**Apps:** [[api]] · [[client]]
+**Paquetes:** [[database]]
+**HUs:** [[✅ HU 013 - Configuración de Infraestructura de Datos (Docker)|HU-013]] · [[✅ HU 014 - Arquitectura Base y Monorepo|HU-014]]

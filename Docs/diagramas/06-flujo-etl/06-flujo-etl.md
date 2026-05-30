@@ -57,3 +57,11 @@ flowchart TD
     I --> J
     J --> DB_Success
     ```
+
+---
+
+## Documentos relacionados
+
+**Docs:** [[DOCUMENTACION_TECNICA]] · [[DATASETS]]
+**Paquetes:** [[database]]
+**HUs:** [[✅ HU 048 - Módulo ETL y Tablas Generadas|HU-048]] · [[✅ HU 027 - Gestión de Templates ETL y Transformaciones Predefinidas|HU-027]] · [[HU 070 - Desacoplar ETL Templates de Proyectos con Tabla Intermedia|HU-070]] · [[HU 066 - Testing de Endpoints — Módulo ETL y Tablas Generadas|HU-066]]

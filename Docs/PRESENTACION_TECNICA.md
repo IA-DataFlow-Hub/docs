@@ -289,3 +289,13 @@ Alternativamente, puede usar una cuenta de servicio y apuntar a las credenciales
 | Diagramas de arquitectura | 10 diagramas principales |
 | Imágenes exportadas | 36 (18 PNG + 18 SVG) |
 | Comandos de hu-cli | 5 (list, create, update, advance, sync) |
+
+
+---
+
+## Documentos relacionados
+
+**Visión:** [[README_SUMMARY]] · [[ARQUITECTURA]] · [[Resumen del Proyecto Ecosistema IA-DataFlow]]
+**Datos & IA:** [[CHAOS_GENERATOR]] · [[chaos-generator]] · [[DATASETS]] · [[csv-retail]]
+**Investigación:** [[📚 Biblioteca de Investigación]]
+**HUs:** [[✅ HU 015 - Clasificación de Dataset de Caos para Entrenamiento de IA|HU-015]] · [[HU 038 - Fine-Tuning y Preparación de Datasets de IA|HU-038]] · [[HU 039 - Entrenamiento y Fine-Tuning de Modelos de IA|HU-039]]

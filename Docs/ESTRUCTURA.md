@@ -240,3 +240,12 @@ Historial de commits del proyecto. El vault usa Git como sistema de backup y col
 ### `.claude/` — Configuración de Claude Code
 
 Configuración del entorno de Claude Code para este proyecto: permisos, settings y preferencias del asistente IA.
+
+
+---
+
+## Documentos relacionados
+
+**Documentación principal:** [[README]] · [[ARQUITECTURA]] · [[DOCKERIZACION]]
+**Herramientas:** [[hu-cli]] · [[chaos-generator]] · [[database]]
+**HUs:** [[README|HU Index]] · [[✅ HU 014 - Arquitectura Base y Monorepo|HU-014]] · [[✅ HU 053 - CLI de Gestión de Historias de Usuario (hu-cli)|HU-053]] · [[✅ HU 055 - Sincronización Automática de la Carpeta docs|HU-055]]

@@ -197,3 +197,11 @@
 
 - Core técnico (3 personas)
 - Soporte (4 personas)
+
+
+---
+
+## Documentos relacionados
+
+**Visión:** [[README_SUMMARY]] · [[Resumen del Proyecto Ecosistema IA-DataFlow]]
+**HUs fundacionales:** [[✅ HU 000 - Mapeo de Capacidades Técnicas y Roles del Equipo|HU-000]] · [[✅ HU 001 - Mapeo de Capacidades y Configuración de Roles|HU-001]] · [[✅ HU 002 - Mapeo de Capacidades y Configuración de Roles|HU-002]] · [[✅ HU 003 - Mapeo de Capacidades y Configuración de Roles|HU-003]] · [[✅ HU 004 - Mapeo de Capacidades y Configuración de Roles|HU-004]] · [[✅ HU 005 - Mapeo de Capacidades y Configuración de Roles|HU-005]] · [[✅ HU 006 - Mapeo de Capacidades y Configuración de Roles|HU-006]]

@@ -114,3 +114,17 @@ Las HUs están en [`HU/`](HU/) y todas son accesibles desde este índice central
 - `README.md` raíz → inicio y arranque rápido
 - `docs/README.md` → índice maestro de la documentación
 - `docs/packages/hu-cli.md` → guía CLI de HUs
+
+
+---
+
+## Documentos relacionados
+
+**Visión general:** [[README_SUMMARY]] · [[PRESENTACION_TECNICA]] · [[Resumen del Proyecto Ecosistema IA-DataFlow]]
+**Arquitectura & infraestructura:** [[ARQUITECTURA]] · [[DOCKERIZACION]] · [[SETUP]] · [[DOCUMENTACION_TECNICA]] · [[ESTRUCTURA]]
+**Apps:** [[api]] · [[client]] · [[mailer-service]]
+**Paquetes:** [[database]] · [[chaos-generator]] · [[hu-cli]]
+**Datos & IA:** [[DATASETS]] · [[CHAOS_GENERATOR]] · [[csv-retail]]
+**Diagramas:** [[DIAGRAMAS]] · [[01-arquitectura-general]] · [[08-estructura-monorepo]]
+**Historias de Usuario:** [[README|HU Index — 115 HUs]]
+**Investigación:** [[📚 Biblioteca de Investigación]] · [[📊 Informe Ejecutivo – Capacidades del Equipo]]

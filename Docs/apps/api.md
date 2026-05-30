@@ -74,3 +74,14 @@ apps/api/src/modules/<módulo>/
 | HU-049 | Feedback y Reportes | `message_feedback`, `reports` |
 | HU-050 | Notificaciones | `notifications`, `notification_groups` |
 | HU-051 | Auditoría | `audit_logs`, `audits` |
+
+
+---
+
+## Documentos relacionados
+
+**Infraestructura:** [[ARQUITECTURA]] · [[DOCKERIZACION]] · [[DOCUMENTACION_TECNICA]]
+**Paquetes:** [[database]]
+**Apps:** [[client]] · [[mailer-service]]
+**Diagramas:** [[01-arquitectura-general]] · [[04-flujo-autenticacion]] · [[05-roles-y-permisos]] · [[06-flujo-etl]] · [[07-ciclo-vida-ai-job]]
+**HUs:** [[✅ HU 036 - Estructura Base del API NestJS|HU-036]] · [[✅ HU 040 - Módulo Auth y Gestión de Sesiones|HU-040]] · [[HU 042 - Módulo Teams y Control de Acceso RBAC|HU-042]] · [[HU 046 - Módulo Tareas|HU-046]] · [[HU 050 - Módulo Notificaciones|HU-050]] · [[✅ HU 052 - Documentación del API con Swagger|HU-052]]

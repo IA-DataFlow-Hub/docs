@@ -90,3 +90,13 @@ npx prisma migrate deploy
 | HU-025 | Notificaciones con tracking de entrega |
 | HU-026 | Datasets con lineage |
 | HU-027 | Templates ETL y ejecuciones |
+
+
+---
+
+## Documentos relacionados
+
+**Arquitectura:** [[ARQUITECTURA]] · [[DOCUMENTACION_TECNICA]]
+**Diagramas:** [[03-modelo-base-de-datos]]
+**Apps:** [[api]]
+**HUs:** [[✅ HU 011 - Diseño y Creación de la Base de Datos Relacional (MySQL)|HU-011]] · [[✅ HU 012 - Implementación del Esquema con Prisma ORM|HU-012]] · [[✅ HU 030 - Migración Estratégica de IDs Enteros a UUID|HU-030]] · [[HU 071 - Eliminar Todos los ENUMs y Migrar a Catálogos|HU-071]]

@@ -16,3 +16,12 @@
 | 08 | [Estructura Monorepo](08-estructura-monorepo/08-estructura-monorepo.md) | `08-estructura-monorepo/` |
 | 09 | [Privacidad — Ley 1581](09-privacidad-ley-1581/09-privacidad-ley-1581.md) | `09-privacidad-ley-1581/` |
 | 10 | [Flujo Conversaciones Chat](10-flujo-conversaciones-chat/10-flujo-conversaciones-chat.md) | `10-flujo-conversaciones-chat/` |
+
+
+---
+
+## Documentos relacionados
+
+**Índice:** [[README]]
+**Todos los diagramas:** [[01-arquitectura-general]] · [[02-flujo-procesamiento-ia]] · [[03-modelo-base-de-datos]] · [[04-flujo-autenticacion]] · [[05-roles-y-permisos]] · [[06-flujo-etl]] · [[07-ciclo-vida-ai-job]] · [[08-estructura-monorepo]] · [[09-privacidad-ley-1581]] · [[10-flujo-conversaciones-chat]]
+**Contexto:** [[ARQUITECTURA]] · [[DOCUMENTACION_TECNICA]]

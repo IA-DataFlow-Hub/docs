@@ -962,3 +962,13 @@ El archivo `data-__OHfgszMB8Z8gqkaiBVK.json` representa un ejemplo de la salida 
   "preview": [...]
 }
 ```
+
+
+---
+
+## Documentos relacionados
+
+**Arquitectura:** [[ARQUITECTURA]] · [[DOCKERIZACION]] · [[SETUP]]
+**Apps & paquetes:** [[api]] · [[database]]
+**Diagramas:** [[03-modelo-base-de-datos]] · [[04-flujo-autenticacion]] · [[05-roles-y-permisos]] · [[06-flujo-etl]] · [[07-ciclo-vida-ai-job]] · [[09-privacidad-ley-1581]] · [[10-flujo-conversaciones-chat]]
+**HUs clave:** [[✅ HU 040 - Módulo Auth y Gestión de Sesiones|HU-040]] · [[HU 042 - Módulo Teams y Control de Acceso RBAC|HU-042]] · [[✅ HU 048 - Módulo ETL y Tablas Generadas|HU-048]] · [[HU 051 - Módulo Auditoría|HU-051]]

@@ -335,3 +335,13 @@ Para más detalles sobre la arquitectura interna del paquete, ver:
 - [`packages/chaos-generator/README.md`](../packages/chaos-generator/README.md) — documentación técnica del paquete
 - [`packages/chaos-generator/chaos.config.json`](../packages/chaos-generator/chaos.config.json) — configuración completa
 - [`HU 015 - Clasificación de Dataset de Caos para Entrenamiento de IA.md`](./HU/HU%20015%20-%20Clasificaci%C3%B3n%20de%20Dataset%20de%20Caos%20para%20Entrenamiento%20de%20IA.md) — historia de usuario original
+
+
+---
+
+## Documentos relacionados
+
+**Paquetes & guías:** [[chaos-generator]] · [[PRESENTACION_TECNICA]] · [[DATASETS]]
+**Datos:** [[csv-retail]]
+**Diagramas:** [[02-flujo-procesamiento-ia]]
+**HUs:** [[✅ HU 015 - Clasificación de Dataset de Caos para Entrenamiento de IA|HU-015]] · [[HU 038 - Fine-Tuning y Preparación de Datasets de IA|HU-038]] · [[HU 039 - Entrenamiento y Fine-Tuning de Modelos de IA|HU-039]]

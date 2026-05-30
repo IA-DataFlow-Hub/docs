@@ -39,3 +39,11 @@
     
 2. **Sincronización:** Al subir estos archivos a GitHub, todos los integrantes del **FUUA Team** podrán abrirlos desde sus propias computadoras.
 
+
+
+---
+
+## Documentos relacionados
+
+**Visión:** [[README_SUMMARY]] · [[PRESENTACION_TECNICA]]
+**HUs de investigación:** [[✅ HU 007 - Construcción del Corpus Maestro (150+ Archivos)|HU-007]] · [[✅ HU 008 - Investigación Exploratoria - Estándar TOON y Eficiencia de Tokens|HU-008]] · [[✅ HU 009 - Spike Exploratorio - Agentes, Skills y Comandos de IA|HU-009]] · [[✅ HU 010 - Spike Exploratorio - Selección de Modelo y Estrategia de Fine-Tuning|HU-010]]

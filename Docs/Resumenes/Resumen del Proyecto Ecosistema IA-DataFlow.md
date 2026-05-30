@@ -107,3 +107,13 @@ Total usado: ~14 GB ✅
 | **NestJS Backend** | Production mode    | ~500 MB         |
 | **TOTAL**          | -                  | **~11-12 GB** ✅ |
 
+
+
+---
+
+## Documentos relacionados
+
+**Documentación:** [[README_SUMMARY]] · [[ARQUITECTURA]] · [[PRESENTACION_TECNICA]]
+**Informes:** [[📊 Informe Ejecutivo – Capacidades del Equipo]]
+**Investigación:** [[📚 Biblioteca de Investigación]]
+**HUs:** [[✅ HU 000 - Mapeo de Capacidades Técnicas y Roles del Equipo|HU-000]]

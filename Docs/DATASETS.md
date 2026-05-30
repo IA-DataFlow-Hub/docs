@@ -118,3 +118,12 @@ datasets/
 ## Acceso al Google Drive
 
 La carpeta de almacenamiento es privada. Para acceder contacta al líder del proyecto para que comparta el archivo `dvc-service-account.json`.
+
+
+---
+
+## Documentos relacionados
+
+**Datos:** [[csv-retail]] · [[chaos-generator]] · [[CHAOS_GENERATOR]]
+**Diagramas:** [[02-flujo-procesamiento-ia]]
+**HUs:** [[✅ HU 015 - Clasificación de Dataset de Caos para Entrenamiento de IA|HU-015]] · [[✅ HU 054 - Versionado de Datasets con DVC|HU-054]] · [[HU 038 - Fine-Tuning y Preparación de Datasets de IA|HU-038]]

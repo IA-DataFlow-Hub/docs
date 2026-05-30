@@ -419,3 +419,11 @@ Misma sintaxis de rangos que `priority`.
 .\scripts\hu.ps1 help
 .\scripts\hu.ps1        # Sin args también muestra ayuda
 ```
+
+
+---
+
+## Documentos relacionados
+
+**Documentación:** [[ESTRUCTURA]] · [[README]]
+**HUs:** [[README|HU Index]] · [[✅ HU 053 - CLI de Gestión de Historias de Usuario (hu-cli)|HU-053]] · [[✅ HU 055 - Sincronización Automática de la Carpeta docs|HU-055]]

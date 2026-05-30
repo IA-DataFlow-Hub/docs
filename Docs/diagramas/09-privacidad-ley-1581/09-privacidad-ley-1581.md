@@ -117,3 +117,12 @@ flowchart LR
 
 - La decisión de routing (local vs nube) la toma **LM Studio en la primera pasada** del archivo.
 - Si LM Studio no está disponible, el sistema **bloquea el procesamiento** — nunca hace fallback a Gemini con datos PII sin revisar.
+
+
+---
+
+## Documentos relacionados
+
+**Docs:** [[DOCUMENTACION_TECNICA]] · [[README_SUMMARY]]
+**Paquetes:** [[database]]
+**HUs:** [[✅ HU 017 - Auditoria y Eliminacion Logica|HU-017]] · [[HU 051 - Módulo Auditoría|HU-051]]

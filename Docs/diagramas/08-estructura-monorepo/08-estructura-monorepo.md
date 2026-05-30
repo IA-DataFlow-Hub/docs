@@ -105,3 +105,11 @@ graph LR
 - `packages/database` genera el cliente Prisma en tiempo de build; la API lo importa como librería.
 - Turborepo cachea los outputs por contenido de archivos, no por timestamps.
 - Los directorios `infra/n8n/data/` y `infra/nginx/` no son workspaces — son configuración estática.
+
+
+---
+
+## Documentos relacionados
+
+**Docs:** [[ARQUITECTURA]] · [[DOCKERIZACION]] · [[ESTRUCTURA]]
+**HUs:** [[✅ HU 014 - Arquitectura Base y Monorepo|HU-014]] · [[✅ HU 036 - Estructura Base del API NestJS|HU-036]]

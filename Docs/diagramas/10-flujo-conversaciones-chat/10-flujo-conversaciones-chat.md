@@ -134,3 +134,11 @@ stateDiagram-v2
 
 - Cada conversación pertenece a un **proyecto**, no a un archivo específico.
 - El `role` del mensaje sigue el estándar OpenAI: `"user"` / `"assistant"` / `"system"`.
+
+
+---
+
+## Documentos relacionados
+
+**Apps:** [[api]]
+**HUs:** [[✅ HU 045 - Módulo Conversaciones y Mensajería|HU-045]] · [[✅ HU 021 - Proyecto CreadoPor Chats Archivos Mensajes|HU-021]] · [[HU 060 - Testing de Endpoints — Módulo Conversaciones y Mensajería|HU-060]] · [[HU 105 - Conectar Chat del Dashboard con LLM Gateway|HU-105]]

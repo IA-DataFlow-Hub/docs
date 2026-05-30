@@ -519,3 +519,14 @@ Push a main
   ├── 3. Push a registry (Docker Hub / GitLab Registry)
   └── 4. Deploy en servidor (docker-compose pull + up -d)
 ```
+
+
+---
+
+## Documentos relacionados
+
+**Infraestructura:** [[DOCKERIZACION]] · [[SETUP]] · [[DOCUMENTACION_TECNICA]]
+**Apps:** [[api]] · [[client]] · [[mailer-service]]
+**Paquetes:** [[database]]
+**Diagramas:** [[01-arquitectura-general]] · [[08-estructura-monorepo]] · [[03-modelo-base-de-datos]]
+**HUs:** [[✅ HU 014 - Arquitectura Base y Monorepo|HU-014]] · [[✅ HU 036 - Estructura Base del API NestJS|HU-036]] · [[✅ HU 013 - Configuración de Infraestructura de Datos (Docker)|HU-013]]
