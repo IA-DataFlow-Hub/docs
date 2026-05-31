@@ -213,9 +213,26 @@
 
 ## Resumen
 
+---
+
+## Épica 13 — Admin Service — Autenticación Centralizada (HU-115 a HU-118)
+
+> Microservicio NestJS independiente (`apps/admin-service/`) que gestiona API Keys y OAuth 2.0 clients para todos los microservicios del monorepo. Los microservicios validan JWT de forma stateless con `JWT_SECRET` compartido.
+
+| # | Título | Estado | Relacionadas |
+|---|--------|--------|-------------|
+| [[HU 115 - Admin Service — Microservicio de Autenticación y Gestión de Claves\|HU-115]] | Estructura Base del Admin Service | 📋 | [[✅ HU 036 - Estructura Base del API NestJS\|HU-036]] · [[✅ HU 013 - Configuración de Infraestructura de Datos (Docker)\|HU-013]] |
+| [[HU 115 - Admin Service — Microservicio de Autenticación y Gestión de Claves\|HU-116]] | Gestión de API Keys | 📋 | [[HU 115 - Admin Service — Microservicio de Autenticación y Gestión de Claves\|HU-115]] |
+| [[HU 115 - Admin Service — Microservicio de Autenticación y Gestión de Claves\|HU-117]] | Gestión de OAuth 2.0 Clients | 📋 | [[HU 115 - Admin Service — Microservicio de Autenticación y Gestión de Claves\|HU-115]] |
+| [[HU 115 - Admin Service — Microservicio de Autenticación y Gestión de Claves\|HU-118]] | Emisión y Verificación de Tokens JWT | 📋 | [[HU 115 - Admin Service — Microservicio de Autenticación y Gestión de Claves\|HU-115]] · [[HU 115 - Admin Service — Microservicio de Autenticación y Gestión de Claves\|HU-116]] · [[HU 115 - Admin Service — Microservicio de Autenticación y Gestión de Claves\|HU-117]] |
+
+---
+
+## Resumen
+
 | Estado | Cantidad |
 |--------|----------|
 | ✅ Completada | 43 |
 | 🚀 Implementada | 7 |
-| 📋 Pendiente | 65 |
-| **Total** | **115** |
+| 📋 Pendiente | 69 |
+| **Total** | **119** |
